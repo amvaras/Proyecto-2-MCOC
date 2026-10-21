@@ -1,0 +1,10 @@
+{
+  "images_present": 8,
+  "inspected_images_unchanged": true,
+  "observed_properties_match_ifc": true,
+  "source": "Capturas aportadas de revision humana en Blender/Bonsai",
+  "blender_version": "5.1.2",
+  "bonsai_version": "v0.9.0-post1",
+  "audit_method": "Inspeccion visual de las ocho imagenes por el auditor; contraste con IFC mediante Python",
+  "auditor_opened_blender": false
+}

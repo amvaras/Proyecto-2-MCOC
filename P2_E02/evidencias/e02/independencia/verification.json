@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "commands": [
+    {
+      "command": [
+        "COPIA_TEMPORAL/.venv/bin/python",
+        "-c",
+        "import mcoc_p2,pathlib; p=pathlib.Path(mcoc_p2.__file__).resolve(); print(p); assert p.is_relative_to(pathlib.Path.cwd())"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "COPIA_TEMPORAL/.venv/bin/python",
+        "scripts/verify_e01.py",
+        "--output",
+        "results/independence/integral"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "COPIA_TEMPORAL/.venv/bin/python",
+        "examples/run_e02_1d.py",
+        "--nx",
+        "81",
+        "--dt",
+        "33.75",
+        "--output",
+        "results/independence/demo"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "COPIA_TEMPORAL/.venv/bin/python",
+        "scripts/compare_ifc_e02.py",
+        "geometry/foundation.ifc",
+        "geometry/e02/foundation_trabajo.ifc",
+        "--json",
+        "results/independence/identical.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "COPIA_TEMPORAL/.venv/bin/python",
+        "-c",
+        "import ifcopenshell; from ifcopenshell.api import pset; m=ifcopenshell.open('geometry/foundation.ifc'); e=next(e for e in m.by_type('IfcFooting') if e.Name=='Vertida_03'); p=next(r.RelatingPropertyDefinition for r in e.IsDefinedBy if r.is_a('IfcRelDefinesByProperties') and r.RelatingPropertyDefinition.Name=='UANDES_HormigonMasivo'); pset.edit_pset(m,pset=p,properties={'Estado':'Fixture Python independencia, NO Bonsai'}); m.write('results/independence/fixture_python.ifc')"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "COPIA_TEMPORAL/.venv/bin/python",
+        "scripts/compare_ifc_e02.py",
+        "geometry/foundation.ifc",
+        "results/independence/fixture_python.ifc",
+        "--require-change",
+        "--json",
+        "results/independence/changed.json"
+      ],
+      "exit_code": 0
+    }
+  ]
+}

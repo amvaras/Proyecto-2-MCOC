@@ -1,0 +1,124 @@
+{
+  "status": "passed",
+  "completed_utc": "2026-10-21T23:07:53.494777+00:00",
+  "python": "3.12.14",
+  "platform": "Linux",
+  "architecture": "x86_64",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2",
+    "pytest": "9.1.1",
+    "ifcopenshell": "0.9.0.post1"
+  },
+  "checks": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "log": "pip_check.txt",
+      "elapsed_s": 0.28796183599990854
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q",
+        "--junitxml=results/e02/integral/pytest.xml"
+      ],
+      "exit_code": 0,
+      "log": "pytest.txt",
+      "elapsed_s": 17.819532631000015
+    },
+    {
+      "command": [
+        "python",
+        "examples/run_diffusion_1d.py",
+        "--output",
+        "results/e02/integral"
+      ],
+      "exit_code": 0,
+      "log": "example.txt",
+      "elapsed_s": 1.8691883799999687
+    },
+    {
+      "command": [
+        "python",
+        "scripts/check_diffusion_accuracy.py",
+        "--benchmark",
+        "results/e02/integral",
+        "--json",
+        "results/e02/integral/accuracy.json"
+      ],
+      "exit_code": 0,
+      "log": "accuracy.txt",
+      "elapsed_s": 0.3874534560000029
+    },
+    {
+      "command": [
+        "python",
+        "scripts/check_ifc.py",
+        "geometry/foundation.ifc",
+        "--json",
+        "results/e02/integral/ifc_check.json"
+      ],
+      "exit_code": 0,
+      "log": "ifc_check.txt",
+      "elapsed_s": 2.3094697779999933
+    },
+    {
+      "command": [
+        "python",
+        "scripts/render_ifc_preview.py",
+        "--output",
+        "results/e02/integral/foundation_preview.png"
+      ],
+      "exit_code": 0,
+      "log": "ifc_preview.txt",
+      "elapsed_s": 0.9410963089999314
+    },
+    {
+      "command": [
+        "python",
+        "scripts/check_bonsai_evidence.py",
+        "--json",
+        "results/e02/integral/bonsai_evidence.json"
+      ],
+      "exit_code": 0,
+      "log": "bonsai_evidence.txt",
+      "elapsed_s": 0.22924398300006033
+    }
+  ],
+  "pytest": {
+    "tests": 80,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 80,
+    "elapsed_s": 17.495
+  },
+  "file_sha256": {
+    "geometry/e02/foundation_trabajo.ifc": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a",
+    "geometry/foundation.ifc": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a",
+    "pyproject.toml": "4c7cd450674e66ec6a23f164ba89dd495679612da788ecd3d97e1272488ed027",
+    "requirements-lock.txt": "df29fcdca3d408cccccf684fee75902ffae6dc7cb416966eca8d1fd0cc4f623e",
+    "scripts/check_bonsai_evidence.py": "396bf405179764a5cc832a1b031c2bac05017fc2ca73ea36d73b072e064e9ffc",
+    "scripts/check_diffusion_accuracy.py": "f0093385ac05d93de5946248685e28cede804f1fe4ecf1ff6d6dcc7428e90658",
+    "scripts/check_ifc.py": "e1f90e1a22de73ea43c812a001a7d63ce62699a15dfba4f703fe40c8a5e144ad",
+    "scripts/compare_ifc_e02.py": "1e2896985d60ee71a68c7e005a455c76021b091bbedc736868a08177329d507e",
+    "scripts/create_preliminary_ifc.py": "fbf9ac2b8d13f231ccc63f7ec7e2daac71b4767b1788c37b1b1b8c76da4cdc30",
+    "scripts/render_ifc_preview.py": "ac5f6b3e375187c7a94a08ed486e6b7a329436d5ce0c1dd5ef80d6cac92b3a34",
+    "scripts/verify_e01.py": "82939a6cf22a213df2e38c02b4e7e6d696d762e97927cb9d93c4cea9c57d0274",
+    "src/mcoc_p2/__init__.py": "790432e8bfa4d35736f9f1143e8b6814ed7e0d758ac0f591f8a53f8500d10e5e",
+    "src/mcoc_p2/diffusion_1d.py": "154406eb286d54ce6c06b1a17658f8fe6492eaf5aa07a759c1d179c1fc34b762",
+    "tests/test_diffusion_1d.py": "99d461a5aa06acbc2826090ab1c92cb87e44f15a3a81cde5d63ade74f2f9eb14",
+    "tests/test_e02.py": "7432d07969dd17574dc80ac6b990e30b55093be9d75c3bb7a8e5054e1173faea",
+    "tests/test_ifc.py": "83bb6df49752d2c4cbeacd05439eb185e947dfca9e674b35dd3a7d0e9ff00344"
+  },
+  "human_bonsai_evidence": "Ocho capturas aportadas, inspeccionadas y contrastadas con IFC",
+  "auditor_opened_blender": false
+}

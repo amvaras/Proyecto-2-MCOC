@@ -1,0 +1,135 @@
+{
+  "schema": "IFC4",
+  "length_unit": "m",
+  "elements": 5,
+  "schema_validation_issues": 0,
+  "origin": "local, sin georreferenciacion",
+  "items": [
+    {
+      "name": "Vertida_01",
+      "ifc_class": "IfcFooting",
+      "guid": "0oY4bM1krVGQdxfBrXmxJm",
+      "bbox_min_m": [
+        -9.0,
+        -8.999999999999998,
+        0.0
+      ],
+      "bbox_max_m": [
+        9.0,
+        9.0,
+        0.55
+      ],
+      "dimensions_m": [
+        18.0,
+        18.0,
+        0.55
+      ],
+      "volume_mesh_m3": 147.6257136297711,
+      "volume_analytic_m3": 147.62571362977107,
+      "triangles": 28
+    },
+    {
+      "name": "Vertida_02",
+      "ifc_class": "IfcFooting",
+      "guid": "3hfPF39u1QnvSBQJFmy$c2",
+      "bbox_min_m": [
+        -9.0,
+        -8.999999999999998,
+        0.55
+      ],
+      "bbox_max_m": [
+        9.0,
+        9.0,
+        1.1
+      ],
+      "dimensions_m": [
+        18.0,
+        18.0,
+        0.55
+      ],
+      "volume_mesh_m3": 147.6257136297711,
+      "volume_analytic_m3": 147.62571362977107,
+      "triangles": 28
+    },
+    {
+      "name": "Vertida_03",
+      "ifc_class": "IfcFooting",
+      "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+      "bbox_min_m": [
+        -9.0,
+        -8.999999999999998,
+        1.1
+      ],
+      "bbox_max_m": [
+        9.0,
+        9.0,
+        2.2
+      ],
+      "dimensions_m": [
+        18.0,
+        18.0,
+        1.1
+      ],
+      "volume_mesh_m3": 214.2243508999919,
+      "volume_analytic_m3": 214.22435089999186,
+      "triangles": 28
+    },
+    {
+      "name": "Vertida_04",
+      "ifc_class": "IfcFooting",
+      "guid": "1jVXFE7TLGsO88Iyj_MihB",
+      "bbox_min_m": [
+        -6.250000000000001,
+        -6.25,
+        2.2
+      ],
+      "bbox_max_m": [
+        6.25,
+        6.25,
+        3.3
+      ],
+      "dimensions_m": [
+        12.5,
+        12.5,
+        1.0999999999999996
+      ],
+      "volume_mesh_m3": 88.92474828213061,
+      "volume_analytic_m3": 88.92474828213058,
+      "triangles": 28
+    },
+    {
+      "name": "Vertida_05",
+      "ifc_class": "IfcFooting",
+      "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+      "bbox_min_m": [
+        -3.5,
+        -3.499500768958985,
+        3.3
+      ],
+      "bbox_max_m": [
+        3.5,
+        3.4995007689589843,
+        4.3
+      ],
+      "dimensions_m": [
+        7.0,
+        6.9990015379179695,
+        1.0
+      ],
+      "volume_mesh_m3": 38.477191140741105,
+      "volume_analytic_m3": 38.48451000647496,
+      "triangles": 740
+    }
+  ],
+  "global_min_m": [
+    -9.0,
+    -8.999999999999998,
+    0.0
+  ],
+  "global_max_m": [
+    9.0,
+    9.0,
+    4.3
+  ],
+  "bonsai_visual_check": false
+}

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcoc-p2"
+version = "0.1.0"
+description = "MCOC Proyecto 2 G2: verificación de difusión térmica 1D e IFC preliminar"
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy>=2,<3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=9,<10"]
+plot = ["matplotlib>=3.10,<4"]
+bim = ["ifcopenshell>=0.9,<0.10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

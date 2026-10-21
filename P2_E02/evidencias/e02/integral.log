@@ -1,0 +1,8 @@
+pip_check.txt: exit=0
+pytest.txt: exit=0
+example.txt: exit=0
+accuracy.txt: exit=0
+ifc_check.txt: exit=0
+ifc_preview.txt: exit=0
+bonsai_evidence.txt: exit=0
+Verificacion tecnica completa; consultar /workspace/Proyecto-2-MCOC/P2_E02/results/e02/integral/verification.json

@@ -1,0 +1,5 @@
+Elementos: 5 -> 5
+Agregados: 0; eliminados: 0
+Sin diferencias en atributos/propiedades comparados.
+Atributos y property sets de IfcElement; geometría no comparada
+Este resultado no demuestra que la edición provenga de Bonsai.

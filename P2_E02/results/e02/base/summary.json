@@ -1,0 +1,16 @@
+{
+  "nx": 81,
+  "dx_m": 0.0125,
+  "requested_dt_s": 67.5,
+  "effective_dt_s": 67.5,
+  "stable_dt_s": 84.37500000000001,
+  "fourier": 0.3999999999999999,
+  "steps": 1280,
+  "t_end_s": 86400.0,
+  "initial_max_C": 30.0,
+  "final_min_C": 20.0,
+  "final_max_C": 24.53976225162028,
+  "final_center_C": 24.53976225162028,
+  "error_exact_C": 0.0006451356521708362,
+  "error_temporal_semidiscrete_C": 0.0011058405054455989
+}

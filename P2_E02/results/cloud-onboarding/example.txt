@@ -1,0 +1,20 @@
+{
+  "case": "Benchmark seno, no predicción de Freirina",
+  "k_W_mK": 2.0,
+  "rho_kg_m3": 2400.0,
+  "cp_J_kgK": 900.0,
+  "alpha_m2_s": 9.259259259259259e-07,
+  "length_m": 1.0,
+  "nx": 81,
+  "dx_m": 0.0125,
+  "dt_s": 67.5,
+  "steps": 1280,
+  "fourier": 0.3999999999999999,
+  "time_s": 86400.0,
+  "left": "Dirichlet 20 °C",
+  "right": "Dirichlet 20 °C",
+  "q_dot_W_m3": 0,
+  "initial": "20 + 10*sin(pi*x/L) °C",
+  "error_Linf_C": 0.0006451356521708362
+}
+Fontconfig error: No writable cache directories
