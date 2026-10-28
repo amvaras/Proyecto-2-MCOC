@@ -1,0 +1,20 @@
+{
+  "before_elements": 5,
+  "after_elements": 5,
+  "added": [],
+  "removed": [],
+  "changes": [
+    {
+      "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+      "name": "Vertida_03",
+      "field": "UANDES_HormigonMasivo.Estado",
+      "before": "Preliminar E01; sin plan constructivo optimizado",
+      "after": "Fixture Python independencia, NO Bonsai",
+      "before_present": true,
+      "after_present": true
+    }
+  ],
+  "different": true,
+  "scope": "Atributos y property sets de IfcElement; geometría no comparada",
+  "authorship": "No comprobada por este programa"
+}

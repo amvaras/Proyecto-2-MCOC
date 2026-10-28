@@ -1,0 +1,8 @@
+pip_check.txt: exit=0
+pytest.txt: exit=0
+example.txt: exit=0
+accuracy.txt: exit=0
+ifc_check.txt: exit=0
+ifc_preview.txt: exit=0
+bonsai_evidence.txt: exit=0
+Verificacion tecnica completa; consultar /tmp/p2-e02-independence-qupp3yt5/entrega/results/independence/integral/verification.json

@@ -1,0 +1,5 @@
+Elementos: 5 -> 5
+Agregados: 0; eliminados: 0
+Vertida_03 [0l2Nmu8ZrTEQU0yg2tbkUj] UANDES_HormigonMasivo.Estado: 'Preliminar E01; sin plan constructivo optimizado' -> 'Fixture Python independencia, NO Bonsai'
+Atributos y property sets de IfcElement; geometría no comparada
+Este resultado no demuestra que la edición provenga de Bonsai.

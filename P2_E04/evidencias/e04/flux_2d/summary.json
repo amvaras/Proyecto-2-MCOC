@@ -1,0 +1,58 @@
+{
+  "scope": "Caja ideal E04, independiente del IFC; sin hidratacion ni clima real",
+  "case": "flux",
+  "dimensions": 2,
+  "shape": [
+    12,
+    12
+  ],
+  "lengths_m": [
+    1.0,
+    1.0
+  ],
+  "spacing_m": [
+    0.08333333333333333,
+    0.08333333333333333
+  ],
+  "temperature_location": "cell_centers",
+  "requested_dt_s": 1500.0,
+  "effective_dt_s": 1440.0,
+  "stable_dt_s": 1875.0,
+  "steps": 15,
+  "t_end_s": 21600.0,
+  "q_dot_W_m3": 0.0,
+  "boundaries": {
+    "x+": {
+      "type": "Neumann",
+      "outward_flux": 100.0
+    },
+    "x-": {
+      "type": "Neumann",
+      "outward_flux": 0.0
+    },
+    "y+": {
+      "type": "Neumann",
+      "outward_flux": 0.0
+    },
+    "y-": {
+      "type": "Neumann",
+      "outward_flux": 0.0
+    }
+  },
+  "material": {
+    "k_min_W_mK": 2.0,
+    "k_max_W_mK": 2.0,
+    "rho_kg_m3": 2400.0,
+    "cp_J_kgK": 900.0
+  },
+  "initial_min_C": 20.0,
+  "initial_max_C": 20.0,
+  "final_min_C": 13.86699132622109,
+  "final_max_C": 19.999998484201612,
+  "energy_change_J": -2160000.0,
+  "error_Linf_C": null,
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "expected_energy_change_J": -2160000.0,
+  "energy_error_J": 0.0
+}

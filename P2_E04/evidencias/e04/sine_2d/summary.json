@@ -1,0 +1,56 @@
+{
+  "scope": "Caja ideal E04, independiente del IFC; sin hidratacion ni clima real",
+  "case": "sine",
+  "dimensions": 2,
+  "shape": [
+    12,
+    12
+  ],
+  "lengths_m": [
+    1.0,
+    1.0
+  ],
+  "spacing_m": [
+    0.08333333333333333,
+    0.08333333333333333
+  ],
+  "temperature_location": "cell_centers",
+  "requested_dt_s": 1000.0,
+  "effective_dt_s": 981.8181818181819,
+  "stable_dt_s": 1250.0,
+  "steps": 22,
+  "t_end_s": 21600.0,
+  "q_dot_W_m3": 0.0,
+  "boundaries": {
+    "x+": {
+      "type": "Dirichlet",
+      "temperature": 20
+    },
+    "x-": {
+      "type": "Dirichlet",
+      "temperature": 20
+    },
+    "y+": {
+      "type": "Dirichlet",
+      "temperature": 20
+    },
+    "y-": {
+      "type": "Dirichlet",
+      "temperature": 20
+    }
+  },
+  "material": {
+    "k_min_W_mK": 2.0,
+    "k_max_W_mK": 2.0,
+    "rho_kg_m3": 2400.0,
+    "cp_J_kgK": 900.0
+  },
+  "initial_min_C": 20.17037086855466,
+  "initial_max_C": 29.829629131445344,
+  "final_min_C": 20.11465172389743,
+  "final_max_C": 26.61488630511415,
+  "energy_change_J": -2879420.0546725392,
+  "error_Linf_C": 0.008567979819652294,
+  "python": "3.12.14",
+  "numpy": "2.5.4"
+}

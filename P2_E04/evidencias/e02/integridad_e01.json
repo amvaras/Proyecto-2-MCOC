@@ -1,0 +1,10 @@
+{
+  "checked_files": 106,
+  "changed_or_missing": [],
+  "base_ifc_identical": true,
+  "copied_work_ifc_identical": true,
+  "allowed_inherited_adaptations": [
+    "README.md",
+    "scripts/check_bonsai_evidence.py"
+  ]
+}

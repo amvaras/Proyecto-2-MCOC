@@ -1,0 +1,342 @@
+{
+  "frozen_utc": "2026-10-20T19:18:14.806369+00:00",
+  "client_date_santiago": "2026-10-20",
+  "project": "MCOC Proyecto 2 Grupo 2",
+  "technical_verification": {
+    "status": "passed",
+    "execution_location": "Copia fisica temporal independiente de E01",
+    "fresh_isolated_environment": true,
+    "python": "3.12.10",
+    "dependencies": {
+      "numpy": "2.5.4",
+      "matplotlib": "3.11.2",
+      "pytest": "9.1.1",
+      "ifcopenshell": "0.9.0.post1"
+    },
+    "pytest": {
+      "tests": 67,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 67,
+      "elapsed_s": 12.473
+    },
+    "benchmark_identical": true,
+    "benchmark": {
+      "case": "Benchmark seno, no predicción de Freirina",
+      "k_W_mK": 2.0,
+      "rho_kg_m3": 2400.0,
+      "cp_J_kgK": 900.0,
+      "alpha_m2_s": 9.259259259259259e-07,
+      "length_m": 1.0,
+      "nx": 81,
+      "dx_m": 0.0125,
+      "dt_s": 67.5,
+      "steps": 1280,
+      "fourier": 0.3999999999999999,
+      "time_s": 86400.0,
+      "left": "Dirichlet 20 °C",
+      "right": "Dirichlet 20 °C",
+      "q_dot_W_m3": 0,
+      "initial": "20 + 10*sin(pi*x/L) °C",
+      "error_Linf_C": 0.0006451356521708362
+    },
+    "ifc": {
+      "schema": "IFC4",
+      "length_unit": "m",
+      "elements": 5,
+      "schema_validation_issues": 0,
+      "origin": "local, sin georreferenciacion",
+      "spatial_hierarchy": [
+        {
+          "ifc_class": "IfcProject",
+          "name": "MCOC P2 - G2 - E01"
+        },
+        {
+          "ifc_class": "IfcSite",
+          "name": "Sitio local G2"
+        },
+        {
+          "ifc_class": "IfcBuilding",
+          "name": "Fundacion eolica"
+        },
+        {
+          "ifc_class": "IfcBuildingStorey",
+          "name": "Nivel fundacion"
+        }
+      ],
+      "items": [
+        {
+          "name": "Vertida_01",
+          "ifc_class": "IfcFooting",
+          "guid": "0oY4bM1krVGQdxfBrXmxJm",
+          "bbox_min_m": [
+            -9.0,
+            -8.999999999999998,
+            0.0
+          ],
+          "bbox_max_m": [
+            9.0,
+            9.0,
+            0.55
+          ],
+          "dimensions_m": [
+            18.0,
+            18.0,
+            0.55
+          ],
+          "volume_mesh_m3": 147.6257136297711,
+          "volume_analytic_m3": 147.62571362977107,
+          "triangles": 28,
+          "properties": {
+            "VertidaID": 1,
+            "ZInferior_m": 0.0,
+            "ZSuperior_m": 0.55,
+            "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+            "Estado": "Preliminar E01; sin plan constructivo optimizado"
+          }
+        },
+        {
+          "name": "Vertida_02",
+          "ifc_class": "IfcFooting",
+          "guid": "3hfPF39u1QnvSBQJFmy$c2",
+          "bbox_min_m": [
+            -9.0,
+            -8.999999999999998,
+            0.55
+          ],
+          "bbox_max_m": [
+            9.0,
+            9.0,
+            1.1
+          ],
+          "dimensions_m": [
+            18.0,
+            18.0,
+            0.55
+          ],
+          "volume_mesh_m3": 147.6257136297711,
+          "volume_analytic_m3": 147.62571362977107,
+          "triangles": 28,
+          "properties": {
+            "VertidaID": 2,
+            "ZInferior_m": 0.55,
+            "ZSuperior_m": 1.1,
+            "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+            "Estado": "Preliminar E01; sin plan constructivo optimizado"
+          }
+        },
+        {
+          "name": "Vertida_03",
+          "ifc_class": "IfcFooting",
+          "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+          "bbox_min_m": [
+            -9.0,
+            -8.999999999999998,
+            1.1
+          ],
+          "bbox_max_m": [
+            9.0,
+            9.0,
+            2.2
+          ],
+          "dimensions_m": [
+            18.0,
+            18.0,
+            1.1
+          ],
+          "volume_mesh_m3": 214.2243508999919,
+          "volume_analytic_m3": 214.22435089999186,
+          "triangles": 28,
+          "properties": {
+            "VertidaID": 3,
+            "ZInferior_m": 1.1,
+            "ZSuperior_m": 2.2,
+            "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+            "Estado": "Preliminar E01; sin plan constructivo optimizado"
+          }
+        },
+        {
+          "name": "Vertida_04",
+          "ifc_class": "IfcFooting",
+          "guid": "1jVXFE7TLGsO88Iyj_MihB",
+          "bbox_min_m": [
+            -6.250000000000001,
+            -6.25,
+            2.2
+          ],
+          "bbox_max_m": [
+            6.25,
+            6.25,
+            3.3
+          ],
+          "dimensions_m": [
+            12.5,
+            12.5,
+            1.0999999999999996
+          ],
+          "volume_mesh_m3": 88.92474828213061,
+          "volume_analytic_m3": 88.92474828213058,
+          "triangles": 28,
+          "properties": {
+            "VertidaID": 4,
+            "ZInferior_m": 2.2,
+            "ZSuperior_m": 3.3,
+            "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+            "Estado": "Preliminar E01; sin plan constructivo optimizado"
+          }
+        },
+        {
+          "name": "Vertida_05",
+          "ifc_class": "IfcFooting",
+          "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+          "bbox_min_m": [
+            -3.5,
+            -3.499500768958985,
+            3.3
+          ],
+          "bbox_max_m": [
+            3.5,
+            3.4995007689589843,
+            4.3
+          ],
+          "dimensions_m": [
+            7.0,
+            6.9990015379179695,
+            1.0
+          ],
+          "volume_mesh_m3": 38.477191140741105,
+          "volume_analytic_m3": 38.48451000647496,
+          "triangles": 740,
+          "properties": {
+            "VertidaID": 5,
+            "ZInferior_m": 3.3,
+            "ZSuperior_m": 4.3,
+            "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+            "Estado": "Preliminar E01; sin plan constructivo optimizado"
+          }
+        }
+      ],
+      "pairwise_overlap_checks": [
+        {
+          "first": "Vertida_01",
+          "second": "Vertida_02",
+          "interior_overlap": false
+        },
+        {
+          "first": "Vertida_01",
+          "second": "Vertida_03",
+          "interior_overlap": false
+        },
+        {
+          "first": "Vertida_01",
+          "second": "Vertida_04",
+          "interior_overlap": false
+        },
+        {
+          "first": "Vertida_01",
+          "second": "Vertida_05",
+          "interior_overlap": false
+        },
+        {
+          "first": "Vertida_02",
+          "second": "Vertida_03",
+          "interior_overlap": false
+        },
+        {
+          "first": "Vertida_02",
+          "second": "Vertida_04",
+          "interior_overlap": false
+        },
+        {
+          "first": "Vertida_02",
+          "second": "Vertida_05",
+          "interior_overlap": false
+        },
+        {
+          "first": "Vertida_03",
+          "second": "Vertida_04",
+          "interior_overlap": false
+        },
+        {
+          "first": "Vertida_03",
+          "second": "Vertida_05",
+          "interior_overlap": false
+        },
+        {
+          "first": "Vertida_04",
+          "second": "Vertida_05",
+          "interior_overlap": false
+        }
+      ],
+      "global_min_m": [
+        -9.0,
+        -8.999999999999998,
+        0.0
+      ],
+      "global_max_m": [
+        9.0,
+        9.0,
+        4.3
+      ],
+      "verification_method": "Automatizada con IfcOpenShell; evidencia humana por separado"
+    },
+    "bonsai": {
+      "images_present": 8,
+      "inspected_images_unchanged": true,
+      "observed_properties_match_ifc": true,
+      "source": "Capturas aportadas de revision humana en Blender/Bonsai",
+      "blender_version": "5.1.2",
+      "bonsai_version": "v0.9.0-post1",
+      "audit_method": "Inspeccion visual de las ocho imagenes por el auditor; contraste con IFC mediante Python",
+      "auditor_opened_blender": false
+    },
+    "commands": [
+      {
+        "label": "crear_entorno_temporal",
+        "exit_code": 0,
+        "elapsed_s": 5.866148600005545
+      },
+      {
+        "label": "instalacion_offline",
+        "exit_code": 0,
+        "elapsed_s": 29.61469999991823
+      },
+      {
+        "label": "instalacion_proyecto_temporal",
+        "exit_code": 0,
+        "elapsed_s": 2.4581552000017837
+      },
+      {
+        "label": "origen_del_solver",
+        "exit_code": 0,
+        "elapsed_s": 0.291312100016512
+      },
+      {
+        "label": "verificacion_integral",
+        "exit_code": 0,
+        "elapsed_s": 19.46180260006804
+      },
+      {
+        "label": "comparacion_numerica",
+        "exit_code": 0,
+        "elapsed_s": 0.3264303000178188
+      }
+    ]
+  },
+  "initial_physical_copied_files": 118,
+  "initial_physical_copied_bytes": 88865632,
+  "source_files_checked": 22419,
+  "source_files_and_mtimes_unchanged": true,
+  "source_directory_structure_unchanged": true,
+  "copied_original_content_identical": true,
+  "independent_physical_files": true,
+  "exclusions": {
+    "entorno, cache o metadatos generados": 13268,
+    "cache o temporal": 9033
+  },
+  "no_e02_files": true,
+  "verification_outputs": "docs/evidencias/congelacion/",
+  "verification_policy": "Pruebas, instalacion e integracion ejecutadas sobre copia y entorno temporales; no sobre el respaldo.",
+  "evidence_provenance": "Se conservan archivos originales de E01 y se agregan solo constancia, inventario y evidencia del respaldo."
+}

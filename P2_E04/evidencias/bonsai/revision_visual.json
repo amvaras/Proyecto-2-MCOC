@@ -1,0 +1,98 @@
+{
+  "review_date": "2026-10-20",
+  "source": "Capturas aportadas de revision humana en Blender/Bonsai",
+  "audit_method": "Inspeccion visual de las ocho imagenes por el auditor; contraste con IFC mediante Python",
+  "auditor_opened_blender": false,
+  "blender_version": "5.1.2",
+  "bonsai_version": "v0.9.0-post1",
+  "versions_visible_in_images": true,
+  "full_guid_visibility": "GUID truncados en paneles; los prefijos son visibles y los valores completos se verifican en el IFC",
+  "images": [
+    {
+      "file": "Evidencias/bonsai/vista_3d.png",
+      "sha256": "1867935949f4b674e75e353cfc2d6f1b54b80eb781da85bf4a23e40976a5437e",
+      "width": 1812,
+      "height": 1492,
+      "observed": "Geometria y vista 3D"
+    },
+    {
+      "file": "Evidencias/bonsai/vista_superior.png",
+      "sha256": "5d56773407eaa4f3c954189fb8e7e4e6d1887a6e62b1c6d116108e34d4c170f4",
+      "width": 1816,
+      "height": 1534,
+      "observed": "Top Orthographic"
+    },
+    {
+      "file": "Evidencias/bonsai/vista_perfil.png",
+      "sha256": "3f7fbcda24bbe6e16f417eeec4387e6e66adbe48ea1dcf88c103ebc2cf781094",
+      "width": 1821,
+      "height": 1531,
+      "observed": "Back Orthographic"
+    },
+    {
+      "file": "Evidencias/bonsai/propiedades_vertida_01.png",
+      "sha256": "5c3497eae249811e5cd167cd1eb8e6cbce99b81d81fcfa74e9818c1d68254443",
+      "width": 1816,
+      "height": 1531,
+      "observed_name": "Vertida_01",
+      "observed_class": "IfcFooting",
+      "visible_guid_prefix": "0oY4bM1krVGQ",
+      "VertidaID": 1,
+      "ZInferior_m": 0,
+      "ZSuperior_m": 0.55,
+      "observed_pset": "UANDES_HormigonMasivo"
+    },
+    {
+      "file": "Evidencias/bonsai/propiedades_vertida_02.png",
+      "sha256": "7aabc12893b18f6bbddf5bbfb6f1d63f2febb3305b03b896331d2820d0ac2d4f",
+      "width": 1819,
+      "height": 1534,
+      "observed_name": "Vertida_02",
+      "observed_class": "IfcFooting",
+      "visible_guid_prefix": "3hfPF39u1Qnv",
+      "VertidaID": 2,
+      "ZInferior_m": 0.55,
+      "ZSuperior_m": 1.1,
+      "observed_pset": "UANDES_HormigonMasivo"
+    },
+    {
+      "file": "Evidencias/bonsai/propiedades_vertida_03.png",
+      "sha256": "279ff3b2caa06619f1b3a8c78af24f8070cbe99bfae55e8a5a9f87b3a6bdee18",
+      "width": 1816,
+      "height": 1528,
+      "observed_name": "Vertida_03",
+      "observed_class": "IfcFooting",
+      "visible_guid_prefix": "0l2Nmu8ZrTEQ",
+      "VertidaID": 3,
+      "ZInferior_m": 1.1,
+      "ZSuperior_m": 2.2,
+      "observed_pset": "UANDES_HormigonMasivo"
+    },
+    {
+      "file": "Evidencias/bonsai/propiedades_vertida_04.png",
+      "sha256": "eeeb4fc5a7685a72b63e1a0d7f6f3c59c5454fa158a8460382fa0acb735b16ff",
+      "width": 1822,
+      "height": 1528,
+      "observed_name": "Vertida_04",
+      "observed_class": "IfcFooting",
+      "visible_guid_prefix": "1jVXFE7TLGsO",
+      "VertidaID": 4,
+      "ZInferior_m": 2.2,
+      "ZSuperior_m": 3.3,
+      "observed_pset": "UANDES_HormigonMasivo"
+    },
+    {
+      "file": "Evidencias/bonsai/propiedades_vertida_05.png",
+      "sha256": "cecc9f1fd4dad21138995a488730846118b4667036f7d868540640af955e98d6",
+      "width": 1825,
+      "height": 1537,
+      "observed_name": "Vertida_05",
+      "observed_class": "IfcFooting",
+      "visible_guid_prefix": "3Tlu2_c3TMYP",
+      "VertidaID": 5,
+      "ZInferior_m": 3.3,
+      "ZSuperior_m": 4.3,
+      "observed_pset": "UANDES_HormigonMasivo"
+    }
+  ]
+}
