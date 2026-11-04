@@ -1,0 +1,60 @@
+{
+  "spatial": [
+    {
+      "nx": 11,
+      "dx_m": 0.1,
+      "dt_s": 1.0,
+      "error_Linf_C": 0.006836002272017083
+    },
+    {
+      "nx": 21,
+      "dx_m": 0.05,
+      "dt_s": 1.0,
+      "error_Linf_C": 0.0017098849695003082
+    },
+    {
+      "nx": 41,
+      "dx_m": 0.025,
+      "dt_s": 1.0,
+      "error_Linf_C": 0.0004248471814563004
+    }
+  ],
+  "spatial_error_ratios": [
+    3.9979310853962398,
+    4.024705927526993
+  ],
+  "temporal": [
+    {
+      "nx": 21,
+      "dt_s": 1000.0,
+      "steps": 100,
+      "error_Linf_C": 0.01677306197193218
+    },
+    {
+      "nx": 21,
+      "dt_s": 500.0,
+      "steps": 200,
+      "error_Linf_C": 0.008369701686575581
+    },
+    {
+      "nx": 21,
+      "dt_s": 250.0,
+      "steps": 400,
+      "error_Linf_C": 0.004180658683782923
+    },
+    {
+      "nx": 21,
+      "dt_s": 125.0,
+      "steps": 800,
+      "error_Linf_C": 0.002089283188730917
+    }
+  ],
+  "temporal_error_ratios": [
+    2.0040214812954447,
+    2.002005501918217,
+    2.001001446971083
+  ],
+  "temporal_reference": "Solucion exacta del sistema espacial semidiscreto, malla fija",
+  "benchmark_data_consistent": true,
+  "benchmark_error_Linf_C": 0.0006451356521708362
+}

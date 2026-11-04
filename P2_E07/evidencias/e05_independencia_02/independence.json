@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "started_utc": "2026-10-28T15:02:24.376191+00:00",
+  "temporary_root": "C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e05_independiente_zr_9ymy5",
+  "commands": [
+    {
+      "name": "crear_entorno",
+      "returncode": 0
+    },
+    {
+      "name": "instalar_dependencias",
+      "returncode": 0
+    },
+    {
+      "name": "instalar_paquete",
+      "returncode": 0
+    },
+    {
+      "name": "verificacion_completa",
+      "returncode": 0
+    }
+  ],
+  "copied_files": 681,
+  "tests": {
+    "tests": 198,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "elapsed_s": 25.414
+  },
+  "parameter_cases_passed": 60,
+  "imported_solver": "C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e05_independiente_zr_9ymy5\\P2_E05_autonomo\\src\\mcoc_p2\\__init__.py",
+  "offline_installation": true,
+  "previous_delivery_runtime_dependencies": false,
+  "finished_utc": "2026-10-28T15:03:47.082603+00:00"
+}

@@ -1,0 +1,1459 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "exact_1d",
+      "category": "exact",
+      "status": "PASS",
+      "scope": "Verificacion de caja ideal E05; no prediccion de fundacion ni conexion IFC",
+      "config": {
+        "dimension": 1,
+        "n": 12,
+        "shape": [
+          12
+        ],
+        "lengths_m": [
+          1.0
+        ],
+        "k": 2.0,
+        "rho": 2400.0,
+        "cp": 900.0,
+        "initial_C": 20.0,
+        "amplitude_C": 10.0,
+        "ambient_C": 10.0,
+        "h": 12.0,
+        "q_dot": 1000.0,
+        "flux": 100.0,
+        "face": null,
+        "dt_s": null,
+        "t_end_s": 10000.0,
+        "heterogeneous": false,
+        "atol_C": 0.03,
+        "energy_rtol": 5e-12,
+        "energy_atol_J": 1e-07
+      },
+      "dimension": 1,
+      "shape": [
+        12
+      ],
+      "cells": 12,
+      "lengths_m": [
+        1.0
+      ],
+      "spacing_m": [
+        0.08333333333333333
+      ],
+      "temperature_location": "cell_centers",
+      "alpha_m2_s": 9.259259259259259e-07,
+      "requested_dt_s": 1500.0,
+      "effective_dt_s": 1428.5714285714287,
+      "stable_dt_s": 2500.0,
+      "steps": 7,
+      "t_end_s": 10000.0,
+      "fourier_per_axis": [
+        0.19047619047619052
+      ],
+      "fourier_is_not_universal_limit": true,
+      "dt_over_local_limit": 0.5714285714285715,
+      "boundaries": {
+        "x+": {
+          "type": "Dirichlet",
+          "temperature": 20.0
+        },
+        "x-": {
+          "type": "Dirichlet",
+          "temperature": 20.0
+        }
+      },
+      "checks": [
+        {
+          "name": "balance_energia_todos_los_pasos",
+          "measured": 5.587935447692871e-09,
+          "expected": 0.0,
+          "tolerance": 0.00032317604502837155,
+          "units": "J",
+          "passed": true
+        },
+        {
+          "name": "cancelacion_intercambios_internos",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 1.6265257226562479e-09,
+          "units": "W",
+          "passed": true
+        },
+        {
+          "name": "error_Linf",
+          "measured": 0.0006707491013244749,
+          "expected": 0.0,
+          "tolerance": 0.03,
+          "units": "degC",
+          "passed": true
+        },
+        {
+          "name": "Dirichlet_cara_x+",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 1.9999999999999998e-10,
+          "units": "degC",
+          "passed": true
+        },
+        {
+          "name": "Dirichlet_cara_x-",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 1.9999999999999998e-10,
+          "units": "degC",
+          "passed": true
+        }
+      ],
+      "energy_initial_J": 13790335.6359727,
+      "energy_final_J": 12585038.331134407,
+      "energy_balance_max_error_J": 5.587935447692871e-09,
+      "energy_tolerance_J": 0.00032317604502837155,
+      "initial_range_C": 8.609186691537591,
+      "final_range_C": 7.856730058858389,
+      "final_min_C": 21.19117995070502,
+      "final_max_C": 29.04791000956341,
+      "error_Linf_C": 0.0006707491013244749,
+      "error_L2_rms_C": 0.00047838387841598397,
+      "error_L2_integral": 0.00047838387841598397,
+      "reference": "Solucion sinusoidal de la PDE continua evaluada en centros; caras a initial_C",
+      "lambda_m_minus2": 9.869604401089358
+    },
+    {
+      "case": "exact_2d",
+      "category": "exact",
+      "status": "PASS",
+      "scope": "Verificacion de caja ideal E05; no prediccion de fundacion ni conexion IFC",
+      "config": {
+        "dimension": 2,
+        "n": 12,
+        "shape": [
+          12,
+          12
+        ],
+        "lengths_m": [
+          1.0,
+          1.0
+        ],
+        "k": 2.0,
+        "rho": 2400.0,
+        "cp": 900.0,
+        "initial_C": 20.0,
+        "amplitude_C": 10.0,
+        "ambient_C": 10.0,
+        "h": 12.0,
+        "q_dot": 1000.0,
+        "flux": 100.0,
+        "face": null,
+        "dt_s": null,
+        "t_end_s": 10000.0,
+        "heterogeneous": false,
+        "atol_C": 0.03,
+        "energy_rtol": 5e-12,
+        "energy_atol_J": 1e-07
+      },
+      "dimension": 2,
+      "shape": [
+        12,
+        12
+      ],
+      "cells": 144,
+      "lengths_m": [
+        1.0,
+        1.0
+      ],
+      "spacing_m": [
+        0.08333333333333333,
+        0.08333333333333333
+      ],
+      "temperature_location": "cell_centers",
+      "alpha_m2_s": 9.259259259259259e-07,
+      "requested_dt_s": 750.0,
+      "effective_dt_s": 714.2857142857143,
+      "stable_dt_s": 1250.0,
+      "steps": 14,
+      "t_end_s": 10000.0,
+      "fourier_per_axis": [
+        0.09523809523809526,
+        0.09523809523809526
+      ],
+      "fourier_is_not_universal_limit": true,
+      "dt_over_local_limit": 0.5714285714285715,
+      "boundaries": {
+        "x+": {
+          "type": "Dirichlet",
+          "temperature": 20.0
+        },
+        "x-": {
+          "type": "Dirichlet",
+          "temperature": 20.0
+        },
+        "y+": {
+          "type": "Dirichlet",
+          "temperature": 20.0
+        },
+        "y-": {
+          "type": "Dirichlet",
+          "temperature": 20.0
+        }
+      },
+      "checks": [
+        {
+          "name": "balance_energia_todos_los_pasos",
+          "measured": 2.7939677238464355e-09,
+          "expected": 0.0,
+          "tolerance": 0.0003222599946196097,
+          "units": "J",
+          "passed": true
+        },
+        {
+          "name": "cancelacion_intercambios_internos",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 1.8000000000000014e-09,
+          "units": "W",
+          "passed": true
+        },
+        {
+          "name": "error_Linf",
+          "measured": 0.0012138204919907025,
+          "expected": 0.0,
+          "tolerance": 0.03,
+          "units": "degC",
+          "passed": true
+        },
+        {
+          "name": "Dirichlet_cara_x+",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 1.9999999999999998e-10,
+          "units": "degC",
+          "passed": true
+        },
+        {
+          "name": "Dirichlet_cara_x-",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 1.9999999999999998e-10,
+          "units": "degC",
+          "passed": true
+        },
+        {
+          "name": "Dirichlet_cara_y+",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 1.9999999999999998e-10,
+          "units": "degC",
+          "passed": true
+        },
+        {
+          "name": "Dirichlet_cara_y-",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 1.9999999999999998e-10,
+          "units": "degC",
+          "passed": true
+        }
+      ],
+      "energy_initial_J": 8804322.081147159,
+      "energy_final_J": 7332555.083153807,
+      "energy_balance_max_error_J": 2.7939677238464355e-09,
+      "energy_tolerance_J": 0.0003222599946196097,
+      "initial_range_C": 9.659258262890685,
+      "final_range_C": 8.044576586619616,
+      "final_min_C": 20.14189096749616,
+      "final_max_C": 28.186467554115776,
+      "error_Linf_C": 0.0012138204919907025,
+      "error_L2_rms_C": 0.0006174294450769923,
+      "error_L2_integral": 0.0006174294450769923,
+      "reference": "Solucion sinusoidal de la PDE continua evaluada en centros; caras a initial_C",
+      "lambda_m_minus2": 19.739208802178716
+    },
+    {
+      "case": "exact_3d",
+      "category": "exact",
+      "status": "PASS",
+      "scope": "Verificacion de caja ideal E05; no prediccion de fundacion ni conexion IFC",
+      "config": {
+        "dimension": 3,
+        "n": 12,
+        "shape": [
+          12,
+          12,
+          12
+        ],
+        "lengths_m": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "k": 2.0,
+        "rho": 2400.0,
+        "cp": 900.0,
+        "initial_C": 20.0,
+        "amplitude_C": 10.0,
+        "ambient_C": 10.0,
+        "h": 12.0,
+        "q_dot": 1000.0,
+        "flux": 100.0,
+        "face": null,
+        "dt_s": null,
+        "t_end_s": 10000.0,
+        "heterogeneous": false,
+        "atol_C": 0.03,
+        "energy_rtol": 5e-12,
+        "energy_atol_J": 1e-07
+      },
+      "dimension": 3,
+      "shape": [
+        12,
+        12,
+        12
+      ],
+      "cells": 1728,
+      "lengths_m": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "spacing_m": [
+        0.08333333333333333,
+        0.08333333333333333,
+        0.08333333333333333
+      ],
+      "temperature_location": "cell_centers",
+      "alpha_m2_s": 9.259259259259259e-07,
+      "requested_dt_s": 500.0,
+      "effective_dt_s": 500.0,
+      "stable_dt_s": 833.3333333333334,
+      "steps": 20,
+      "t_end_s": 10000.0,
+      "fourier_per_axis": [
+        0.06666666666666668,
+        0.06666666666666668,
+        0.06666666666666668
+      ],
+      "fourier_is_not_universal_limit": true,
+      "dt_over_local_limit": 0.6,
+      "boundaries": {
+        "x+": {
+          "type": "Dirichlet",
+          "temperature": 20.0
+        },
+        "x-": {
+          "type": "Dirichlet",
+          "temperature": 20.0
+        },
+        "y+": {
+          "type": "Dirichlet",
+          "temperature": 20.0
+        },
+        "y-": {
+          "type": "Dirichlet",
+          "temperature": 20.0
+        },
+        "z+": {
+          "type": "Dirichlet",
+          "temperature": 20.0
+        },
+        "z-": {
+          "type": "Dirichlet",
+          "temperature": 20.0
+        }
+      },
+      "checks": [
+        {
+          "name": "balance_energia_todos_los_pasos",
+          "measured": 1.862645149230957e-09,
+          "expected": 0.0,
+          "tolerance": 0.00032135178114908335,
+          "units": "J",
+          "passed": true
+        },
+        {
+          "name": "cancelacion_intercambios_internos",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 1.76612975755404e-09,
+          "units": "W",
+          "passed": true
+        },
+        {
+          "name": "error_Linf",
+          "measured": 0.0023144459441972742,
+          "expected": 0.0,
+          "tolerance": 0.03,
+          "units": "degC",
+          "passed": true
+        },
+        {
+          "name": "Dirichlet_cara_x+",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 1.9999999999999998e-10,
+          "units": "degC",
+          "passed": true
+        },
+        {
+          "name": "Dirichlet_cara_x-",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 1.9999999999999998e-10,
+          "units": "degC",
+          "passed": true
+        },
+        {
+          "name": "Dirichlet_cara_y+",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 1.9999999999999998e-10,
+          "units": "degC",
+          "passed": true
+        },
+        {
+          "name": "Dirichlet_cara_y-",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 1.9999999999999998e-10,
+          "units": "degC",
+          "passed": true
+        },
+        {
+          "name": "Dirichlet_cara_z+",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 1.9999999999999998e-10,
+          "units": "degC",
+          "passed": true
+        },
+        {
+          "name": "Dirichlet_cara_z-",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 1.9999999999999998e-10,
+          "units": "degC",
+          "passed": true
+        }
+      ],
+      "energy_initial_J": 5621044.284547453,
+      "energy_final_J": 4271860.043031473,
+      "energy_balance_max_error_J": 1.862645149230957e-09,
+      "energy_tolerance_J": 0.00032135178114908335,
+      "initial_range_C": 9.723297430844134,
+      "final_range_C": 7.389474922928436,
+      "final_min_C": 20.01690024556271,
+      "final_max_C": 27.406375168491145,
+      "error_Linf_C": 0.0023144459441972742,
+      "error_L2_rms_C": 0.0008396462445951298,
+      "error_L2_integral": 0.0008396462445951298,
+      "reference": "Solucion sinusoidal de la PDE continua evaluada en centros; caras a initial_C",
+      "lambda_m_minus2": 29.608813203268074
+    },
+    {
+      "case": "energy",
+      "category": "conservation",
+      "status": "PASS",
+      "scope": "Verificacion de caja ideal E05; no prediccion de fundacion ni conexion IFC",
+      "config": {
+        "dimension": 3,
+        "n": 12,
+        "shape": [
+          12,
+          12,
+          12
+        ],
+        "lengths_m": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "k": 2.0,
+        "rho": 2400.0,
+        "cp": 900.0,
+        "initial_C": 20.0,
+        "amplitude_C": 10.0,
+        "ambient_C": 10.0,
+        "h": 12.0,
+        "q_dot": 1000.0,
+        "flux": 100.0,
+        "face": null,
+        "dt_s": null,
+        "t_end_s": 10000.0,
+        "heterogeneous": true,
+        "atol_C": 0.03,
+        "energy_rtol": 5e-12,
+        "energy_atol_J": 1e-07
+      },
+      "dimension": 3,
+      "shape": [
+        12,
+        12,
+        12
+      ],
+      "cells": 1728,
+      "lengths_m": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "spacing_m": [
+        0.08333333333333333,
+        0.08333333333333333,
+        0.08333333333333333
+      ],
+      "temperature_location": "cell_centers",
+      "alpha_m2_s": null,
+      "requested_dt_s": 229.99999999999997,
+      "effective_dt_s": 227.27272727272728,
+      "stable_dt_s": 383.3333333333333,
+      "steps": 44,
+      "t_end_s": 10000.0,
+      "fourier_per_axis": null,
+      "fourier_is_not_universal_limit": true,
+      "dt_over_local_limit": 0.5928853754940712,
+      "boundaries": {
+        "x+": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        },
+        "x-": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        },
+        "y+": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        },
+        "y-": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        },
+        "z+": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        },
+        "z-": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        }
+      },
+      "checks": [
+        {
+          "name": "balance_energia_todos_los_pasos",
+          "measured": 4.4792614062316716e-10,
+          "expected": 0.0,
+          "tolerance": 0.00030850170990312005,
+          "units": "J",
+          "passed": true
+        },
+        {
+          "name": "cancelacion_intercambios_internos",
+          "measured": -8.326672684688674e-16,
+          "expected": 0.0,
+          "tolerance": 2.7093203856273928e-09,
+          "units": "W",
+          "passed": true
+        },
+        {
+          "name": "energia_adiabatica_no_uniforme",
+          "measured": 4.4792614062316716e-10,
+          "expected": 0.0,
+          "tolerance": 0.00030850170990312005,
+          "units": "J",
+          "passed": true
+        }
+      ],
+      "energy_initial_J": -2.637534635141492e-11,
+      "energy_final_J": 2.977458279929124e-10,
+      "energy_balance_max_error_J": 4.4792614062316716e-10,
+      "energy_tolerance_J": 0.00030850170990312005,
+      "initial_range_C": 19.49107058316359,
+      "final_range_C": 14.825095103034256,
+      "final_min_C": 12.587452448482873,
+      "final_max_C": 27.41254755151713
+    },
+    {
+      "case": "source",
+      "category": "source",
+      "status": "PASS",
+      "scope": "Verificacion de caja ideal E05; no prediccion de fundacion ni conexion IFC",
+      "config": {
+        "dimension": 3,
+        "n": 12,
+        "shape": [
+          12,
+          12,
+          12
+        ],
+        "lengths_m": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "k": 2.0,
+        "rho": 2400.0,
+        "cp": 900.0,
+        "initial_C": 20.0,
+        "amplitude_C": 10.0,
+        "ambient_C": 10.0,
+        "h": 12.0,
+        "q_dot": 1000.0,
+        "flux": 100.0,
+        "face": null,
+        "dt_s": null,
+        "t_end_s": 10000.0,
+        "heterogeneous": false,
+        "atol_C": 0.03,
+        "energy_rtol": 5e-12,
+        "energy_atol_J": 1e-07
+      },
+      "dimension": 3,
+      "shape": [
+        12,
+        12,
+        12
+      ],
+      "cells": 1728,
+      "lengths_m": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "spacing_m": [
+        0.08333333333333333,
+        0.08333333333333333,
+        0.08333333333333333
+      ],
+      "temperature_location": "cell_centers",
+      "alpha_m2_s": 9.259259259259259e-07,
+      "requested_dt_s": 750.0000000000001,
+      "effective_dt_s": 714.2857142857143,
+      "stable_dt_s": 1250.0000000000002,
+      "steps": 14,
+      "t_end_s": 10000.0,
+      "fourier_per_axis": [
+        0.09523809523809526,
+        0.09523809523809526,
+        0.09523809523809526
+      ],
+      "fourier_is_not_universal_limit": true,
+      "dt_over_local_limit": 0.5714285714285714,
+      "boundaries": {
+        "x+": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        },
+        "x-": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        },
+        "y+": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        },
+        "y-": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        },
+        "z+": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        },
+        "z-": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        }
+      },
+      "checks": [
+        {
+          "name": "balance_energia_todos_los_pasos",
+          "measured": 5.029141902923584e-08,
+          "expected": 0.0,
+          "tolerance": 0.00031610000000000026,
+          "units": "J",
+          "passed": true
+        },
+        {
+          "name": "cancelacion_intercambios_internos",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 1e-09,
+          "units": "W",
+          "passed": true
+        },
+        {
+          "name": "fuente_uniforme_todos_los_tiempos",
+          "measured": 2.4868995751603507e-14,
+          "expected": 0.0,
+          "tolerance": 2.462962962962963e-10,
+          "units": "degC",
+          "passed": true
+        },
+        {
+          "name": "energia_generada",
+          "measured": 5.21540641784668e-08,
+          "expected": 0.0,
+          "tolerance": 0.00031610000000000026,
+          "units": "J",
+          "passed": true
+        }
+      ],
+      "energy_initial_J": 0.0,
+      "energy_final_J": 10000000.000000052,
+      "energy_balance_max_error_J": 5.029141902923584e-08,
+      "energy_tolerance_J": 0.00031610000000000026,
+      "initial_range_C": 0.0,
+      "final_range_C": 0.0,
+      "final_min_C": 24.629629629629655,
+      "final_max_C": 24.629629629629655,
+      "error_Linf_C": 2.4868995751603507e-14,
+      "error_L2_rms_C": 2.4868995751603507e-14,
+      "error_L2_integral": 2.4868995751603507e-14
+    },
+    {
+      "case": "neumann",
+      "category": "boundary",
+      "status": "PASS",
+      "scope": "Verificacion de caja ideal E05; no prediccion de fundacion ni conexion IFC",
+      "config": {
+        "dimension": 3,
+        "n": 12,
+        "shape": [
+          12,
+          12,
+          12
+        ],
+        "lengths_m": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "k": 2.0,
+        "rho": 2400.0,
+        "cp": 900.0,
+        "initial_C": 20.0,
+        "amplitude_C": 10.0,
+        "ambient_C": 10.0,
+        "h": 12.0,
+        "q_dot": 1000.0,
+        "flux": -100.0,
+        "face": "z-",
+        "dt_s": null,
+        "t_end_s": 10000.0,
+        "heterogeneous": false,
+        "atol_C": 0.03,
+        "energy_rtol": 5e-12,
+        "energy_atol_J": 1e-07
+      },
+      "dimension": 3,
+      "shape": [
+        12,
+        12,
+        12
+      ],
+      "cells": 1728,
+      "lengths_m": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "spacing_m": [
+        0.08333333333333333,
+        0.08333333333333333,
+        0.08333333333333333
+      ],
+      "temperature_location": "cell_centers",
+      "alpha_m2_s": 9.259259259259259e-07,
+      "requested_dt_s": 750.0000000000001,
+      "effective_dt_s": 714.2857142857143,
+      "stable_dt_s": 1250.0000000000002,
+      "steps": 14,
+      "t_end_s": 10000.0,
+      "fourier_per_axis": [
+        0.09523809523809526,
+        0.09523809523809526,
+        0.09523809523809526
+      ],
+      "fourier_is_not_universal_limit": true,
+      "dt_over_local_limit": 0.5714285714285714,
+      "boundaries": {
+        "x+": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        },
+        "x-": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        },
+        "y+": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        },
+        "y-": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        },
+        "z+": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        },
+        "z-": {
+          "type": "Neumann",
+          "outward_flux": -100.0
+        }
+      },
+      "checks": [
+        {
+          "name": "balance_energia_todos_los_pasos",
+          "measured": 3.6088749766349792e-09,
+          "expected": 0.0,
+          "tolerance": 0.00025550167320425335,
+          "units": "J",
+          "passed": true
+        },
+        {
+          "name": "cancelacion_intercambios_internos",
+          "measured": -1.4210854715202004e-14,
+          "expected": 0.0,
+          "tolerance": 1.5e-09,
+          "units": "W",
+          "passed": true
+        },
+        {
+          "name": "potencia_flujo_por_area",
+          "measured": -1.4210854715202004e-14,
+          "expected": 0.0,
+          "tolerance": 9.999999999999999e-10,
+          "units": "W",
+          "passed": true
+        },
+        {
+          "name": "energia_flujo_prescrito",
+          "measured": -3.026798367500305e-09,
+          "expected": 0.0,
+          "tolerance": 0.00025550167320425335,
+          "units": "J",
+          "passed": true
+        }
+      ],
+      "energy_initial_J": 0.0,
+      "energy_final_J": 999999.999999997,
+      "energy_balance_max_error_J": 3.6088749766349792e-09,
+      "energy_tolerance_J": 0.00025550167320425335,
+      "initial_range_C": 0.0,
+      "final_range_C": 3.648303074319063,
+      "final_min_C": 20.00000000014884,
+      "final_max_C": 23.648303074467904
+    },
+    {
+      "case": "robin",
+      "category": "boundary",
+      "status": "PASS",
+      "scope": "Verificacion de caja ideal E05; no prediccion de fundacion ni conexion IFC",
+      "config": {
+        "dimension": 3,
+        "n": 12,
+        "shape": [
+          12,
+          12,
+          12
+        ],
+        "lengths_m": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "k": 2.0,
+        "rho": 2400.0,
+        "cp": 900.0,
+        "initial_C": 50.0,
+        "amplitude_C": 10.0,
+        "ambient_C": 20.0,
+        "h": 12.0,
+        "q_dot": 1000.0,
+        "flux": 100.0,
+        "face": null,
+        "dt_s": null,
+        "t_end_s": 10000.0,
+        "heterogeneous": false,
+        "atol_C": 0.03,
+        "energy_rtol": 5e-12,
+        "energy_atol_J": 1e-07
+      },
+      "dimension": 3,
+      "shape": [
+        12,
+        12,
+        12
+      ],
+      "cells": 1728,
+      "lengths_m": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "spacing_m": [
+        0.08333333333333333,
+        0.08333333333333333,
+        0.08333333333333333
+      ],
+      "temperature_location": "cell_centers",
+      "alpha_m2_s": 9.259259259259259e-07,
+      "requested_dt_s": 750.0000000000001,
+      "effective_dt_s": 714.2857142857143,
+      "stable_dt_s": 1250.0000000000002,
+      "steps": 14,
+      "t_end_s": 10000.0,
+      "fourier_per_axis": [
+        0.09523809523809526,
+        0.09523809523809526,
+        0.09523809523809526
+      ],
+      "fourier_is_not_universal_limit": true,
+      "dt_over_local_limit": 0.5714285714285714,
+      "boundaries": {
+        "x+": {
+          "type": "Robin",
+          "h": 12.0,
+          "ambient": 20.0
+        },
+        "x-": {
+          "type": "Robin",
+          "h": 12.0,
+          "ambient": 20.0
+        },
+        "y+": {
+          "type": "Robin",
+          "h": 12.0,
+          "ambient": 20.0
+        },
+        "y-": {
+          "type": "Robin",
+          "h": 12.0,
+          "ambient": 20.0
+        },
+        "z+": {
+          "type": "Robin",
+          "h": 12.0,
+          "ambient": 20.0
+        },
+        "z-": {
+          "type": "Robin",
+          "h": 12.0,
+          "ambient": 20.0
+        }
+      },
+      "checks": [
+        {
+          "name": "balance_energia_todos_los_pasos",
+          "measured": 5.587935447692871e-09,
+          "expected": 0.0,
+          "tolerance": 0.0005401,
+          "units": "J",
+          "passed": true
+        },
+        {
+          "name": "cancelacion_intercambios_internos",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 9.64e-09,
+          "units": "W",
+          "passed": true
+        },
+        {
+          "name": "resistencias_en_serie_x+",
+          "measured": 2.842170943040401e-14,
+          "expected": 0.0,
+          "tolerance": 2.0538224476778093e-09,
+          "units": "W/m^2",
+          "passed": true
+        },
+        {
+          "name": "ley_superficial_x+",
+          "measured": 2.842170943040401e-14,
+          "expected": 0.0,
+          "tolerance": 2.0546750989607215e-08,
+          "units": "W/m^2",
+          "passed": true
+        },
+        {
+          "name": "resistencias_en_serie_x-",
+          "measured": 2.842170943040401e-14,
+          "expected": 0.0,
+          "tolerance": 2.0538224476778093e-09,
+          "units": "W/m^2",
+          "passed": true
+        },
+        {
+          "name": "ley_superficial_x-",
+          "measured": 2.842170943040401e-14,
+          "expected": 0.0,
+          "tolerance": 2.0546750989607215e-08,
+          "units": "W/m^2",
+          "passed": true
+        },
+        {
+          "name": "resistencias_en_serie_y+",
+          "measured": 2.842170943040401e-14,
+          "expected": 0.0,
+          "tolerance": 2.0538224476778093e-09,
+          "units": "W/m^2",
+          "passed": true
+        },
+        {
+          "name": "ley_superficial_y+",
+          "measured": 2.842170943040401e-14,
+          "expected": 0.0,
+          "tolerance": 2.0546750989607215e-08,
+          "units": "W/m^2",
+          "passed": true
+        },
+        {
+          "name": "resistencias_en_serie_y-",
+          "measured": 2.842170943040401e-14,
+          "expected": 0.0,
+          "tolerance": 2.0538224476778093e-09,
+          "units": "W/m^2",
+          "passed": true
+        },
+        {
+          "name": "ley_superficial_y-",
+          "measured": 2.842170943040401e-14,
+          "expected": 0.0,
+          "tolerance": 2.0546750989607215e-08,
+          "units": "W/m^2",
+          "passed": true
+        },
+        {
+          "name": "resistencias_en_serie_z+",
+          "measured": 2.842170943040401e-14,
+          "expected": 0.0,
+          "tolerance": 2.0538224476778093e-09,
+          "units": "W/m^2",
+          "passed": true
+        },
+        {
+          "name": "ley_superficial_z+",
+          "measured": 2.842170943040401e-14,
+          "expected": 0.0,
+          "tolerance": 2.0546750989607215e-08,
+          "units": "W/m^2",
+          "passed": true
+        },
+        {
+          "name": "resistencias_en_serie_z-",
+          "measured": 2.842170943040401e-14,
+          "expected": 0.0,
+          "tolerance": 2.0538224476778093e-09,
+          "units": "W/m^2",
+          "passed": true
+        },
+        {
+          "name": "ley_superficial_z-",
+          "measured": 2.842170943040401e-14,
+          "expected": 0.0,
+          "tolerance": 2.0546750989607215e-08,
+          "units": "W/m^2",
+          "passed": true
+        },
+        {
+          "name": "principio_maximo",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 5e-09,
+          "units": "degC",
+          "passed": true
+        },
+        {
+          "name": "sentido_intercambio",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 0.016203,
+          "units": "J K",
+          "passed": true
+        }
+      ],
+      "energy_initial_J": 0.0,
+      "energy_final_J": -13455099.41544387,
+      "energy_balance_max_error_J": 5.587935447692871e-09,
+      "energy_tolerance_J": 0.0005401,
+      "initial_range_C": 0.0,
+      "final_range_C": 19.186642839994523,
+      "final_min_C": 30.78759148259368,
+      "final_max_C": 49.9742343225882
+    },
+    {
+      "case": "spatial",
+      "category": "convergence",
+      "status": "PASS",
+      "config": {
+        "dimension": 2,
+        "n": 6,
+        "shape": [
+          6,
+          6
+        ],
+        "lengths_m": [
+          1.0,
+          1.0
+        ],
+        "k": 2.0,
+        "rho": 2400.0,
+        "cp": 900.0,
+        "initial_C": 20.0,
+        "amplitude_C": 10.0,
+        "ambient_C": 10.0,
+        "h": 12.0,
+        "q_dot": 1000.0,
+        "flux": 100.0,
+        "face": null,
+        "dt_s": null,
+        "t_end_s": 10000.0,
+        "heterogeneous": false,
+        "atol_C": 0.03,
+        "energy_rtol": 5e-12,
+        "energy_atol_J": 1e-07
+      },
+      "dimension": 2,
+      "rows": [
+        {
+          "shape": [
+            6,
+            6
+          ],
+          "spacing_m": [
+            0.16666666666666666,
+            0.16666666666666666
+          ],
+          "requested_dt_s": 3.125,
+          "effective_dt_s": 3.125,
+          "stable_dt_s": 5000.0,
+          "steps": 3200,
+          "cells": 36,
+          "t_end_s": 10000.0,
+          "fourier_per_axis": [
+            0.00010416666666666667,
+            0.00010416666666666667
+          ],
+          "error_Linf_C": 0.0321839897375682,
+          "error_L2_rms_C": 0.017247348118760292,
+          "temporal_contamination_C": 3.8910410427916986e-05
+        },
+        {
+          "shape": [
+            12,
+            12
+          ],
+          "spacing_m": [
+            0.08333333333333333,
+            0.08333333333333333
+          ],
+          "requested_dt_s": 3.125,
+          "effective_dt_s": 3.125,
+          "stable_dt_s": 1250.0,
+          "steps": 3200,
+          "cells": 144,
+          "t_end_s": 10000.0,
+          "fourier_per_axis": [
+            0.0004166666666666667,
+            0.0004166666666666667
+          ],
+          "error_Linf_C": 0.008489824919855948,
+          "error_L2_rms_C": 0.004318486896264798,
+          "temporal_contamination_C": 4.2295750233734e-05
+        },
+        {
+          "shape": [
+            24,
+            24
+          ],
+          "spacing_m": [
+            0.041666666666666664,
+            0.041666666666666664
+          ],
+          "requested_dt_s": 3.125,
+          "effective_dt_s": 3.125,
+          "stable_dt_s": 312.5,
+          "steps": 3200,
+          "cells": 576,
+          "t_end_s": 10000.0,
+          "fourier_per_axis": [
+            0.0016666666666666668,
+            0.0016666666666666668
+          ],
+          "error_Linf_C": 0.002120398681299207,
+          "error_L2_rms_C": 0.0010647538992534578,
+          "temporal_contamination_C": 4.3179968194806406e-05
+        }
+      ],
+      "error_ratios": [
+        3.790889687524237,
+        4.003881437359731
+      ],
+      "observed_orders": [
+        1.9225364756124212,
+        2.0013992538278322
+      ],
+      "reference": "PDE continua",
+      "checks": [
+        {
+          "name": "orden_observado_0",
+          "measured": 1.9225364756124212,
+          "expected": 2.0,
+          "tolerance": 0.3,
+          "units": "",
+          "passed": true
+        },
+        {
+          "name": "orden_observado_1",
+          "measured": 2.0013992538278322,
+          "expected": 2.0,
+          "tolerance": 0.3,
+          "units": "",
+          "passed": true
+        },
+        {
+          "name": "contaminacion_temporal_menor_10pct",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 0.0,
+          "units": "",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "case": "temporal",
+      "category": "convergence",
+      "status": "PASS",
+      "config": {
+        "dimension": 2,
+        "n": 6,
+        "shape": [
+          6,
+          6
+        ],
+        "lengths_m": [
+          1.0,
+          1.0
+        ],
+        "k": 2.0,
+        "rho": 2400.0,
+        "cp": 900.0,
+        "initial_C": 20.0,
+        "amplitude_C": 10.0,
+        "ambient_C": 10.0,
+        "h": 12.0,
+        "q_dot": 1000.0,
+        "flux": 100.0,
+        "face": null,
+        "dt_s": null,
+        "t_end_s": 10000.0,
+        "heterogeneous": false,
+        "atol_C": 0.03,
+        "energy_rtol": 5e-12,
+        "energy_atol_J": 1e-07
+      },
+      "dimension": 2,
+      "rows": [
+        {
+          "shape": [
+            6,
+            6
+          ],
+          "spacing_m": [
+            0.16666666666666666,
+            0.16666666666666666
+          ],
+          "requested_dt_s": 500.0,
+          "effective_dt_s": 500.0,
+          "stable_dt_s": 5000.0,
+          "steps": 20,
+          "cells": 36,
+          "t_end_s": 10000.0,
+          "fourier_per_axis": [
+            0.01666666666666667,
+            0.01666666666666667
+          ],
+          "error_Linf_C": 0.006260256245557372,
+          "error_L2_rms_C": 0.003354861210819689,
+          "temporal_contamination_C": 0.006260256245557372
+        },
+        {
+          "shape": [
+            6,
+            6
+          ],
+          "spacing_m": [
+            0.16666666666666666,
+            0.16666666666666666
+          ],
+          "requested_dt_s": 250.0,
+          "effective_dt_s": 250.0,
+          "stable_dt_s": 5000.0,
+          "steps": 40,
+          "cells": 36,
+          "t_end_s": 10000.0,
+          "fourier_per_axis": [
+            0.008333333333333335,
+            0.008333333333333335
+          ],
+          "error_Linf_C": 0.0031213987274192334,
+          "error_L2_rms_C": 0.001672752536534881,
+          "temporal_contamination_C": 0.0031213987274192334
+        },
+        {
+          "shape": [
+            6,
+            6
+          ],
+          "spacing_m": [
+            0.16666666666666666,
+            0.16666666666666666
+          ],
+          "requested_dt_s": 125.0,
+          "effective_dt_s": 125.0,
+          "stable_dt_s": 5000.0,
+          "steps": 80,
+          "cells": 36,
+          "t_end_s": 10000.0,
+          "fourier_per_axis": [
+            0.0041666666666666675,
+            0.0041666666666666675
+          ],
+          "error_Linf_C": 0.0015585274235725421,
+          "error_L2_rms_C": 0.0008352123290540231,
+          "temporal_contamination_C": 0.0015585274235725421
+        }
+      ],
+      "error_ratios": [
+        2.0055932587418397,
+        2.002787169611807
+      ],
+      "observed_orders": [
+        1.0040290520642754,
+        1.0020091182751134
+      ],
+      "reference": "Modo exacto semidiscreto sobre malla fija",
+      "checks": [
+        {
+          "name": "orden_observado_0",
+          "measured": 1.0040290520642754,
+          "expected": 1.0,
+          "tolerance": 0.15,
+          "units": "",
+          "passed": true
+        },
+        {
+          "name": "orden_observado_1",
+          "measured": 1.0020091182751134,
+          "expected": 1.0,
+          "tolerance": 0.15,
+          "units": "",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "case": "stability",
+      "category": "stability",
+      "status": "PASS",
+      "scope": "Verificacion de caja ideal E05; no prediccion de fundacion ni conexion IFC",
+      "config": {
+        "dimension": 2,
+        "n": 12,
+        "shape": [
+          12,
+          12
+        ],
+        "lengths_m": [
+          1.0,
+          1.0
+        ],
+        "k": 2.0,
+        "rho": 2400.0,
+        "cp": 900.0,
+        "initial_C": 20.0,
+        "amplitude_C": 10.0,
+        "ambient_C": 10.0,
+        "h": 12.0,
+        "q_dot": 1000.0,
+        "flux": 100.0,
+        "face": null,
+        "dt_s": null,
+        "t_end_s": 10000.0,
+        "heterogeneous": false,
+        "atol_C": 0.03,
+        "energy_rtol": 5e-12,
+        "energy_atol_J": 1e-07
+      },
+      "dimension": 2,
+      "shape": [
+        12,
+        12
+      ],
+      "cells": 144,
+      "lengths_m": [
+        1.0,
+        1.0
+      ],
+      "spacing_m": [
+        0.08333333333333333,
+        0.08333333333333333
+      ],
+      "temperature_location": "cell_centers",
+      "alpha_m2_s": 9.259259259259259e-07,
+      "requested_dt_s": 1856.25,
+      "effective_dt_s": 1666.6666666666667,
+      "stable_dt_s": 1875.0,
+      "steps": 6,
+      "t_end_s": 10000.0,
+      "fourier_per_axis": [
+        0.22222222222222227,
+        0.22222222222222227
+      ],
+      "fourier_is_not_universal_limit": true,
+      "dt_over_local_limit": 0.888888888888889,
+      "boundaries": {
+        "x+": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        },
+        "x-": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        },
+        "y+": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        },
+        "y-": {
+          "type": "Neumann",
+          "outward_flux": 0.0
+        }
+      },
+      "checks": [
+        {
+          "name": "paso_excesivo_rechazado",
+          "measured": 1.0,
+          "expected": 1.0,
+          "tolerance": 0.0,
+          "units": "",
+          "passed": true
+        },
+        {
+          "name": "paso_cercano_al_limite_monotono",
+          "measured": 0.0,
+          "expected": 0.0,
+          "tolerance": 1e-10,
+          "units": "degC",
+          "passed": true
+        }
+      ],
+      "accepted_dt_s": 1856.25,
+      "rejected_dt_s": 1893.75
+    }
+  ]
+}

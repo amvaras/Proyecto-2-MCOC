@@ -1,0 +1,22 @@
+E07: thermal_regression
+E07: demo
+E07: modified
+E07: invalid_resolution
+{
+  "status": "passed",
+  "tests": {
+    "tests": 252,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "elapsed_s": 31.225
+  },
+  "parameter_cases_passed": 60,
+  "voxel_cases": 2,
+  "volume_resolutions_m": [
+    0.55,
+    0.275,
+    0.1375
+  ],
+  "integration": "Ensamblaje enmascarado de potencia y capacidad verificado; NO integrador transiente final de fundación"
+}

@@ -1,0 +1,1 @@
+El primer intento offline uso una ruta de ruedas que no existe en la base E04. No se instalaron dependencias; los comandos posteriores no encontraron setuptools ni pytest. Se corrige preparando un almacen propio de E05 con las versiones declaradas.

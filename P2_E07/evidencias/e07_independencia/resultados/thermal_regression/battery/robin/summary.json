@@ -1,0 +1,237 @@
+{
+  "case": "robin",
+  "category": "boundary",
+  "status": "PASS",
+  "scope": "Verificacion de caja ideal E05; no prediccion de fundacion ni conexion IFC",
+  "config": {
+    "dimension": 3,
+    "n": 12,
+    "shape": [
+      12,
+      12,
+      12
+    ],
+    "lengths_m": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "k": 2.0,
+    "rho": 2400.0,
+    "cp": 900.0,
+    "initial_C": 50.0,
+    "amplitude_C": 10.0,
+    "ambient_C": 20.0,
+    "h": 12.0,
+    "q_dot": 1000.0,
+    "flux": 100.0,
+    "face": null,
+    "dt_s": null,
+    "t_end_s": 10000.0,
+    "heterogeneous": false,
+    "atol_C": 0.03,
+    "energy_rtol": 5e-12,
+    "energy_atol_J": 1e-07
+  },
+  "dimension": 3,
+  "shape": [
+    12,
+    12,
+    12
+  ],
+  "cells": 1728,
+  "lengths_m": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "spacing_m": [
+    0.08333333333333333,
+    0.08333333333333333,
+    0.08333333333333333
+  ],
+  "temperature_location": "cell_centers",
+  "alpha_m2_s": 9.259259259259259e-07,
+  "requested_dt_s": 750.0000000000001,
+  "effective_dt_s": 714.2857142857143,
+  "stable_dt_s": 1250.0000000000002,
+  "steps": 14,
+  "t_end_s": 10000.0,
+  "fourier_per_axis": [
+    0.09523809523809526,
+    0.09523809523809526,
+    0.09523809523809526
+  ],
+  "fourier_is_not_universal_limit": true,
+  "dt_over_local_limit": 0.5714285714285714,
+  "boundaries": {
+    "x+": {
+      "type": "Robin",
+      "h": 12.0,
+      "ambient": 20.0
+    },
+    "x-": {
+      "type": "Robin",
+      "h": 12.0,
+      "ambient": 20.0
+    },
+    "y+": {
+      "type": "Robin",
+      "h": 12.0,
+      "ambient": 20.0
+    },
+    "y-": {
+      "type": "Robin",
+      "h": 12.0,
+      "ambient": 20.0
+    },
+    "z+": {
+      "type": "Robin",
+      "h": 12.0,
+      "ambient": 20.0
+    },
+    "z-": {
+      "type": "Robin",
+      "h": 12.0,
+      "ambient": 20.0
+    }
+  },
+  "checks": [
+    {
+      "name": "balance_energia_todos_los_pasos",
+      "measured": 5.587935447692871e-09,
+      "expected": 0.0,
+      "tolerance": 0.0005401,
+      "units": "J",
+      "passed": true
+    },
+    {
+      "name": "cancelacion_intercambios_internos",
+      "measured": 0.0,
+      "expected": 0.0,
+      "tolerance": 9.64e-09,
+      "units": "W",
+      "passed": true
+    },
+    {
+      "name": "resistencias_en_serie_x+",
+      "measured": 2.842170943040401e-14,
+      "expected": 0.0,
+      "tolerance": 2.0538224476778093e-09,
+      "units": "W/m^2",
+      "passed": true
+    },
+    {
+      "name": "ley_superficial_x+",
+      "measured": 2.842170943040401e-14,
+      "expected": 0.0,
+      "tolerance": 2.0546750989607215e-08,
+      "units": "W/m^2",
+      "passed": true
+    },
+    {
+      "name": "resistencias_en_serie_x-",
+      "measured": 2.842170943040401e-14,
+      "expected": 0.0,
+      "tolerance": 2.0538224476778093e-09,
+      "units": "W/m^2",
+      "passed": true
+    },
+    {
+      "name": "ley_superficial_x-",
+      "measured": 2.842170943040401e-14,
+      "expected": 0.0,
+      "tolerance": 2.0546750989607215e-08,
+      "units": "W/m^2",
+      "passed": true
+    },
+    {
+      "name": "resistencias_en_serie_y+",
+      "measured": 2.842170943040401e-14,
+      "expected": 0.0,
+      "tolerance": 2.0538224476778093e-09,
+      "units": "W/m^2",
+      "passed": true
+    },
+    {
+      "name": "ley_superficial_y+",
+      "measured": 2.842170943040401e-14,
+      "expected": 0.0,
+      "tolerance": 2.0546750989607215e-08,
+      "units": "W/m^2",
+      "passed": true
+    },
+    {
+      "name": "resistencias_en_serie_y-",
+      "measured": 2.842170943040401e-14,
+      "expected": 0.0,
+      "tolerance": 2.0538224476778093e-09,
+      "units": "W/m^2",
+      "passed": true
+    },
+    {
+      "name": "ley_superficial_y-",
+      "measured": 2.842170943040401e-14,
+      "expected": 0.0,
+      "tolerance": 2.0546750989607215e-08,
+      "units": "W/m^2",
+      "passed": true
+    },
+    {
+      "name": "resistencias_en_serie_z+",
+      "measured": 2.842170943040401e-14,
+      "expected": 0.0,
+      "tolerance": 2.0538224476778093e-09,
+      "units": "W/m^2",
+      "passed": true
+    },
+    {
+      "name": "ley_superficial_z+",
+      "measured": 2.842170943040401e-14,
+      "expected": 0.0,
+      "tolerance": 2.0546750989607215e-08,
+      "units": "W/m^2",
+      "passed": true
+    },
+    {
+      "name": "resistencias_en_serie_z-",
+      "measured": 2.842170943040401e-14,
+      "expected": 0.0,
+      "tolerance": 2.0538224476778093e-09,
+      "units": "W/m^2",
+      "passed": true
+    },
+    {
+      "name": "ley_superficial_z-",
+      "measured": 2.842170943040401e-14,
+      "expected": 0.0,
+      "tolerance": 2.0546750989607215e-08,
+      "units": "W/m^2",
+      "passed": true
+    },
+    {
+      "name": "principio_maximo",
+      "measured": 0.0,
+      "expected": 0.0,
+      "tolerance": 5e-09,
+      "units": "degC",
+      "passed": true
+    },
+    {
+      "name": "sentido_intercambio",
+      "measured": 0.0,
+      "expected": 0.0,
+      "tolerance": 0.016203,
+      "units": "J K",
+      "passed": true
+    }
+  ],
+  "energy_initial_J": 0.0,
+  "energy_final_J": -13455099.41544387,
+  "energy_balance_max_error_J": 5.587935447692871e-09,
+  "energy_tolerance_J": 0.0005401,
+  "initial_range_C": 0.0,
+  "final_range_C": 19.186642839994523,
+  "final_min_C": 30.78759148259368,
+  "final_max_C": 49.9742343225882
+}

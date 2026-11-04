@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "nominal": {
+    "origin_m": [
+      -9.1,
+      -9.099999999999998,
+      -0.1
+    ],
+    "spacing_m": [
+      0.4,
+      0.3,
+      0.275
+    ],
+    "shape": [
+      46,
+      61,
+      17
+    ],
+    "upper_m": [
+      9.300000000000002,
+      9.200000000000003,
+      4.575000000000001
+    ],
+    "axes": "XYZ; array[i,j,k]; C-order",
+    "cell_volume_m3": 0.033,
+    "grid_cells": 47702,
+    "occupied_cells": 20084,
+    "volume_voxel_m3": 662.772,
+    "volume_reference_mesh_m3": 636.8777175824058,
+    "absolute_error_m3": 25.89428241759424,
+    "relative_error": 0.04065816985384446,
+    "boundary_ties": 0,
+    "by_pour": [
+      {
+        "vertida_id": 1,
+        "guid": "0oY4bM1krVGQdxfBrXmxJm",
+        "cells": 4464,
+        "volume_voxel_m3": 147.312,
+        "volume_reference_m3": 147.62571362977107,
+        "absolute_error_m3": 0.3137136297710583,
+        "signed_error_m3": -0.3137136297710583,
+        "relative_error": 0.002125060885787264
+      },
+      {
+        "vertida_id": 2,
+        "guid": "3hfPF39u1QnvSBQJFmy$c2",
+        "cells": 4464,
+        "volume_voxel_m3": 147.312,
+        "volume_reference_m3": 147.6257136297711,
+        "absolute_error_m3": 0.31371362977108674,
+        "signed_error_m3": -0.31371362977108674,
+        "relative_error": 0.002125060885787456
+      },
+      {
+        "vertida_id": 3,
+        "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+        "cells": 6919,
+        "volume_voxel_m3": 228.327,
+        "volume_reference_m3": 214.2243508999919,
+        "absolute_error_m3": 14.102649100008108,
+        "signed_error_m3": 14.102649100008108,
+        "relative_error": 0.06583121405554761
+      },
+      {
+        "vertida_id": 4,
+        "guid": "1jVXFE7TLGsO88Iyj_MihB",
+        "cells": 2965,
+        "volume_voxel_m3": 97.845,
+        "volume_reference_m3": 88.92474828213061,
+        "absolute_error_m3": 8.920251717869391,
+        "signed_error_m3": 8.920251717869391,
+        "relative_error": 0.1003123639953211
+      },
+      {
+        "vertida_id": 5,
+        "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+        "cells": 1272,
+        "volume_voxel_m3": 41.976,
+        "volume_reference_m3": 38.477191140741105,
+        "absolute_error_m3": 3.4988088592588937,
+        "signed_error_m3": 3.4988088592588937,
+        "relative_error": 0.09093202376600257
+      }
+    ],
+    "elapsed_s": 0.010604699957184494
+  },
+  "exterior": {
+    "count": 6836,
+    "area_m2": 759.3100000000002,
+    "area_by_orientation_m2": {
+      "x-": 55.935,
+      "x+": 55.935,
+      "y-": 55.88000000000002,
+      "y+": 55.88000000000002,
+      "z-": 267.84000000000003,
+      "z+": 267.84000000000003
+    },
+    "area_by_pour_m2": {
+      "1": 307.44000000000005,
+      "2": 43.92,
+      "3": 206.88500000000005,
+      "4": 132.76500000000001,
+      "5": 68.3
+    },
+    "count_by_class": {
+      "bottom": 2232,
+      "lateral": 2372,
+      "top": 2232
+    }
+  },
+  "interfaces": {
+    "count": 5795,
+    "area_m2": 695.4000000000002,
+    "area_by_pair_m2": {
+      "1-2": 267.8400000000071,
+      "2-3": 263.5200000000069,
+      "3-4": 125.88000000000174,
+      "4-5": 38.159999999999954
+    }
+  },
+  "hydration": {
+    "model": "Curva adiabática cosenoidal prescrita, sin calibrar",
+    "temperature_dependence": false,
+    "H_vol_J_m3": 40000000.0,
+    "duration_s": 129600.0,
+    "potential_released_J_m3": 40000000.0
+  },
+  "assembly": {
+    "capacity_active_J_K": 1431587520.0,
+    "conductive_contacts": 56834,
+    "stable_dt_s": 17068.20921716717,
+    "source_power_W": 304976.2612791601,
+    "outward_power_W": 40462.61497737556,
+    "balance_residual_W": 1.4551915228366852e-11,
+    "balance_tolerance_W": 0.00030497626127916013
+  },
+  "integration": "Ensamblaje enmascarado de potencia y capacidad verificado; NO integrador transiente final de fundación"
+}

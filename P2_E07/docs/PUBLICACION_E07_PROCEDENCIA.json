@@ -1,0 +1,15 @@
+{
+  "archive_name": "P2_E07.zip",
+  "archive_sha256": "80a2005ba77d773e88161f8157a3aabb287966b21c4fcb835d6e46f40fc1036a",
+  "source_inventory_files_verified": 1811,
+  "source_inventory_mismatches_before_publication": 0,
+  "extracted_useful_files": 1845,
+  "excluded_recreatable_files": 7456,
+  "modified_for_publication": [
+    ".gitattributes",
+    "README.md"
+  ],
+  "code_changes": false,
+  "branch": "codex/e07",
+  "repository": "https://github.com/amvaras/Proyecto-2-MCOC"
+}

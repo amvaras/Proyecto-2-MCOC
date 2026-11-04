@@ -1,0 +1,11 @@
+Comando: ['C:\\Users\\javie\\OneDrive\\Escritorio\\Universidad\\9no semestre\\MCOC\\Proyecto 2\\P2_E06\\.venv\\Scripts\\python.exe', '-X', 'utf8', '-B', 'scripts/build_e06.py', '--evidence', 'evidencias/e06/ejecucion_02', '--document', 'docs/E06_DOSSIER.md', '--figures', 'figures']
+{
+  "status": "PASS",
+  "prose_words": 1100,
+  "all_visible_words": 1335,
+  "figures": [
+    "e06_convergencia_espacial.png",
+    "e06_convergencia_temporal.png",
+    "e06_bim_fundacion.png"
+  ]
+}

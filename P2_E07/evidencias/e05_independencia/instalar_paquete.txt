@@ -1,0 +1,13 @@
+Obtaining file:///C:/Users/javie/AppData/Local/Temp/mcoc_e05_independiente_e4v3gpja/P2_E05_autonomo
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: mcoc-p2
+  Building editable for mcoc-p2 (pyproject.toml): started
+  Building editable for mcoc-p2 (pyproject.toml): finished with status 'done'
+  Created wheel for mcoc-p2: filename=mcoc_p2-0.5.0-0.editable-py3-none-any.whl size=1406 sha256=e3384f6d28cfaed1e6bdef3a42d7376d7cce125c2fe53ef58976d3427b79d741
+  Stored in directory: C:\Users\javie\AppData\Local\Temp\pip-ephem-wheel-cache-xkuv8z5i\wheels\11\09\12\23d7a6d41b832417756cdf5a0a5be4bd37f1512d9aa0c3d659
+Successfully built mcoc-p2
+Installing collected packages: mcoc-p2
+Successfully installed mcoc-p2-0.5.0

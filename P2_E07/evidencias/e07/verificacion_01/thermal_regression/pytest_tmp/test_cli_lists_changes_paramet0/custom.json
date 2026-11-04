@@ -1,0 +1,1 @@
+{"defaults": {"n": 4, "rho": 2200.0, "cp": 1000.0}, "cases": {"source": {"dimension": 3, "lengths_m": [1.0, 1.5, 2.0]}}}

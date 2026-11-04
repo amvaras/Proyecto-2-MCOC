@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-28T19:21:12.734514+00:00",
+  "current_markdown_files": 4,
+  "valid_local_links": 38,
+  "inherited_files": 899,
+  "inherited_modified": [
+    "README.md"
+  ],
+  "inherited_missing": [],
+  "word_limit_rejection": true,
+  "invalid_control_rejection": true
+}

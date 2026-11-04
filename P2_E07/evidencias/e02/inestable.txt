@@ -1,0 +1,2 @@
+Exit code: 2
+ERROR: dt=100 s supera cota explícita 84.375 s (incluye Robin)

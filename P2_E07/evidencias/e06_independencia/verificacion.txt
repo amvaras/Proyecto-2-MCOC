@@ -1,0 +1,18 @@
+E06: thermal
+E06: robin25
+E06: reconstruir_ifc
+E06: verificar_ifc_reconstruido
+E06: dossier_figuras
+{
+  "status": "passed",
+  "tests": {
+    "tests": 198,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "elapsed_s": 25.912
+  },
+  "parameter_cases_passed": 60,
+  "prose_words": 1100,
+  "formal_status": "COMMIT E06 PENDIENTE DE PUBLICACIÓN"
+}

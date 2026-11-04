@@ -1,0 +1,123 @@
+{
+  "case": "energy",
+  "category": "conservation",
+  "status": "PASS",
+  "scope": "Verificacion de caja ideal E05; no prediccion de fundacion ni conexion IFC",
+  "config": {
+    "dimension": 3,
+    "n": 12,
+    "shape": [
+      12,
+      12,
+      12
+    ],
+    "lengths_m": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "k": 2.0,
+    "rho": 2400.0,
+    "cp": 900.0,
+    "initial_C": 20.0,
+    "amplitude_C": 10.0,
+    "ambient_C": 10.0,
+    "h": 12.0,
+    "q_dot": 1000.0,
+    "flux": 100.0,
+    "face": null,
+    "dt_s": null,
+    "t_end_s": 10000.0,
+    "heterogeneous": true,
+    "atol_C": 0.03,
+    "energy_rtol": 5e-12,
+    "energy_atol_J": 1e-07
+  },
+  "dimension": 3,
+  "shape": [
+    12,
+    12,
+    12
+  ],
+  "cells": 1728,
+  "lengths_m": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "spacing_m": [
+    0.08333333333333333,
+    0.08333333333333333,
+    0.08333333333333333
+  ],
+  "temperature_location": "cell_centers",
+  "alpha_m2_s": null,
+  "requested_dt_s": 229.99999999999997,
+  "effective_dt_s": 227.27272727272728,
+  "stable_dt_s": 383.3333333333333,
+  "steps": 44,
+  "t_end_s": 10000.0,
+  "fourier_per_axis": null,
+  "fourier_is_not_universal_limit": true,
+  "dt_over_local_limit": 0.5928853754940712,
+  "boundaries": {
+    "x+": {
+      "type": "Neumann",
+      "outward_flux": 0.0
+    },
+    "x-": {
+      "type": "Neumann",
+      "outward_flux": 0.0
+    },
+    "y+": {
+      "type": "Neumann",
+      "outward_flux": 0.0
+    },
+    "y-": {
+      "type": "Neumann",
+      "outward_flux": 0.0
+    },
+    "z+": {
+      "type": "Neumann",
+      "outward_flux": 0.0
+    },
+    "z-": {
+      "type": "Neumann",
+      "outward_flux": 0.0
+    }
+  },
+  "checks": [
+    {
+      "name": "balance_energia_todos_los_pasos",
+      "measured": 4.4792614062316716e-10,
+      "expected": 0.0,
+      "tolerance": 0.00030850170990312005,
+      "units": "J",
+      "passed": true
+    },
+    {
+      "name": "cancelacion_intercambios_internos",
+      "measured": -8.326672684688674e-16,
+      "expected": 0.0,
+      "tolerance": 2.7093203856273928e-09,
+      "units": "W",
+      "passed": true
+    },
+    {
+      "name": "energia_adiabatica_no_uniforme",
+      "measured": 4.4792614062316716e-10,
+      "expected": 0.0,
+      "tolerance": 0.00030850170990312005,
+      "units": "J",
+      "passed": true
+    }
+  ],
+  "energy_initial_J": -2.637534635141492e-11,
+  "energy_final_J": 2.977458279929124e-10,
+  "energy_balance_max_error_J": 4.4792614062316716e-10,
+  "energy_tolerance_J": 0.00030850170990312005,
+  "initial_range_C": 19.49107058316359,
+  "final_range_C": 14.825095103034256,
+  "final_min_C": 12.587452448482873,
+  "final_max_C": 27.41254755151713
+}
