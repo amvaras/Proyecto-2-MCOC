@@ -1,0 +1,2 @@
+PASS energy: balance_energia_todos_los_pasos=1.86e-09 (tolerancia 0.000595), cancelacion_intercambios_internos=0 (tolerancia 2.53e-09), energia_adiabatica_no_uniforme=1.86e-09 (tolerancia 0.000595)
+Resultado: PASS; archivos en C:\Users\javie\OneDrive\Escritorio\Universidad\9no semestre\MCOC\Proyecto 2\P2_E07\evidencias\e07\verificacion_02\thermal_regression\adiabatico_heterogeneo

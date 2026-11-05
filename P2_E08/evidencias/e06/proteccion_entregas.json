@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-28T19:17:25.659223+00:00",
+  "deliveries": {
+    "P2_E01": {
+      "files_before": 7579,
+      "files_after": 7579,
+      "changed_or_removed": [],
+      "added": [],
+      "unchanged": true
+    },
+    "P2_E02": {
+      "files_before": 7660,
+      "files_after": 7660,
+      "changed_or_removed": [],
+      "added": [],
+      "unchanged": true
+    },
+    "P2_E04": {
+      "files_before": 7722,
+      "files_after": 7722,
+      "changed_or_removed": [],
+      "added": [],
+      "unchanged": true
+    },
+    "P2_E05": {
+      "files_before": 8342,
+      "files_after": 8342,
+      "changed_or_removed": [],
+      "added": [],
+      "unchanged": true
+    }
+  },
+  "absent": [
+    "P2_E03"
+  ]
+}

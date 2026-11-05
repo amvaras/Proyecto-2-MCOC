@@ -1,0 +1,2 @@
+PASS energy: balance_energia_todos_los_pasos=1.86e-09 (tolerancia 0.000595), cancelacion_intercambios_internos=0 (tolerancia 2.53e-09), energia_adiabatica_no_uniforme=1.86e-09 (tolerancia 0.000595)
+Resultado: PASS; archivos en C:\Users\Usuario\AppData\Local\Temp\mcoc_e06_independiente_jad2m_xv\P2_E06_autonomo\results\auditoria_e06_20261104\independencia_02\resultados\thermal\adiabatico_heterogeneo

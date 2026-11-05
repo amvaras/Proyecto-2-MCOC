@@ -1,0 +1,41 @@
+.....................................................................F.. [ 52%]
+.................................................................        [100%]
+================================== FAILURES ===================================
+_______________________ test_cli_changed_and_unchanged ________________________
+
+tmp_path = WindowsPath('C:/Users/Usuario/Desktop/Proyecto-2-MCOC/P2_E04/results/e04/pytest_tmp/test_cli_changed_and_unchanged0')
+
+    def test_cli_changed_and_unchanged(tmp_path):
+        command=[sys.executable,str(ROOT/'scripts/compare_ifc_e02.py'),str(BASE)]
+        assert subprocess.run(command+[str(BASE),'--require-change'],capture_output=True).returncode == 1
+        path=modified(tmp_path)
+        completed=subprocess.run(command+[str(path),'--require-change','--json',str(tmp_path/'report.json')],capture_output=True,text=True)
+        assert completed.returncode == 0
+>       assert 'Fixture Python E02, NO Bonsai' in completed.stdout
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       TypeError: argument of type 'NoneType' is not iterable
+
+tests\test_e02.py:99: TypeError
+============================== warnings summary ===============================
+tests/test_e02.py::test_cli_changed_and_unchanged
+  C:\Users\Usuario\Desktop\Proyecto-2-MCOC\.venv-e04\Lib\site-packages\_pytest\threadexception.py:58: PytestUnhandledThreadExceptionWarning: Exception in thread Thread-3 (_readerthread)
+  
+  Traceback (most recent call last):
+    File "C:\Users\Usuario\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\threading.py", line 1075, in _bootstrap_inner
+      self.run()
+    File "C:\Users\Usuario\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\threading.py", line 1012, in run
+      self._target(*self._args, **self._kwargs)
+    File "C:\Users\Usuario\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\subprocess.py", line 1599, in _readerthread
+      buffer.append(fh.read())
+                    ^^^^^^^^^
+    File "<frozen codecs>", line 322, in decode
+  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xed in position 249: invalid continuation byte
+  
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+    warnings.warn(pytest.PytestUnhandledThreadExceptionWarning(msg))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_e02.py::test_cli_changed_and_unchanged - TypeError: argumen...
+1 failed, 136 passed, 1 warning in 30.74s

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "prose_words": 1100,
+  "all_visible_words": 1335,
+  "figures": [
+    "e06_convergencia_espacial.png",
+    "e06_convergencia_temporal.png",
+    "e06_bim_fundacion.png"
+  ]
+}
+C:\Users\javie\OneDrive\Escritorio\Universidad\9no semestre\MCOC\Proyecto 2\P2_E06\scripts\build_e06.py:330: SyntaxWarning: invalid escape sequence '\p'
+  def main():

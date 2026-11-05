@@ -1,0 +1,1 @@
+ERROR: Resolución positiva y margen no negativo

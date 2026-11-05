@@ -1,0 +1,10 @@
+exact_1d     exact
+exact_2d     exact
+exact_3d     exact
+energy       conservation
+source       source
+neumann      boundary
+robin        boundary
+spatial      convergence
+temporal     convergence
+stability    stability

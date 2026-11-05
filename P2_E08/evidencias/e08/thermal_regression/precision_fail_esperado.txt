@@ -1,0 +1,2 @@
+FAIL exact_2d: balance_energia_todos_los_pasos=0 (tolerancia 0.000324), cancelacion_intercambios_internos=0 (tolerancia 1.8e-09), error_Linf=0.00374 (tolerancia 1e-12), Dirichlet_cara_x+=0 (tolerancia 2e-10), Dirichlet_cara_x-=0 (tolerancia 2e-10), Dirichlet_cara_y+=0 (tolerancia 2e-10), Dirichlet_cara_y-=0 (tolerancia 2e-10)
+Resultado: FAIL; archivos en C:\Users\Usuario\Desktop\Proyecto-2-MCOC\P2_E08\results\e08_verificacion_cierre\thermal_regression\precision_fail

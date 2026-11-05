@@ -1,0 +1,1 @@
+ERROR: Unidades incompatibles; se requieren SI: {'length': 'm', 'time': 's', 'temperature': 'degC', 'k': 'W/(m K)', 'rho': 'kg/m^3', 'cp': 'J/(kg K)', 'q_dot': 'W/m^3', 'flux': 'W/m^2', 'h': 'W/(m^2 K)'}

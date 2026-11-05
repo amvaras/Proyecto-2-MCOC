@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "input_hashes_equal": 49,
+  "current_inputs_match": true,
+  "scientific_summaries_equal": true,
+  "arrays_identical": 34,
+  "figures_identical": {
+    "e07_activacion_temporal.png": true,
+    "e07_error_volumen.png": true,
+    "e07_fundacion_voxelizada.png": true,
+    "e07_hidratacion_preliminar.png": true,
+    "e07_superficies_interfaces.png": true
+  },
+  "six_faces_identity": true,
+  "oriented_area_closure": true,
+  "test_breakdown": {
+    "tests.test_diffusion_1d": 62,
+    "tests.test_e02": 13,
+    "tests.test_e05_verification": 61,
+    "tests.test_e07_cli": 7,
+    "tests.test_e07_construction": 22,
+    "tests.test_e07_geometry": 25,
+    "tests.test_ifc": 5,
+    "tests.test_thermal_nd": 57
+  },
+  "inherited_python_checked": 29
+}

@@ -1,0 +1,293 @@
+{
+  "status": "passed",
+  "started_utc": "2026-10-28T14:59:47.325420+00:00",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "commands": [
+    {
+      "name": "pip_check",
+      "arguments": [
+        "-m",
+        "pip",
+        "check"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "elapsed_s": 0.747602800023742
+    },
+    {
+      "name": "pytest",
+      "arguments": [
+        "-m",
+        "pytest",
+        "tests",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "--basetemp=C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e05_independiente_e4v3gpja\\resultados\\pytest_tmp",
+        "--junitxml=C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e05_independiente_e4v3gpja\\resultados\\pytest.xml"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "elapsed_s": 25.746743799943943
+    },
+    {
+      "name": "listar",
+      "arguments": [
+        "examples/run_e05.py",
+        "--list"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "elapsed_s": 0.6851142999948934
+    },
+    {
+      "name": "battery",
+      "arguments": [
+        "examples/run_e05.py",
+        "--all",
+        "--config",
+        "configs/e05/lab.json",
+        "--output",
+        "C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e05_independiente_e4v3gpja\\resultados\\battery"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "elapsed_s": 3.828436399984639
+    },
+    {
+      "name": "exact_3d_modificado",
+      "arguments": [
+        "examples/run_e05.py",
+        "--case",
+        "exact_3d",
+        "--shape",
+        "8",
+        "10",
+        "12",
+        "--lengths",
+        "1.2",
+        "0.9",
+        "1.6",
+        "--k",
+        "3.1",
+        "--rho",
+        "2300",
+        "--cp",
+        "870",
+        "--initial",
+        "18",
+        "--amplitude",
+        "7",
+        "--dt",
+        "20",
+        "--t-end",
+        "3600",
+        "--output",
+        "C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e05_independiente_e4v3gpja\\resultados\\exact_3d_modificado"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "elapsed_s": 1.1181352999992669
+    },
+    {
+      "name": "bordes_modificados",
+      "arguments": [
+        "examples/run_e05.py",
+        "--category",
+        "boundary",
+        "--dim",
+        "3",
+        "--n",
+        "5",
+        "--lengths",
+        "1.3",
+        "1.8",
+        "0.7",
+        "--face",
+        "z+",
+        "--flux",
+        "-135",
+        "--initial",
+        "22",
+        "--ambient",
+        "40",
+        "--h",
+        "50",
+        "--t-end",
+        "5400",
+        "--output",
+        "C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e05_independiente_e4v3gpja\\resultados\\bordes_modificados"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "elapsed_s": 1.436485400015954
+    },
+    {
+      "name": "fuente_negativa",
+      "arguments": [
+        "examples/run_e05.py",
+        "--case",
+        "source",
+        "--dim",
+        "1",
+        "--n",
+        "7",
+        "--q-dot",
+        "-1200",
+        "--rho",
+        "2100",
+        "--cp",
+        "1100",
+        "--t-end",
+        "3700",
+        "--output",
+        "C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e05_independiente_e4v3gpja\\resultados\\fuente_negativa"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "elapsed_s": 0.9761254999903031
+    },
+    {
+      "name": "adiabatico_heterogeneo",
+      "arguments": [
+        "examples/run_e05.py",
+        "--case",
+        "energy",
+        "--dim",
+        "1",
+        "--n",
+        "11",
+        "--heterogeneous",
+        "--lengths",
+        "1.7",
+        "--amplitude",
+        "14",
+        "--t-end",
+        "7200",
+        "--output",
+        "C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e05_independiente_e4v3gpja\\resultados\\adiabatico_heterogeneo"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "elapsed_s": 1.0133408000110649
+    },
+    {
+      "name": "inestabilidad_esperada",
+      "arguments": [
+        "examples/run_e05.py",
+        "--case",
+        "exact_3d",
+        "--dt",
+        "1e20",
+        "--output",
+        "C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e05_independiente_e4v3gpja\\resultados\\inestable"
+      ],
+      "returncode": 2,
+      "expected_returncode": 2,
+      "elapsed_s": 0.6956390999839641
+    },
+    {
+      "name": "precision_fail_esperado",
+      "arguments": [
+        "examples/run_e05.py",
+        "--case",
+        "exact_2d",
+        "--n",
+        "3",
+        "--atol-c",
+        "1e-12",
+        "--output",
+        "C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e05_independiente_e4v3gpja\\resultados\\precision_fail"
+      ],
+      "returncode": 1,
+      "expected_returncode": 1,
+      "elapsed_s": 1.0346641999785788
+    },
+    {
+      "name": "unidades_invalidas_esperadas",
+      "arguments": [
+        "examples/run_e05.py",
+        "--case",
+        "source",
+        "--config",
+        "C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e05_independiente_e4v3gpja\\resultados\\unidades_invalidas.json"
+      ],
+      "returncode": 2,
+      "expected_returncode": 2,
+      "elapsed_s": 0.6637148000299931
+    },
+    {
+      "name": "ifc_check",
+      "arguments": [
+        "scripts/check_ifc.py",
+        "geometry/foundation.ifc",
+        "--json",
+        "C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e05_independiente_e4v3gpja\\resultados\\ifc_check.json"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "elapsed_s": 2.3143819000106305
+    },
+    {
+      "name": "bonsai_heredado",
+      "arguments": [
+        "scripts/check_bonsai_evidence.py",
+        "--json",
+        "C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e05_independiente_e4v3gpja\\resultados\\bonsai_evidence.json"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "elapsed_s": 0.4117483000154607
+    }
+  ],
+  "imported_solver": "C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e05_independiente_e4v3gpja\\P2_E05_autonomo\\src\\mcoc_p2\\__init__.py",
+  "packages": {
+    "numpy": "2.5.4",
+    "pytest": "9.1.1",
+    "matplotlib": "3.11.2",
+    "ifcopenshell": "0.9.0.post1",
+    "mcoc-p2": "0.5.0"
+  },
+  "inherited_python_files_checked": 20,
+  "inherited_python_files_changed": [],
+  "tests": {
+    "tests": 198,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "elapsed_s": 25.272
+  },
+  "parameter_cases_passed": 60,
+  "finished_utc": "2026-10-28T15:00:28.274023+00:00",
+  "input_sha256": {
+    "src/mcoc_p2/diffusion_1d.py": "154406eb286d54ce6c06b1a17658f8fe6492eaf5aa07a759c1d179c1fc34b762",
+    "src/mcoc_p2/thermal_nd.py": "d1d870072f4fb789fb4230fdc4a3ff7009502d68bf392a909666e7066f3d7ab6",
+    "src/mcoc_p2/verification_e05.py": "b33626b5bfab6743ce47e0097fe6899897cbc4d4ddb465a3357662c5d7429c65",
+    "src/mcoc_p2/__init__.py": "f78e88589677fd11447ae7b7edb0aff25fcb5d888485a30ffb15222e31dd8f6a",
+    "tests/test_diffusion_1d.py": "99d461a5aa06acbc2826090ab1c92cb87e44f15a3a81cde5d63ade74f2f9eb14",
+    "tests/test_e02.py": "6130b49f577eb1652accdb1eb74ca34023b34b2c57c09e8e273db35c6479460c",
+    "tests/test_e05_verification.py": "14b06b8cc3e9e8f4d3ce2e31502f09fc485997673e1dd09af07abc03b3a6a7ff",
+    "tests/test_ifc.py": "83bb6df49752d2c4cbeacd05439eb185e947dfca9e674b35dd3a7d0e9ff00344",
+    "tests/test_thermal_nd.py": "9c601ec0df51d9715e231ea982af2ccc0f05ab928b6982ab3388134fe671f60c",
+    "scripts/check_bonsai_evidence.py": "396bf405179764a5cc832a1b031c2bac05017fc2ca73ea36d73b072e064e9ffc",
+    "scripts/check_diffusion_accuracy.py": "f0093385ac05d93de5946248685e28cede804f1fe4ecf1ff6d6dcc7428e90658",
+    "scripts/check_e01_integrity_e02.py": "0765eee78a2e60f15c1391b30c1f135d41950c80eab50918c79e337a949f2842",
+    "scripts/check_e04_convergence.py": "3f13dfc89427ef0ea5ac24135c0e3e0838c05b06757c1d275f5450bf6071cf5e",
+    "scripts/check_e05_independence.py": "c07ca62177166bcc7b8136357a18f2936e2cefc2de52cc2ae2cba61be1e52648",
+    "scripts/check_ifc.py": "e1f90e1a22de73ea43c812a001a7d63ce62699a15dfba4f703fe40c8a5e144ad",
+    "scripts/compare_ifc_e02.py": "1e2896985d60ee71a68c7e005a455c76021b091bbedc736868a08177329d507e",
+    "scripts/create_preliminary_ifc.py": "fbf9ac2b8d13f231ccc63f7ec7e2daac71b4767b1788c37b1b1b8c76da4cdc30",
+    "scripts/render_ifc_preview.py": "ac5f6b3e375187c7a94a08ed486e6b7a329436d5ce0c1dd5ef80d6cac92b3a34",
+    "scripts/verify_e01.py": "82939a6cf22a213df2e38c02b4e7e6d696d762e97927cb9d93c4cea9c57d0274",
+    "scripts/verify_e04.py": "fafb33f73c18756d158303e849245f6e25eef8e5ccecf1dd41b8d487aa1c95cb",
+    "scripts/verify_e05.py": "2fd028aa66ce8ecf4881d11db8ba23e8029ceebcc4cfe63d8c50af5be94bf4ff",
+    "examples/run_diffusion_1d.py": "05b113c4fa6b7c97c123198b4a1d0bcf23ae3f1f7f6c6e4ecd269e74dca0fe10",
+    "examples/run_e02_1d.py": "39519c0a0def27a52040b113376d73c67724320d3a73ff2e0c58f3e78444fe76",
+    "examples/run_e04.py": "015796d10c2cdb2a6649f3a031bde0718fff21bcd171d6b1e3ce6286727429b0",
+    "examples/run_e05.py": "e3d1d74e913eb9c69638201d1505e9dcbaa7000e92cfc89b9d87072cafe5715a",
+    "configs/e05/lab.json": "a3cbdf20fd253972a87d96f255bb868bdcbf36121fec265ea1b92cabc95e2482",
+    "geometry/foundation.ifc": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a",
+    "geometry/e02/foundation_trabajo.ifc": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a"
+  }
+}

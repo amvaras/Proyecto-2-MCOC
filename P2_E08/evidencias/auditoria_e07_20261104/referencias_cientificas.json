@@ -1,0 +1,258 @@
+[
+  {
+    "case": "staircase_rotated_cube",
+    "exact_volume_m3": 1.0,
+    "exact_area_m2": 6.0,
+    "cartesian_area_limit_m2": 7.656854249492381,
+    "rows": [
+      {
+        "n": 20,
+        "dx_m": 0.07071067811865475,
+        "volume_m3": 1.1,
+        "staircase_area_m2": 7.856854249492381
+      },
+      {
+        "n": 40,
+        "dx_m": 0.035355339059327376,
+        "volume_m3": 1.05,
+        "staircase_area_m2": 7.756854249492382
+      },
+      {
+        "n": 80,
+        "dx_m": 0.017677669529663688,
+        "volume_m3": 1.025,
+        "staircase_area_m2": 7.70685424949238
+      }
+    ]
+  },
+  {
+    "case": "hydration_budget",
+    "time_s": 0.0,
+    "by_pour": [
+      {
+        "vertida_id": 7,
+        "activation_s": 0,
+        "age_s": 0.0,
+        "active": true,
+        "initial_C": 20,
+        "volume_m3": 2.0,
+        "material": {
+          "k": 2.0,
+          "rho": 2400.0,
+          "cp": 900.0
+        },
+        "H_vol_J_m3": 1000.0,
+        "duration_s": 10.0,
+        "adiabatic_potential_rise_C": 0.000462962962962963,
+        "source_W_m3": 0.0,
+        "source_power_W": 0.0,
+        "released_J_m3": 0.0,
+        "released_energy_J": 0.0
+      },
+      {
+        "vertida_id": 11,
+        "activation_s": 10,
+        "age_s": null,
+        "active": false,
+        "initial_C": 22,
+        "volume_m3": 2.0,
+        "material": {
+          "k": 3.0,
+          "rho": 2000.0,
+          "cp": 1000.0
+        },
+        "H_vol_J_m3": 2000.0,
+        "duration_s": 10.0,
+        "adiabatic_potential_rise_C": 0.001,
+        "source_W_m3": 0.0,
+        "source_power_W": 0.0,
+        "released_J_m3": 0.0,
+        "released_energy_J": 0.0
+      }
+    ]
+  },
+  {
+    "case": "hydration_budget",
+    "time_s": 5.0,
+    "by_pour": [
+      {
+        "vertida_id": 7,
+        "activation_s": 0,
+        "age_s": 5.0,
+        "active": true,
+        "initial_C": 20,
+        "volume_m3": 2.0,
+        "material": {
+          "k": 2.0,
+          "rho": 2400.0,
+          "cp": 900.0
+        },
+        "H_vol_J_m3": 1000.0,
+        "duration_s": 10.0,
+        "adiabatic_potential_rise_C": 0.000462962962962963,
+        "source_W_m3": 157.07963267948963,
+        "source_power_W": 314.15926535897927,
+        "released_J_m3": 499.99999999999994,
+        "released_energy_J": 999.9999999999999
+      },
+      {
+        "vertida_id": 11,
+        "activation_s": 10,
+        "age_s": null,
+        "active": false,
+        "initial_C": 22,
+        "volume_m3": 2.0,
+        "material": {
+          "k": 3.0,
+          "rho": 2000.0,
+          "cp": 1000.0
+        },
+        "H_vol_J_m3": 2000.0,
+        "duration_s": 10.0,
+        "adiabatic_potential_rise_C": 0.001,
+        "source_W_m3": 0.0,
+        "source_power_W": 0.0,
+        "released_J_m3": 0.0,
+        "released_energy_J": 0.0
+      }
+    ]
+  },
+  {
+    "case": "hydration_budget",
+    "time_s": 10.0,
+    "by_pour": [
+      {
+        "vertida_id": 7,
+        "activation_s": 0,
+        "age_s": 10.0,
+        "active": true,
+        "initial_C": 20,
+        "volume_m3": 2.0,
+        "material": {
+          "k": 2.0,
+          "rho": 2400.0,
+          "cp": 900.0
+        },
+        "H_vol_J_m3": 1000.0,
+        "duration_s": 10.0,
+        "adiabatic_potential_rise_C": 0.000462962962962963,
+        "source_W_m3": 0.0,
+        "source_power_W": 0.0,
+        "released_J_m3": 1000.0,
+        "released_energy_J": 2000.0
+      },
+      {
+        "vertida_id": 11,
+        "activation_s": 10,
+        "age_s": 0.0,
+        "active": true,
+        "initial_C": 22,
+        "volume_m3": 2.0,
+        "material": {
+          "k": 3.0,
+          "rho": 2000.0,
+          "cp": 1000.0
+        },
+        "H_vol_J_m3": 2000.0,
+        "duration_s": 10.0,
+        "adiabatic_potential_rise_C": 0.001,
+        "source_W_m3": 0.0,
+        "source_power_W": 0.0,
+        "released_J_m3": 0.0,
+        "released_energy_J": 0.0
+      }
+    ]
+  },
+  {
+    "case": "hydration_budget",
+    "time_s": 15.0,
+    "by_pour": [
+      {
+        "vertida_id": 7,
+        "activation_s": 0,
+        "age_s": 15.0,
+        "active": true,
+        "initial_C": 20,
+        "volume_m3": 2.0,
+        "material": {
+          "k": 2.0,
+          "rho": 2400.0,
+          "cp": 900.0
+        },
+        "H_vol_J_m3": 1000.0,
+        "duration_s": 10.0,
+        "adiabatic_potential_rise_C": 0.000462962962962963,
+        "source_W_m3": 0.0,
+        "source_power_W": 0.0,
+        "released_J_m3": 1000.0,
+        "released_energy_J": 2000.0
+      },
+      {
+        "vertida_id": 11,
+        "activation_s": 10,
+        "age_s": 5.0,
+        "active": true,
+        "initial_C": 22,
+        "volume_m3": 2.0,
+        "material": {
+          "k": 3.0,
+          "rho": 2000.0,
+          "cp": 1000.0
+        },
+        "H_vol_J_m3": 2000.0,
+        "duration_s": 10.0,
+        "adiabatic_potential_rise_C": 0.001,
+        "source_W_m3": 314.15926535897927,
+        "source_power_W": 628.3185307179585,
+        "released_J_m3": 999.9999999999999,
+        "released_energy_J": 1999.9999999999998
+      }
+    ]
+  },
+  {
+    "case": "hydration_budget",
+    "time_s": 20.0,
+    "by_pour": [
+      {
+        "vertida_id": 7,
+        "activation_s": 0,
+        "age_s": 20.0,
+        "active": true,
+        "initial_C": 20,
+        "volume_m3": 2.0,
+        "material": {
+          "k": 2.0,
+          "rho": 2400.0,
+          "cp": 900.0
+        },
+        "H_vol_J_m3": 1000.0,
+        "duration_s": 10.0,
+        "adiabatic_potential_rise_C": 0.000462962962962963,
+        "source_W_m3": 0.0,
+        "source_power_W": 0.0,
+        "released_J_m3": 1000.0,
+        "released_energy_J": 2000.0
+      },
+      {
+        "vertida_id": 11,
+        "activation_s": 10,
+        "age_s": 10.0,
+        "active": true,
+        "initial_C": 22,
+        "volume_m3": 2.0,
+        "material": {
+          "k": 3.0,
+          "rho": 2000.0,
+          "cp": 1000.0
+        },
+        "H_vol_J_m3": 2000.0,
+        "duration_s": 10.0,
+        "adiabatic_potential_rise_C": 0.001,
+        "source_W_m3": 0.0,
+        "source_power_W": 0.0,
+        "released_J_m3": 2000.0,
+        "released_energy_J": 4000.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "nominal": {
+    "origin_m": [
+      -9.0,
+      -8.999999999999998,
+      0.0
+    ],
+    "spacing_m": [
+      0.275,
+      0.275,
+      0.1375
+    ],
+    "shape": [
+      66,
+      66,
+      32
+    ],
+    "upper_m": [
+      9.150000000000002,
+      9.150000000000004,
+      4.4
+    ],
+    "axes": "XYZ; array[i,j,k]; C-order",
+    "cell_volume_m3": 0.010398437500000003,
+    "grid_cells": 139392,
+    "occupied_cells": 60892,
+    "volume_voxel_m3": 633.1816562500002,
+    "volume_reference_mesh_m3": 636.8777175824058,
+    "absolute_error_m3": 3.696061332405634,
+    "relative_error": 0.005803408143145469,
+    "boundary_ties": 0,
+    "by_pour": [
+      {
+        "vertida_id": 1,
+        "guid": "0oY4bM1krVGQdxfBrXmxJm",
+        "cells": 14088,
+        "volume_voxel_m3": 146.49318750000003,
+        "volume_reference_m3": 147.62571362977107,
+        "absolute_error_m3": 1.132526129771037,
+        "signed_error_m3": -1.132526129771037,
+        "relative_error": 0.007671604776192899
+      },
+      {
+        "vertida_id": 2,
+        "guid": "3hfPF39u1QnvSBQJFmy$c2",
+        "cells": 14088,
+        "volume_voxel_m3": 146.49318750000003,
+        "volume_reference_m3": 147.6257136297711,
+        "absolute_error_m3": 1.1325261297710654,
+        "signed_error_m3": -1.1325261297710654,
+        "relative_error": 0.00767160477619309
+      },
+      {
+        "vertida_id": 3,
+        "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+        "cells": 20630,
+        "volume_voxel_m3": 214.51976562500008,
+        "volume_reference_m3": 214.2243508999919,
+        "absolute_error_m3": 0.295414725008186,
+        "signed_error_m3": 0.295414725008186,
+        "relative_error": 0.001378996943004378
+      },
+      {
+        "vertida_id": 4,
+        "guid": "1jVXFE7TLGsO88Iyj_MihB",
+        "cells": 8544,
+        "volume_voxel_m3": 88.84425000000003,
+        "volume_reference_m3": 88.92474828213061,
+        "absolute_error_m3": 0.08049828213057708,
+        "signed_error_m3": -0.08049828213057708,
+        "relative_error": 0.000905240483506133
+      },
+      {
+        "vertida_id": 5,
+        "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+        "cells": 3542,
+        "volume_voxel_m3": 36.831265625000015,
+        "volume_reference_m3": 38.477191140741105,
+        "absolute_error_m3": 1.6459255157410908,
+        "signed_error_m3": -1.6459255157410908,
+        "relative_error": 0.042776654608717594
+      }
+    ],
+    "elapsed_s": 0.057458900031633675
+  },
+  "exterior": {
+    "count": 12736,
+    "area_m2": 747.9312500000002,
+    "area_by_orientation_m2": {
+      "x-": 53.80718750000001,
+      "x+": 53.80718750000001,
+      "y-": 53.80718750000001,
+      "y+": 53.80718750000001,
+      "z-": 266.35125000000005,
+      "z+": 266.35125000000005
+    },
+    "area_by_pour_m2": {
+      "1": 305.6762500000001,
+      "2": 49.080625000000005,
+      "3": 201.91875000000005,
+      "4": 126.52062500000002,
+      "5": 64.73500000000001
+    },
+    "count_by_class": {
+      "bottom": 3522,
+      "lateral": 5692,
+      "top": 3522
+    }
+  },
+  "interfaces": {
+    "count": 9032,
+    "area_m2": 683.0450000000001,
+    "area_by_pair_m2": {
+      "1-2": 266.35125000000676,
+      "2-3": 256.59562500000646,
+      "3-4": 121.83187500000246,
+      "4-5": 38.26624999999995
+    }
+  },
+  "hydration": {
+    "model": "Curva adiabática cosenoidal prescrita, sin calibrar",
+    "temperature_dependence": false,
+    "H_vol_J_m3": 64800000.0,
+    "duration_s": 172800.0,
+    "potential_released_J_m3": 64800000.0
+  },
+  "assembly": {
+    "capacity_active_J_K": 1367672377.5000005,
+    "conductive_contacts": 176308,
+    "stable_dt_s": 6806.250000000002,
+    "source_power_W": 302944.0702618445,
+    "outward_power_W": -2513.0957621758384,
+    "balance_residual_W": 7.685230229981244e-11,
+    "balance_tolerance_W": 0.0003029440702618445
+  },
+  "integration": "Ensamblaje enmascarado de potencia y capacidad verificado; NO integrador transiente final de fundación"
+}

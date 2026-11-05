@@ -1,0 +1,278 @@
+{
+  "schema": "IFC4",
+  "ifc_unit_to_m": 1.0,
+  "coordinates": "world SI m",
+  "source_sha256": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a",
+  "pours": [
+    {
+      "vertida_id": 1,
+      "guid": "0oY4bM1krVGQdxfBrXmxJm",
+      "name": "Vertida_01",
+      "properties": {
+        "VertidaID": 1,
+        "ZInferior_m": 0.0,
+        "ZSuperior_m": 0.55,
+        "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+        "Estado": "Preliminar E01; sin plan constructivo optimizado"
+      },
+      "placement_world_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "geometry_id": "53-world-coords",
+      "vertices": 16,
+      "triangles": 28,
+      "bbox_min_m": [
+        -9.0,
+        -8.999999999999998,
+        0.0
+      ],
+      "bbox_max_m": [
+        9.0,
+        9.0,
+        0.55
+      ],
+      "volume_mesh_m3": 147.62571362977107,
+      "convex": true,
+      "orientation_reversed": false
+    },
+    {
+      "vertida_id": 2,
+      "guid": "3hfPF39u1QnvSBQJFmy$c2",
+      "name": "Vertida_02",
+      "properties": {
+        "VertidaID": 2,
+        "ZInferior_m": 0.55,
+        "ZSuperior_m": 1.1,
+        "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+        "Estado": "Preliminar E01; sin plan constructivo optimizado"
+      },
+      "placement_world_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.55
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "geometry_id": "81-world-coords",
+      "vertices": 16,
+      "triangles": 28,
+      "bbox_min_m": [
+        -9.0,
+        -8.999999999999998,
+        0.55
+      ],
+      "bbox_max_m": [
+        9.0,
+        9.0,
+        1.1
+      ],
+      "volume_mesh_m3": 147.6257136297711,
+      "convex": true,
+      "orientation_reversed": false
+    },
+    {
+      "vertida_id": 3,
+      "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+      "name": "Vertida_03",
+      "properties": {
+        "VertidaID": 3,
+        "ZInferior_m": 1.1,
+        "ZSuperior_m": 2.2,
+        "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+        "Estado": "Preliminar E01; sin plan constructivo optimizado"
+      },
+      "placement_world_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "geometry_id": "108-world-coords",
+      "vertices": 16,
+      "triangles": 28,
+      "bbox_min_m": [
+        -9.0,
+        -8.999999999999998,
+        1.1
+      ],
+      "bbox_max_m": [
+        9.0,
+        9.0,
+        2.2
+      ],
+      "volume_mesh_m3": 214.2243508999919,
+      "convex": true,
+      "orientation_reversed": false
+    },
+    {
+      "vertida_id": 4,
+      "guid": "1jVXFE7TLGsO88Iyj_MihB",
+      "name": "Vertida_04",
+      "properties": {
+        "VertidaID": 4,
+        "ZInferior_m": 2.2,
+        "ZSuperior_m": 3.3,
+        "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+        "Estado": "Preliminar E01; sin plan constructivo optimizado"
+      },
+      "placement_world_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.2
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "geometry_id": "135-world-coords",
+      "vertices": 16,
+      "triangles": 28,
+      "bbox_min_m": [
+        -6.250000000000001,
+        -6.25,
+        2.2
+      ],
+      "bbox_max_m": [
+        6.25,
+        6.25,
+        3.3
+      ],
+      "volume_mesh_m3": 88.92474828213061,
+      "convex": true,
+      "orientation_reversed": false
+    },
+    {
+      "vertida_id": 5,
+      "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+      "name": "Vertida_05",
+      "properties": {
+        "VertidaID": 5,
+        "ZInferior_m": 3.3,
+        "ZSuperior_m": 4.3,
+        "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+        "Estado": "Preliminar E01; sin plan constructivo optimizado"
+      },
+      "placement_world_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.3
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "geometry_id": "157-world-coords",
+      "vertices": 372,
+      "triangles": 740,
+      "bbox_min_m": [
+        -3.5,
+        -3.499500768958985,
+        3.3
+      ],
+      "bbox_max_m": [
+        3.5,
+        3.4995007689589843,
+        4.3
+      ],
+      "volume_mesh_m3": 38.477191140741105,
+      "convex": true,
+      "orientation_reversed": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/workspace/Proyecto-2-MCOC/scripts/check_bonsai_evidence.py", line 63, in <module>
+    main()
+  File "/workspace/Proyecto-2-MCOC/scripts/check_bonsai_evidence.py", line 55, in main
+    text = json.dumps(check_evidence(), ensure_ascii=False, indent=2)
+                      ^^^^^^^^^^^^^^^^
+  File "/workspace/Proyecto-2-MCOC/scripts/check_bonsai_evidence.py", line 20, in check_evidence
+    review = json.loads((ROOT / "Evidencias/bonsai/revision_visual.json").read_text(encoding="utf-8"))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/workspace/Proyecto-2-MCOC/Evidencias/bonsai/revision_visual.json'

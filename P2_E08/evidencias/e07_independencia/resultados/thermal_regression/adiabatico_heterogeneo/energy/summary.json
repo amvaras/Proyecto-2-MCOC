@@ -1,0 +1,97 @@
+{
+  "case": "energy",
+  "category": "conservation",
+  "status": "PASS",
+  "scope": "Verificacion de caja ideal E05; no prediccion de fundacion ni conexion IFC",
+  "config": {
+    "dimension": 1,
+    "n": 11,
+    "shape": [
+      11
+    ],
+    "lengths_m": [
+      1.7
+    ],
+    "k": 2.0,
+    "rho": 2400.0,
+    "cp": 900.0,
+    "initial_C": 20.0,
+    "amplitude_C": 14.0,
+    "ambient_C": 10.0,
+    "h": 12.0,
+    "q_dot": 1000.0,
+    "flux": 100.0,
+    "face": null,
+    "dt_s": null,
+    "t_end_s": 7200.0,
+    "heterogeneous": true,
+    "atol_C": 0.03,
+    "energy_rtol": 5e-12,
+    "energy_atol_J": 1e-07
+  },
+  "dimension": 1,
+  "shape": [
+    11
+  ],
+  "cells": 11,
+  "lengths_m": [
+    1.7
+  ],
+  "spacing_m": [
+    0.15454545454545454
+  ],
+  "temperature_location": "cell_centers",
+  "alpha_m2_s": null,
+  "requested_dt_s": 2373.143801652892,
+  "effective_dt_s": 1800.0,
+  "stable_dt_s": 3955.2396694214867,
+  "steps": 4,
+  "t_end_s": 7200.0,
+  "fourier_per_axis": null,
+  "fourier_is_not_universal_limit": true,
+  "dt_over_local_limit": 0.455092522942681,
+  "boundaries": {
+    "x+": {
+      "type": "Neumann",
+      "outward_flux": 0.0
+    },
+    "x-": {
+      "type": "Neumann",
+      "outward_flux": 0.0
+    }
+  },
+  "checks": [
+    {
+      "name": "balance_energia_todos_los_pasos",
+      "measured": 1.862645149230957e-09,
+      "expected": 0.0,
+      "tolerance": 0.0005945983054536096,
+      "units": "J",
+      "passed": true
+    },
+    {
+      "name": "cancelacion_intercambios_internos",
+      "measured": 0.0,
+      "expected": 0.0,
+      "tolerance": 2.5312993089498874e-09,
+      "units": "W",
+      "passed": true
+    },
+    {
+      "name": "energia_adiabatica_no_uniforme",
+      "measured": 1.862645149230957e-09,
+      "expected": 0.0,
+      "tolerance": 0.0005945983054536096,
+      "units": "J",
+      "passed": true
+    }
+  ],
+  "energy_initial_J": 1300183.6134230234,
+  "energy_final_J": 1300183.613423023,
+  "energy_balance_max_error_J": 1.862645149230957e-09,
+  "energy_tolerance_J": 0.0005945983054536096,
+  "initial_range_C": 27.71500037266611,
+  "final_range_C": 26.41037720207117,
+  "final_min_C": 7.136411686210278,
+  "final_max_C": 33.54678888828145
+}

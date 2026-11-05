@@ -1,0 +1,140 @@
+{
+  "case": "spatial",
+  "category": "convergence",
+  "status": "PASS",
+  "config": {
+    "dimension": 2,
+    "n": 6,
+    "shape": [
+      6,
+      6
+    ],
+    "lengths_m": [
+      1.0,
+      1.0
+    ],
+    "k": 2.0,
+    "rho": 2400.0,
+    "cp": 900.0,
+    "initial_C": 20.0,
+    "amplitude_C": 10.0,
+    "ambient_C": 10.0,
+    "h": 12.0,
+    "q_dot": 1000.0,
+    "flux": 100.0,
+    "face": null,
+    "dt_s": null,
+    "t_end_s": 10000.0,
+    "heterogeneous": false,
+    "atol_C": 0.03,
+    "energy_rtol": 5e-12,
+    "energy_atol_J": 1e-07
+  },
+  "dimension": 2,
+  "rows": [
+    {
+      "shape": [
+        6,
+        6
+      ],
+      "spacing_m": [
+        0.16666666666666666,
+        0.16666666666666666
+      ],
+      "requested_dt_s": 3.125,
+      "effective_dt_s": 3.125,
+      "stable_dt_s": 5000.0,
+      "steps": 3200,
+      "cells": 36,
+      "t_end_s": 10000.0,
+      "fourier_per_axis": [
+        0.00010416666666666667,
+        0.00010416666666666667
+      ],
+      "error_Linf_C": 0.0321839897375682,
+      "error_L2_rms_C": 0.017247348118760292,
+      "temporal_contamination_C": 3.8910410427916986e-05
+    },
+    {
+      "shape": [
+        12,
+        12
+      ],
+      "spacing_m": [
+        0.08333333333333333,
+        0.08333333333333333
+      ],
+      "requested_dt_s": 3.125,
+      "effective_dt_s": 3.125,
+      "stable_dt_s": 1250.0,
+      "steps": 3200,
+      "cells": 144,
+      "t_end_s": 10000.0,
+      "fourier_per_axis": [
+        0.0004166666666666667,
+        0.0004166666666666667
+      ],
+      "error_Linf_C": 0.008489824919855948,
+      "error_L2_rms_C": 0.004318486896264798,
+      "temporal_contamination_C": 4.2295750233734e-05
+    },
+    {
+      "shape": [
+        24,
+        24
+      ],
+      "spacing_m": [
+        0.041666666666666664,
+        0.041666666666666664
+      ],
+      "requested_dt_s": 3.125,
+      "effective_dt_s": 3.125,
+      "stable_dt_s": 312.5,
+      "steps": 3200,
+      "cells": 576,
+      "t_end_s": 10000.0,
+      "fourier_per_axis": [
+        0.0016666666666666668,
+        0.0016666666666666668
+      ],
+      "error_Linf_C": 0.002120398681299207,
+      "error_L2_rms_C": 0.0010647538992534578,
+      "temporal_contamination_C": 4.3179968194806406e-05
+    }
+  ],
+  "error_ratios": [
+    3.790889687524237,
+    4.003881437359731
+  ],
+  "observed_orders": [
+    1.9225364756124212,
+    2.0013992538278322
+  ],
+  "reference": "PDE continua",
+  "checks": [
+    {
+      "name": "orden_observado_0",
+      "measured": 1.9225364756124212,
+      "expected": 2.0,
+      "tolerance": 0.3,
+      "units": "",
+      "passed": true
+    },
+    {
+      "name": "orden_observado_1",
+      "measured": 2.0013992538278322,
+      "expected": 2.0,
+      "tolerance": 0.3,
+      "units": "",
+      "passed": true
+    },
+    {
+      "name": "contaminacion_temporal_menor_10pct",
+      "measured": 0.0,
+      "expected": 0.0,
+      "tolerance": 0.0,
+      "units": "",
+      "passed": true
+    }
+  ]
+}

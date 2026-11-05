@@ -1,0 +1,1 @@
+Dossier anterior preservado antes de la auditoría del 4 de noviembre de 2026. Sus enlaces conservan las rutas relativas del archivo original en docs/E06_DOSSIER.md; este archivo es un respaldo de bytes, no el documento actual de entrega.

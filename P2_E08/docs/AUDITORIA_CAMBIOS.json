@@ -1,0 +1,144 @@
+{
+  "format": "MCOC documented revisions v1",
+  "date_local": "2026-11-04",
+  "note": "Los inventarios originales no se reescriben. Solo se aceptan estos contenidos exactos frente a las bases enumeradas; cambios nuevos requieren revisión.",
+  "files": {
+    ".gitattributes": {
+      "original_sha256": [
+        "dbb3cce54401479e45b80d4a517efa6a62249b9984f9f3bec162fed74d8f544b"
+      ],
+      "current_sha256": "8206a73214794e01325acf5d41ba3599463ea8c94005f71b8e394788e40be397",
+      "reason": "Importación Git E07: preservación de bytes sin conversión de finales de línea; original conservado en docs."
+    },
+    "README.md": {
+      "original_sha256": [
+        "52e8c25913be1cb2ea1a8ce1f7916561ba677970c87039481aad9afca2d86428",
+        "e30fd47345bc45f68fe0420500fc7b3f92c3234949abc5827c0619f6c32ddabc",
+        "2052cebc8afd8e876a05b94c9eb14999c7232e7b634a606819d8f8fcb672fb4c",
+        "858694d2ec7232571815485a7af4877846afafcf72181a755bd01285c089238c"
+      ],
+      "current_sha256": "62fb64b666ae0776cbfcd1552ce13a24b7c284aa92e05d5c0365edc8cec663e3",
+      "reason": "E08: README de la entrega autónoma y aviso de publicación autorizado; versión previa documentada en PUBLICACION_E08.json."
+    },
+    "docs/E05_DEMO.md": {
+      "original_sha256": [
+        "6051d97d3f89b34cfc775ba2eaf11db4936c693b325b762836cf918b7fac914a"
+      ],
+      "current_sha256": "7a4aa2934b1fed20e1690a154773551a02668b3fdcd32effc8ebaca8e965e86e",
+      "reason": "Auditoría E05: aviso de rutas actuales en la carpeta acumulativa P2_E07."
+    },
+    "docs/E05_ESTADO.md": {
+      "original_sha256": [
+        "9f83b51e1348690399b0c7c07f8675e7c13916e0add82c4282bf779b91b4b40d"
+      ],
+      "current_sha256": "16253abc9aebaef79222b637eef77e821de1f84348cf19b6b72eba90d159e55b",
+      "reason": "Auditoría E05: distinción del estado histórico y la revisión actual."
+    },
+    "docs/E06_AUDITORIA.md": {
+      "original_sha256": [
+        "ba09a7f58a6d0f394e8d46af9b221c24faead2f75ffc505d965c29755adecb8d"
+      ],
+      "current_sha256": "65a8d3fabdd3cb14017492dfa4e2b413c3d543522635e53606d6a26a30ce31f1",
+      "reason": "Auditoría E06: aviso de documento histórico con enlace a la revisión actual."
+    },
+    "docs/E06_DOSSIER.md": {
+      "original_sha256": [
+        "985d1897051653b1a0dc4aa7e02af278639d09bcb150d526f777106a0a677b49"
+      ],
+      "current_sha256": "72ecd40c1c04d3b51b52b3ec22187f37e3d3d217fc4aeb5f78955bcb5da81165",
+      "reason": "Auditoría E06: dossier regenerado desde evidencia vigente, rutas actuales y commit pendiente explícito. Original preservado en docs/historico/auditoria_e06_20261104."
+    },
+    "docs/E06_ESTADO.md": {
+      "original_sha256": [
+        "375298bcf4cb7550717ace78a0729dae38b02d55bb0e51bfcb72a8c4427cf3d6"
+      ],
+      "current_sha256": "739e0419f155c7a1389d5f72b49e69065b6eb982a2daa9f50c66b3c5309fc754",
+      "reason": "Auditoría E06: distinción del estado histórico y la revisión actual."
+    },
+    "pyproject.toml": {
+      "original_sha256": [
+        "d39873602cbf152bc8ab2cc1fd77b966c93e7cf7ebd61cfe6877089ddb4efe89",
+        "302610ab1aadab8228402bb6f6f4327e3f70182ad1ce0073fabf0fb63b3c32f6"
+      ],
+      "current_sha256": "7292884f0dec1d1226c5e4c01166b5562160624d5dbe942b197f0fd269fe99d6",
+      "reason": "E08: versión 0.8.0 con integración térmica por etapas; dependencias heredadas sin cambios."
+    },
+    "scripts/build_e06.py": {
+      "original_sha256": [
+        "93d0f4b7266a99bbbcd7b5c017daa2969eec0bf32f2c9a2d6f1fc0c59ea70ee8"
+      ],
+      "current_sha256": "ebb5d471d0bcd2919a49c02f1e6721705eb76db4cc698dbcc2790afbab24ad45",
+      "reason": "Auditoría E06: sustitución de plantilla histórica por generador conciso con métricas reales y rutas relativas."
+    },
+    "scripts/check_e06_dossier.py": {
+      "original_sha256": [
+        "2aab6403fb7f1fd5b98203f1385960a2c16994a54ba7e5e47b73079870a463cf"
+      ],
+      "current_sha256": "7755e01d196a8bc1b60a50674e5ee5b511369b6ad67ca744508f30fbce7ff59e",
+      "reason": "Auditoría E06: cómputo estricto de palabras, cobertura, figuras/IFC y aceptación de SHA o pendiente."
+    },
+    "scripts/verify_e06.py": {
+      "original_sha256": [
+        "c4e8062c7c7a21f556cdef8f445597892b382123465205dba725bf031352bf4e"
+      ],
+      "current_sha256": "58c44256ab31ce79109eb459a5e2d0d9562a933cd7eb558f23e6268f53d8003b",
+      "reason": "Auditoría E06: integridad compatible con revisiones registradas sin modificar inventarios históricos."
+    },
+    "docs/E07_AUDITORIA.md": {
+      "original_sha256": [
+        "ccf831f197ae4a8262d73a53e2aa0aae2c3297d2672d7f53e4803a37495121be"
+      ],
+      "current_sha256": "7bd1fcc9e3c0ba0af9527f9a42749e5a460e71eb32dc5d44d37fbdd36c12a47d",
+      "reason": "Auditoría E07: distinción entre auditoría anterior y revisión actual con evidencia nueva."
+    },
+    "docs/E07_DEMO.md": {
+      "original_sha256": [
+        "7c9feef655bf3ff890e8370683a622418221d42366615488380d422de90e2478"
+      ],
+      "current_sha256": "7660256559b1837e2c5534577da2ccac1d3d2ae18473d14b2c498de876e58734",
+      "reason": "Auditoría E07: rutas del entorno instalado, parámetros efectivos por vertida y alcance del presupuesto de calor."
+    },
+    "docs/E07_ESTADO.md": {
+      "original_sha256": [
+        "33b881efe15a6575a57afdc1da4e3c04d8b6c20e9e1d516617281d7c934330d9"
+      ],
+      "current_sha256": "e2dd6e378c044c1529744d1f5e5dff6c77d8d5a7221436b84e2842cf9fc6411b",
+      "reason": "Auditoría E07: aviso de antecedentes históricos, publicación original y correcciones locales actuales."
+    },
+    "examples/run_e07.py": {
+      "original_sha256": [
+        "2f1f32bd0cbf1b6090665e680e6565af9d009180b721fc0c8ce82584f3b521c5"
+      ],
+      "current_sha256": "6c58ac8d5aec24e2a2a5dbb8575912fef37075c04daf98386f9dff5b6825c7eb",
+      "reason": "Auditoría E07: reportar parámetros efectivos y calor/potencia por vertida, contrastados con el campo de fuente."
+    },
+    "scripts/verify_e07.py": {
+      "original_sha256": [
+        "a6e298f3abbe314b8cc02b3425d43173f092131e8ab46c3b656fbacda9adfa09"
+      ],
+      "current_sha256": "f5accb278a8c39a4263810b599ffb3e14d56b971ada49eed7d8f25f8fc20c192",
+      "reason": "Auditorías E06/E07: revisiones heredadas documentadas y estado de publicación actual sin atribuir cambios locales al SHA previo."
+    },
+    "src/mcoc_p2/e07/construction.py": {
+      "original_sha256": [
+        "aec16c9225b7023e26a1d30a7541eda76fb4c719b773e7e1551da3d3819d2fa9"
+      ],
+      "current_sha256": "1f8bb8086213354aa6f26350d7ee54e85d6cff5bd8734f0622825d9a3fbdd507",
+      "reason": "Auditoría E07: diagnóstico por vertida de edad, parámetros efectivos, potencia e integral de generación prescrita; no integrador térmico."
+    },
+    "src/mcoc_p2/e07/plots.py": {
+      "original_sha256": [
+        "5fb981c0ccc6e853ceee7d9e949aa8797eb15a4cc936487026d84ebe1b1185e6"
+      ],
+      "current_sha256": "57e08c13a2b00d427c08bba3e0636df1e2d84c6b9db1da5c05b94abca0d2d1e0",
+      "reason": "Auditoría E07: colores para IDs arbitrarios, coordenadas mundiales, error cero, horizonte efectivo y curvas de todas las vertidas."
+    },
+    "src/mcoc_p2/e07/voxel.py": {
+      "original_sha256": [
+        "cdd0d3a2d82e2ffffd58159f8a26d1f0b0228d0653edbe46baecf1b9c75e47af"
+      ],
+      "current_sha256": "f693ea9e0ff075cc33ab4072c983f8d5d58446ac93c7b13af440266c146b6988",
+      "reason": "Auditoría E07: métricas de error firmado total, suma de errores absolutos por pieza y máximo relativo para detectar compensación."
+    }
+  }
+}

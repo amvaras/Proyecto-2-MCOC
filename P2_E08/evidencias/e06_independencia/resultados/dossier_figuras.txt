@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "prose_words": 1100,
+  "all_visible_words": 1335,
+  "figures": [
+    "e06_convergencia_espacial.png",
+    "e06_convergencia_temporal.png",
+    "e06_bim_fundacion.png"
+  ]
+}

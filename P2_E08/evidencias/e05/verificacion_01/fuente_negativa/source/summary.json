@@ -1,0 +1,111 @@
+{
+  "case": "source",
+  "category": "source",
+  "status": "PASS",
+  "scope": "Verificacion de caja ideal E05; no prediccion de fundacion ni conexion IFC",
+  "config": {
+    "dimension": 1,
+    "n": 7,
+    "shape": [
+      7
+    ],
+    "lengths_m": [
+      1.0
+    ],
+    "k": 2.0,
+    "rho": 2100.0,
+    "cp": 1100.0,
+    "initial_C": 20.0,
+    "amplitude_C": 10.0,
+    "ambient_C": 10.0,
+    "h": 12.0,
+    "q_dot": -1200.0,
+    "flux": 100.0,
+    "face": null,
+    "dt_s": null,
+    "t_end_s": 3700.0,
+    "heterogeneous": false,
+    "atol_C": 0.03,
+    "energy_rtol": 5e-12,
+    "energy_atol_J": 1e-07,
+    "refinement_n": 6
+  },
+  "dimension": 1,
+  "shape": [
+    7
+  ],
+  "cells": 7,
+  "lengths_m": [
+    1.0
+  ],
+  "spacing_m": [
+    0.14285714285714285
+  ],
+  "temperature_location": "cell_centers",
+  "alpha_m2_s": 8.658008658008658e-07,
+  "requested_dt_s": 7071.428571428572,
+  "effective_dt_s": 3700.0,
+  "stable_dt_s": 11785.714285714286,
+  "steps": 1,
+  "t_end_s": 3700.0,
+  "fourier_per_axis": [
+    0.15696969696969698
+  ],
+  "fourier_is_not_universal_limit": true,
+  "dt_over_local_limit": 0.3139393939393939,
+  "boundaries": {
+    "x+": {
+      "type": "Neumann",
+      "outward_flux": 0.0
+    },
+    "x-": {
+      "type": "Neumann",
+      "outward_flux": 0.0
+    }
+  },
+  "checks": [
+    {
+      "name": "balance_energia_todos_los_pasos",
+      "measured": 1.862645149230957e-09,
+      "expected": 0.0,
+      "tolerance": 0.0002533,
+      "units": "J",
+      "passed": true
+    },
+    {
+      "name": "cancelacion_intercambios_internos",
+      "measured": 0.0,
+      "expected": 0.0,
+      "tolerance": 1e-09,
+      "units": "W",
+      "passed": true
+    },
+    {
+      "name": "fuente_uniforme_todos_los_tiempos",
+      "measured": 0.0,
+      "expected": 0.0,
+      "tolerance": 1.9999999999999998e-10,
+      "units": "degC",
+      "passed": true
+    },
+    {
+      "name": "energia_generada",
+      "measured": 1.862645149230957e-09,
+      "expected": 0.0,
+      "tolerance": 0.0002533,
+      "units": "J",
+      "passed": true
+    }
+  ],
+  "energy_initial_J": 0.0,
+  "energy_final_J": -4439999.999999998,
+  "energy_balance_max_error_J": 1.862645149230957e-09,
+  "energy_tolerance_J": 0.0002533,
+  "initial_range_C": 0.0,
+  "final_range_C": 0.0,
+  "final_min_C": 18.07792207792208,
+  "final_max_C": 18.07792207792208,
+  "error_Linf_C": 0.0,
+  "error_L2_rms_C": 0.0,
+  "error_L2_integral": 0.0
+}

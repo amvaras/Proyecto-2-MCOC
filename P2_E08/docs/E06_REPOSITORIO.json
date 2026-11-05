@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/amvaras/Proyecto-2-MCOC",
+  "checked_utc": "2026-10-28T19:08:39.678Z",
+  "default_branch": "main",
+  "head_sha": "53a9575d19e98143e84286d73f7b81c756aa9929",
+  "head_message": "E01: solver 1D, IFC y tests",
+  "e06_sha": null,
+  "formal_status": "COMMIT E06 PENDIENTE DE PUBLICACIÓN",
+  "note": "main contiene E01; el árbol inspeccionado no contiene dossier E06. No se modificó el remoto."
+}

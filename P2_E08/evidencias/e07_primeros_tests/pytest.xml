@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="2" failures="0" skipped="0" tests="2" time="1.002" timestamp="2026-11-04T08:39:34.264551-03:00" hostname="Asus_Javi"><testcase classname="" name="tests.test_e07_geometry" file="tests/test_e07_geometry.py" time="0.000"><error message="collection failure">ImportError while importing test module 'C:\Users\javie\OneDrive\Escritorio\Universidad\9no semestre\MCOC\Proyecto 2\P2_E07\tests\test_e07_geometry.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\javie\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_e07_geometry.py:10: in &lt;module&gt;
+    from .e07_helpers import cube,solid
+E   ImportError: attempted relative import with no known parent package</error></testcase><testcase classname="" name="tests.test_e07_construction" file="tests/test_e07_construction.py" time="0.000"><error message="collection failure">ImportError while importing test module 'C:\Users\javie\OneDrive\Escritorio\Universidad\9no semestre\MCOC\Proyecto 2\P2_E07\tests\test_e07_construction.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\javie\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_e07_construction.py:8: in &lt;module&gt;
+    from .e07_helpers import labelled
+E   ImportError: attempted relative import with no known parent package</error></testcase></testsuite></testsuites>

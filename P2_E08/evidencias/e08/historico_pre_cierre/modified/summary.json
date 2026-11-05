@@ -1,0 +1,6056 @@
+{
+  "status": "PASS",
+  "delivery": "E08",
+  "configuration": {
+    "description": "E08: construcción y calentamiento ilustrativos; sin calibración Freirina",
+    "spacing_m": [
+      0.55,
+      0.55,
+      0.275
+    ],
+    "resolutions_m": [
+      0.55,
+      0.275,
+      0.1375
+    ],
+    "margin_m": 0.0,
+    "t_end_s": 259200.0,
+    "max_step_s": 3600.0,
+    "save_interval_s": 3600.0,
+    "safety": 0.8,
+    "energy_reference_C": 0.0,
+    "h_W_m2K": 8.0,
+    "ambient_C": 20.0,
+    "material": {
+      "k": 2.0,
+      "rho": 2400.0,
+      "cp": 900.0
+    },
+    "hydration": {
+      "H_vol_J_m3": 64800000.0,
+      "duration_s": 172800.0
+    },
+    "events": [
+      {
+        "pour_id": 1,
+        "activation_s": 0.0,
+        "initial_C": 23.0
+      },
+      {
+        "pour_id": 2,
+        "activation_s": 10800.0,
+        "initial_C": 24.0
+      },
+      {
+        "pour_id": 3,
+        "activation_s": 21600.0,
+        "initial_C": 25.0
+      },
+      {
+        "pour_id": 4,
+        "activation_s": 32400.0,
+        "initial_C": 26.0
+      },
+      {
+        "pour_id": 5,
+        "activation_s": 43200.0,
+        "initial_C": 27.0
+      }
+    ]
+  },
+  "ifc": {
+    "schema": "IFC4",
+    "ifc_unit_to_m": 1.0,
+    "coordinates": "world SI m",
+    "source_sha256": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a"
+  },
+  "pours": [
+    {
+      "vertida_id": 1,
+      "guid": "0oY4bM1krVGQdxfBrXmxJm",
+      "name": "Vertida_01",
+      "properties": {
+        "VertidaID": 1,
+        "ZInferior_m": 0.0,
+        "ZSuperior_m": 0.55,
+        "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+        "Estado": "Preliminar E01; sin plan constructivo optimizado"
+      },
+      "placement_world_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "geometry_id": "53-world-coords",
+      "vertices": 16,
+      "triangles": 28,
+      "bbox_min_m": [
+        -9.0,
+        -8.999999999999998,
+        0.0
+      ],
+      "bbox_max_m": [
+        9.0,
+        9.0,
+        0.55
+      ],
+      "volume_mesh_m3": 147.62571362977107,
+      "convex": true,
+      "orientation_reversed": false
+    },
+    {
+      "vertida_id": 2,
+      "guid": "3hfPF39u1QnvSBQJFmy$c2",
+      "name": "Vertida_02",
+      "properties": {
+        "VertidaID": 2,
+        "ZInferior_m": 0.55,
+        "ZSuperior_m": 1.1,
+        "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+        "Estado": "Preliminar E01; sin plan constructivo optimizado"
+      },
+      "placement_world_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.55
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "geometry_id": "81-world-coords",
+      "vertices": 16,
+      "triangles": 28,
+      "bbox_min_m": [
+        -9.0,
+        -8.999999999999998,
+        0.55
+      ],
+      "bbox_max_m": [
+        9.0,
+        9.0,
+        1.1
+      ],
+      "volume_mesh_m3": 147.6257136297711,
+      "convex": true,
+      "orientation_reversed": false
+    },
+    {
+      "vertida_id": 3,
+      "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+      "name": "Vertida_03",
+      "properties": {
+        "VertidaID": 3,
+        "ZInferior_m": 1.1,
+        "ZSuperior_m": 2.2,
+        "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+        "Estado": "Preliminar E01; sin plan constructivo optimizado"
+      },
+      "placement_world_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "geometry_id": "108-world-coords",
+      "vertices": 16,
+      "triangles": 28,
+      "bbox_min_m": [
+        -9.0,
+        -8.999999999999998,
+        1.1
+      ],
+      "bbox_max_m": [
+        9.0,
+        9.0,
+        2.2
+      ],
+      "volume_mesh_m3": 214.2243508999919,
+      "convex": true,
+      "orientation_reversed": false
+    },
+    {
+      "vertida_id": 4,
+      "guid": "1jVXFE7TLGsO88Iyj_MihB",
+      "name": "Vertida_04",
+      "properties": {
+        "VertidaID": 4,
+        "ZInferior_m": 2.2,
+        "ZSuperior_m": 3.3,
+        "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+        "Estado": "Preliminar E01; sin plan constructivo optimizado"
+      },
+      "placement_world_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.2
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "geometry_id": "135-world-coords",
+      "vertices": 16,
+      "triangles": 28,
+      "bbox_min_m": [
+        -6.250000000000001,
+        -6.25,
+        2.2
+      ],
+      "bbox_max_m": [
+        6.25,
+        6.25,
+        3.3
+      ],
+      "volume_mesh_m3": 88.92474828213061,
+      "convex": true,
+      "orientation_reversed": false
+    },
+    {
+      "vertida_id": 5,
+      "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+      "name": "Vertida_05",
+      "properties": {
+        "VertidaID": 5,
+        "ZInferior_m": 3.3,
+        "ZSuperior_m": 4.3,
+        "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+        "Estado": "Preliminar E01; sin plan constructivo optimizado"
+      },
+      "placement_world_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.3
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "geometry_id": "157-world-coords",
+      "vertices": 372,
+      "triangles": 740,
+      "bbox_min_m": [
+        -3.5,
+        -3.499500768958985,
+        3.3
+      ],
+      "bbox_max_m": [
+        3.5,
+        3.4995007689589843,
+        4.3
+      ],
+      "volume_mesh_m3": 38.477191140741105,
+      "convex": true,
+      "orientation_reversed": false
+    }
+  ],
+  "nominal": {
+    "origin_m": [
+      -9.0,
+      -8.999999999999998,
+      0.0
+    ],
+    "spacing_m": [
+      0.55,
+      0.55,
+      0.275
+    ],
+    "shape": [
+      33,
+      33,
+      16
+    ],
+    "upper_m": [
+      9.150000000000002,
+      9.150000000000004,
+      4.4
+    ],
+    "axes": "XYZ; array[i,j,k]; C-order",
+    "cell_volume_m3": 0.08318750000000003,
+    "grid_cells": 17424,
+    "occupied_cells": 7730,
+    "volume_voxel_m3": 643.0393750000003,
+    "volume_reference_mesh_m3": 636.8777175824058,
+    "absolute_error_m3": 6.161657417594483,
+    "relative_error": 0.009674788813438468,
+    "signed_error_m3": 6.161657417594483,
+    "sum_absolute_pour_errors_m3": 9.18410578183925,
+    "max_pour_relative_error": 0.09829352785719131,
+    "boundary_ties": 0,
+    "by_pour": [
+      {
+        "vertida_id": 1,
+        "guid": "0oY4bM1krVGQdxfBrXmxJm",
+        "cells": 1798,
+        "volume_voxel_m3": 149.57112500000005,
+        "volume_reference_m3": 147.62571362977107,
+        "absolute_error_m3": 1.9454113702289817,
+        "signed_error_m3": 1.9454113702289817,
+        "relative_error": 0.013177998076323328
+      },
+      {
+        "vertida_id": 2,
+        "guid": "3hfPF39u1QnvSBQJFmy$c2",
+        "cells": 1798,
+        "volume_voxel_m3": 149.57112500000005,
+        "volume_reference_m3": 147.6257136297711,
+        "absolute_error_m3": 1.9454113702289533,
+        "signed_error_m3": 1.9454113702289533,
+        "relative_error": 0.013177998076323133
+      },
+      {
+        "vertida_id": 3,
+        "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+        "cells": 2561,
+        "volume_voxel_m3": 213.04318750000007,
+        "volume_reference_m3": 214.2243508999919,
+        "absolute_error_m3": 1.1811633999918172,
+        "signed_error_m3": -1.1811633999918172,
+        "relative_error": 0.005513674776137982
+      },
+      {
+        "vertida_id": 4,
+        "guid": "1jVXFE7TLGsO88Iyj_MihB",
+        "cells": 1065,
+        "volume_voxel_m3": 88.59468750000002,
+        "volume_reference_m3": 88.92474828213061,
+        "absolute_error_m3": 0.3300607821305874,
+        "signed_error_m3": -0.3300607821305874,
+        "relative_error": 0.003711686437204265
+      },
+      {
+        "vertida_id": 5,
+        "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+        "cells": 508,
+        "volume_voxel_m3": 42.259250000000016,
+        "volume_reference_m3": 38.477191140741105,
+        "absolute_error_m3": 3.7820588592589104,
+        "signed_error_m3": 3.7820588592589104,
+        "relative_error": 0.09829352785719131
+      }
+    ]
+  },
+  "volume_study": [
+    {
+      "origin_m": [
+        -9.0,
+        -8.999999999999998,
+        0.0
+      ],
+      "spacing_m": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "shape": [
+        33,
+        33,
+        8
+      ],
+      "upper_m": [
+        9.150000000000002,
+        9.150000000000004,
+        4.4
+      ],
+      "axes": "XYZ; array[i,j,k]; C-order",
+      "cell_volume_m3": 0.16637500000000005,
+      "grid_cells": 8712,
+      "occupied_cells": 3855,
+      "volume_voxel_m3": 641.3756250000002,
+      "volume_reference_mesh_m3": 636.8777175824058,
+      "absolute_error_m3": 4.497907417594433,
+      "relative_error": 0.007062434896715393,
+      "signed_error_m3": 4.497907417594433,
+      "sum_absolute_pour_errors_m3": 10.847855781839243,
+      "max_pour_relative_error": 0.09829352785719131,
+      "boundary_ties": 0,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "guid": "0oY4bM1krVGQdxfBrXmxJm",
+          "cells": 899,
+          "volume_voxel_m3": 149.57112500000005,
+          "volume_reference_m3": 147.62571362977107,
+          "absolute_error_m3": 1.9454113702289817,
+          "signed_error_m3": 1.9454113702289817,
+          "relative_error": 0.013177998076323328
+        },
+        {
+          "vertida_id": 2,
+          "guid": "3hfPF39u1QnvSBQJFmy$c2",
+          "cells": 899,
+          "volume_voxel_m3": 149.57112500000005,
+          "volume_reference_m3": 147.6257136297711,
+          "absolute_error_m3": 1.9454113702289533,
+          "signed_error_m3": 1.9454113702289533,
+          "relative_error": 0.013177998076323133
+        },
+        {
+          "vertida_id": 3,
+          "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+          "cells": 1275,
+          "volume_voxel_m3": 212.12812500000007,
+          "volume_reference_m3": 214.2243508999919,
+          "absolute_error_m3": 2.096225899991822,
+          "signed_error_m3": -2.096225899991822,
+          "relative_error": 0.009785189644338893
+        },
+        {
+          "vertida_id": 4,
+          "guid": "1jVXFE7TLGsO88Iyj_MihB",
+          "cells": 528,
+          "volume_voxel_m3": 87.84600000000003,
+          "volume_reference_m3": 88.92474828213061,
+          "absolute_error_m3": 1.0787482821305758,
+          "signed_error_m3": -1.0787482821305758,
+          "relative_error": 0.01213102429829818
+        },
+        {
+          "vertida_id": 5,
+          "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+          "cells": 254,
+          "volume_voxel_m3": 42.259250000000016,
+          "volume_reference_m3": 38.477191140741105,
+          "absolute_error_m3": 3.7820588592589104,
+          "signed_error_m3": 3.7820588592589104,
+          "relative_error": 0.09829352785719131
+        }
+      ]
+    },
+    {
+      "origin_m": [
+        -9.0,
+        -8.999999999999998,
+        0.0
+      ],
+      "spacing_m": [
+        0.275,
+        0.275,
+        0.275
+      ],
+      "shape": [
+        66,
+        66,
+        16
+      ],
+      "upper_m": [
+        9.150000000000002,
+        9.150000000000004,
+        4.4
+      ],
+      "axes": "XYZ; array[i,j,k]; C-order",
+      "cell_volume_m3": 0.020796875000000006,
+      "grid_cells": 69696,
+      "occupied_cells": 30639,
+      "volume_voxel_m3": 637.1954531250002,
+      "volume_reference_mesh_m3": 636.8777175824058,
+      "absolute_error_m3": 0.3177355425943915,
+      "relative_error": 0.0004988956809487995,
+      "signed_error_m3": 0.3177355425943915,
+      "sum_absolute_pour_errors_m3": 6.913632175923425,
+      "max_pour_relative_error": 0.09396953759003696,
+      "boundary_ties": 0,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "guid": "0oY4bM1krVGQdxfBrXmxJm",
+          "cells": 7044,
+          "volume_voxel_m3": 146.49318750000003,
+          "volume_reference_m3": 147.62571362977107,
+          "absolute_error_m3": 1.132526129771037,
+          "signed_error_m3": -1.132526129771037,
+          "relative_error": 0.007671604776192899
+        },
+        {
+          "vertida_id": 2,
+          "guid": "3hfPF39u1QnvSBQJFmy$c2",
+          "cells": 7044,
+          "volume_voxel_m3": 146.49318750000003,
+          "volume_reference_m3": 147.6257136297711,
+          "absolute_error_m3": 1.1325261297710654,
+          "signed_error_m3": -1.1325261297710654,
+          "relative_error": 0.00767160477619309
+        },
+        {
+          "vertida_id": 3,
+          "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+          "cells": 10265,
+          "volume_voxel_m3": 213.47992187500006,
+          "volume_reference_m3": 214.2243508999919,
+          "absolute_error_m3": 0.7444290249918311,
+          "signed_error_m3": -0.7444290249918311,
+          "relative_error": 0.0034749972254058035
+        },
+        {
+          "vertida_id": 4,
+          "guid": "1jVXFE7TLGsO88Iyj_MihB",
+          "cells": 4262,
+          "volume_voxel_m3": 88.63628125000002,
+          "volume_reference_m3": 88.92474828213061,
+          "absolute_error_m3": 0.28846703213058333,
+          "signed_error_m3": -0.28846703213058333,
+          "relative_error": 0.0032439454449212164
+        },
+        {
+          "vertida_id": 5,
+          "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+          "cells": 2024,
+          "volume_voxel_m3": 42.092875000000014,
+          "volume_reference_m3": 38.477191140741105,
+          "absolute_error_m3": 3.6156838592589082,
+          "signed_error_m3": 3.6156838592589082,
+          "relative_error": 0.09396953759003696
+        }
+      ]
+    },
+    {
+      "origin_m": [
+        -9.0,
+        -8.999999999999998,
+        0.0
+      ],
+      "spacing_m": [
+        0.1375,
+        0.1375,
+        0.1375
+      ],
+      "shape": [
+        131,
+        131,
+        32
+      ],
+      "upper_m": [
+        9.012500000000003,
+        9.012500000000005,
+        4.4
+      ],
+      "axes": "XYZ; array[i,j,k]; C-order",
+      "cell_volume_m3": 0.002599609375000001,
+      "grid_cells": 549152,
+      "occupied_cells": 244477,
+      "volume_voxel_m3": 635.5447011718752,
+      "volume_reference_mesh_m3": 636.8777175824058,
+      "absolute_error_m3": 1.333016410530604,
+      "relative_error": 0.0020930492207997912,
+      "signed_error_m3": -1.333016410530604,
+      "sum_absolute_pour_errors_m3": 1.8286749352127671,
+      "max_pour_relative_error": 0.03899316312495758,
+      "boundary_ties": 0,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "guid": "0oY4bM1krVGQdxfBrXmxJm",
+          "cells": 56788,
+          "volume_voxel_m3": 147.62661718750005,
+          "volume_reference_m3": 147.62571362977107,
+          "absolute_error_m3": 0.0009035577289751018,
+          "signed_error_m3": 0.0009035577289751018,
+          "relative_error": 6.120598551287104e-06
+        },
+        {
+          "vertida_id": 2,
+          "guid": "3hfPF39u1QnvSBQJFmy$c2",
+          "cells": 56788,
+          "volume_voxel_m3": 147.62661718750005,
+          "volume_reference_m3": 147.6257136297711,
+          "absolute_error_m3": 0.0009035577289466801,
+          "signed_error_m3": 0.0009035577289466801,
+          "relative_error": 6.120598551094578e-06
+        },
+        {
+          "vertida_id": 3,
+          "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+          "cells": 82501,
+          "volume_voxel_m3": 214.47037304687507,
+          "volume_reference_m3": 214.2243508999919,
+          "absolute_error_m3": 0.24602214688317758,
+          "signed_error_m3": 0.24602214688317758,
+          "relative_error": 0.001148432220004859
+        },
+        {
+          "vertida_id": 4,
+          "guid": "1jVXFE7TLGsO88Iyj_MihB",
+          "cells": 34176,
+          "volume_voxel_m3": 88.84425000000003,
+          "volume_reference_m3": 88.92474828213061,
+          "absolute_error_m3": 0.08049828213057708,
+          "signed_error_m3": -0.08049828213057708,
+          "relative_error": 0.000905240483506133
+        },
+        {
+          "vertida_id": 5,
+          "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+          "cells": 14224,
+          "volume_voxel_m3": 36.976843750000015,
+          "volume_reference_m3": 38.477191140741105,
+          "absolute_error_m3": 1.5003473907410907,
+          "signed_error_m3": -1.5003473907410907,
+          "relative_error": 0.03899316312495758
+        }
+      ]
+    }
+  ],
+  "times_s": [
+    0.0,
+    3600.0,
+    7200.0,
+    10800.0,
+    14400.0,
+    18000.0,
+    21600.0,
+    25200.0,
+    28800.0,
+    32400.0,
+    36000.0,
+    39600.0,
+    43200.0,
+    46800.0,
+    50400.0,
+    54000.0,
+    57600.0,
+    61200.0,
+    64800.0,
+    68400.0,
+    72000.0,
+    75600.0,
+    79200.0,
+    82800.0,
+    86400.0,
+    90000.0,
+    93600.0,
+    97200.0,
+    100800.0,
+    104400.0,
+    108000.0,
+    111600.0,
+    115200.0,
+    118800.0,
+    122400.0,
+    126000.0,
+    129600.0,
+    133200.0,
+    136800.0,
+    140400.0,
+    144000.0,
+    147600.0,
+    151200.0,
+    154800.0,
+    158400.0,
+    162000.0,
+    165600.0,
+    169200.0,
+    172800.0,
+    176400.0,
+    180000.0,
+    183600.0,
+    187200.0,
+    190800.0,
+    194400.0,
+    198000.0,
+    201600.0,
+    205200.0,
+    208800.0,
+    212400.0,
+    216000.0,
+    219600.0,
+    223200.0,
+    226800.0,
+    230400.0,
+    234000.0,
+    237600.0,
+    241200.0,
+    244800.0,
+    248400.0,
+    252000.0,
+    255600.0,
+    259200.0
+  ],
+  "frames": [
+    {
+      "time_s": 0.0,
+      "active_ids": [
+        1
+      ],
+      "active_cells": 1798,
+      "min_C": 23.0,
+      "max_C": 23.0,
+      "mean_C": 23.0,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 0.0,
+          "min_C": 23.0,
+          "max_C": 23.0,
+          "mean_C": 23.0
+        },
+        {
+          "vertida_id": 2,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        },
+        {
+          "vertida_id": 3,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        },
+        {
+          "vertida_id": 4,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        },
+        {
+          "vertida_id": 5,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        }
+      ],
+      "energy_J": 7430693490.000001,
+      "hydration_energy_J": 0.0,
+      "outward_energy_J": 0.0,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 0.0
+    },
+    {
+      "time_s": 3600.0,
+      "active_ids": [
+        1
+      ],
+      "active_cells": 1798,
+      "min_C": 22.86901043992814,
+      "max_C": 22.93827450919221,
+      "mean_C": 22.933189494096066,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 3600.0,
+          "min_C": 22.86901043992814,
+          "max_C": 22.93827450919221,
+          "mean_C": 22.933189494096066
+        },
+        {
+          "vertida_id": 2,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        },
+        {
+          "vertida_id": 3,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        },
+        {
+          "vertida_id": 4,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        },
+        {
+          "vertida_id": 5,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        }
+      ],
+      "energy_J": 7409108777.335485,
+      "hydration_energy_J": 10375881.621195272,
+      "outward_energy_J": 31960594.285714295,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 3.5278499126434326e-06
+    },
+    {
+      "time_s": 7200.0,
+      "active_ids": [
+        1
+      ],
+      "active_cells": 1798,
+      "min_C": 22.810382232187436,
+      "max_C": 22.94257460207696,
+      "mean_C": 22.932763426497512,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 7200.0,
+          "min_C": 22.810382232187436,
+          "max_C": 22.94257460207696,
+          "mean_C": 22.932763426497512
+        },
+        {
+          "vertida_id": 2,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        },
+        {
+          "vertida_id": 3,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        },
+        {
+          "vertida_id": 4,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        },
+        {
+          "vertida_id": 5,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        }
+      ],
+      "energy_J": 7408971126.129794,
+      "hydration_energy_J": 41459095.366744414,
+      "outward_energy_J": 63181459.236954436,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 3.1888484954833984e-06
+    },
+    {
+      "time_s": 10800.0,
+      "active_ids": [
+        1,
+        2
+      ],
+      "active_cells": 3596,
+      "min_C": 22.819636946153516,
+      "max_C": 24.0,
+      "mean_C": 23.49805637085985,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 10800.0,
+          "min_C": 22.819636946153516,
+          "max_C": 23.010422972289167,
+          "mean_C": 22.9961127417197
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 0.0,
+          "min_C": 24.0,
+          "max_C": 24.0,
+          "mean_C": 24.0
+        },
+        {
+          "vertida_id": 3,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        },
+        {
+          "vertida_id": 4,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        },
+        {
+          "vertida_id": 5,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        }
+      ],
+      "energy_J": 15183204739.356638,
+      "hydration_energy_J": 93116538.14340726,
+      "outward_energy_J": 94372408.78677258,
+      "placement_energy_J": 7753767120.000003,
+      "balance_residual_J": 0.0
+    },
+    {
+      "time_s": 14400.0,
+      "active_ids": [
+        1,
+        2
+      ],
+      "active_cells": 3596,
+      "min_C": 22.892304646804337,
+      "max_C": 23.988498431191267,
+      "mean_C": 23.56503964864213,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 14400.0,
+          "min_C": 22.892304646804337,
+          "max_C": 23.276932504231276,
+          "mean_C": 23.189428497907745
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 3600.0,
+          "min_C": 23.814641869430538,
+          "max_C": 23.988498431191267,
+          "mean_C": 23.940650799376513
+        },
+        {
+          "vertida_id": 3,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        },
+        {
+          "vertida_id": 4,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        },
+        {
+          "vertida_id": 5,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        }
+      ],
+      "energy_J": 15226485800.76148,
+      "hydration_energy_J": 175502886.4718144,
+      "outward_energy_J": 133477695.7103382,
+      "placement_energy_J": 7753767120.000003,
+      "balance_residual_J": 9.5367431640625e-07
+    },
+    {
+      "time_s": 18000.0,
+      "active_ids": [
+        1,
+        2
+      ],
+      "active_cells": 3596,
+      "min_C": 23.03010262888436,
+      "max_C": 24.049753088248846,
+      "mean_C": 23.694881128694398,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 18000.0,
+          "min_C": 23.03010262888436,
+          "max_C": 23.587158557935656,
+          "mean_C": 23.43638643954054
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 7200.0,
+          "min_C": 23.708204478452465,
+          "max_C": 24.049753088248846,
+          "mean_C": 23.953375817848254
+        },
+        {
+          "vertida_id": 3,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        },
+        {
+          "vertida_id": 4,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        },
+        {
+          "vertida_id": 5,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        }
+      ],
+      "energy_J": 15310382517.3316,
+      "hydration_energy_J": 298641230.9814366,
+      "outward_energy_J": 172719323.64984348,
+      "placement_energy_J": 7753767120.000003,
+      "balance_residual_J": 2.86102294921875e-06
+    },
+    {
+      "time_s": 21600.0,
+      "active_ids": [
+        1,
+        2,
+        3
+      ],
+      "active_cells": 6157,
+      "min_C": 23.227014788406525,
+      "max_C": 25.0,
+      "mean_C": 24.349132814430373,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 21600.0,
+          "min_C": 23.227014788406525,
+          "max_C": 23.942058999218172,
+          "mean_C": 23.735335088039044
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 10800.0,
+          "min_C": 23.675834297809594,
+          "max_C": 24.18197680147827,
+          "mean_C": 24.03586109574729
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 0.0,
+          "min_C": 25.0,
+          "max_C": 25.0,
+          "mean_C": 25.0
+        },
+        {
+          "vertida_id": 4,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        },
+        {
+          "vertida_id": 5,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        }
+      ],
+      "energy_J": 26937945885.538002,
+      "hydration_energy_J": 462004274.376541,
+      "outward_energy_J": 212851123.83854562,
+      "placement_energy_J": 19258099245.000008,
+      "balance_residual_J": 0.0
+    },
+    {
+      "time_s": 25200.0,
+      "active_ids": [
+        1,
+        2,
+        3
+      ],
+      "active_cells": 6157,
+      "min_C": 23.47743735017023,
+      "max_C": 25.032116151420947,
+      "mean_C": 24.499600164171245,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 25200.0,
+          "min_C": 23.47743735017023,
+          "max_C": 24.341986298000844,
+          "mean_C": 24.0843689780424
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 14400.0,
+          "min_C": 23.712738802719823,
+          "max_C": 24.383198169357016,
+          "mean_C": 24.262072181429936
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 3600.0,
+          "min_C": 24.71286563488549,
+          "max_C": 25.032116151420947,
+          "mean_C": 24.95788247015662
+        },
+        {
+          "vertida_id": 4,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        },
+        {
+          "vertida_id": 5,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        }
+      ],
+      "energy_J": 27104411005.908028,
+      "hydration_energy_J": 679671465.9262938,
+      "outward_energy_J": 264053195.01827055,
+      "placement_energy_J": 19258099245.000008,
+      "balance_residual_J": 0.0
+    },
+    {
+      "time_s": 28800.0,
+      "active_ids": [
+        1,
+        2,
+        3
+      ],
+      "active_cells": 6157,
+      "min_C": 23.776101240805374,
+      "max_C": 25.12624876871864,
+      "mean_C": 24.710920829663515,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 28800.0,
+          "min_C": 23.776101240805374,
+          "max_C": 24.786743191588343,
+          "mean_C": 24.481343532967244
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 18000.0,
+          "min_C": 23.816057139076378,
+          "max_C": 24.658744107576524,
+          "mean_C": 24.54802622622526
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 7200.0,
+          "min_C": 24.532170412947462,
+          "max_C": 25.12624876871864,
+          "mean_C": 24.98646338196412
+        },
+        {
+          "vertida_id": 4,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        },
+        {
+          "vertida_id": 5,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        }
+      ],
+      "energy_J": 27338199399.725197,
+      "hydration_energy_J": 965489716.200538,
+      "outward_energy_J": 316083051.47535104,
+      "placement_energy_J": 19258099245.000008,
+      "balance_residual_J": 0.0
+    },
+    {
+      "time_s": 32400.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "active_cells": 7222,
+      "min_C": 23.98053907678092,
+      "max_C": 26.0,
+      "mean_C": 25.131486723154357,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 32400.0,
+          "min_C": 24.11800988377451,
+          "max_C": 25.27596313466244,
+          "mean_C": 24.924038295899283
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 21600.0,
+          "min_C": 23.98053907678092,
+          "max_C": 25.004822446883896,
+          "mean_C": 24.89236776386214
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 10800.0,
+          "min_C": 24.4480094721551,
+          "max_C": 25.282532227707495,
+          "mean_C": 25.083834056684776
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 0.0,
+          "min_C": 26.0,
+          "max_C": 26.0,
+          "mean_C": 26.0
+        },
+        {
+          "vertida_id": 5,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        }
+      ],
+      "energy_J": 32612755107.540638,
+      "hydration_energy_J": 1318235107.5719848,
+      "outward_energy_J": 369750385.03135395,
+      "placement_energy_J": 24233576895.000008,
+      "balance_residual_J": 0.0
+    },
+    {
+      "time_s": 36000.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "active_cells": 7222,
+      "min_C": 24.201141117198112,
+      "max_C": 26.032116151420947,
+      "mean_C": 25.410665622270393,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 36000.0,
+          "min_C": 24.498389754522563,
+          "max_C": 25.808733678295823,
+          "mean_C": 25.40998742508081
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 25200.0,
+          "min_C": 24.201141117198112,
+          "max_C": 25.41776657781887,
+          "mean_C": 25.293472389296547
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 14400.0,
+          "min_C": 24.451478917221888,
+          "max_C": 25.50072470678142,
+          "mean_C": 25.277585897397636
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 3600.0,
+          "min_C": 25.65483092785917,
+          "max_C": 26.032116151420947,
+          "mean_C": 25.929679713193384
+        },
+        {
+          "vertida_id": 5,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        }
+      ],
+      "energy_J": 32975041396.782562,
+      "hydration_energy_J": 1742543022.18182,
+      "outward_energy_J": 431772010.3992698,
+      "placement_energy_J": 24233576895.000008,
+      "balance_residual_J": 3.814697265625e-06
+    },
+    {
+      "time_s": 39600.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "active_cells": 7222,
+      "min_C": 24.472986428522688,
+      "max_C": 26.383661448010955,
+      "mean_C": 25.746573097653847,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 39600.0,
+          "min_C": 24.912652148761726,
+          "max_C": 26.383661448010955,
+          "mean_C": 25.936503097722195
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 28800.0,
+          "min_C": 24.472986428522688,
+          "max_C": 25.893976663965404,
+          "mean_C": 25.749454552546787
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 18000.0,
+          "min_C": 24.534496568011583,
+          "max_C": 25.780224971714247,
+          "mean_C": 25.533942501921473
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 7200.0,
+          "min_C": 25.422657992317255,
+          "max_C": 26.12608943929316,
+          "mean_C": 25.932368364931033
+        },
+        {
+          "vertida_id": 5,
+          "active": false,
+          "age_s": null,
+          "min_C": null,
+          "max_C": null,
+          "mean_C": null
+        }
+      ],
+      "energy_J": 33410943512.48906,
+      "hydration_energy_J": 2242742400.460246,
+      "outward_energy_J": 496069272.971198,
+      "placement_energy_J": 24233576895.000008,
+      "balance_residual_J": 3.814697265625e-06
+    },
+    {
+      "time_s": 43200.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 24.689655112526097,
+      "max_C": 27.0,
+      "mean_C": 26.19369200409172,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 43200.0,
+          "min_C": 25.356363302509408,
+          "max_C": 26.998929003472956,
+          "mean_C": 26.500697484077037
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 32400.0,
+          "min_C": 24.79133372436727,
+          "max_C": 26.42987322633428,
+          "mean_C": 26.258176530318256
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 21600.0,
+          "min_C": 24.689655112526097,
+          "max_C": 26.12048131404111,
+          "mean_C": 25.85109459712602
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 10800.0,
+          "min_C": 25.292706556951575,
+          "max_C": 26.28204301634162,
+          "mean_C": 26.00575629155539
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 0.0,
+          "min_C": 27.0,
+          "max_C": 27.0,
+          "mean_C": 27.0
+        }
+      ],
+      "energy_J": 36382122724.14786,
+      "hydration_energy_J": 2816691311.8774705,
+      "outward_energy_J": 563398432.7296168,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -3.814697265625e-06
+    },
+    {
+      "time_s": 46800.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 24.910102068774076,
+      "max_C": 27.652345023941272,
+      "mean_C": 26.606376850348518,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 46800.0,
+          "min_C": 25.825221547266295,
+          "max_C": 27.652345023941272,
+          "mean_C": 27.099503607967915
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 36000.0,
+          "min_C": 25.15155353199198,
+          "max_C": 27.0218611762249,
+          "mean_C": 26.817258513473142
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 25200.0,
+          "min_C": 24.910102068774076,
+          "max_C": 26.52050544013455,
+          "mean_C": 26.227017282735144
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 14400.0,
+          "min_C": 25.255321795089788,
+          "max_C": 26.499729136356127,
+          "mean_C": 26.175450296497953
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 3600.0,
+          "min_C": 26.651536157937727,
+          "max_C": 27.032116151420947,
+          "mean_C": 26.93052939367713
+        }
+      ],
+      "energy_J": 36955327552.263176,
+      "hydration_energy_J": 3464863580.7399445,
+      "outward_energy_J": 638365873.4767731,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -3.814697265625e-06
+    },
+    {
+      "time_s": 50400.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 25.189441961887695,
+      "max_C": 28.341389012614982,
+      "mean_C": 27.06966835675545,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 50400.0,
+          "min_C": 26.31504037806593,
+          "max_C": 28.341389012614982,
+          "mean_C": 27.729695345825714
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 39600.0,
+          "min_C": 25.54911058174902,
+          "max_C": 27.666302682149766,
+          "mean_C": 27.424089907339866
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 28800.0,
+          "min_C": 25.189441961887695,
+          "max_C": 26.978913995695766,
+          "mean_C": 26.65947286350356
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 18000.0,
+          "min_C": 25.301772231675443,
+          "max_C": 26.778544147206123,
+          "mean_C": 26.40926909711991
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 7200.0,
+          "min_C": 26.398435213278056,
+          "max_C": 27.125920399987212,
+          "mean_C": 26.93159236350908
+        }
+      ],
+      "energy_J": 37598823262.62427,
+      "hydration_energy_J": 4187415195.542563,
+      "outward_energy_J": 717421777.9183071,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 3.814697265625e-06
+    },
+    {
+      "time_s": 54000.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 25.424088778620543,
+      "max_C": 29.06325150320039,
+      "mean_C": 27.580889613162594,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 54000.0,
+          "min_C": 26.821736477897502,
+          "max_C": 29.06325150320039,
+          "mean_C": 28.387906762519332
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 43200.0,
+          "min_C": 25.979551277386406,
+          "max_C": 28.359497546710145,
+          "mean_C": 28.0758415558254
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 32400.0,
+          "min_C": 25.521656938580048,
+          "max_C": 27.493964546299555,
+          "mean_C": 27.146015509914267
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 21600.0,
+          "min_C": 25.424088778620543,
+          "max_C": 27.11799906727183,
+          "mean_C": 26.70502146723164
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 10800.0,
+          "min_C": 26.2332214100495,
+          "max_C": 27.281519495882716,
+          "mean_C": 27.00130639738363
+        }
+      ],
+      "energy_J": 38308891720.59088,
+      "hydration_energy_J": 4981252079.3426,
+      "outward_energy_J": 801190203.7517362,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 1.1444091796875e-05
+    },
+    {
+      "time_s": 57600.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 25.61493301903533,
+      "max_C": 29.814870578127138,
+      "mean_C": 28.13718594444547,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 57600.0,
+          "min_C": 27.34132188302329,
+          "max_C": 29.814870578127138,
+          "mean_C": 29.070650937469065
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 46800.0,
+          "min_C": 26.438495389636152,
+          "max_C": 29.09766993110702,
+          "mean_C": 28.769478845175882
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 36000.0,
+          "min_C": 25.883898901985372,
+          "max_C": 28.093786870495936,
+          "mean_C": 27.683997570600074
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 25200.0,
+          "min_C": 25.61493301903533,
+          "max_C": 27.517153272946832,
+          "mean_C": 27.06033818024221
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 14400.0,
+          "min_C": 26.148946231208072,
+          "max_C": 27.4986555055456,
+          "mean_C": 27.137630041541623
+        }
+      ],
+      "energy_J": 39081567882.18602,
+      "hydration_energy_J": 5842974900.731567,
+      "outward_energy_J": 890236863.545562,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 7.62939453125e-06
+    },
+    {
+      "time_s": 61200.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 25.867489644068705,
+      "max_C": 30.592965360298017,
+      "mean_C": 28.735534481433607,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 61200.0,
+          "min_C": 27.869899593415685,
+          "max_C": 30.592965360298017,
+          "mean_C": 29.77433839657725
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 50400.0,
+          "min_C": 26.921631262315334,
+          "max_C": 29.876960449248152,
+          "mean_C": 29.501775637139364
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 39600.0,
+          "min_C": 26.275500532206813,
+          "max_C": 28.748319614096857,
+          "mean_C": 28.270577424448035
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 28800.0,
+          "min_C": 25.867489644068705,
+          "max_C": 27.974658643002634,
+          "mean_C": 27.472671855927548
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 18000.0,
+          "min_C": 26.139101997893338,
+          "max_C": 27.77671958824519,
+          "mean_C": 27.33835472103357
+        }
+      ],
+      "energy_J": 39912653087.781166,
+      "hydration_energy_J": 6768893630.294185,
+      "outward_energy_J": 985070387.513025,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -3.814697265625e-06
+    },
+    {
+      "time_s": 64800.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 26.175378873956102,
+      "max_C": 31.39406701715678,
+      "mean_C": 29.372754804024687,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 64800.0,
+          "min_C": 28.403662033974932,
+          "max_C": 31.39406701715678,
+          "mean_C": 30.495295233784855
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 54000.0,
+          "min_C": 27.424713938357844,
+          "max_C": 30.69342280594976,
+          "mean_C": 30.269328976070053
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 43200.0,
+          "min_C": 26.7030965679608,
+          "max_C": 29.453324485253592,
+          "mean_C": 28.902728670731396
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 32400.0,
+          "min_C": 26.175378873956102,
+          "max_C": 28.4887977962584,
+          "mean_C": 27.93929904934872
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 21600.0,
+          "min_C": 26.19755005595897,
+          "max_C": 28.114765358066535,
+          "mean_C": 27.60109978837047
+        }
+      ],
+      "energy_J": 40797729845.0099,
+      "hydration_energy_J": 7755043341.880833,
+      "outward_energy_J": 1086143341.8709395,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 3.814697265625e-06
+    },
+    {
+      "time_s": 68400.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 26.318461403861207,
+      "max_C": 32.21454771315075,
+      "mean_C": 30.045520556976,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 68400.0,
+          "min_C": 28.93889185803719,
+          "max_C": 32.21454771315075,
+          "mean_C": 31.229780979588035
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 57600.0,
+          "min_C": 27.943565708599532,
+          "max_C": 31.543024279997372,
+          "mean_C": 31.068574510031212
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 46800.0,
+          "min_C": 27.16230599402503,
+          "max_C": 30.205309972254934,
+          "mean_C": 29.57725053595761
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 36000.0,
+          "min_C": 26.523142553339632,
+          "max_C": 29.080239799880157,
+          "mean_C": 28.457324336643527
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 25200.0,
+          "min_C": 26.318461403861207,
+          "max_C": 28.511522110643895,
+          "mean_C": 27.9233104212132
+        }
+      ],
+      "energy_J": 41732177962.69621,
+      "hydration_energy_J": 8797201191.03004,
+      "outward_energy_J": 1193853073.3338375,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 0.0
+    },
+    {
+      "time_s": 72000.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 26.496267935371783,
+      "max_C": 33.05064786098838,
+      "mean_C": 30.750371943678367,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 72000.0,
+          "min_C": 29.471964657281035,
+          "max_C": 33.05064786098838,
+          "mean_C": 31.974006251802862
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 61200.0,
+          "min_C": 28.474078663381736,
+          "max_C": 32.42164945735828,
+          "mean_C": 31.895802562093106
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 50400.0,
+          "min_C": 27.648068439736065,
+          "max_C": 31.000644885158323,
+          "mean_C": 30.290779384870287
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 39600.0,
+          "min_C": 26.893509157680484,
+          "max_C": 29.734414526499048,
+          "mean_C": 29.023686183990357
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 28800.0,
+          "min_C": 26.496267935371783,
+          "max_C": 28.965408131350483,
+          "mean_C": 28.302258044579325
+        }
+      ],
+      "energy_J": 42711191904.26984,
+      "hydration_energy_J": 9890904497.836771,
+      "outward_energy_J": 1308542438.5669467,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 7.62939453125e-06
+    },
+    {
+      "time_s": 75600.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 26.725622741372018,
+      "max_C": 33.898501950649205,
+      "mean_C": 31.48372900685738,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 75600.0,
+          "min_C": 29.999353203514502,
+          "max_C": 33.898501950649205,
+          "mean_C": 32.72415020556352
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 64800.0,
+          "min_C": 29.01221888978575,
+          "max_C": 33.32510670638886,
+          "mean_C": 32.74717478470304
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 54000.0,
+          "min_C": 28.150078586883573,
+          "max_C": 31.83556347352619,
+          "mean_C": 31.039801229827987
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 43200.0,
+          "min_C": 27.301470915534384,
+          "max_C": 30.438968092883453,
+          "mean_C": 29.635164411458653
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 32400.0,
+          "min_C": 26.725622741372018,
+          "max_C": 29.47454425017692,
+          "mean_C": 28.735042997471133
+        }
+      ],
+      "energy_J": 43729799234.19612,
+      "hydration_energy_J": 11031469856.832886,
+      "outward_energy_J": 1430500467.6367702,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 0.0
+    },
+    {
+      "time_s": 79200.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 27.001368144298862,
+      "max_C": 34.754163175569566,
+      "mean_C": 32.24190560788641,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 79200.0,
+          "min_C": 30.517632899719537,
+          "max_C": 34.754163175569566,
+          "mean_C": 33.476377784407156
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 68400.0,
+          "min_C": 29.55403200847921,
+          "max_C": 34.24913695857354,
+          "mean_C": 33.61874132716532
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 57600.0,
+          "min_C": 28.669941525719878,
+          "max_C": 32.706172947425394,
+          "mean_C": 31.820665138010227
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 46800.0,
+          "min_C": 27.74247849867062,
+          "max_C": 31.190374510950953,
+          "mean_C": 30.288389083888404
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 36000.0,
+          "min_C": 27.001368144298862,
+          "max_C": 30.06098003647319,
+          "mean_C": 29.21859919993953
+        }
+      ],
+      "energy_J": 44782880034.753235,
+      "hydration_energy_J": 12214013192.048386,
+      "outward_energy_J": 1559963002.2951593,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 0.0
+    },
+    {
+      "time_s": 82800.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 27.318510332828353,
+      "max_C": 35.613627025867046,
+      "mean_C": 33.02112401845785,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 82800.0,
+          "min_C": 31.02348816164292,
+          "max_C": 35.613627025867046,
+          "mean_C": 34.22685676186026
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 72000.0,
+          "min_C": 30.095649786064563,
+          "max_C": 35.18942441775578,
+          "mean_C": 34.50645844386621
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 61200.0,
+          "min_C": 29.203665096081917,
+          "max_C": 33.60846304316079,
+          "mean_C": 32.62959743990744
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 50400.0,
+          "min_C": 28.21207885992999,
+          "max_C": 31.984977764878114,
+          "mean_C": 30.979850677337176
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 39600.0,
+          "min_C": 27.318510332828353,
+          "max_C": 30.7140413055363,
+          "mean_C": 29.749700605936876
+        }
+      ],
+      "energy_J": 45865187173.35352,
+      "hydration_energy_J": 13433470671.374527,
+      "outward_energy_J": 1697113343.021017,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 7.62939453125e-06
+    },
+    {
+      "time_s": 86400.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 27.672199628425073,
+      "max_C": 36.47285397727052,
+      "mean_C": 33.81753003992589,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 86400.0,
+          "min_C": 31.513719488430763,
+          "max_C": 36.47285397727052,
+          "mean_C": 34.97177455279737
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 75600.0,
+          "min_C": 30.633297593319405,
+          "max_C": 36.14160887012294,
+          "mean_C": 35.40620646888084
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 64800.0,
+          "min_C": 29.747337349363942,
+          "max_C": 34.53831732505254,
+          "mean_C": 33.46271664561178
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 54000.0,
+          "min_C": 28.705907225644292,
+          "max_C": 32.8189964398841,
+          "mean_C": 31.70591138277943
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 43200.0,
+          "min_C": 27.672199628425073,
+          "max_C": 31.417313617184913,
+          "mean_C": 30.324969251137514
+        }
+      ],
+      "energy_J": 46971367302.78218,
+      "hydration_energy_J": 14684620390.67031,
+      "outward_energy_J": 1842082932.888141,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 3.814697265625e-06
+    },
+    {
+      "time_s": 90000.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 28.0577155540364,
+      "max_C": 37.32779137025037,
+      "mean_C": 34.62720856685315,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 90000.0,
+          "min_C": 31.98525101239508,
+          "max_C": 37.32779137025037,
+          "mean_C": 35.70735476566023
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 79200.0,
+          "min_C": 31.16330250828367,
+          "max_C": 37.10129930816654,
+          "mean_C": 36.31380808098305
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 68400.0,
+          "min_C": 30.297127701116363,
+          "max_C": 35.491525955222095,
+          "mean_C": 34.316048977766926
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 57600.0,
+          "min_C": 29.21261615506979,
+          "max_C": 33.68853073401899,
+          "mean_C": 32.46281741927855
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 46800.0,
+          "min_C": 28.0577155540364,
+          "max_C": 32.16720368558419,
+          "mean_C": 30.940884724247017
+        }
+      ],
+      "energy_J": 48095982478.41963,
+      "hydration_energy_J": 15962104734.757713,
+      "outward_energy_J": 1994952101.3380964,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 7.62939453125e-06
+    },
+    {
+      "time_s": 93600.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 28.47045599238426,
+      "max_C": 38.17439454557858,
+      "mean_C": 35.44619951228639,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 93600.0,
+          "min_C": 32.435138344897624,
+          "max_C": 38.17439454557858,
+          "mean_C": 36.429873460125044
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 82800.0,
+          "min_C": 31.682101886958634,
+          "max_C": 38.064088615935894,
+          "mean_C": 37.225046781828915
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 72000.0,
+          "min_C": 30.84928982470705,
+          "max_C": 36.46379969652611,
+          "mean_C": 35.185544431845386
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 61200.0,
+          "min_C": 29.73400932564567,
+          "max_C": 34.58957150296693,
+          "mean_C": 33.24671223730057
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 50400.0,
+          "min_C": 28.47045599238426,
+          "max_C": 32.9599934734618,
+          "mean_C": 31.593794906022513
+        }
+      ],
+      "energy_J": 49233532277.89286,
+      "hydration_energy_J": 17260453319.552395,
+      "outward_energy_J": 2155750886.659551,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 7.62939453125e-06
+    },
+    {
+      "time_s": 97200.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 28.905929820347026,
+      "max_C": 39.025569091360964,
+      "mean_C": 36.27051401315144,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 97200.0,
+          "min_C": 32.86057655831855,
+          "max_C": 39.00864727926179,
+          "mean_C": 37.135675069753624
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 86400.0,
+          "min_C": 32.18625224438117,
+          "max_C": 39.025569091360964,
+          "mean_C": 38.135685509190104
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 75600.0,
+          "min_C": 31.400165959943447,
+          "max_C": 37.450784940872055,
+          "mean_C": 36.06709327585367
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 64800.0,
+          "min_C": 30.26633191420276,
+          "max_C": 35.51801103543814,
+          "mean_C": 34.05365049962964
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 54000.0,
+          "min_C": 28.905929820347026,
+          "max_C": 33.7918444656431,
+          "mean_C": 32.27992783297838
+        }
+      ],
+      "energy_J": 50378476309.80262,
+      "hydration_energy_J": 18574106417.088158,
+      "outward_energy_J": 2324459952.285553,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 7.62939453125e-06
+    },
+    {
+      "time_s": 100800.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 29.359752489673166,
+      "max_C": 39.981348605257566,
+      "mean_C": 37.09615083497516,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 100800.0,
+          "min_C": 33.258908163801834,
+          "max_C": 39.82658154070482,
+          "mean_C": 37.82118794536397
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 90000.0,
+          "min_C": 32.67243830577912,
+          "max_C": 39.981348605257566,
+          "mean_C": 39.04148530656461
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 79200.0,
+          "min_C": 31.946192355608694,
+          "max_C": 38.44807957731579,
+          "mean_C": 36.95654290274865
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 68400.0,
+          "min_C": 30.805681102064504,
+          "max_C": 36.46965529563451,
+          "mean_C": 34.87961273283099
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 57600.0,
+          "min_C": 29.359752489673166,
+          "max_C": 34.658804155753664,
+          "mean_C": 32.995404553122384
+        }
+      ],
+      "energy_J": 51525256999.30884,
+      "hydration_energy_J": 19897438763.125664,
+      "outward_energy_J": 2501011608.8168325,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 0.0
+    },
+    {
+      "time_s": 104400.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 29.827644095140116,
+      "max_C": 40.92706721668654,
+      "mean_C": 37.91911289597745,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 104400.0,
+          "min_C": 33.62763096148948,
+          "max_C": 40.62429658243219,
+          "mean_C": 38.482939472143016
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 93600.0,
+          "min_C": 33.13748210200565,
+          "max_C": 40.92706721668654,
+          "mean_C": 39.93822397028609
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 82800.0,
+          "min_C": 32.4839056022419,
+          "max_C": 39.45124953252638,
+          "mean_C": 37.84971494988331
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 72000.0,
+          "min_C": 31.348247630287524,
+          "max_C": 37.44023740112498,
+          "mean_C": 35.720520546675225
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 61200.0,
+          "min_C": 29.827644095140116,
+          "max_C": 35.55681447084797,
+          "mean_C": 33.736252849523325
+        }
+      ],
+      "energy_J": 52668322539.51697,
+      "hydration_energy_J": 21224783645.3975,
+      "outward_energy_J": 2685290950.8805337,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -3.814697265625e-06
+    },
+    {
+      "time_s": 108000.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 30.30542953131163,
+      "max_C": 41.85841408131773,
+      "mean_C": 38.73542383148274,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 108000.0,
+          "min_C": 33.9644056547344,
+          "max_C": 41.39797735717774,
+          "mean_C": 39.11757071175885
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 97200.0,
+          "min_C": 33.57835199597966,
+          "max_C": 41.85841408131773,
+          "mean_C": 40.821714595382524
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 86400.0,
+          "min_C": 33.009949642658675,
+          "max_C": 40.45584583118596,
+          "mean_C": 38.74242260077584
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 75600.0,
+          "min_C": 31.890318899616332,
+          "max_C": 38.42543213057164,
+          "mean_C": 36.572252322628714
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 64800.0,
+          "min_C": 30.30542953131163,
+          "max_C": 36.481721887437004,
+          "mean_C": 34.49842171443877
+        }
+      ],
+      "energy_J": 53802149898.86664,
+      "hydration_energy_J": 22550457169.340084,
+      "outward_energy_J": 2877137115.473455,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 0.0
+    },
+    {
+      "time_s": 111600.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 30.78904038998478,
+      "max_C": 42.771144503927694,
+      "mean_C": 39.54114452061953,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 111600.0,
+          "min_C": 34.26706313270605,
+          "max_C": 42.14391224819725,
+          "mean_C": 39.721850519791694
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 100800.0,
+          "min_C": 33.99217153781408,
+          "max_C": 42.771144503927694,
+          "mean_C": 41.68782394189725
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 90000.0,
+          "min_C": 33.52108327384487,
+          "max_C": 41.45742203631049,
+          "mean_C": 39.6304879854801
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 79200.0,
+          "min_C": 32.42828334808315,
+          "max_C": 39.42087127718619,
+          "mean_C": 37.430659275619306
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 68400.0,
+          "min_C": 30.78904038998478,
+          "max_C": 37.42928901644502,
+          "mean_C": 35.277796462447206
+        }
+      ],
+      "energy_J": 54921267776.13956,
+      "hydration_energy_J": 23868782597.402794,
+      "outward_energy_J": 3076344666.263244,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 0.0
+    },
+    {
+      "time_s": 115200.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 31.27451829371491,
+      "max_C": 43.66109699861639,
+      "mean_C": 40.3323894984422,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 115200.0,
+          "min_C": 34.533611337195566,
+          "max_C": 42.85851009088518,
+          "mean_C": 40.29268908859576
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 104400.0,
+          "min_C": 34.3762280560107,
+          "max_C": 43.66109699861639,
+          "mean_C": 42.532490544176476
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 93600.0,
+          "min_C": 34.01418797591765,
+          "max_C": 42.45155193985627,
+          "mean_C": 40.50975959688545
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 82800.0,
+          "min_C": 32.958635845270045,
+          "max_C": 40.42215968145989,
+          "mean_C": 38.29158179596815
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 72000.0,
+          "min_C": 31.27451829371491,
+          "max_C": 38.395207454832295,
+          "mean_C": 36.07021437579516
+        }
+      ],
+      "energy_J": 56020279396.32326,
+      "hydration_energy_J": 25174114657.70966,
+      "outward_energy_J": 3282665106.386416,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 7.62939453125e-06
+    },
+    {
+      "time_s": 118800.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 31.758019397696856,
+      "max_C": 44.524210231158406,
+      "mean_C": 41.10534317794882,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 118800.0,
+          "min_C": 34.762241639557274,
+          "max_C": 43.538316457866834,
+          "mean_C": 40.827150866135725
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 108000.0,
+          "min_C": 34.72798090078823,
+          "max_C": 44.524210231158406,
+          "mean_C": 43.351742486742104
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 97200.0,
+          "min_C": 34.486275922606204,
+          "max_C": 43.433847382746066,
+          "mean_C": 41.37612964143635
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 86400.0,
+          "min_C": 33.477983875424115,
+          "max_C": 41.42489179133055,
+          "mean_C": 39.150865980766305
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 75600.0,
+          "min_C": 31.758019397696856,
+          "max_C": 39.37511171864939,
+          "mean_C": 36.87148077920358
+        }
+      ],
+      "energy_J": 57093885042.42685,
+      "hydration_energy_J": 26460863717.980232,
+      "outward_energy_J": 3495808520.5533814,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -7.62939453125e-06
+    },
+    {
+      "time_s": 122400.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 32.23581982380234,
+      "max_C": 45.35653972743507,
+      "mean_C": 41.856275808000895,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 122400.0,
+          "min_C": 34.951334662813345,
+          "max_C": 44.18002917542392,
+          "mean_C": 41.322466802342575
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 111600.0,
+          "min_C": 35.04506926349384,
+          "max_C": 45.35653972743507,
+          "mean_C": 44.14171477180295
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 100800.0,
+          "min_C": 34.934498043781375,
+          "max_C": 44.399976090959825,
+          "mean_C": 42.22555124407165
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 90000.0,
+          "min_C": 33.98305430958527,
+          "max_C": 42.42466861012992,
+          "mean_C": 40.004380266176334
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 79200.0,
+          "min_C": 32.23581982380234,
+          "max_C": 40.36459408670229,
+          "mean_C": 37.67738544485816
+        }
+      ],
+      "energy_J": 58136904220.47377,
+      "hydration_energy_J": 27723519721.19312,
+      "outward_energy_J": 3715445345.7193546,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 0.0
+    },
+    {
+      "time_s": 126000.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 32.70432181760184,
+      "max_C": 46.15427424039515,
+      "mean_C": 42.581559094890885,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 126000.0,
+          "min_C": 35.09946549218183,
+          "max_C": 44.78051303616787,
+          "mean_C": 41.77604587603626
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 115200.0,
+          "min_C": 35.325319503288746,
+          "max_C": 46.15427424039515,
+          "mean_C": 44.89866620520416
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 104400.0,
+          "min_C": 35.356152024467235,
+          "max_C": 45.34567942087638,
+          "mean_C": 43.054055428670864
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 93600.0,
+          "min_C": 34.47070059060142,
+          "max_C": 43.417114902889686,
+          "mean_C": 40.8480320742424
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 82800.0,
+          "min_C": 32.70432181760184,
+          "max_C": 41.359220196279495,
+          "mean_C": 38.483719231381926
+        }
+      ],
+      "energy_J": 59144297357.31309,
+      "hydration_energy_J": 28956675780.496082,
+      "outward_energy_J": 3941208268.1830006,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 0.0
+    },
+    {
+      "time_s": 129600.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 33.16006044247098,
+      "max_C": 46.91375167568384,
+      "mean_C": 43.277681417262535,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 129600.0,
+          "min_C": 35.205408224816175,
+          "max_C": 45.336813671111074,
+          "mean_C": 42.185485857411
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 118800.0,
+          "min_C": 35.5667519190246,
+          "max_C": 46.91375167568384,
+          "mean_C": 45.618995729668086
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 108000.0,
+          "min_C": 35.74869013690574,
+          "max_C": 46.266789912857185,
+          "mean_C": 43.85776779697967
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 97200.0,
+          "min_C": 34.93791017514257,
+          "max_C": 44.397896540280485,
+          "mean_C": 41.677784389868215
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 86400.0,
+          "min_C": 33.16006044247098,
+          "max_C": 42.354545242916465,
+          "mean_C": 39.28629086337909
+        }
+      ],
+      "energy_J": 60111186933.612144,
+      "hydration_energy_J": 30155051332.32563,
+      "outward_energy_J": 4172694243.713489,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -3.814697265625e-06
+    },
+    {
+      "time_s": 133200.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 33.59971064501455,
+      "max_C": 47.63147448314443,
+      "mean_C": 43.941262566271675,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 133200.0,
+          "min_C": 35.26813981649009,
+          "max_C": 45.84617054353861,
+          "mean_C": 42.54858326342387
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 122400.0,
+          "min_C": 35.76758691054355,
+          "max_C": 47.63147448314443,
+          "mean_C": 46.29925813653102
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 111600.0,
+          "min_C": 36.10972681295218,
+          "max_C": 47.1592485573229,
+          "mean_C": 44.63292483088755
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 100800.0,
+          "min_C": 35.381812094216265,
+          "max_C": 45.36273786694892,
+          "mean_C": 42.48967218572702
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 90000.0,
+          "min_C": 33.59971064501455,
+          "max_C": 43.3461306452808,
+          "mean_C": 40.080943760745726
+        }
+      ],
+      "energy_J": 61032877957.42468,
+      "hydration_energy_J": 31313514748.590862,
+      "outward_energy_J": 4409466636.166188,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 0.0
+    },
+    {
+      "time_s": 136800.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 34.02009454355579,
+      "max_C": 48.3041244279813,
+      "mean_C": 44.5690679452857,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 136800.0,
+          "min_C": 35.28684318942597,
+          "max_C": 46.30602902721338,
+          "mean_C": 42.8633424661217
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 126000.0,
+          "min_C": 35.926250479622055,
+          "max_C": 48.3041244279813,
+          "mean_C": 46.93617908981972
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 115200.0,
+          "min_C": 36.43704587362287,
+          "max_C": 48.019121682441885,
+          "mean_C": 45.37588974505637
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 104400.0,
+          "min_C": 35.79968450874996,
+          "max_C": 46.30743898757638,
+          "mean_C": 43.279818615048434
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 93600.0,
+          "min_C": 34.02009454355579,
+          "max_C": 44.32956104423005,
+          "mean_C": 40.86357282944854
+        }
+      ],
+      "energy_J": 61904877687.07717,
+      "hydration_energy_J": 32427105311.092793,
+      "outward_energy_J": 4651057469.015624,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -3.814697265625e-06
+    },
+    {
+      "time_s": 140400.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 34.418188806770395,
+      "max_C": 48.92857666159742,
+      "mean_C": 45.15802216605768,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 140400.0,
+          "min_C": 35.26090957152881,
+          "max_C": 46.714051532337415,
+          "mean_C": 43.12798391694781
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 129600.0,
+          "min_C": 36.04137902650115,
+          "max_C": 48.92857666159742,
+          "mean_C": 47.52666939943055
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 118800.0,
+          "min_C": 36.728607341216374,
+          "max_C": 48.84261737715039,
+          "mean_C": 46.08316781925766
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 108000.0,
+          "min_C": 36.18896214996326,
+          "max_C": 47.227892869831784,
+          "mean_C": 44.04445089451902
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 97200.0,
+          "min_C": 34.418188806770395,
+          "max_C": 45.300461512155394,
+          "mean_C": 41.630141127944704
+        }
+      ],
+      "energy_J": 62722914515.77943,
+      "hydration_energy_J": 33491054454.081257,
+      "outward_energy_J": 4896969783.301834,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -3.814697265625e-06
+    },
+    {
+      "time_s": 144000.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 34.79113200305815,
+      "max_C": 49.62610136765668,
+      "mean_C": 45.7052219811725,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 144000.0,
+          "min_C": 35.1899400430153,
+          "max_C": 47.068127644238366,
+          "mean_C": 43.34095145334819
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 133200.0,
+          "min_C": 36.11182340345395,
+          "max_C": 49.59476715349929,
+          "mean_C": 48.067838483358194
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 122400.0,
+          "min_C": 36.98255376726249,
+          "max_C": 49.62610136765668,
+          "mean_C": 46.75142114237135
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 111600.0,
+          "min_C": 36.54724354585086,
+          "max_C": 48.12010216871074,
+          "mean_C": 44.77991580196343
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 100800.0,
+          "min_C": 34.79113200305815,
+          "max_C": 46.254514855071186,
+          "mean_C": 42.37669632590784
+        }
+      ],
+      "energy_J": 63482955934.34037,
+      "hydration_energy_J": 34500806183.985535,
+      "outward_energy_J": 5146680094.645169,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -3.814697265625e-06
+    },
+    {
+      "time_s": 147600.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 35.07374627187171,
+      "max_C": 50.366112269924145,
+      "mean_C": 46.20794849564395,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 147600.0,
+          "min_C": 35.07374627187171,
+          "max_C": 47.36638324186425,
+          "mean_C": 43.50091865751568
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 136800.0,
+          "min_C": 36.13665219217339,
+          "max_C": 50.2147585238089,
+          "mean_C": 48.55700696236
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 126000.0,
+          "min_C": 37.19721601676254,
+          "max_C": 50.366112269924145,
+          "mean_C": 47.37748270282904
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 115200.0,
+          "min_C": 36.87229794541885,
+          "max_C": 48.98019568169264,
+          "mean_C": 45.482694716064586
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 104400.0,
+          "min_C": 35.13623181324765,
+          "max_C": 47.18747889570503,
+          "mean_C": 43.099386874482846
+        }
+      ],
+      "energy_J": 64181225492.649536,
+      "hydration_energy_J": 35452036588.878265,
+      "outward_energy_J": 5399640941.228726,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -1.1444091796875e-05
+    },
+    {
+      "time_s": 151200.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 34.91235042477326,
+      "max_C": 51.05937614494234,
+      "mean_C": 46.66367860383393,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 151200.0,
+          "min_C": 34.91235042477326,
+          "max_C": 47.607188565773356,
+          "mean_C": 43.606794240836926
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 140400.0,
+          "min_C": 36.11515417694749,
+          "max_C": 50.78465267297534,
+          "mean_C": 48.99171833412025
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 129600.0,
+          "min_C": 37.371118455885515,
+          "max_C": 51.05937614494234,
+          "mean_C": 47.958369763348315
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 118800.0,
+          "min_C": 37.162071861592615,
+          "max_C": 49.80444434882269,
+          "mean_C": 46.149418128145584
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 108000.0,
+          "min_C": 35.45097200997424,
+          "max_C": 48.09520363121915,
+          "mean_C": 43.79447780994711
+        }
+      ],
+      "energy_J": 64814218685.15814,
+      "hydration_energy_J": 36340672354.13016,
+      "outward_energy_J": 5655283513.972019,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -3.814697265625e-06
+    },
+    {
+      "time_s": 154800.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 34.705984245082895,
+      "max_C": 51.702820287927096,
+      "mean_C": 47.07009560136039,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 154800.0,
+          "min_C": 34.705984245082895,
+          "max_C": 47.78916520833129,
+          "mean_C": 43.65772643151085
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 144000.0,
+          "min_C": 36.046839990647555,
+          "max_C": 51.301876309563774,
+          "mean_C": 49.36974967788195
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 133200.0,
+          "min_C": 37.50298349656989,
+          "max_C": 51.702820287927096,
+          "mean_C": 48.491296461095175
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 122400.0,
+          "min_C": 37.414695162134386,
+          "max_C": 50.58927671633361,
+          "mean_C": 46.77687955898626
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 111600.0,
+          "min_C": 35.73301911677334,
+          "max_C": 48.97364816426299,
+          "mean_C": 44.45836611543796
+        }
+      ],
+      "energy_J": 65378717690.44834,
+      "hydration_energy_J": 37162908204.96855,
+      "outward_energy_J": 5913020359.520206,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -1.1444091796875e-05
+    },
+    {
+      "time_s": 158400.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 34.455087294342384,
+      "max_C": 52.29358618697643,
+      "mean_C": 47.42509892534818,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 158400.0,
+          "min_C": 34.455087294342384,
+          "max_C": 47.91119200221259,
+          "mean_C": 43.653106346861854
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 147600.0,
+          "min_C": 35.93144291550098,
+          "max_C": 51.76407808763178,
+          "mean_C": 49.68912134462554
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 136800.0,
+          "min_C": 37.59173545742482,
+          "max_C": 52.29358618697643,
+          "mean_C": 48.97368557792101
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 126000.0,
+          "min_C": 37.62848664562529,
+          "max_C": 51.331293786836355,
+          "mean_C": 47.3620488167866
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 115200.0,
+          "min_C": 35.98022866876676,
+          "max_C": 49.81889731091102,
+          "mean_C": 45.087595568333974
+        }
+      ],
+      "energy_J": 65871804900.101204,
+      "hydration_energy_J": 37915223201.24821,
+      "outward_energy_J": 6172248146.147007,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -3.814697265625e-06
+    },
+    {
+      "time_s": 162000.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 34.16030435828773,
+      "max_C": 52.82904159117293,
+      "mean_C": 47.7268129802429,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 162000.0,
+          "min_C": 34.16030435828773,
+          "max_C": 47.97240978699531,
+          "mean_C": 43.59257033604806
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 151200.0,
+          "min_C": 35.76891882546306,
+          "max_C": 52.169139043450244,
+          "mean_C": 49.94810559217726
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 140400.0,
+          "min_C": 37.636503705985206,
+          "max_C": 52.82904159117293,
+          "mean_C": 49.40317942904039
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 129600.0,
+          "min_C": 37.8019590467061,
+          "max_C": 52.02728318348957,
+          "mean_C": 47.90208453571984
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 118800.0,
+          "min_C": 36.190651004935596,
+          "max_C": 50.627177793753816,
+          "mean_C": 45.67887100396543
+        }
+      ],
+      "energy_J": 66290875177.443756,
+      "hydration_energy_J": 38594395814.65757,
+      "outward_energy_J": 6432350482.213817,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -3.814697265625e-06
+    },
+    {
+      "time_s": 165600.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 33.82248202287742,
+      "max_C": 53.30679163268231,
+      "mean_C": 47.97359501044124,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 165600.0,
+          "min_C": 33.82248202287742,
+          "max_C": 47.97222503758495,
+          "mean_C": 43.47600128313947
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 154800.0,
+          "min_C": 35.5594452617477,
+          "max_C": 52.515181999310336,
+          "mean_C": 50.14523412910708
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 144000.0,
+          "min_C": 37.636625052798834,
+          "max_C": 53.30679163268231,
+          "mean_C": 49.77764982243255
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 133200.0,
+          "min_C": 37.93382342143441,
+          "max_C": 52.674232559948486,
+          "mean_C": 48.39434593803861
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 122400.0,
+          "min_C": 36.36253652949252,
+          "max_C": 51.39487393304583,
+          "mean_C": 46.22907192958776
+        }
+      ],
+      "energy_J": 66633646792.357285,
+      "hydration_energy_J": 39197517723.79754,
+      "outward_energy_J": 6692700776.440255,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -7.62939453125e-06
+    },
+    {
+      "time_s": 169200.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 33.44266443012067,
+      "max_C": 53.72468895206208,
+      "mean_C": 48.16404198517408,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 169200.0,
+          "min_C": 33.44266443012067,
+          "max_C": 47.910312342363,
+          "mean_C": 43.303528864887724
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 158400.0,
+          "min_C": 35.30341963772515,
+          "max_C": 52.80057989894295,
+          "mean_C": 50.27930453590781
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 147600.0,
+          "min_C": 37.59164537304635,
+          "max_C": 53.72468895206208,
+          "mean_C": 50.095207045351856
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 136800.0,
+          "min_C": 38.02299286988496,
+          "max_C": 53.26934219233027,
+          "mean_C": 48.83640376640305
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 126000.0,
+          "min_C": 36.49434038688755,
+          "max_C": 52.11854275341885,
+          "mean_C": 46.73526542598419
+        }
+      ],
+      "energy_J": 66898170984.13945,
+      "hydration_energy_J": 39722006268.06021,
+      "outward_energy_J": 6952665128.920758,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -1.1444091796875e-05
+    },
+    {
+      "time_s": 172800.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 33.0220882276376,
+      "max_C": 54.08084278076758,
+      "mean_C": 48.29699646539835,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 172800.0,
+          "min_C": 33.0220882276376,
+          "max_C": 47.78661572328554,
+          "mean_C": 43.07552876190497
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 162000.0,
+          "min_C": 35.00145657394502,
+          "max_C": 53.023963042944885,
+          "mean_C": 50.34938553671428
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 151200.0,
+          "min_C": 37.50132043644233,
+          "max_C": 54.08084278076758,
+          "mean_C": 50.3542078386045
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 140400.0,
+          "min_C": 38.06858555906051,
+          "max_C": 53.810036693937604,
+          "mean_C": 49.2260503369835
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 129600.0,
+          "min_C": 36.584726501588094,
+          "max_C": 52.79492842828514,
+          "mean_C": 47.19471827767391
+        }
+      ],
+      "energy_J": 67082840110.41187,
+      "hydration_energy_J": 40165615506.97811,
+      "outward_energy_J": 7211605241.566239,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -7.62939453125e-06
+    },
+    {
+      "time_s": 176400.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 32.59429288129528,
+      "max_C": 54.37362693972431,
+      "mean_C": 48.37902165202016,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 176400.0,
+          "min_C": 32.59429288129528,
+          "max_C": 47.63346494604023,
+          "mean_C": 42.82473697781028
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 165600.0,
+          "min_C": 34.654384368490675,
+          "max_C": 53.18422519672305,
+          "mean_C": 50.35482109970364
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 154800.0,
+          "min_C": 37.32412205016359,
+          "max_C": 54.37362693972431,
+          "mean_C": 50.553262323675284
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 144000.0,
+          "min_C": 38.0699270148443,
+          "max_C": 54.293975798072296,
+          "mean_C": 49.56130866794255
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 133200.0,
+          "min_C": 36.63257094003202,
+          "max_C": 53.420975988707745,
+          "mean_C": 47.604908276485354
+        }
+      ],
+      "energy_J": 67196770227.84928,
+      "hydration_energy_J": 40536821719.30726,
+      "outward_energy_J": 7468881336.457982,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -3.814697265625e-06
+    },
+    {
+      "time_s": 180000.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 32.1911142828809,
+      "max_C": 54.71906415895625,
+      "mean_C": 48.4167734317055,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 180000.0,
+          "min_C": 32.1911142828809,
+          "max_C": 47.48190525301318,
+          "mean_C": 42.58272875694378
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 169200.0,
+          "min_C": 34.26324061221071,
+          "max_C": 53.28052854779684,
+          "mean_C": 50.29594114326591
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 158400.0,
+          "min_C": 37.078526891332,
+          "max_C": 54.60168671782091,
+          "mean_C": 50.69123985235276
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 147600.0,
+          "min_C": 38.026551657153234,
+          "max_C": 54.71906415895625,
+          "mean_C": 49.84044064211184
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 136800.0,
+          "min_C": 36.636964558116304,
+          "max_C": 53.99384422823101,
+          "mean_C": 47.96353464720867
+        }
+      ],
+      "energy_J": 67249206130.40753,
+      "hydration_energy_J": 40844411224.67904,
+      "outward_energy_J": 7724034939.271515,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 0.0
+    },
+    {
+      "time_s": 183600.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 31.810520866820646,
+      "max_C": 55.083460125560805,
+      "mean_C": 48.40950581868059,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 183600.0,
+          "min_C": 31.810520866820646,
+          "max_C": 47.32959108544146,
+          "mean_C": 42.34775024691106
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 172800.0,
+          "min_C": 33.82932935765863,
+          "max_C": 53.31236988886642,
+          "mean_C": 50.173995422799415
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 162000.0,
+          "min_C": 36.78491322257186,
+          "max_C": 54.76394459925769,
+          "mean_C": 50.767273753184874
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 151200.0,
+          "min_C": 37.93820355767461,
+          "max_C": 55.083460125560805,
+          "mean_C": 50.06195416703384
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 140400.0,
+          "min_C": 36.59721490329587,
+          "max_C": 54.5109177399566,
+          "mean_C": 48.268527548157515
+        }
+      ],
+      "energy_J": 67239111669.91901,
+      "hydration_energy_J": 41087066877.60946,
+      "outward_energy_J": 7976785052.690461,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 0.0
+    },
+    {
+      "time_s": 187200.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 31.450573350694132,
+      "max_C": 55.38558344802806,
+      "mean_C": 48.36414816225041,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 187200.0,
+          "min_C": 31.450573350694132,
+          "max_C": 47.17445041649585,
+          "mean_C": 42.1181816951491
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 176400.0,
+          "min_C": 33.38637607451682,
+          "max_C": 53.3117477508432,
+          "mean_C": 50.022498152413476
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 165600.0,
+          "min_C": 36.444088161154404,
+          "max_C": 54.90492364053519,
+          "mean_C": 50.78076582157427
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 154800.0,
+          "min_C": 37.8048364046127,
+          "max_C": 55.38558344802806,
+          "mean_C": 50.22460930002467
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 144000.0,
+          "min_C": 36.51284734586147,
+          "max_C": 54.969818027029966,
+          "mean_C": 48.518056603740455
+        }
+      ],
+      "energy_J": 67176111470.387566,
+      "hydration_energy_J": 41274125470.960686,
+      "outward_energy_J": 8226843845.573119,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -7.62939453125e-06
+    },
+    {
+      "time_s": 190800.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 31.109431485988168,
+      "max_C": 55.62412188134415,
+      "mean_C": 48.28778041995348,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 190800.0,
+          "min_C": 31.109431485988168,
+          "max_C": 47.016071739236416,
+          "mean_C": 41.89323692333181
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 180000.0,
+          "min_C": 32.9664893684919,
+          "max_C": 53.30946876550334,
+          "mean_C": 49.873531122780804
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 169200.0,
+          "min_C": 36.058497393027686,
+          "max_C": 54.98645415695013,
+          "mean_C": 50.73183691952727
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 158400.0,
+          "min_C": 37.62661266375174,
+          "max_C": 55.62412188134415,
+          "mean_C": 50.327423310515584
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 147600.0,
+          "min_C": 36.38360541926843,
+          "max_C": 55.368413632674844,
+          "mean_C": 48.71053843055407
+        }
+      ],
+      "energy_J": 67070039345.389725,
+      "hydration_energy_J": 41415161872.739426,
+      "outward_energy_J": 8473952372.3497,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -7.62939453125e-06
+    },
+    {
+      "time_s": 194400.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 30.7854203268497,
+      "max_C": 55.79803665598646,
+      "mean_C": 48.180132363429564,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 194400.0,
+          "min_C": 30.7854203268497,
+          "max_C": 46.855486961830124,
+          "mean_C": 41.67288850939751
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 183600.0,
+          "min_C": 32.56796687952613,
+          "max_C": 53.30300399566663,
+          "mean_C": 49.72562600842839
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 172800.0,
+          "min_C": 35.632015294273,
+          "max_C": 55.00254053302406,
+          "mean_C": 50.621285376977106
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 162000.0,
+          "min_C": 37.35491868392563,
+          "max_C": 55.79803665598646,
+          "mean_C": 50.36967465663037
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 151200.0,
+          "min_C": 36.20945035451785,
+          "max_C": 55.704829240978924,
+          "mean_C": 48.844643123051014
+        }
+      ],
+      "energy_J": 66920519957.1776,
+      "hydration_energy_J": 41509572143.42096,
+      "outward_energy_J": 8717882031.243364,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -7.62939453125e-06
+    },
+    {
+      "time_s": 198000.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 30.477076787772987,
+      "max_C": 55.977453704791095,
+      "mean_C": 48.05171929218314,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 198000.0,
+          "min_C": 30.477076787772987,
+          "max_C": 46.69356215801097,
+          "mean_C": 41.457089851648625
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 187200.0,
+          "min_C": 32.18923167686311,
+          "max_C": 53.29012587182144,
+          "mean_C": 49.57745702677768
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 176400.0,
+          "min_C": 35.20045391352389,
+          "max_C": 54.98535577815137,
+          "mean_C": 50.48221627121169
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 165600.0,
+          "min_C": 37.03461467214248,
+          "max_C": 55.90656679040441,
+          "mean_C": 50.35090585773721
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 154800.0,
+          "min_C": 35.9905597985644,
+          "max_C": 55.977453704791095,
+          "mean_C": 48.9192996694918
+        }
+      ],
+      "energy_J": 66742158689.25313,
+      "hydration_energy_J": 41571730998.63303,
+      "outward_energy_J": 8958402154.379906,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -7.62939453125e-06
+    },
+    {
+      "time_s": 201600.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 30.183118094402506,
+      "max_C": 56.18494696233293,
+      "mean_C": 47.91307843588118,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 201600.0,
+          "min_C": 30.183118094402506,
+          "max_C": 46.531017294137946,
+          "mean_C": 41.24577688381488
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 190800.0,
+          "min_C": 31.828825656255017,
+          "max_C": 53.27029392392048,
+          "mean_C": 49.4284655640072
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 180000.0,
+          "min_C": 34.796179904026886,
+          "max_C": 54.967302510647784,
+          "mean_C": 50.346904495472366
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 169200.0,
+          "min_C": 36.67099846279276,
+          "max_C": 55.967040032156795,
+          "mean_C": 50.27142369602011
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 158400.0,
+          "min_C": 35.7273257115476,
+          "max_C": 56.18494696233293,
+          "mean_C": 48.93370027364417
+        }
+      ],
+      "energy_J": 66549591385.347626,
+      "hydration_energy_J": 41616151259.51577,
+      "outward_energy_J": 9195389719.168135,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -1.52587890625e-05
+    },
+    {
+      "time_s": 205200.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 29.90241528640526,
+      "max_C": 56.326245809446235,
+      "mean_C": 47.76408669670372,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 205200.0,
+          "min_C": 29.90241528640526,
+          "max_C": 46.36844377804314,
+          "mean_C": 41.038869702950045
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 194400.0,
+          "min_C": 31.485418149317123,
+          "max_C": 53.24443623664499,
+          "mean_C": 49.27878766811201
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 183600.0,
+          "min_C": 34.41628696979633,
+          "max_C": 54.94867544653435,
+          "mean_C": 50.21462178206648
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 172800.0,
+          "min_C": 36.2679065029844,
+          "max_C": 55.98544971337636,
+          "mean_C": 50.1322494072414
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 162000.0,
+          "min_C": 35.42035144232343,
+          "max_C": 56.326245809446235,
+          "mean_C": 48.88730356253125
+        }
+      ],
+      "energy_J": 66342647066.89145,
+      "hydration_energy_J": 41642642711.69254,
+      "outward_energy_J": 9428825489.801098,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -3.814697265625e-06
+    },
+    {
+      "time_s": 208800.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 29.63397092128619,
+      "max_C": 56.400568499783674,
+      "mean_C": 47.609106679273594,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 208800.0,
+          "min_C": 29.63397092128619,
+          "max_C": 46.20632281985059,
+          "mean_C": 40.836275350441475
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 198000.0,
+          "min_C": 31.157809383408246,
+          "max_C": 53.21334139311921,
+          "mean_C": 49.12855087777051
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 187200.0,
+          "min_C": 34.058254278672905,
+          "max_C": 54.929708378886716,
+          "mean_C": 50.08471513509632
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 176400.0,
+          "min_C": 35.86109749578788,
+          "max_C": 55.97095418581299,
+          "mean_C": 49.96668975158572
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 165600.0,
+          "min_C": 35.070447986311976,
+          "max_C": 56.400568499783674,
+          "mean_C": 48.77983666543163
+        }
+      ],
+      "energy_J": 66127385239.232605,
+      "hydration_energy_J": 41657237806.75959,
+      "outward_energy_J": 9658682412.526985,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -7.62939453125e-06
+    },
+    {
+      "time_s": 212400.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 29.37690027826949,
+      "max_C": 56.40883373862965,
+      "mean_C": 47.452496135765934,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 212400.0,
+          "min_C": 29.37690027826949,
+          "max_C": 46.04504396063587,
+          "mean_C": 40.637891411302604
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 201600.0,
+          "min_C": 30.844914540341744,
+          "max_C": 53.17768118562665,
+          "mean_C": 48.97787458388249
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 190800.0,
+          "min_C": 33.71988927699568,
+          "max_C": 54.933070266126066,
+          "mean_C": 49.9568056454202
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 180000.0,
+          "min_C": 35.48287327223112,
+          "max_C": 55.95597211426132,
+          "mean_C": 49.80708956447148
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 169200.0,
+          "min_C": 34.67862943407442,
+          "max_C": 56.40883373862965,
+          "mean_C": 48.61165005126895
+        }
+      ],
+      "energy_J": 65909858667.83896,
+      "hydration_energy_J": 41666019938.340645,
+      "outward_energy_J": 9884991115.501684,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -7.62939453125e-06
+    },
+    {
+      "time_s": 216000.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 29.130415489289632,
+      "max_C": 56.353469636087695,
+      "mean_C": 47.294166034324014,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 216000.0,
+          "min_C": 29.130415489289632,
+          "max_C": 45.88492053672632,
+          "mean_C": 40.44360892465851
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 205200.0,
+          "min_C": 30.545750079296806,
+          "max_C": 53.13802953182634,
+          "mean_C": 48.82687039761085
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 194400.0,
+          "min_C": 33.39927963477478,
+          "max_C": 54.967730592854934,
+          "mean_C": 49.830760412147704
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 183600.0,
+          "min_C": 35.13025449880938,
+          "max_C": 55.940811950809646,
+          "mean_C": 49.65266983316149
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 172800.0,
+          "min_C": 34.24610762328704,
+          "max_C": 56.353469636087695,
+          "mean_C": 48.38368274814375
+        }
+      ],
+      "energy_J": 65689943690.57317,
+      "hydration_energy_J": 41668951500.00002,
+      "outward_energy_J": 10107837654.426853,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -3.814697265625e-06
+    },
+    {
+      "time_s": 219600.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 28.893812126122164,
+      "max_C": 56.26894428250229,
+      "mean_C": 47.13616359142914,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 219600.0,
+          "min_C": 28.893812126122164,
+          "max_C": 45.7262025858934,
+          "mean_C": 40.25331472618942
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 208800.0,
+          "min_C": 30.259421962469833,
+          "max_C": 53.09487822458188,
+          "mean_C": 48.67564251831276
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 198000.0,
+          "min_C": 33.094752784273254,
+          "max_C": 54.99822354893789,
+          "mean_C": 49.70646010954706
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 187200.0,
+          "min_C": 34.80064176356065,
+          "max_C": 55.92571877629204,
+          "mean_C": 49.502728356015034
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 176400.0,
+          "min_C": 33.80640216230713,
+          "max_C": 56.26894428250229,
+          "mean_C": 48.12919172524851
+        }
+      ],
+      "energy_J": 65470483819.57757,
+      "hydration_energy_J": 41668951500.00002,
+      "outward_energy_J": 10327297525.422457,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -7.62939453125e-06
+    },
+    {
+      "time_s": 223200.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 28.66645784908369,
+      "max_C": 56.188137287758146,
+      "mean_C": 46.980525079250654,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 223200.0,
+          "min_C": 28.66645784908369,
+          "max_C": 45.56908761789078,
+          "mean_C": 40.06689332277268
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 212400.0,
+          "min_C": 29.985115485185393,
+          "max_C": 53.04865004083955,
+          "mean_C": 48.52428809642967
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 201600.0,
+          "min_C": 32.80484178413732,
+          "max_C": 55.025082514444534,
+          "mean_C": 49.58379725691199
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 190800.0,
+          "min_C": 34.49176055930819,
+          "max_C": 55.910880114565856,
+          "mean_C": 49.35679972956038
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 180000.0,
+          "min_C": 33.391333877483,
+          "max_C": 56.188137287758146,
+          "mean_C": 47.880744456591124
+        }
+      ],
+      "energy_J": 65254307365.72765,
+      "hydration_energy_J": 41668951500.00002,
+      "outward_energy_J": 10543473979.272367,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -7.62939453125e-06
+    },
+    {
+      "time_s": 226800.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 28.44778278682252,
+      "max_C": 56.11031310006785,
+      "mean_C": 46.82715628510098,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 226800.0,
+          "min_C": 28.44778278682252,
+          "max_C": 45.413729601876135,
+          "mean_C": 39.8842283824766
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 216000.0,
+          "min_C": 29.722086463532555,
+          "max_C": 52.999709654323254,
+          "mean_C": 48.372897588869954
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 205200.0,
+          "min_C": 32.528256461808276,
+          "max_C": 55.048763258706835,
+          "mean_C": 49.46267474691478
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 194400.0,
+          "min_C": 34.201614969051356,
+          "max_C": 55.89643144874366,
+          "mean_C": 49.214631429970176
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 183600.0,
+          "min_C": 32.998923353937535,
+          "max_C": 56.11031310006785,
+          "mean_C": 47.638017888942024
+        }
+      ],
+      "energy_J": 65041283470.89313,
+      "hydration_energy_J": 41668951500.00002,
+      "outward_energy_J": 10756497874.106892,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -1.1444091796875e-05
+    },
+    {
+      "time_s": 230400.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 28.23727137044643,
+      "max_C": 56.034852090351784,
+      "mean_C": 46.675969850867126,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 230400.0,
+          "min_C": 28.23727137044643,
+          "max_C": 45.2602464649224,
+          "mean_C": 39.705203908839025
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 219600.0,
+          "min_C": 29.46965357443789,
+          "max_C": 52.94837272750559,
+          "mean_C": 48.22155510609969
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 208800.0,
+          "min_C": 32.26385896791837,
+          "max_C": 55.069656022324125,
+          "mean_C": 49.34300458958615
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 198000.0,
+          "min_C": 33.92844858416191,
+          "max_C": 55.8824641763896,
+          "mean_C": 49.07599370889097
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 187200.0,
+          "min_C": 32.627395646947875,
+          "max_C": 56.034852090351784,
+          "mean_C": 47.40072083551976
+        }
+      ],
+      "energy_J": 64831290797.70817,
+      "hydration_energy_J": 41668951500.00002,
+      "outward_energy_J": 10966490547.291851,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -1.1444091796875e-05
+    },
+    {
+      "time_s": 234000.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 28.034455390239295,
+      "max_C": 55.96123333272806,
+      "mean_C": 46.52688457229897,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 234000.0,
+          "min_C": 28.034455390239295,
+          "max_C": 45.108726347168556,
+          "mean_C": 39.52970515653555
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 223200.0,
+          "min_C": 29.22719167728657,
+          "max_C": 52.89491349355876,
+          "mean_C": 48.070338750135434
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 212400.0,
+          "min_C": 32.0106430250207,
+          "max_C": 55.08809562125162,
+          "mean_C": 49.224706836556926
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 201600.0,
+          "min_C": 33.67071144696613,
+          "max_C": 55.8690351403296,
+          "mean_C": 48.94067696977319
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 190800.0,
+          "min_C": 32.27515550028152,
+          "max_C": 55.96123333272806,
+          "mean_C": 47.168589800090245
+        }
+      ],
+      "energy_J": 64624216556.30749,
+      "hydration_energy_J": 41668951500.00002,
+      "outward_energy_J": 11173564788.692535,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -7.62939453125e-06
+    },
+    {
+      "time_s": 237600.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 27.8389080808983,
+      "max_C": 55.88901996027137,
+      "mean_C": 46.37982478661532,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 237600.0,
+          "min_C": 27.8389080808983,
+          "max_C": 44.95923281858273,
+          "mean_C": 39.35761933571067
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 226800.0,
+          "min_C": 28.994125974236542,
+          "max_C": 52.83957108544729,
+          "mean_C": 47.91932094267649
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 216000.0,
+          "min_C": 31.767716275258806,
+          "max_C": 55.104369901896995,
+          "mean_C": 49.10770865661509
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 205200.0,
+          "min_C": 33.427032021979564,
+          "max_C": 55.856174313077105,
+          "mean_C": 48.808489501877446
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 194400.0,
+          "min_C": 31.940765861074002,
+          "max_C": 55.88901996027137,
+          "mean_C": 46.941385415168504
+        }
+      ],
+      "energy_J": 64419955653.73241,
+      "hydration_energy_J": 41668951500.00002,
+      "outward_energy_J": 11377825691.267612,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -1.1444091796875e-05
+    },
+    {
+      "time_s": 241200.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 27.650239072757113,
+      "max_C": 55.84389097675159,
+      "mean_C": 46.23471983569614,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 241200.0,
+          "min_C": 27.650239072757113,
+          "max_C": 44.81180922846465,
+          "mean_C": 39.18883614407453
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 230400.0,
+          "min_C": 28.769926889417864,
+          "max_C": 52.78255482504992,
+          "mean_C": 47.768568742700396
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 219600.0,
+          "min_C": 31.534285232259617,
+          "max_C": 55.11872682651759,
+          "mean_C": 48.99194353883235
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 208800.0,
+          "min_C": 33.19619337372936,
+          "max_C": 55.84389097675159,
+          "mean_C": 48.679255517549336
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 198000.0,
+          "min_C": 31.622929230455295,
+          "max_C": 55.817846700891614,
+          "mean_C": 46.71888939836651
+        }
+      ],
+      "energy_J": 64218409948.323715,
+      "hydration_energy_J": 41668951500.00002,
+      "outward_energy_J": 11579371396.676315,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": 0.0
+    },
+    {
+      "time_s": 244800.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 27.468090072840855,
+      "max_C": 55.83217867857017,
+      "mean_C": 46.091503594136036,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 244800.0,
+          "min_C": 27.468090072840855,
+          "max_C": 44.666482330578596,
+          "mean_C": 39.02324815908035
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 234000.0,
+          "min_C": 28.55410556621446,
+          "max_C": 52.72404864858372,
+          "mean_C": 47.61814415295461
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 223200.0,
+          "min_C": 31.309642425552013,
+          "max_C": 55.1313804198581,
+          "mean_C": 48.877350603465324
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 212400.0,
+          "min_C": 32.977112871154475,
+          "max_C": 55.83217867857017,
+          "mean_C": 48.5528134472241
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 201600.0,
+          "min_C": 31.320471454772697,
+          "max_C": 55.74740926053043,
+          "mean_C": 46.500901946583376
+        }
+      ],
+      "energy_J": 64019487594.20436,
+      "hydration_energy_J": 41668951500.00002,
+      "outward_energy_J": 11778293750.79566,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -7.62939453125e-06
+    },
+    {
+      "time_s": 248400.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 27.29213116166319,
+      "max_C": 55.821019191202986,
+      "mean_C": 45.9501140531036,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 248400.0,
+          "min_C": 27.29213116166319,
+          "max_C": 44.523265303247705,
+          "mean_C": 38.860751116861174
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 237600.0,
+          "min_C": 28.34620989754558,
+          "max_C": 52.664214814320964,
+          "mean_C": 47.468104414897915
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 226800.0,
+          "min_C": 31.093155394360352,
+          "max_C": 55.142515768091116,
+          "mean_C": 48.76387400410877
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 216000.0,
+          "min_C": 32.7688248549762,
+          "max_C": 55.821019191202986,
+          "mean_C": 48.429014453980166
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 205200.0,
+          "min_C": 31.032327618638128,
+          "max_C": 55.67745527314053,
+          "mean_C": 46.28723950074123
+        }
+      ],
+      "energy_J": 63823102463.274765,
+      "hydration_energy_J": 41668951500.00002,
+      "outward_energy_J": 11974678881.72526,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -7.62939453125e-06
+    },
+    {
+      "time_s": 252000.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 27.122057610127296,
+      "max_C": 55.81038566555881,
+      "mean_C": 45.81049295234371,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 252000.0,
+          "min_C": 27.122057610127296,
+          "max_C": 44.38216026407873,
+          "mean_C": 38.701244099925106
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 241200.0,
+          "min_C": 28.145821017107036,
+          "max_C": 52.603197013540786,
+          "mean_C": 47.31850229176747
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 230400.0,
+          "min_C": 30.884257244297412,
+          "max_C": 55.15229322822494,
+          "mean_C": 48.651462407292634
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 219600.0,
+          "min_C": 32.57046579998269,
+          "max_C": 55.81038566555881,
+          "mean_C": 48.30772113557241
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 208800.0,
+          "min_C": 30.757529749390393,
+          "max_C": 55.6077765807602,
+          "mean_C": 46.07773282459159
+        }
+      ],
+      "energy_J": 63629173634.076744,
+      "hydration_energy_J": 41668951500.00002,
+      "outward_energy_J": 12168607710.923277,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -7.62939453125e-06
+    },
+    {
+      "time_s": 255600.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 26.957587136321585,
+      "max_C": 55.80024512930746,
+      "mean_C": 45.67258545382322,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 255600.0,
+          "min_C": 26.957587136321585,
+          "max_C": 44.24316036257474,
+          "mean_C": 38.54462965172639
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 244800.0,
+          "min_C": 27.95255019038744,
+          "max_C": 52.5411229849357,
+          "mean_C": 47.169386339565875
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 234000.0,
+          "min_C": 30.682438527404834,
+          "max_C": 55.16085197899444,
+          "mean_C": 48.540068537965624
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 223200.0,
+          "min_C": 32.381261582747406,
+          "max_C": 55.80024512930746,
+          "mean_C": 48.18880638695991
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 212400.0,
+          "min_C": 30.49519608400534,
+          "max_C": 55.538202643808596,
+          "mean_C": 45.87222535013337
+        }
+      ],
+      "energy_J": 63437624938.49887,
+      "hydration_energy_J": 41668951500.00002,
+      "outward_energy_J": 12360156406.501154,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -7.62939453125e-06
+    },
+    {
+      "time_s": 259200.0,
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "active_cells": 7730,
+      "min_C": 26.798457534902795,
+      "max_C": 55.790560456327846,
+      "mean_C": 45.53633985149451,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "active": true,
+          "age_s": 259200.0,
+          "min_C": 26.798457534902795,
+          "max_C": 44.10625152019249,
+          "mean_C": 38.39081383300933
+        },
+        {
+          "vertida_id": 2,
+          "active": true,
+          "age_s": 248400.0,
+          "min_C": 27.76603605333693,
+          "max_C": 52.47810671554834,
+          "mean_C": 47.02080116587249
+        },
+        {
+          "vertida_id": 3,
+          "active": true,
+          "age_s": 237600.0,
+          "min_C": 30.48724024489354,
+          "max_C": 55.1683130218383,
+          "mean_C": 48.42964878117859
+        },
+        {
+          "vertida_id": 4,
+          "active": true,
+          "age_s": 226800.0,
+          "min_C": 32.20051653003518,
+          "max_C": 55.790560456327846,
+          "mean_C": 48.072152400577025
+        },
+        {
+          "vertida_id": 5,
+          "active": true,
+          "age_s": 216000.0,
+          "min_C": 30.244521684970966,
+          "max_C": 55.46859491265823,
+          "mean_C": 45.67057174970499
+        }
+      ],
+      "energy_J": 63248384558.64809,
+      "hydration_energy_J": 41668951500.00002,
+      "outward_energy_J": 12549396786.35194,
+      "placement_energy_J": 26698136355.000008,
+      "balance_residual_J": -3.814697265625e-06
+    }
+  ],
+  "activation_events": [
+    {
+      "time_s": 0.0,
+      "vertida_ids": [
+        1
+      ],
+      "placement_energy_J": 7430693490.000001
+    },
+    {
+      "time_s": 10800.0,
+      "vertida_ids": [
+        2
+      ],
+      "placement_energy_J": 7753767120.000003
+    },
+    {
+      "time_s": 21600.0,
+      "vertida_ids": [
+        3
+      ],
+      "placement_energy_J": 11504332125.000004
+    },
+    {
+      "time_s": 32400.0,
+      "vertida_ids": [
+        4
+      ],
+      "placement_energy_J": 4975477650.000002
+    },
+    {
+      "time_s": 43200.0,
+      "vertida_ids": [
+        5
+      ],
+      "placement_energy_J": 2464559460.000001
+    }
+  ],
+  "steps": [
+    {
+      "start_s": 0.0,
+      "end_s": 3600.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 29879.41837594831,
+      "dt_over_limit": 0.12048427297694156,
+      "hydration_energy_J": 10375881.621195272,
+      "outward_energy_J": 31960594.285714295,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 3.5278499126434326e-06
+    },
+    {
+      "start_s": 3600.0,
+      "end_s": 7200.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 29879.41837594831,
+      "dt_over_limit": 0.12048427297694156,
+      "hydration_energy_J": 31083213.74554914,
+      "outward_energy_J": 31220864.951240137,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -3.390014171600342e-07
+    },
+    {
+      "start_s": 7200.0,
+      "end_s": 10800.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 29879.41837594831,
+      "dt_over_limit": 0.12048427297694156,
+      "hydration_energy_J": 51657442.776662834,
+      "outward_energy_J": 31190949.549818147,
+      "placement_energy_J": 7753767120.000003,
+      "balance_residual_J": -3.814697265625e-06
+    },
+    {
+      "start_s": 10800.0,
+      "end_s": 14400.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 82386348.32840715,
+      "outward_energy_J": 39105286.92356562,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 8.419156074523926e-07
+    },
+    {
+      "start_s": 14400.0,
+      "end_s": 18000.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 123138344.5096222,
+      "outward_energy_J": 39241627.93950528,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 2.9355287551879883e-06
+    },
+    {
+      "start_s": 18000.0,
+      "end_s": 21600.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 163363043.39510444,
+      "outward_energy_J": 40131800.188702144,
+      "placement_energy_J": 11504332125.000004,
+      "balance_residual_J": -5.7220458984375e-06
+    },
+    {
+      "start_s": 21600.0,
+      "end_s": 25200.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 217667191.54975286,
+      "outward_energy_J": 51202071.179724924,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -2.302229404449463e-06
+    },
+    {
+      "start_s": 25200.0,
+      "end_s": 28800.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 285818250.2742442,
+      "outward_energy_J": 52029856.45708049,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 5.491077899932861e-06
+    },
+    {
+      "start_s": 28800.0,
+      "end_s": 32400.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 352745391.37144667,
+      "outward_energy_J": 53667333.55600293,
+      "placement_energy_J": 4975477650.000002,
+      "balance_residual_J": -4.76837158203125e-06
+    },
+    {
+      "start_s": 32400.0,
+      "end_s": 36000.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 424307914.6098352,
+      "outward_energy_J": 62021625.367915854,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 4.932284355163574e-06
+    },
+    {
+      "start_s": 36000.0,
+      "end_s": 39600.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 500199378.278426,
+      "outward_energy_J": 64297262.57192818,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -6.183981895446777e-07
+    },
+    {
+      "start_s": 39600.0,
+      "end_s": 43200.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 573948911.4172243,
+      "outward_energy_J": 67329159.75841875,
+      "placement_energy_J": 2464559460.000001,
+      "balance_residual_J": -8.58306884765625e-06
+    },
+    {
+      "start_s": 43200.0,
+      "end_s": 46800.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 648172268.8624738,
+      "outward_energy_J": 74967440.74715635,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 8.046627044677734e-07
+    },
+    {
+      "start_s": 46800.0,
+      "end_s": 50400.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 722551614.8026186,
+      "outward_energy_J": 79055904.44153388,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 6.8694353103637695e-06
+    },
+    {
+      "start_s": 50400.0,
+      "end_s": 54000.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 793836883.800037,
+      "outward_energy_J": 83768425.8334291,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 5.841255187988281e-06
+    },
+    {
+      "start_s": 54000.0,
+      "end_s": 57600.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 861722821.3889673,
+      "outward_energy_J": 89046659.79382592,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -2.8014183044433594e-06
+    },
+    {
+      "start_s": 57600.0,
+      "end_s": 61200.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 925918729.5626172,
+      "outward_energy_J": 94833523.967463,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -8.001923561096191e-06
+    },
+    {
+      "start_s": 61200.0,
+      "end_s": 64800.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 986149711.5866483,
+      "outward_energy_J": 101072954.35791452,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 3.0547380447387695e-06
+    },
+    {
+      "start_s": 64800.0,
+      "end_s": 68400.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1042157849.1492087,
+      "outward_energy_J": 107709731.46289797,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -8.791685104370117e-07
+    },
+    {
+      "start_s": 68400.0,
+      "end_s": 72000.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1093703306.80673,
+      "outward_energy_J": 114689365.23310915,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 2.771615982055664e-06
+    },
+    {
+      "start_s": 72000.0,
+      "end_s": 75600.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1140565358.996115,
+      "outward_energy_J": 121958029.06982355,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -6.631016731262207e-06
+    },
+    {
+      "start_s": 75600.0,
+      "end_s": 79200.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1182543335.2155008,
+      "outward_energy_J": 129462534.65838902,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 1.8328428268432617e-06
+    },
+    {
+      "start_s": 79200.0,
+      "end_s": 82800.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1219457479.3261414,
+      "outward_energy_J": 137150340.72585768,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 4.708766937255859e-06
+    },
+    {
+      "start_s": 82800.0,
+      "end_s": 86400.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1251149719.2957826,
+      "outward_energy_J": 144969589.86712378,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -1.2516975402832031e-06
+    },
+    {
+      "start_s": 86400.0,
+      "end_s": 90000.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1277484344.0874052,
+      "outward_energy_J": 152869168.44995546,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 1.430511474609375e-06
+    },
+    {
+      "start_s": 90000.0,
+      "end_s": 93600.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1298348584.7946799,
+      "outward_energy_J": 160798785.32145494,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 3.516674041748047e-06
+    },
+    {
+      "start_s": 93600.0,
+      "end_s": 97200.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1313653097.5357614,
+      "outward_energy_J": 168709065.6260017,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -1.4901161193847656e-07
+    },
+    {
+      "start_s": 97200.0,
+      "end_s": 100800.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1323332346.0375042,
+      "outward_energy_J": 176551656.53127974,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -6.496906280517578e-06
+    },
+    {
+      "start_s": 100800.0,
+      "end_s": 104400.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1327344882.2718337,
+      "outward_energy_J": 184279342.06370103,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -2.7418136596679688e-06
+    },
+    {
+      "start_s": 104400.0,
+      "end_s": 108000.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1325673523.9425843,
+      "outward_energy_J": 191846164.5929214,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 7.539987564086914e-06
+    },
+    {
+      "start_s": 108000.0,
+      "end_s": 111600.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1318325428.0627112,
+      "outward_energy_J": 199207550.78978935,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -3.1888484954833984e-06
+    },
+    {
+      "start_s": 111600.0,
+      "end_s": 115200.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1305332060.306867,
+      "outward_energy_J": 206320440.1231716,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 5.27501106262207e-06
+    },
+    {
+      "start_s": 115200.0,
+      "end_s": 118800.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1286749060.2705717,
+      "outward_energy_J": 213143414.16696563,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -1.4156103134155273e-05
+    },
+    {
+      "start_s": 118800.0,
+      "end_s": 122400.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1262656003.2128863,
+      "outward_energy_J": 219636825.165973,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 7.450580596923828e-06
+    },
+    {
+      "start_s": 122400.0,
+      "end_s": 126000.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1233156059.3029616,
+      "outward_energy_J": 225762922.46364605,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 1.7881393432617188e-06
+    },
+    {
+      "start_s": 126000.0,
+      "end_s": 129600.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1198375551.829546,
+      "outward_energy_J": 231485975.5304883,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -6.556510925292969e-07
+    },
+    {
+      "start_s": 129600.0,
+      "end_s": 133200.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1158463416.2652338,
+      "outward_energy_J": 236772392.45269886,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 3.248453140258789e-06
+    },
+    {
+      "start_s": 133200.0,
+      "end_s": 136800.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1113590562.5019288,
+      "outward_energy_J": 241590832.8494356,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -4.500150680541992e-06
+    },
+    {
+      "start_s": 136800.0,
+      "end_s": 140400.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1063949142.9884648,
+      "outward_energy_J": 245912314.2862105,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 9.238719940185547e-07
+    },
+    {
+      "start_s": 140400.0,
+      "end_s": 144000.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 1009751729.9042778,
+      "outward_energy_J": 249710311.34333527,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 1.0728836059570312e-06
+    },
+    {
+      "start_s": 144000.0,
+      "end_s": 147600.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 951230404.8927283,
+      "outward_energy_J": 252960846.5835567,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -5.662441253662109e-06
+    },
+    {
+      "start_s": 147600.0,
+      "end_s": 151200.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 888635765.2518893,
+      "outward_energy_J": 255642572.74329323,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 9.834766387939453e-06
+    },
+    {
+      "start_s": 151200.0,
+      "end_s": 154800.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 822235850.8383923,
+      "outward_energy_J": 257736845.54818723,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -5.751848220825195e-06
+    },
+    {
+      "start_s": 154800.0,
+      "end_s": 158400.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 752314996.2796578,
+      "outward_energy_J": 259227786.62680092,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 5.632638931274414e-06
+    },
+    {
+      "start_s": 158400.0,
+      "end_s": 162000.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 679172613.4093634,
+      "outward_energy_J": 260102336.0668095,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -1.6987323760986328e-06
+    },
+    {
+      "start_s": 162000.0,
+      "end_s": 165600.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 603121909.1399666,
+      "outward_energy_J": 260350294.22643828,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 1.1920928955078125e-07
+    },
+    {
+      "start_s": 165600.0,
+      "end_s": 169200.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 524488544.2626702,
+      "outward_energy_J": 259964352.4805029,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -1.7881393432617188e-06
+    },
+    {
+      "start_s": 169200.0,
+      "end_s": 172800.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 443609238.9179031,
+      "outward_energy_J": 258940112.64548093,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 5.960464477539062e-07
+    },
+    {
+      "start_s": 172800.0,
+      "end_s": 176400.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 371206212.3291496,
+      "outward_energy_J": 257276094.8917424,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 1.2516975402832031e-06
+    },
+    {
+      "start_s": 176400.0,
+      "end_s": 180000.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 307589505.37178296,
+      "outward_energy_J": 255153602.8135333,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 7.748603820800781e-07
+    },
+    {
+      "start_s": 180000.0,
+      "end_s": 183600.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 242655652.93041873,
+      "outward_energy_J": 252750113.41894633,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 2.205371856689453e-06
+    },
+    {
+      "start_s": 183600.0,
+      "end_s": 187200.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 187058593.35122475,
+      "outward_energy_J": 250058792.88265812,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -7.361173629760742e-06
+    },
+    {
+      "start_s": 187200.0,
+      "end_s": 190800.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 141036401.77873725,
+      "outward_energy_J": 247108526.77658123,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 3.0994415283203125e-06
+    },
+    {
+      "start_s": 190800.0,
+      "end_s": 194400.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 94410270.68153402,
+      "outward_energy_J": 243929658.89366415,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 2.4437904357910156e-06
+    },
+    {
+      "start_s": 194400.0,
+      "end_s": 198000.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 62158855.21207706,
+      "outward_energy_J": 240520123.13654056,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -5.4836273193359375e-06
+    },
+    {
+      "start_s": 198000.0,
+      "end_s": 201600.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 44420260.88273546,
+      "outward_energy_J": 236987564.78822848,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -9.298324584960938e-06
+    },
+    {
+      "start_s": 201600.0,
+      "end_s": 205200.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 26491452.176772453,
+      "outward_energy_J": 233435770.6329628,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 1.3589859008789062e-05
+    },
+    {
+      "start_s": 205200.0,
+      "end_s": 208800.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 14595095.067043938,
+      "outward_energy_J": 229856922.72588676,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -1.1622905731201172e-06
+    },
+    {
+      "start_s": 208800.0,
+      "end_s": 212400.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 8782131.581055999,
+      "outward_energy_J": 226308702.9746995,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -2.7418136596679688e-06
+    },
+    {
+      "start_s": 212400.0,
+      "end_s": 216000.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 2931561.6593810893,
+      "outward_energy_J": 222846538.92516968,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 3.3676624298095703e-06
+    },
+    {
+      "start_s": 216000.0,
+      "end_s": 219600.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 0.0,
+      "outward_energy_J": 219459870.9956037,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -1.7583370208740234e-06
+    },
+    {
+      "start_s": 219600.0,
+      "end_s": 223200.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 0.0,
+      "outward_energy_J": 216176453.84991124,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -3.3080577850341797e-06
+    },
+    {
+      "start_s": 223200.0,
+      "end_s": 226800.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 0.0,
+      "outward_energy_J": 213023894.8345245,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -1.5497207641601562e-06
+    },
+    {
+      "start_s": 226800.0,
+      "end_s": 230400.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 0.0,
+      "outward_energy_J": 209992673.18496016,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 7.450580596923828e-07
+    },
+    {
+      "start_s": 230400.0,
+      "end_s": 234000.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 0.0,
+      "outward_energy_J": 207074241.40068424,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 3.6954879760742188e-06
+    },
+    {
+      "start_s": 234000.0,
+      "end_s": 237600.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 0.0,
+      "outward_energy_J": 204260902.57507733,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -3.546476364135742e-06
+    },
+    {
+      "start_s": 237600.0,
+      "end_s": 241200.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 0.0,
+      "outward_energy_J": 201545705.40870258,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 1.1175870895385742e-05
+    },
+    {
+      "start_s": 241200.0,
+      "end_s": 244800.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 0.0,
+      "outward_energy_J": 198922354.11934456,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -9.685754776000977e-06
+    },
+    {
+      "start_s": 244800.0,
+      "end_s": 248400.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 0.0,
+      "outward_energy_J": 196385130.92959985,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 3.904104232788086e-06
+    },
+    {
+      "start_s": 248400.0,
+      "end_s": 252000.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 0.0,
+      "outward_energy_J": 193928829.1980179,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -3.039836883544922e-06
+    },
+    {
+      "start_s": 252000.0,
+      "end_s": 255600.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 0.0,
+      "outward_energy_J": 191548695.57787743,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 4.202127456665039e-06
+    },
+    {
+      "start_s": 255600.0,
+      "end_s": 259200.0,
+      "dt_s": 3600.0,
+      "stable_dt_s": 27010.629921259853,
+      "dt_over_limit": 0.13328086055358776,
+      "hydration_energy_J": 0.0,
+      "outward_energy_J": 189240379.85078642,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 2.115964889526367e-06
+    }
+  ],
+  "energy": {
+    "reference_C": 0.0,
+    "initial_J": 7430693490.000001,
+    "final_J": 63248384558.64809,
+    "hydration_J": 41668951500.00002,
+    "outward_J": 12549396786.35194,
+    "placement_after_zero_J": 26698136355.000008,
+    "residual_J": -3.814697265625e-06,
+    "max_step_residual_J": 1.4156103134155273e-05,
+    "tolerance_J": 0.7579788134500003
+  },
+  "checks": {
+    "global_energy_balance": true,
+    "step_energy_balance": true,
+    "hydration_potential": true,
+    "stable_steps": true,
+    "events_reached": true,
+    "inactive_is_nan": true,
+    "final_time_exact": true
+  },
+  "temperature_range_C": [
+    22.810382232187436,
+    56.40883373862965
+  ],
+  "maximum_step_s": 3600.0,
+  "max_dt_over_limit": 0.13328086055358776,
+  "integration": "Euler explícito conservativo sobre máscara activa; hidratación integrada exactamente por intervalo.",
+  "assumptions": [
+    "Parámetros y cronograma ilustrativos, sin calibración Freirina.",
+    "Hidratación prescrita por edad real, sin dependencia de temperatura.",
+    "Contacto perfecto; bordes constantes por orientación; área staircase sin corregir.",
+    "La visibilidad es solo del dibujo y no cambia la física."
+  ],
+  "finished_utc": "2026-11-05T02:08:13.284110+00:00",
+  "figures": [
+    "figures/e08_temperaturas.png",
+    "figures/e08_energia.png",
+    "figures/e08_volumen.png",
+    "figures/e08_final_3d.png"
+  ]
+}

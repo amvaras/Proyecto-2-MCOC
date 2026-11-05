@@ -1,0 +1,3 @@
+PASS neumann: balance_energia_todos_los_pasos=1.16e-09 (tolerancia 0.000429), cancelacion_intercambios_internos=0 (tolerancia 2.58e-09), potencia_flujo_por_area=0 (tolerancia 3.16e-09), energia_flujo_prescrito=-1.16e-09 (tolerancia 0.000429)
+PASS robin: balance_energia_todos_los_pasos=2.79e-09 (tolerancia 0.000478), cancelacion_intercambios_internos=0 (tolerancia 4.83e-09), resistencias_en_serie_z+=0 (tolerancia 2.36e-09), ley_superficial_z+=2.84e-14 (tolerancia 2.37e-08), principio_maximo=0 (tolerancia 4e-09), sentido_intercambio=0 (tolerancia 0.0086)
+Resultado: PASS; archivos en C:\Users\Usuario\Desktop\Proyecto-2-MCOC\P2_E07\results\auditoria_e06_20261104\final\thermal\bordes_modificados

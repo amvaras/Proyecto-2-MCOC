@@ -1,0 +1,351 @@
+{
+  "date_local": "2026-11-04",
+  "timezone": "America/Santiago",
+  "status": "passed",
+  "formal_status": "Cambios locales sin commit nuevo; comprensión oral individual pendiente de demostración",
+  "new_changes_committed": false,
+  "published_parent_sha": "269d389a8f60ce8ab346110e2ca24a1926b8bb62",
+  "tests_before": 297,
+  "tests_after": {
+    "tests": 307,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "elapsed_s": 62.84
+  },
+  "new_e07_tests": 10,
+  "parameter_cases_passed": 60,
+  "voxel_demonstrations_passed": 2,
+  "checks_per_demo": 10,
+  "volume_resolutions_m": [
+    0.55,
+    0.275,
+    0.1375
+  ],
+  "figures_per_demo": 5,
+  "temperature_dependent_hydration": false,
+  "foundation_transient_integrator": false,
+  "original_core_and_ifc_preserved": [
+    "src/mcoc_p2/diffusion_1d.py",
+    "src/mcoc_p2/thermal_nd.py",
+    "geometry/foundation.ifc",
+    "src/mcoc_p2/e07/geometry.py",
+    "src/mcoc_p2/e07/ifc.py",
+    "src/mcoc_p2/e07/faces.py",
+    "src/mcoc_p2/e07/hydration.py",
+    "src/mcoc_p2/e07/coupling.py"
+  ],
+  "inventories": {
+    "E06_INVENTARIO_SHA256.json": {
+      "checked": 1291,
+      "unchanged": 1280,
+      "documented_revisions": [
+        {
+          "path": ".gitattributes",
+          "original_sha256": "dbb3cce54401479e45b80d4a517efa6a62249b9984f9f3bec162fed74d8f544b",
+          "current_sha256": "8206a73214794e01325acf5d41ba3599463ea8c94005f71b8e394788e40be397",
+          "reason": "Importación Git E07: preservación de bytes sin conversión de finales de línea; original conservado en docs."
+        },
+        {
+          "path": "README.md",
+          "original_sha256": "52e8c25913be1cb2ea1a8ce1f7916561ba677970c87039481aad9afca2d86428",
+          "current_sha256": "c65a8af1996bf09ae02b8586747a789ab42272b91482b29efbd1b1ceb31aa88c",
+          "reason": "Evolución/importación acumulativa E07 y accesos a auditorías vigentes E05/E06/E07; estados históricos identificados."
+        },
+        {
+          "path": "docs/E05_DEMO.md",
+          "original_sha256": "6051d97d3f89b34cfc775ba2eaf11db4936c693b325b762836cf918b7fac914a",
+          "current_sha256": "7a4aa2934b1fed20e1690a154773551a02668b3fdcd32effc8ebaca8e965e86e",
+          "reason": "Auditoría E05: aviso de rutas actuales en la carpeta acumulativa P2_E07."
+        },
+        {
+          "path": "docs/E05_ESTADO.md",
+          "original_sha256": "9f83b51e1348690399b0c7c07f8675e7c13916e0add82c4282bf779b91b4b40d",
+          "current_sha256": "16253abc9aebaef79222b637eef77e821de1f84348cf19b6b72eba90d159e55b",
+          "reason": "Auditoría E05: distinción del estado histórico y la revisión actual."
+        },
+        {
+          "path": "docs/E06_AUDITORIA.md",
+          "original_sha256": "ba09a7f58a6d0f394e8d46af9b221c24faead2f75ffc505d965c29755adecb8d",
+          "current_sha256": "65a8d3fabdd3cb14017492dfa4e2b413c3d543522635e53606d6a26a30ce31f1",
+          "reason": "Auditoría E06: aviso de documento histórico con enlace a la revisión actual."
+        },
+        {
+          "path": "docs/E06_DOSSIER.md",
+          "original_sha256": "985d1897051653b1a0dc4aa7e02af278639d09bcb150d526f777106a0a677b49",
+          "current_sha256": "72ecd40c1c04d3b51b52b3ec22187f37e3d3d217fc4aeb5f78955bcb5da81165",
+          "reason": "Auditoría E06: dossier regenerado desde evidencia vigente, rutas actuales y commit pendiente explícito. Original preservado en docs/historico/auditoria_e06_20261104."
+        },
+        {
+          "path": "docs/E06_ESTADO.md",
+          "original_sha256": "375298bcf4cb7550717ace78a0729dae38b02d55bb0e51bfcb72a8c4427cf3d6",
+          "current_sha256": "739e0419f155c7a1389d5f72b49e69065b6eb982a2daa9f50c66b3c5309fc754",
+          "reason": "Auditoría E06: distinción del estado histórico y la revisión actual."
+        },
+        {
+          "path": "pyproject.toml",
+          "original_sha256": "d39873602cbf152bc8ab2cc1fd77b966c93e7cf7ebd61cfe6877089ddb4efe89",
+          "current_sha256": "f5eb6471e29fb72fec5a051b4d8c2aa72aad33345c7301b981f6d195918cc766",
+          "reason": "Evolución acumulativa de metadatos del paquete a mcoc-p2 0.7.0; dependencias incluidas."
+        },
+        {
+          "path": "scripts/build_e06.py",
+          "original_sha256": "93d0f4b7266a99bbbcd7b5c017daa2969eec0bf32f2c9a2d6f1fc0c59ea70ee8",
+          "current_sha256": "ebb5d471d0bcd2919a49c02f1e6721705eb76db4cc698dbcc2790afbab24ad45",
+          "reason": "Auditoría E06: sustitución de plantilla histórica por generador conciso con métricas reales y rutas relativas."
+        },
+        {
+          "path": "scripts/check_e06_dossier.py",
+          "original_sha256": "2aab6403fb7f1fd5b98203f1385960a2c16994a54ba7e5e47b73079870a463cf",
+          "current_sha256": "7755e01d196a8bc1b60a50674e5ee5b511369b6ad67ca744508f30fbce7ff59e",
+          "reason": "Auditoría E06: cómputo estricto de palabras, cobertura, figuras/IFC y aceptación de SHA o pendiente."
+        },
+        {
+          "path": "scripts/verify_e06.py",
+          "original_sha256": "c4e8062c7c7a21f556cdef8f445597892b382123465205dba725bf031352bf4e",
+          "current_sha256": "58c44256ab31ce79109eb459a5e2d0d9562a933cd7eb558f23e6268f53d8003b",
+          "reason": "Auditoría E06: integridad compatible con revisiones registradas sin modificar inventarios históricos."
+        }
+      ],
+      "unexpected_changes": [],
+      "registry": "docs\\AUDITORIA_CAMBIOS.json"
+    },
+    "E07_INVENTARIO_SHA256.json": {
+      "checked": 1811,
+      "unchanged": 1793,
+      "documented_revisions": [
+        {
+          "path": ".gitattributes",
+          "original_sha256": "dbb3cce54401479e45b80d4a517efa6a62249b9984f9f3bec162fed74d8f544b",
+          "current_sha256": "8206a73214794e01325acf5d41ba3599463ea8c94005f71b8e394788e40be397",
+          "reason": "Importación Git E07: preservación de bytes sin conversión de finales de línea; original conservado en docs."
+        },
+        {
+          "path": "README.md",
+          "original_sha256": "e30fd47345bc45f68fe0420500fc7b3f92c3234949abc5827c0619f6c32ddabc",
+          "current_sha256": "c65a8af1996bf09ae02b8586747a789ab42272b91482b29efbd1b1ceb31aa88c",
+          "reason": "Evolución/importación acumulativa E07 y accesos a auditorías vigentes E05/E06/E07; estados históricos identificados."
+        },
+        {
+          "path": "docs/E05_DEMO.md",
+          "original_sha256": "6051d97d3f89b34cfc775ba2eaf11db4936c693b325b762836cf918b7fac914a",
+          "current_sha256": "7a4aa2934b1fed20e1690a154773551a02668b3fdcd32effc8ebaca8e965e86e",
+          "reason": "Auditoría E05: aviso de rutas actuales en la carpeta acumulativa P2_E07."
+        },
+        {
+          "path": "docs/E05_ESTADO.md",
+          "original_sha256": "9f83b51e1348690399b0c7c07f8675e7c13916e0add82c4282bf779b91b4b40d",
+          "current_sha256": "16253abc9aebaef79222b637eef77e821de1f84348cf19b6b72eba90d159e55b",
+          "reason": "Auditoría E05: distinción del estado histórico y la revisión actual."
+        },
+        {
+          "path": "docs/E06_AUDITORIA.md",
+          "original_sha256": "ba09a7f58a6d0f394e8d46af9b221c24faead2f75ffc505d965c29755adecb8d",
+          "current_sha256": "65a8d3fabdd3cb14017492dfa4e2b413c3d543522635e53606d6a26a30ce31f1",
+          "reason": "Auditoría E06: aviso de documento histórico con enlace a la revisión actual."
+        },
+        {
+          "path": "docs/E06_DOSSIER.md",
+          "original_sha256": "985d1897051653b1a0dc4aa7e02af278639d09bcb150d526f777106a0a677b49",
+          "current_sha256": "72ecd40c1c04d3b51b52b3ec22187f37e3d3d217fc4aeb5f78955bcb5da81165",
+          "reason": "Auditoría E06: dossier regenerado desde evidencia vigente, rutas actuales y commit pendiente explícito. Original preservado en docs/historico/auditoria_e06_20261104."
+        },
+        {
+          "path": "docs/E06_ESTADO.md",
+          "original_sha256": "375298bcf4cb7550717ace78a0729dae38b02d55bb0e51bfcb72a8c4427cf3d6",
+          "current_sha256": "739e0419f155c7a1389d5f72b49e69065b6eb982a2daa9f50c66b3c5309fc754",
+          "reason": "Auditoría E06: distinción del estado histórico y la revisión actual."
+        },
+        {
+          "path": "docs/E07_AUDITORIA.md",
+          "original_sha256": "ccf831f197ae4a8262d73a53e2aa0aae2c3297d2672d7f53e4803a37495121be",
+          "current_sha256": "7bd1fcc9e3c0ba0af9527f9a42749e5a460e71eb32dc5d44d37fbdd36c12a47d",
+          "reason": "Auditoría E07: distinción entre auditoría anterior y revisión actual con evidencia nueva."
+        },
+        {
+          "path": "docs/E07_DEMO.md",
+          "original_sha256": "7c9feef655bf3ff890e8370683a622418221d42366615488380d422de90e2478",
+          "current_sha256": "7660256559b1837e2c5534577da2ccac1d3d2ae18473d14b2c498de876e58734",
+          "reason": "Auditoría E07: rutas del entorno instalado, parámetros efectivos por vertida y alcance del presupuesto de calor."
+        },
+        {
+          "path": "docs/E07_ESTADO.md",
+          "original_sha256": "33b881efe15a6575a57afdc1da4e3c04d8b6c20e9e1d516617281d7c934330d9",
+          "current_sha256": "e2dd6e378c044c1529744d1f5e5dff6c77d8d5a7221436b84e2842cf9fc6411b",
+          "reason": "Auditoría E07: aviso de antecedentes históricos, publicación original y correcciones locales actuales."
+        },
+        {
+          "path": "examples/run_e07.py",
+          "original_sha256": "2f1f32bd0cbf1b6090665e680e6565af9d009180b721fc0c8ce82584f3b521c5",
+          "current_sha256": "6c58ac8d5aec24e2a2a5dbb8575912fef37075c04daf98386f9dff5b6825c7eb",
+          "reason": "Auditoría E07: reportar parámetros efectivos y calor/potencia por vertida, contrastados con el campo de fuente."
+        },
+        {
+          "path": "scripts/build_e06.py",
+          "original_sha256": "93d0f4b7266a99bbbcd7b5c017daa2969eec0bf32f2c9a2d6f1fc0c59ea70ee8",
+          "current_sha256": "ebb5d471d0bcd2919a49c02f1e6721705eb76db4cc698dbcc2790afbab24ad45",
+          "reason": "Auditoría E06: sustitución de plantilla histórica por generador conciso con métricas reales y rutas relativas."
+        },
+        {
+          "path": "scripts/check_e06_dossier.py",
+          "original_sha256": "2aab6403fb7f1fd5b98203f1385960a2c16994a54ba7e5e47b73079870a463cf",
+          "current_sha256": "7755e01d196a8bc1b60a50674e5ee5b511369b6ad67ca744508f30fbce7ff59e",
+          "reason": "Auditoría E06: cómputo estricto de palabras, cobertura, figuras/IFC y aceptación de SHA o pendiente."
+        },
+        {
+          "path": "scripts/verify_e06.py",
+          "original_sha256": "c4e8062c7c7a21f556cdef8f445597892b382123465205dba725bf031352bf4e",
+          "current_sha256": "58c44256ab31ce79109eb459a5e2d0d9562a933cd7eb558f23e6268f53d8003b",
+          "reason": "Auditoría E06: integridad compatible con revisiones registradas sin modificar inventarios históricos."
+        },
+        {
+          "path": "scripts/verify_e07.py",
+          "original_sha256": "a6e298f3abbe314b8cc02b3425d43173f092131e8ab46c3b656fbacda9adfa09",
+          "current_sha256": "f5accb278a8c39a4263810b599ffb3e14d56b971ada49eed7d8f25f8fc20c192",
+          "reason": "Auditorías E06/E07: revisiones heredadas documentadas y estado de publicación actual sin atribuir cambios locales al SHA previo."
+        },
+        {
+          "path": "src/mcoc_p2/e07/construction.py",
+          "original_sha256": "aec16c9225b7023e26a1d30a7541eda76fb4c719b773e7e1551da3d3819d2fa9",
+          "current_sha256": "1f8bb8086213354aa6f26350d7ee54e85d6cff5bd8734f0622825d9a3fbdd507",
+          "reason": "Auditoría E07: diagnóstico por vertida de edad, parámetros efectivos, potencia e integral de generación prescrita; no integrador térmico."
+        },
+        {
+          "path": "src/mcoc_p2/e07/plots.py",
+          "original_sha256": "5fb981c0ccc6e853ceee7d9e949aa8797eb15a4cc936487026d84ebe1b1185e6",
+          "current_sha256": "57e08c13a2b00d427c08bba3e0636df1e2d84c6b9db1da5c05b94abca0d2d1e0",
+          "reason": "Auditoría E07: colores para IDs arbitrarios, coordenadas mundiales, error cero, horizonte efectivo y curvas de todas las vertidas."
+        },
+        {
+          "path": "src/mcoc_p2/e07/voxel.py",
+          "original_sha256": "cdd0d3a2d82e2ffffd58159f8a26d1f0b0228d0653edbe46baecf1b9c75e47af",
+          "current_sha256": "f693ea9e0ff075cc33ab4072c983f8d5d58446ac93c7b13af440266c146b6988",
+          "reason": "Auditoría E07: métricas de error firmado total, suma de errores absolutos por pieza y máximo relativo para detectar compensación."
+        }
+      ],
+      "unexpected_changes": [],
+      "registry": "docs\\AUDITORIA_CAMBIOS.json"
+    }
+  },
+  "source_sha256": {
+    "E07.md": "5a178f12a0174698487bdea7180c6638497abab8c652d3d8342192d09d8753b9",
+    "VERIFICAR_E07.ps1": "610f140d9acd9a7f1cdcb62449a8a8dddeb2afe2d534690cc96c4a283296fe6a",
+    "P2_E07/README.md": "c65a8af1996bf09ae02b8586747a789ab42272b91482b29efbd1b1ceb31aa88c",
+    "P2_E07/docs/AUDITORIA_E07_20261104.md": "b1cfd0457fa8da402a5ee7718a7255c42ad864fbe1e40adbf7931ac6d5ce2efb",
+    "P2_E07/docs/E07_ENUNCIADO_OFICIAL.md": "48ffa75378425dfeacfda256004dc3d9015583ad285128fc853506949aec4d10",
+    "P2_E07/docs/E07_DEMO.md": "7660256559b1837e2c5534577da2ccac1d3d2ae18473d14b2c498de876e58734",
+    "P2_E07/docs/E07_ESTADO.md": "e2dd6e378c044c1529744d1f5e5dff6c77d8d5a7221436b84e2842cf9fc6411b",
+    "P2_E07/docs/E07_AUDITORIA.md": "7bd1fcc9e3c0ba0af9527f9a42749e5a460e71eb32dc5d44d37fbdd36c12a47d",
+    "P2_E07/docs/AUDITORIA_CAMBIOS.json": "a64e39ae60ef596ad7bdd1c02077d64c4704146f0c3b0044286d047f9668e887",
+    "P2_E07/scripts/verify_e07.py": "f5accb278a8c39a4263810b599ffb3e14d56b971ada49eed7d8f25f8fc20c192",
+    "P2_E07/examples/run_e07.py": "6c58ac8d5aec24e2a2a5dbb8575912fef37075c04daf98386f9dff5b6825c7eb",
+    "P2_E07/src/mcoc_p2/e07/voxel.py": "f693ea9e0ff075cc33ab4072c983f8d5d58446ac93c7b13af440266c146b6988",
+    "P2_E07/src/mcoc_p2/e07/construction.py": "1f8bb8086213354aa6f26350d7ee54e85d6cff5bd8734f0622825d9a3fbdd507",
+    "P2_E07/src/mcoc_p2/e07/plots.py": "57e08c13a2b00d427c08bba3e0636df1e2d84c6b9db1da5c05b94abca0d2d1e0",
+    "P2_E07/tests/test_e07_auditoria.py": "4190009014e0b557c7f85f7842500a6aa500096346c4249d73344c6a5b4b9f88"
+  },
+  "evidence_sha256": {
+    "ejecucion/demo/construction.npz": "3124f5095faa2bc5c1331fb408d4412478c5e098549f921efc76ae6021597570",
+    "ejecucion/demo/faces.npz": "3675795a803b5d1c1f9e4e0a8fa2353432e4d85fe015dcb4526c56e7ab854009",
+    "ejecucion/demo/figures/e07_activacion_temporal.png": "5d1b91a7ce96ac49fd79e6fb5fac61e868bb0ef4b7632f77726c11dc17bfc2b9",
+    "ejecucion/demo/figures/e07_error_volumen.png": "9f1a2a03729107a2c0acad34e42e89d0e9952baaa650080c6248e3d90ccfbf39",
+    "ejecucion/demo/figures/e07_fundacion_voxelizada.png": "c48e531b00b79c3cca1891c51865212dfe2bc292f1dfc3e8199b1ca0bf484472",
+    "ejecucion/demo/figures/e07_hidratacion_preliminar.png": "f07cce6187cf5c3c2376b1646c3c727d7502ae3687770c73c69668d67f6a0a25",
+    "ejecucion/demo/figures/e07_superficies_interfaces.png": "dbb12e4f2a0e2506d32d4fad147441223879a6290cf1631d8d71c229559d8e83",
+    "ejecucion/demo/geometry.json": "4150b2d4fedd02fa0d3ac6c959e9533971c6aa5df3ab493df5403bcf8951cbd3",
+    "ejecucion/demo/geometry.npz": "f7417b2205f364b87ec27f5a0077a8468f9e4f2d2f4f5d315ef02c52d2ac19c5",
+    "ejecucion/demo/summary.json": "87da858e2db4e879f3f20b2209913964a13ab45fe3b7463aa6fb6305e832a0a2",
+    "ejecucion/demo/voxels.npz": "f1a33420b3fb3c47373392ab17533e0a82bdbeb8778f2ac05f14ef6a01afea7f",
+    "ejecucion/demo.txt": "e480d2214c5d125298c4c0bf41a447107d9806f0e3d3c87e389f6ed2d93c04f3",
+    "ejecucion/invalid/geometry.json": "4150b2d4fedd02fa0d3ac6c959e9533971c6aa5df3ab493df5403bcf8951cbd3",
+    "ejecucion/invalid/geometry.npz": "f7417b2205f364b87ec27f5a0077a8468f9e4f2d2f4f5d315ef02c52d2ac19c5",
+    "ejecucion/invalid_resolution.txt": "8fa6499aa8623b725622c9dac2fa0768565dd87e3eb400754bce102da014fb33",
+    "ejecucion/modified/construction.npz": "63a138c119c31cf14f811189ad7ee8d077ffa18dc2959366c70824c75bc67298",
+    "ejecucion/modified/faces.npz": "3e2883bc1207c160730bd2c59030c46f51399d176c31b787e1c1e4ed7a8266fc",
+    "ejecucion/modified/figures/e07_activacion_temporal.png": "33b23223165303f00c4d34d5dfc064769e373159746ec77ed86f4990d6509076",
+    "ejecucion/modified/figures/e07_error_volumen.png": "38ec653b44662a99b081c276186f4b7315f497199ecb47808ac6ea19eb59660c",
+    "ejecucion/modified/figures/e07_fundacion_voxelizada.png": "8a8c302e7ec7b29f4966ff0934b405950e8ed9914d30e5e259a09a8816838f8f",
+    "ejecucion/modified/figures/e07_hidratacion_preliminar.png": "f3976244a0bb4a65792d43d52541b9129d5584120310a964aadaea68ccfafadb",
+    "ejecucion/modified/figures/e07_superficies_interfaces.png": "9a23ed2c4690112c274e086b6f647aa91691aa229ed6e0c7a0dbc32e706d03e9",
+    "ejecucion/modified/geometry.json": "4150b2d4fedd02fa0d3ac6c959e9533971c6aa5df3ab493df5403bcf8951cbd3",
+    "ejecucion/modified/geometry.npz": "f7417b2205f364b87ec27f5a0077a8468f9e4f2d2f4f5d315ef02c52d2ac19c5",
+    "ejecucion/modified/summary.json": "3b735b75aab83008f45213f14359696da07d6708e781bb07dd7f8d9dabd469b1",
+    "ejecucion/modified/voxels.npz": "1b15aa422c3bd38639fc4c42146c88bd2763149e1a46833f84a5a3eb472f98bc",
+    "ejecucion/modified.txt": "5d02d8f3c77ad128f3fb4d83cfcaafbc684399f2f8ca74c339c4c43ae545d086",
+    "ejecucion/thermal_regression/adiabatico_heterogeneo/battery.json": "79ddac139a3f573b8feb760cc3ed6d6a0617a9a41fce00960396b33401468f6a",
+    "ejecucion/thermal_regression/adiabatico_heterogeneo/energy/result.png": "4073eb330c78805d4d96078844791147ff84bb5e464651cde916c8cfefb46e34",
+    "ejecucion/thermal_regression/adiabatico_heterogeneo/energy/solution.npz": "ab8daf138e04c90257d08f82f56c33ad2ab3c200fd37c7b593ebd140fcaa431c",
+    "ejecucion/thermal_regression/adiabatico_heterogeneo/energy/summary.json": "39c645c63480b87c89f692cb84897fb90652d006aedd074f76cad5e3789a37e3",
+    "ejecucion/thermal_regression/adiabatico_heterogeneo.txt": "e3d53d86f7689abbccdeb6e20a2d2545ca1a6aada9d0112ea832d0a2a4ceb52c",
+    "ejecucion/thermal_regression/battery/battery.json": "c770d10cea9b5e09ead5f3853663bf5f548f5d417f181ede2ed09bc59c27c7d9",
+    "ejecucion/thermal_regression/battery/energy/result.png": "65d7e1cdff652024d3b941c7144f10a3d5afe9f6ada15c680880ab7c8684fdc1",
+    "ejecucion/thermal_regression/battery/energy/solution.npz": "954ada8f6168d71653af3b5445eb9b0195378217b9eda4e04b5232ebd21303f2",
+    "ejecucion/thermal_regression/battery/energy/summary.json": "2d92399d71fda66fac807e6d25fc2650e56ddde7dea0348fd99fb2d8b48f4c15",
+    "ejecucion/thermal_regression/battery/exact_1d/result.png": "d2e3d60080d7ee7a7758fe8e495306e9a1ca6f3d73d3e50f35fefdc1e998a711",
+    "ejecucion/thermal_regression/battery/exact_1d/solution.npz": "18846f790979208c6b945537c71840ef11f2777b11e90ea2eef1c821839d753b",
+    "ejecucion/thermal_regression/battery/exact_1d/summary.json": "4af669b52d96f6e3f257ed359bb2cdda9e58c219c5ec031eeac9a729426c9369",
+    "ejecucion/thermal_regression/battery/exact_2d/result.png": "50163da3e236726ab684a4105ed636371499c904e72221610e9cbc8c27aab09e",
+    "ejecucion/thermal_regression/battery/exact_2d/solution.npz": "3ed4f3c3b73957279bdcd9688fcc35b5c7912a91e0fb7ba6083701ebdacd17de",
+    "ejecucion/thermal_regression/battery/exact_2d/summary.json": "d7511c45f58185cc9d49e7fe14b37beb4e8dae3149bc2a1ea8dd7fc34fa8ed56",
+    "ejecucion/thermal_regression/battery/exact_3d/result.png": "fda734ecb701537f3828d628330b6fb5d36b251a269c0ac01ed1bcd7c7b5bfe3",
+    "ejecucion/thermal_regression/battery/exact_3d/solution.npz": "d806b299f2074d2776342f7b8de56e7e2965f097981f9e22a895bc2720df97b1",
+    "ejecucion/thermal_regression/battery/exact_3d/summary.json": "486b2eb3df8b6b52a2462792fcce102ec503af03576dd79d73a3e1b4faf0c818",
+    "ejecucion/thermal_regression/battery/neumann/result.png": "b6d818b61961f8aaad1f8b10071b85ff9892840313e305dc54dc1cb76bd5266d",
+    "ejecucion/thermal_regression/battery/neumann/solution.npz": "9da779936c098195d2b87d3cbde1fd9679e781c62707cde5fd3381f2f6c983b2",
+    "ejecucion/thermal_regression/battery/neumann/summary.json": "caa3e4097e1aa0ec463f2d5b09ad658163c2fe9fc3a3e567e535cec6e72dad10",
+    "ejecucion/thermal_regression/battery/robin/result.png": "8cb203035ba07234bb02bfe269d61d7384dfbf2750d3e98a7ebfcdc5eab5f275",
+    "ejecucion/thermal_regression/battery/robin/solution.npz": "b792d5672b753c2f4eba9eda4110674640a538970006c89cca7833d616c8cdcd",
+    "ejecucion/thermal_regression/battery/robin/summary.json": "35538a5eacf70cb04b54f6a7252e81b061a1b2f83b8d0a8f8f9d6d51fe4727ff",
+    "ejecucion/thermal_regression/battery/source/result.png": "03732319ba6695e90d31814f378a46ccb81dec1a05c9b03fd7ad746050668a5c",
+    "ejecucion/thermal_regression/battery/source/solution.npz": "1f5666ccc715608857f73719b3b034dde7d7c93bb5c30abe500cb89d38507a5f",
+    "ejecucion/thermal_regression/battery/source/summary.json": "00d1b057a667c06f778209f4a658dcddc89b91114182a8e27eb3097886183f3a",
+    "ejecucion/thermal_regression/battery/spatial/result.png": "117fa2fc0e39a4144f1c5863509c69eefc7380c17f009f2f89080a498d7e8e05",
+    "ejecucion/thermal_regression/battery/spatial/summary.json": "aa652d9a29b6c1fddbb256f2c8940d9c624b3a399282fb7491b93b60bd69d12c",
+    "ejecucion/thermal_regression/battery/stability/summary.json": "0b236dbcef8d4feaaa7a688a6d8308a11eb38fc063fa8e210a5153145aedbddf",
+    "ejecucion/thermal_regression/battery/temporal/result.png": "64022cd156d2064a3d90b6e2f661f4fc163bf7e22836b1b0bbc3106d354429b7",
+    "ejecucion/thermal_regression/battery/temporal/summary.json": "890de117d82f3a1307af0e7a7926c80051336cb69f15d20b55d497a91345d6fe",
+    "ejecucion/thermal_regression/battery.txt": "2181aa3e2401cf9971a4cf538efc55f0dacae90ffaeda29548b988ab9f08f3d5",
+    "ejecucion/thermal_regression/bonsai_evidence.json": "0c8dfa2f3dd4d5ee8d6e383abde8a7ce41292c81769ed2b9b4ff372e297f4643",
+    "ejecucion/thermal_regression/bonsai_heredado.txt": "0c8dfa2f3dd4d5ee8d6e383abde8a7ce41292c81769ed2b9b4ff372e297f4643",
+    "ejecucion/thermal_regression/bordes_modificados/battery.json": "45da1b3927ff90f56dd847f00eac5b29ef6910e5912c02ae56c6b677cf6298ef",
+    "ejecucion/thermal_regression/bordes_modificados/neumann/result.png": "54fe26182b4bb043b7ae623dae439f6f5df9a750bf008cd570eaf75729055890",
+    "ejecucion/thermal_regression/bordes_modificados/neumann/solution.npz": "68c1e16b6516cf5d60af006f99f8897d9ed8d3afcaa5a34c7bca52eae5614218",
+    "ejecucion/thermal_regression/bordes_modificados/neumann/summary.json": "68e8f6b3b43264b2f3e76380af7f400ba9a03308107c5a5383c2b4eb9f1f0dfc",
+    "ejecucion/thermal_regression/bordes_modificados/robin/result.png": "4b476f0878563fed1f17c4486de9d980415daa3bed83b41530f4cd0c2c6bc275",
+    "ejecucion/thermal_regression/bordes_modificados/robin/solution.npz": "26b87e86c702c803de78e743d0725a4ca605a8e09e0c09106842b55f5985f177",
+    "ejecucion/thermal_regression/bordes_modificados/robin/summary.json": "f6a7362d4da5ded9049352db19403b062f53e590bca69ef274b5617dc262ef49",
+    "ejecucion/thermal_regression/bordes_modificados.txt": "c999678be116f5a90ed992e4e9ad1a2294d477898791d1b8807e1a5adcba0d7a",
+    "ejecucion/thermal_regression/exact_3d_modificado/battery.json": "1fdec2efb90b706ca96c2bed565146ac6ab0e2378053504cb879d74d38cb35ac",
+    "ejecucion/thermal_regression/exact_3d_modificado/exact_3d/result.png": "159f8eed3bd41657e0cbbd5a9292c2a8d40a191fdeadc353611579c9627a0c95",
+    "ejecucion/thermal_regression/exact_3d_modificado/exact_3d/solution.npz": "7f4fc241db29eb0e22917e8a8e02e2bc2ee0d66718bc89de97a3895472b4ec91",
+    "ejecucion/thermal_regression/exact_3d_modificado/exact_3d/summary.json": "e9b8ccba61a06f272fbfeca6e2401c5561f3976f70232f19b8e5f5528f05719b",
+    "ejecucion/thermal_regression/exact_3d_modificado.txt": "6580f4e22091b3b9a3cd3a5ad437f68f5a17fd5cb8cfff3885212ad918332c64",
+    "ejecucion/thermal_regression/fuente_negativa/battery.json": "5aa0b5c60b584e93dc0503c777897db70f349264b52c3a061dff980017928602",
+    "ejecucion/thermal_regression/fuente_negativa/source/result.png": "2a9ffa1dd4bb719bdef79c495e46e19cd77d3a5798f6d824963881a592bc3168",
+    "ejecucion/thermal_regression/fuente_negativa/source/solution.npz": "a960a31cae177d23a3c10e5596890d2d49d99a5b6bd2612c08e83bebb1239fd2",
+    "ejecucion/thermal_regression/fuente_negativa/source/summary.json": "619182eb8d466a8ddc2b7bbb9f31fce303f315fc6cbb62f737264a0fdabb2369",
+    "ejecucion/thermal_regression/fuente_negativa.txt": "d5702fba9250dd067a6176de20130d117deff84a5718d05bf8c9564d5f8c7b0b",
+    "ejecucion/thermal_regression/ifc_check.json": "65d551d506632ebc3a472a1b1991fe06fe7fafdbeff9527311c6dd324f6e0667",
+    "ejecucion/thermal_regression/ifc_check.txt": "65d551d506632ebc3a472a1b1991fe06fe7fafdbeff9527311c6dd324f6e0667",
+    "ejecucion/thermal_regression/inestabilidad_esperada.txt": "90a7cc6c470de4f96ce57eaf7903d7049eaad0195213328ebe49ffc4fd2c461f",
+    "ejecucion/thermal_regression/listar.txt": "5904ceadc504344aa2322b1dfdd82e48009dcf2fa3969e81ac8602e106ae1c5c",
+    "ejecucion/thermal_regression/parameter_sweep.json": "dd6f9637b10068f0c804b5cafee4f4ea9e5bbb7b3ddb9c1bbbe05fabb6c1c3f3",
+    "ejecucion/thermal_regression/pip_check.txt": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf",
+    "ejecucion/thermal_regression/precision_fail/battery.json": "089c162a5f31987b10968a731310528576f0479ca53ba046349767e1e5aded59",
+    "ejecucion/thermal_regression/precision_fail/exact_2d/result.png": "7a01873be734c65675c69e65f215d1ffcee58ddf37a14bd862ccd17e7a82c01f",
+    "ejecucion/thermal_regression/precision_fail/exact_2d/solution.npz": "f133b75db270b32cc4724151ddf5aff18b6aa3aee4b10216c3d4a1cc0a76ebb2",
+    "ejecucion/thermal_regression/precision_fail/exact_2d/summary.json": "ba1b9f5ad9abd6d6d4f4ebf6c2008679cbee569f8bdf3b7c7e087847c24c922b",
+    "ejecucion/thermal_regression/precision_fail_esperado.txt": "39004b3bc79f3bc16f8862ca71168016a75a93ba9a9bf51630baf891c1fabfcd",
+    "ejecucion/thermal_regression/pytest.txt": "1ecd96037f5e296bea3c9c23913dd9c30653a6ced645a496862e558563672727",
+    "ejecucion/thermal_regression/pytest.xml": "eafad3df88fb75ebfc6714e2c5d02bea59418f5ee2655a721d4531811b024633",
+    "ejecucion/thermal_regression/unidades_invalidas.json": "31f583501ca981a6460c58674875c3d6bd9b0a5ffc5e56b38cba40f0bafed487",
+    "ejecucion/thermal_regression/unidades_invalidas_esperadas.txt": "65eabd8551ffda537275d1850ea43212539546e6f48bd5cacfd41727f97b456f",
+    "ejecucion/thermal_regression/verification.json": "8b7b94c42d4adb726d4170ef80b28a6653f8ffb08e2ee231a717137d1df7a5eb",
+    "ejecucion/thermal_regression.txt": "d7121811141d8f3d3f1601c80bc05eb57a2133e41720cc7a074f08db3b375d16",
+    "ejecucion/verification.json": "8b8653b75e0ffd17cb8ac71d704440af827364c3787f47f13adbb48ed44f2335",
+    "pruebas_adicionales/tests.xml": "2a2d4624b7a8cb8d541cbbb531967735134819aa7b783fc6a6ef0b5d311db796",
+    "pruebas_adicionales/tests_corregidos.xml": "d25c508d25e3fe00f70ec5099159190ae605321c09ee6a48bb45eb94957e2bfb",
+    "README.md": "a45e20592662efa6d80b1ea4b5692cc7f35a3f126017bbe44dc47366a5895ec7",
+    "referencias_cientificas.json": "2cbeb177a6fed22ccc93dd9845aae69f017fb86c6e218e7f76b65c25c6189342"
+  }
+}

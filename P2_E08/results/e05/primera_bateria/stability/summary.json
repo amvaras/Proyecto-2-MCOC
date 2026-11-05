@@ -1,0 +1,55 @@
+{
+  "case": "stability",
+  "category": "stability",
+  "status": "PASS",
+  "config": {
+    "dimension": 2,
+    "n": 12,
+    "shape": [
+      12,
+      12
+    ],
+    "lengths_m": [
+      1.0,
+      1.0
+    ],
+    "k": 2.0,
+    "rho": 2400.0,
+    "cp": 900.0,
+    "initial_C": 20.0,
+    "amplitude_C": 10.0,
+    "ambient_C": 10.0,
+    "h": 12.0,
+    "q_dot": 1000.0,
+    "flux": 100.0,
+    "face": null,
+    "dt_s": null,
+    "t_end_s": 10000.0,
+    "heterogeneous": false,
+    "atol_C": 0.03,
+    "energy_rtol": 5e-12,
+    "energy_atol_J": 1e-07,
+    "refinement_n": 6
+  },
+  "stable_dt_s": 1875.0,
+  "accepted_dt_s": 1856.25,
+  "rejected_dt_s": 1893.75,
+  "checks": [
+    {
+      "name": "paso_excesivo_rechazado",
+      "measured": 1.0,
+      "expected": 1.0,
+      "tolerance": 0.0,
+      "units": "",
+      "passed": true
+    },
+    {
+      "name": "paso_cercano_al_limite_monotono",
+      "measured": 0.0,
+      "expected": 0.0,
+      "tolerance": 1e-10,
+      "units": "degC",
+      "passed": true
+    }
+  ]
+}

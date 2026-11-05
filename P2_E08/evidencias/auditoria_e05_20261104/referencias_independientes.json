@@ -1,0 +1,570 @@
+[
+  {
+    "case": "neumann_transient",
+    "dimension": 1,
+    "axis": "x",
+    "flux_out_plus_W_m2": -73.0,
+    "shape": [
+      24
+    ],
+    "lengths_m": [
+      0.8
+    ],
+    "t_end_s": 19054.933333333338,
+    "dt_s": 20.666955892986266,
+    "error_Linf_C": 0.0019332354141532448,
+    "tolerance_C": 0.003,
+    "reference": "T0+q/k*(L/2-x)+A*cos(pi*x/L)*exp(-alpha*(pi/L)^2*t)"
+  },
+  {
+    "case": "neumann_transient",
+    "dimension": 2,
+    "axis": "x",
+    "flux_out_plus_W_m2": -73.0,
+    "shape": [
+      24,
+      4
+    ],
+    "lengths_m": [
+      0.8,
+      1.15
+    ],
+    "t_end_s": 19054.933333333338,
+    "dt_s": 20.401427551748757,
+    "error_Linf_C": 0.0019376083655657794,
+    "tolerance_C": 0.003,
+    "reference": "T0+q/k*(L/2-x)+A*cos(pi*x/L)*exp(-alpha*(pi/L)^2*t)"
+  },
+  {
+    "case": "neumann_transient",
+    "dimension": 2,
+    "axis": "y",
+    "flux_out_plus_W_m2": -73.0,
+    "shape": [
+      3,
+      24
+    ],
+    "lengths_m": [
+      0.8,
+      1.15
+    ],
+    "t_end_s": 39375.23333333333,
+    "dt_s": 41.36053921568627,
+    "error_Linf_C": 0.0019439610393519047,
+    "tolerance_C": 0.003,
+    "reference": "T0+q/k*(L/2-x)+A*cos(pi*x/L)*exp(-alpha*(pi/L)^2*t)"
+  },
+  {
+    "case": "neumann_transient",
+    "dimension": 3,
+    "axis": "x",
+    "flux_out_plus_W_m2": -73.0,
+    "shape": [
+      24,
+      4,
+      5
+    ],
+    "lengths_m": [
+      0.8,
+      1.15,
+      1.5
+    ],
+    "t_end_s": 19054.933333333338,
+    "dt_s": 20.142635658914735,
+    "error_Linf_C": 0.0019418703489328948,
+    "tolerance_C": 0.003,
+    "reference": "T0+q/k*(L/2-x)+A*cos(pi*x/L)*exp(-alpha*(pi/L)^2*t)"
+  },
+  {
+    "case": "neumann_transient",
+    "dimension": 3,
+    "axis": "y",
+    "flux_out_plus_W_m2": -73.0,
+    "shape": [
+      3,
+      24,
+      5
+    ],
+    "lengths_m": [
+      0.8,
+      1.15,
+      1.5
+    ],
+    "t_end_s": 39375.23333333333,
+    "dt_s": 40.384854700854696,
+    "error_Linf_C": 0.0019517369232033843,
+    "tolerance_C": 0.003,
+    "reference": "T0+q/k*(L/2-x)+A*cos(pi*x/L)*exp(-alpha*(pi/L)^2*t)"
+  },
+  {
+    "case": "neumann_transient",
+    "dimension": 3,
+    "axis": "z",
+    "flux_out_plus_W_m2": -73.0,
+    "shape": [
+      3,
+      4,
+      24
+    ],
+    "lengths_m": [
+      0.8,
+      1.15,
+      1.5
+    ],
+    "t_end_s": 66990.0,
+    "dt_s": 65.93503937007874,
+    "error_Linf_C": 0.0019647249324137306,
+    "tolerance_C": 0.003,
+    "reference": "T0+q/k*(L/2-x)+A*cos(pi*x/L)*exp(-alpha*(pi/L)^2*t)"
+  },
+  {
+    "case": "neumann_transient",
+    "dimension": 1,
+    "axis": "x",
+    "flux_out_plus_W_m2": 119.0,
+    "shape": [
+      24
+    ],
+    "lengths_m": [
+      0.8
+    ],
+    "t_end_s": 19054.933333333338,
+    "dt_s": 20.666955892986266,
+    "error_Linf_C": 0.0019332354141781138,
+    "tolerance_C": 0.003,
+    "reference": "T0+q/k*(L/2-x)+A*cos(pi*x/L)*exp(-alpha*(pi/L)^2*t)"
+  },
+  {
+    "case": "neumann_transient",
+    "dimension": 2,
+    "axis": "x",
+    "flux_out_plus_W_m2": 119.0,
+    "shape": [
+      24,
+      4
+    ],
+    "lengths_m": [
+      0.8,
+      1.15
+    ],
+    "t_end_s": 19054.933333333338,
+    "dt_s": 20.401427551748757,
+    "error_Linf_C": 0.0019376083655657794,
+    "tolerance_C": 0.003,
+    "reference": "T0+q/k*(L/2-x)+A*cos(pi*x/L)*exp(-alpha*(pi/L)^2*t)"
+  },
+  {
+    "case": "neumann_transient",
+    "dimension": 2,
+    "axis": "y",
+    "flux_out_plus_W_m2": 119.0,
+    "shape": [
+      3,
+      24
+    ],
+    "lengths_m": [
+      0.8,
+      1.15
+    ],
+    "t_end_s": 39375.23333333333,
+    "dt_s": 41.36053921568627,
+    "error_Linf_C": 0.0019439610393661155,
+    "tolerance_C": 0.003,
+    "reference": "T0+q/k*(L/2-x)+A*cos(pi*x/L)*exp(-alpha*(pi/L)^2*t)"
+  },
+  {
+    "case": "neumann_transient",
+    "dimension": 3,
+    "axis": "x",
+    "flux_out_plus_W_m2": 119.0,
+    "shape": [
+      24,
+      4,
+      5
+    ],
+    "lengths_m": [
+      0.8,
+      1.15,
+      1.5
+    ],
+    "t_end_s": 19054.933333333338,
+    "dt_s": 20.142635658914735,
+    "error_Linf_C": 0.0019418703489577638,
+    "tolerance_C": 0.003,
+    "reference": "T0+q/k*(L/2-x)+A*cos(pi*x/L)*exp(-alpha*(pi/L)^2*t)"
+  },
+  {
+    "case": "neumann_transient",
+    "dimension": 3,
+    "axis": "y",
+    "flux_out_plus_W_m2": 119.0,
+    "shape": [
+      3,
+      24,
+      5
+    ],
+    "lengths_m": [
+      0.8,
+      1.15,
+      1.5
+    ],
+    "t_end_s": 39375.23333333333,
+    "dt_s": 40.384854700854696,
+    "error_Linf_C": 0.0019517369231889514,
+    "tolerance_C": 0.003,
+    "reference": "T0+q/k*(L/2-x)+A*cos(pi*x/L)*exp(-alpha*(pi/L)^2*t)"
+  },
+  {
+    "case": "neumann_transient",
+    "dimension": 3,
+    "axis": "z",
+    "flux_out_plus_W_m2": 119.0,
+    "shape": [
+      3,
+      4,
+      24
+    ],
+    "lengths_m": [
+      0.8,
+      1.15,
+      1.5
+    ],
+    "t_end_s": 66990.0,
+    "dt_s": 65.93503937007874,
+    "error_Linf_C": 0.0019647249324492577,
+    "tolerance_C": 0.003,
+    "reference": "T0+q/k*(L/2-x)+A*cos(pi*x/L)*exp(-alpha*(pi/L)^2*t)"
+  },
+  {
+    "case": "robin_transient",
+    "dimension": 1,
+    "face": "x+",
+    "biot": 0.25,
+    "h_W_m2K": 0.84375,
+    "mu": 0.4800944369573914,
+    "amplitude_C": 8.0,
+    "shape": [
+      24
+    ],
+    "lengths_m": [
+      0.8
+    ],
+    "t_end_s": 57164.8,
+    "dt_s": 20.674430379746838,
+    "error_Linf_C": 2.542397734117685e-05,
+    "tolerance_C": 0.01,
+    "reference": "Tamb+A*cos(mu*x/L)*exp(-alpha*(mu/L)^2*t); mu*tan(mu)=h*L/k"
+  },
+  {
+    "case": "robin_transient",
+    "dimension": 2,
+    "face": "x+",
+    "biot": 0.25,
+    "h_W_m2K": 0.84375,
+    "mu": 0.4800944369573914,
+    "amplitude_C": 8.0,
+    "shape": [
+      24,
+      4
+    ],
+    "lengths_m": [
+      0.8,
+      1.15
+    ],
+    "t_end_s": 57164.8,
+    "dt_s": 20.401427551748753,
+    "error_Linf_C": 2.5436635809228392e-05,
+    "tolerance_C": 0.01,
+    "reference": "Tamb+A*cos(mu*x/L)*exp(-alpha*(mu/L)^2*t); mu*tan(mu)=h*L/k"
+  },
+  {
+    "case": "robin_transient",
+    "dimension": 2,
+    "face": "y+",
+    "biot": 0.25,
+    "h_W_m2K": 0.5869565217391305,
+    "mu": 0.4800944369573914,
+    "amplitude_C": 8.0,
+    "shape": [
+      3,
+      24
+    ],
+    "lengths_m": [
+      0.8,
+      1.15
+    ],
+    "t_end_s": 118125.69999999998,
+    "dt_s": 41.37502626970227,
+    "error_Linf_C": 2.5454196585172895e-05,
+    "tolerance_C": 0.01,
+    "reference": "Tamb+A*cos(mu*x/L)*exp(-alpha*(mu/L)^2*t); mu*tan(mu)=h*L/k"
+  },
+  {
+    "case": "robin_transient",
+    "dimension": 3,
+    "face": "x+",
+    "biot": 0.25,
+    "h_W_m2K": 0.84375,
+    "mu": 0.4800944369573914,
+    "amplitude_C": 8.0,
+    "shape": [
+      24,
+      4,
+      5
+    ],
+    "lengths_m": [
+      0.8,
+      1.15,
+      1.5
+    ],
+    "t_end_s": 57164.8,
+    "dt_s": 20.149735636235462,
+    "error_Linf_C": 2.5448306132602738e-05,
+    "tolerance_C": 0.01,
+    "reference": "Tamb+A*cos(mu*x/L)*exp(-alpha*(mu/L)^2*t); mu*tan(mu)=h*L/k"
+  },
+  {
+    "case": "robin_transient",
+    "dimension": 3,
+    "face": "y+",
+    "biot": 0.25,
+    "h_W_m2K": 0.5869565217391305,
+    "mu": 0.4800944369573914,
+    "amplitude_C": 8.0,
+    "shape": [
+      3,
+      24,
+      5
+    ],
+    "lengths_m": [
+      0.8,
+      1.15,
+      1.5
+    ],
+    "t_end_s": 118125.69999999998,
+    "dt_s": 40.384854700854696,
+    "error_Linf_C": 2.5476414748482057e-05,
+    "tolerance_C": 0.01,
+    "reference": "Tamb+A*cos(mu*x/L)*exp(-alpha*(mu/L)^2*t); mu*tan(mu)=h*L/k"
+  },
+  {
+    "case": "robin_transient",
+    "dimension": 3,
+    "face": "z+",
+    "biot": 0.25,
+    "h_W_m2K": 0.45,
+    "mu": 0.4800944369573914,
+    "amplitude_C": 8.0,
+    "shape": [
+      3,
+      4,
+      24
+    ],
+    "lengths_m": [
+      0.8,
+      1.15,
+      1.5
+    ],
+    "t_end_s": 200970.0,
+    "dt_s": 65.93503937007874,
+    "error_Linf_C": 2.551298315012218e-05,
+    "tolerance_C": 0.01,
+    "reference": "Tamb+A*cos(mu*x/L)*exp(-alpha*(mu/L)^2*t); mu*tan(mu)=h*L/k"
+  },
+  {
+    "case": "robin_transient",
+    "dimension": 1,
+    "face": "x-",
+    "biot": 3.0,
+    "h_W_m2K": 10.125000000000002,
+    "mu": 1.1924588293364287,
+    "amplitude_C": -8.0,
+    "shape": [
+      24
+    ],
+    "lengths_m": [
+      0.8
+    ],
+    "t_end_s": 57164.8,
+    "dt_s": 20.674430379746838,
+    "error_Linf_C": 0.0003768594331852171,
+    "tolerance_C": 0.01,
+    "reference": "Tamb+A*cos(mu*x/L)*exp(-alpha*(mu/L)^2*t); mu*tan(mu)=h*L/k"
+  },
+  {
+    "case": "robin_transient",
+    "dimension": 2,
+    "face": "x-",
+    "biot": 3.0,
+    "h_W_m2K": 10.125000000000002,
+    "mu": 1.1924588293364287,
+    "amplitude_C": -8.0,
+    "shape": [
+      24,
+      4
+    ],
+    "lengths_m": [
+      0.8,
+      1.15
+    ],
+    "t_end_s": 57164.8,
+    "dt_s": 20.401427551748753,
+    "error_Linf_C": 0.00037704313063358086,
+    "tolerance_C": 0.01,
+    "reference": "Tamb+A*cos(mu*x/L)*exp(-alpha*(mu/L)^2*t); mu*tan(mu)=h*L/k"
+  },
+  {
+    "case": "robin_transient",
+    "dimension": 2,
+    "face": "y-",
+    "biot": 3.0,
+    "h_W_m2K": 7.043478260869567,
+    "mu": 1.1924588293364287,
+    "amplitude_C": -8.0,
+    "shape": [
+      3,
+      24
+    ],
+    "lengths_m": [
+      0.8,
+      1.15
+    ],
+    "t_end_s": 118125.69999999998,
+    "dt_s": 41.37502626970227,
+    "error_Linf_C": 0.0003772979695391143,
+    "tolerance_C": 0.01,
+    "reference": "Tamb+A*cos(mu*x/L)*exp(-alpha*(mu/L)^2*t); mu*tan(mu)=h*L/k"
+  },
+  {
+    "case": "robin_transient",
+    "dimension": 3,
+    "face": "x-",
+    "biot": 3.0,
+    "h_W_m2K": 10.125000000000002,
+    "mu": 1.1924588293364287,
+    "amplitude_C": -8.0,
+    "shape": [
+      24,
+      4,
+      5
+    ],
+    "lengths_m": [
+      0.8,
+      1.15,
+      1.5
+    ],
+    "t_end_s": 57164.8,
+    "dt_s": 20.149735636235462,
+    "error_Linf_C": 0.0003772124882708283,
+    "tolerance_C": 0.01,
+    "reference": "Tamb+A*cos(mu*x/L)*exp(-alpha*(mu/L)^2*t); mu*tan(mu)=h*L/k"
+  },
+  {
+    "case": "robin_transient",
+    "dimension": 3,
+    "face": "y-",
+    "biot": 3.0,
+    "h_W_m2K": 7.043478260869567,
+    "mu": 1.1924588293364287,
+    "amplitude_C": -8.0,
+    "shape": [
+      3,
+      24,
+      5
+    ],
+    "lengths_m": [
+      0.8,
+      1.15,
+      1.5
+    ],
+    "t_end_s": 118125.69999999998,
+    "dt_s": 40.384854700854696,
+    "error_Linf_C": 0.00037762039513467016,
+    "tolerance_C": 0.01,
+    "reference": "Tamb+A*cos(mu*x/L)*exp(-alpha*(mu/L)^2*t); mu*tan(mu)=h*L/k"
+  },
+  {
+    "case": "robin_transient",
+    "dimension": 3,
+    "face": "z-",
+    "biot": 3.0,
+    "h_W_m2K": 5.400000000000001,
+    "mu": 1.1924588293364287,
+    "amplitude_C": -8.0,
+    "shape": [
+      3,
+      4,
+      24
+    ],
+    "lengths_m": [
+      0.8,
+      1.15,
+      1.5
+    ],
+    "t_end_s": 200970.0,
+    "dt_s": 65.93503937007874,
+    "error_Linf_C": 0.00037815106775695995,
+    "tolerance_C": 0.01,
+    "reference": "Tamb+A*cos(mu*x/L)*exp(-alpha*(mu/L)^2*t); mu*tan(mu)=h*L/k"
+  },
+  {
+    "case": "robin_spatial",
+    "dimension": 1,
+    "n": [
+      10,
+      20,
+      40
+    ],
+    "errors_Linf_C": [
+      0.0013792242617753914,
+      0.0003561888142584735,
+      8.881320281517446e-05
+    ],
+    "observed_orders": [
+      1.9531429421283528,
+      2.003796144655684
+    ],
+    "expected_order": 2.0,
+    "tolerance_order": 0.3
+  },
+  {
+    "case": "robin_spatial",
+    "dimension": 2,
+    "n": [
+      10,
+      20,
+      40
+    ],
+    "errors_Linf_C": [
+      0.0013792245368620115,
+      0.00035618908303547414,
+      8.88134680039343e-05
+    ],
+    "observed_orders": [
+      1.9531421412294092,
+      2.003792925540763
+    ],
+    "expected_order": 2.0,
+    "tolerance_order": 0.3
+  },
+  {
+    "case": "robin_spatial",
+    "dimension": 3,
+    "n": [
+      10,
+      20,
+      40
+    ],
+    "errors_Linf_C": [
+      0.0013792242617718387,
+      0.00035618881424426263,
+      8.881320274412019e-05
+    ],
+    "observed_orders": [
+      1.9531429421821958,
+      2.0037961457523408
+    ],
+    "expected_order": 2.0,
+    "tolerance_order": 0.3
+  }
+]

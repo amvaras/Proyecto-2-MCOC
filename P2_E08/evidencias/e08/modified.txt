@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "cells": 7730,
+  "volume_error_pct": 0.9674788813438467,
+  "frames": 73,
+  "peak_C": 56.40883373862965,
+  "energy": {
+    "reference_C": 0.0,
+    "initial_J": 7430693490.000001,
+    "final_J": 63248384558.64809,
+    "hydration_J": 41668951500.00002,
+    "outward_J": 12549396786.35194,
+    "placement_after_zero_J": 26698136355.000008,
+    "residual_J": -3.814697265625e-06,
+    "max_step_residual_J": 1.4156103134155273e-05,
+    "tolerance_J": 0.7579788134500003
+  },
+  "checks": {
+    "global_energy_balance": true,
+    "step_energy_balance": true,
+    "hydration_potential": true,
+    "stable_steps": true,
+    "events_reached": true,
+    "inactive_is_nan": true,
+    "final_time_exact": true
+  },
+  "output": "C:\\Users\\Usuario\\Desktop\\Proyecto-2-MCOC\\P2_E08\\results\\e08_verificacion_cierre\\modified"
+}

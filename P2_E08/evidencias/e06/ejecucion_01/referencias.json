@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "method": "Sustitución de seno en PDE; autovalor derivado de diferencias centradas y medias celdas Dirichlet; operador real por unidad de capacidad.",
+  "cases": [
+    {
+      "dimension": 1,
+      "continuous_rate_s_minus1": 5.822896705068268e-06,
+      "discrete_rate_s_minus1": 5.633834290538573e-06,
+      "operator_residual_K_s": 2.625802136488331e-20,
+      "tolerance_K_s": 5.822896705068268e-17,
+      "status": "PASS"
+    },
+    {
+      "dimension": 2,
+      "continuous_rate_s_minus1": 9.54955059631196e-06,
+      "discrete_rate_s_minus1": 9.276122163665278e-06,
+      "operator_residual_K_s": 9.486769009248164e-20,
+      "tolerance_K_s": 9.54955059631196e-17,
+      "status": "PASS"
+    },
+    {
+      "dimension": 3,
+      "continuous_rate_s_minus1": 1.213750468745341e-05,
+      "discrete_rate_s_minus1": 1.1820927940939754e-05,
+      "operator_residual_K_s": 2.056966572847865e-19,
+      "tolerance_K_s": 1.213750468745341e-16,
+      "status": "PASS"
+    }
+  ]
+}

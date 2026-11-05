@@ -1,0 +1,95 @@
+Obtaining file:///C:/Users/Usuario/AppData/Local/Packages/sandbox.%7B7ba09cda-baae-4fc4-82fc-d9b832bd22ba%7D/AC/Temp/mcoc_e06_independiente_n299ha2o/P2_E06_autonomo
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: mcoc-p2
+  Building editable for mcoc-p2 (pyproject.toml): started
+  Building editable for mcoc-p2 (pyproject.toml): finished with status 'error'
+Failed to build mcoc-p2
+  error: subprocess-exited-with-error
+  
+  × Building editable for mcoc-p2 (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [76 lines of output]
+      running editable_wheel
+      creating C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\pip-wheel-xntxb6rt\.tmp-d73vz8_6\mcoc_p2.egg-info
+      writing C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\pip-wheel-xntxb6rt\.tmp-d73vz8_6\mcoc_p2.egg-info\PKG-INFO
+      writing dependency_links to C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\pip-wheel-xntxb6rt\.tmp-d73vz8_6\mcoc_p2.egg-info\dependency_links.txt
+      writing requirements to C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\pip-wheel-xntxb6rt\.tmp-d73vz8_6\mcoc_p2.egg-info\requires.txt
+      writing top-level names to C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\pip-wheel-xntxb6rt\.tmp-d73vz8_6\mcoc_p2.egg-info\top_level.txt
+      writing manifest file 'C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\pip-wheel-xntxb6rt\.tmp-d73vz8_6\mcoc_p2.egg-info\SOURCES.txt'
+      reading manifest file 'C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\pip-wheel-xntxb6rt\.tmp-d73vz8_6\mcoc_p2.egg-info\SOURCES.txt'
+      writing manifest file 'C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\pip-wheel-xntxb6rt\.tmp-d73vz8_6\mcoc_p2.egg-info\SOURCES.txt'
+      creating 'C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\pip-wheel-xntxb6rt\.tmp-d73vz8_6\mcoc_p2-0.7.0.dist-info'
+      creating C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\pip-wheel-xntxb6rt\.tmp-d73vz8_6\mcoc_p2-0.7.0.dist-info\WHEEL
+      Traceback (most recent call last):
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\_distutils\util.py", line 133, in subst_vars
+          return _subst_compat(s).format_map(lookup)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      KeyError: '7ba09cda-baae-4fc4-82fc-d9b832bd22ba'
+      
+      During handling of the above exception, another exception occurred:
+      
+      Traceback (most recent call last):
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 389, in <module>
+          main()
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 303, in build_editable
+          return hook(wheel_directory, config_settings, metadata_directory)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\build_meta.py", line 474, in build_editable
+          return self._build_with_temp_dir(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\build_meta.py", line 410, in _build_with_temp_dir
+          self.run_setup()
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\build_meta.py", line 317, in run_setup
+          exec(code, locals())  # noqa: S102 # exec is intentional here
+          ^^^^^^^^^^^^^^^^^^^^
+        File "<string>", line 1, in <module>
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\__init__.py", line 117, in setup
+          return distutils.core.setup(**attrs)  # type: ignore[return-value]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\_distutils\core.py", line 168, in setup
+          return run_commands(dist)
+                 ^^^^^^^^^^^^^^^^^^
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\_distutils\core.py", line 184, in run_commands
+          dist.run_commands()
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\_distutils\dist.py", line 1028, in run_commands
+          self.run_command(cmd)
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\dist.py", line 1106, in run_command
+          super().run_command(command)
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\_distutils\dist.py", line 1047, in run_command
+          cmd_obj.run()
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\command\editable_wheel.py", line 142, in run
+          self._create_wheel_file(bdist_wheel)
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\command\editable_wheel.py", line 352, in _create_wheel_file
+          files, mapping = self._run_build_commands(dist_name, unpacked, lib, tmp)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\command\editable_wheel.py", line 274, in _run_build_commands
+          self._configure_build(dist_name, unpacked_wheel, build_lib, tmp_dir)
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\command\editable_wheel.py", line 240, in _configure_build
+          install.ensure_finalized()
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\_distutils\cmd.py", line 119, in ensure_finalized
+          self.finalize_options()
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\command\install.py", line 74, in finalize_options
+          super().finalize_options()
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\_distutils\command\install.py", line 437, in finalize_options
+          self.expand_basedirs()
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\_distutils\command\install.py", line 617, in expand_basedirs
+          self._expand_attrs(['install_base', 'install_platbase', 'root'])
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\_distutils\command\install.py", line 611, in _expand_attrs
+          val = subst_vars(val, self.config_vars)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "C:\Users\Usuario\AppData\Local\Packages\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\AC\Temp\mcoc_e06_independiente_n299ha2o\venv\Lib\site-packages\setuptools\_distutils\util.py", line 135, in subst_vars
+          raise ValueError(f"invalid variable {var}")
+      ValueError: invalid variable '7ba09cda-baae-4fc4-82fc-d9b832bd22ba'
+      An error occurred when building editable wheel for mcoc-p2.
+      See debugging tips in: https://setuptools.pypa.io/en/latest/userguide/development_mode.html#debugging-tips
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building editable for mcoc-p2
+ERROR: Failed to build installable wheels for some pyproject.toml based projects (mcoc-p2)

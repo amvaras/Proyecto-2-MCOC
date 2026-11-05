@@ -1,0 +1,24 @@
+Ejecutando pip_check
+Ejecutando pytest
+Ejecutando listar
+Ejecutando battery
+Ejecutando exact_3d_modificado
+Ejecutando bordes_modificados
+Ejecutando fuente_negativa
+Ejecutando adiabatico_heterogeneo
+Ejecutando inestabilidad_esperada
+Ejecutando precision_fail_esperado
+Ejecutando unidades_invalidas_esperadas
+Ejecutando ifc_check
+Ejecutando bonsai_heredado
+{
+  "status": "passed",
+  "tests": {
+    "tests": 251,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "elapsed_s": 30.479
+  },
+  "parameter_cases_passed": 60
+}

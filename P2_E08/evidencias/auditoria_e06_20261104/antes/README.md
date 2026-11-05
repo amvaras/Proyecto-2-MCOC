@@ -1,0 +1,1 @@
+La primera ejecución de verify_e06.py falló antes de los tests al contrastar el inventario histórico con la carpeta acumulativa. La salida observada indicó diferencias en .gitattributes, README.md, docs/E05_DEMO.md, docs/E05_ESTADO.md y pyproject.toml. e06.json preserva el estado failed y las huellas de las entradas de ese intento.

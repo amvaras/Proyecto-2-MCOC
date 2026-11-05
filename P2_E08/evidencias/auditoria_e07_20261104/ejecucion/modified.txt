@@ -1,0 +1,246 @@
+{
+  "status": "PASS",
+  "nominal": {
+    "origin_m": [
+      -9.1,
+      -9.099999999999998,
+      -0.1
+    ],
+    "spacing_m": [
+      0.4,
+      0.3,
+      0.275
+    ],
+    "shape": [
+      46,
+      61,
+      17
+    ],
+    "upper_m": [
+      9.300000000000002,
+      9.200000000000003,
+      4.575000000000001
+    ],
+    "axes": "XYZ; array[i,j,k]; C-order",
+    "cell_volume_m3": 0.033,
+    "grid_cells": 47702,
+    "occupied_cells": 20084,
+    "volume_voxel_m3": 662.772,
+    "volume_reference_mesh_m3": 636.8777175824058,
+    "absolute_error_m3": 25.89428241759424,
+    "relative_error": 0.04065816985384446,
+    "signed_error_m3": 25.89428241759424,
+    "sum_absolute_pour_errors_m3": 27.149136936678538,
+    "max_pour_relative_error": 0.1003123639953211,
+    "boundary_ties": 0,
+    "by_pour": [
+      {
+        "vertida_id": 1,
+        "guid": "0oY4bM1krVGQdxfBrXmxJm",
+        "cells": 4464,
+        "volume_voxel_m3": 147.312,
+        "volume_reference_m3": 147.62571362977107,
+        "absolute_error_m3": 0.3137136297710583,
+        "signed_error_m3": -0.3137136297710583,
+        "relative_error": 0.002125060885787264
+      },
+      {
+        "vertida_id": 2,
+        "guid": "3hfPF39u1QnvSBQJFmy$c2",
+        "cells": 4464,
+        "volume_voxel_m3": 147.312,
+        "volume_reference_m3": 147.6257136297711,
+        "absolute_error_m3": 0.31371362977108674,
+        "signed_error_m3": -0.31371362977108674,
+        "relative_error": 0.002125060885787456
+      },
+      {
+        "vertida_id": 3,
+        "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+        "cells": 6919,
+        "volume_voxel_m3": 228.327,
+        "volume_reference_m3": 214.2243508999919,
+        "absolute_error_m3": 14.102649100008108,
+        "signed_error_m3": 14.102649100008108,
+        "relative_error": 0.06583121405554761
+      },
+      {
+        "vertida_id": 4,
+        "guid": "1jVXFE7TLGsO88Iyj_MihB",
+        "cells": 2965,
+        "volume_voxel_m3": 97.845,
+        "volume_reference_m3": 88.92474828213061,
+        "absolute_error_m3": 8.920251717869391,
+        "signed_error_m3": 8.920251717869391,
+        "relative_error": 0.1003123639953211
+      },
+      {
+        "vertida_id": 5,
+        "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+        "cells": 1272,
+        "volume_voxel_m3": 41.976,
+        "volume_reference_m3": 38.477191140741105,
+        "absolute_error_m3": 3.4988088592588937,
+        "signed_error_m3": 3.4988088592588937,
+        "relative_error": 0.09093202376600257
+      }
+    ],
+    "elapsed_s": 0.013508100004401058
+  },
+  "exterior": {
+    "count": 6836,
+    "area_m2": 759.3100000000002,
+    "area_by_orientation_m2": {
+      "x-": 55.935,
+      "x+": 55.935,
+      "y-": 55.88000000000002,
+      "y+": 55.88000000000002,
+      "z-": 267.84000000000003,
+      "z+": 267.84000000000003
+    },
+    "area_by_pour_m2": {
+      "1": 307.44000000000005,
+      "2": 43.92,
+      "3": 206.88500000000005,
+      "4": 132.76500000000001,
+      "5": 68.3
+    },
+    "count_by_class": {
+      "bottom": 2232,
+      "lateral": 2372,
+      "top": 2232
+    }
+  },
+  "interfaces": {
+    "count": 5795,
+    "area_m2": 695.4000000000002,
+    "area_by_pair_m2": {
+      "1-2": 267.8400000000071,
+      "2-3": 263.5200000000069,
+      "3-4": 125.88000000000174,
+      "4-5": 38.159999999999954
+    }
+  },
+  "hydration": {
+    "model": "Curva adiabática cosenoidal prescrita, sin calibrar",
+    "temperature_dependence": false,
+    "H_vol_J_m3": 40000000.0,
+    "duration_s": 129600.0,
+    "potential_released_J_m3": 40000000.0,
+    "by_pour": [
+      {
+        "vertida_id": 1,
+        "activation_s": 0.0,
+        "age_s": 86400.0,
+        "active": true,
+        "initial_C": 18.0,
+        "volume_m3": 147.312,
+        "material": {
+          "k": 2.0,
+          "rho": 2400.0,
+          "cp": 900.0
+        },
+        "H_vol_J_m3": 40000000.0,
+        "duration_s": 129600.0,
+        "adiabatic_potential_rise_C": 18.51851851851852,
+        "source_W_m3": 419.860963943106,
+        "source_power_W": 61850.55832038684,
+        "released_J_m3": 29999999.999999996,
+        "released_energy_J": 4419360000.0
+      },
+      {
+        "vertida_id": 2,
+        "activation_s": 10800.0,
+        "age_s": 75600.0,
+        "active": true,
+        "initial_C": 19.0,
+        "volume_m3": 147.312,
+        "material": {
+          "k": 2.0,
+          "rho": 2400.0,
+          "cp": 900.0
+        },
+        "H_vol_J_m3": 40000000.0,
+        "duration_s": 129600.0,
+        "adiabatic_potential_rise_C": 18.51851851851852,
+        "source_W_m3": 468.2940555219734,
+        "source_power_W": 68985.33390705295,
+        "released_J_m3": 25176380.902050413,
+        "released_energy_J": 3708783023.4428506
+      },
+      {
+        "vertida_id": 3,
+        "activation_s": 21600.0,
+        "age_s": 64800.0,
+        "active": true,
+        "initial_C": 20.0,
+        "volume_m3": 228.327,
+        "material": {
+          "k": 2.0,
+          "rho": 2400.0,
+          "cp": 900.0
+        },
+        "H_vol_J_m3": 40000000.0,
+        "duration_s": 129600.0,
+        "adiabatic_potential_rise_C": 18.51851851851852,
+        "source_W_m3": 484.813681109536,
+        "source_power_W": 110696.05336669703,
+        "released_J_m3": 19999999.999999996,
+        "released_energy_J": 4566539999.999999
+      },
+      {
+        "vertida_id": 4,
+        "activation_s": 32400.0,
+        "age_s": 54000.0,
+        "active": true,
+        "initial_C": 21.0,
+        "volume_m3": 97.845,
+        "material": {
+          "k": 2.0,
+          "rho": 2400.0,
+          "cp": 900.0
+        },
+        "H_vol_J_m3": 40000000.0,
+        "duration_s": 129600.0,
+        "adiabatic_potential_rise_C": 18.51851851851852,
+        "source_W_m3": 468.2940555219734,
+        "source_power_W": 45820.23186254749,
+        "released_J_m3": 14823619.097949585,
+        "released_energy_J": 1450417010.6388772
+      },
+      {
+        "vertida_id": 5,
+        "activation_s": 43200.0,
+        "age_s": 43200.0,
+        "active": true,
+        "initial_C": 22.0,
+        "volume_m3": 41.976,
+        "material": {
+          "k": 2.0,
+          "rho": 2400.0,
+          "cp": 900.0
+        },
+        "H_vol_J_m3": 40000000.0,
+        "duration_s": 129600.0,
+        "adiabatic_potential_rise_C": 18.51851851851852,
+        "source_W_m3": 419.86096394310596,
+        "source_power_W": 17624.083822475815,
+        "released_J_m3": 9999999.999999998,
+        "released_energy_J": 419759999.99999994
+      }
+    ],
+    "total_prescribed_released_energy_J": 14564860034.081726,
+    "global_parameters_note": "H_vol_J_m3 y duration_s superiores son valores globales por defecto; by_pour contiene los parámetros efectivos.",
+    "energy_note": "Integral de generación prescrita desde la colocación; no energía sensible de una simulación térmica resuelta."
+  },
+  "assembly": {
+    "capacity_active_J_K": 1431587520.0,
+    "conductive_contacts": 56834,
+    "stable_dt_s": 17068.20921716717,
+    "source_power_W": 304976.2612791601,
+    "outward_power_W": 40462.61497737556,
+    "balance_residual_W": 1.4551915228366852e-11,
+    "balance_tolerance_W": 0.00030497626127916013
+  },
+  "integration": "Ensamblaje enmascarado de potencia y capacidad verificado; NO integrador transiente final de fundación"
+}

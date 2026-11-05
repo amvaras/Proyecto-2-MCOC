@@ -1,0 +1,121 @@
+{
+  "case": "exact_1d",
+  "category": "exact",
+  "status": "PASS",
+  "scope": "Verificacion de caja ideal E05; no prediccion de fundacion ni conexion IFC",
+  "config": {
+    "dimension": 1,
+    "n": 12,
+    "shape": [
+      12
+    ],
+    "lengths_m": [
+      1.0
+    ],
+    "k": 2.0,
+    "rho": 2400.0,
+    "cp": 900.0,
+    "initial_C": 20.0,
+    "amplitude_C": 10.0,
+    "ambient_C": 10.0,
+    "h": 12.0,
+    "q_dot": 1000.0,
+    "flux": 100.0,
+    "face": null,
+    "dt_s": null,
+    "t_end_s": 10000.0,
+    "heterogeneous": false,
+    "atol_C": 0.03,
+    "energy_rtol": 5e-12,
+    "energy_atol_J": 1e-07,
+    "refinement_n": 6
+  },
+  "dimension": 1,
+  "shape": [
+    12
+  ],
+  "cells": 12,
+  "lengths_m": [
+    1.0
+  ],
+  "spacing_m": [
+    0.08333333333333333
+  ],
+  "temperature_location": "cell_centers",
+  "alpha_m2_s": 9.259259259259259e-07,
+  "requested_dt_s": 1500.0,
+  "effective_dt_s": 1428.5714285714287,
+  "stable_dt_s": 2500.0,
+  "steps": 7,
+  "t_end_s": 10000.0,
+  "fourier_per_axis": [
+    0.19047619047619052
+  ],
+  "fourier_is_not_universal_limit": true,
+  "dt_over_local_limit": 0.5714285714285715,
+  "boundaries": {
+    "x+": {
+      "type": "Dirichlet",
+      "temperature": 20.0
+    },
+    "x-": {
+      "type": "Dirichlet",
+      "temperature": 20.0
+    }
+  },
+  "checks": [
+    {
+      "name": "balance_energia_todos_los_pasos",
+      "measured": 5.587935447692871e-09,
+      "expected": 0.0,
+      "tolerance": 0.00032317604502837155,
+      "units": "J",
+      "passed": true
+    },
+    {
+      "name": "cancelacion_intercambios_internos",
+      "measured": 0.0,
+      "expected": 0.0,
+      "tolerance": 1.6265257226562479e-09,
+      "units": "W",
+      "passed": true
+    },
+    {
+      "name": "error_Linf",
+      "measured": 0.0006707491013244749,
+      "expected": 0.0,
+      "tolerance": 0.03,
+      "units": "degC",
+      "passed": true
+    },
+    {
+      "name": "Dirichlet_cara_x+",
+      "measured": 0.0,
+      "expected": 0.0,
+      "tolerance": 1.9999999999999998e-10,
+      "units": "degC",
+      "passed": true
+    },
+    {
+      "name": "Dirichlet_cara_x-",
+      "measured": 0.0,
+      "expected": 0.0,
+      "tolerance": 1.9999999999999998e-10,
+      "units": "degC",
+      "passed": true
+    }
+  ],
+  "energy_initial_J": 13790335.6359727,
+  "energy_final_J": 12585038.331134407,
+  "energy_balance_max_error_J": 5.587935447692871e-09,
+  "energy_tolerance_J": 0.00032317604502837155,
+  "initial_range_C": 8.609186691537591,
+  "final_range_C": 7.856730058858389,
+  "final_min_C": 21.19117995070502,
+  "final_max_C": 29.04791000956341,
+  "error_Linf_C": 0.0006707491013244749,
+  "error_L2_rms_C": 0.00047838387841598397,
+  "error_L2_integral": 0.00047838387841598397,
+  "reference": "Solucion sinusoidal de la PDE continua evaluada en centros; caras a initial_C",
+  "lambda_m_minus2": 9.869604401089358
+}

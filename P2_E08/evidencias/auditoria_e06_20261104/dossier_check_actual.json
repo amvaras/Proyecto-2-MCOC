@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "prose_words": 810,
+  "all_visible_words": 1015,
+  "limit_prose_words": 1200,
+  "local_links_checked": 16,
+  "links": [
+    {
+      "target": "../evidencias/auditoria_e06_20261104/independencia/resultados/thermal/battery/exact_1d/summary.json",
+      "sha256": "4af669b52d96f6e3f257ed359bb2cdda9e58c219c5ec031eeac9a729426c9369"
+    },
+    {
+      "target": "../evidencias/auditoria_e06_20261104/independencia/resultados/thermal/battery/exact_2d/summary.json",
+      "sha256": "d7511c45f58185cc9d49e7fe14b37beb4e8dae3149bc2a1ea8dd7fc34fa8ed56"
+    },
+    {
+      "target": "../evidencias/auditoria_e06_20261104/independencia/resultados/thermal/battery/exact_3d/summary.json",
+      "sha256": "486b2eb3df8b6b52a2462792fcce102ec503af03576dd79d73a3e1b4faf0c818"
+    },
+    {
+      "target": "../evidencias/auditoria_e06_20261104/independencia/resultados/thermal/battery/spatial/summary.json",
+      "sha256": "aa652d9a29b6c1fddbb256f2c8940d9c624b3a399282fb7491b93b60bd69d12c"
+    },
+    {
+      "target": "../evidencias/auditoria_e06_20261104/independencia/resultados/thermal/battery/temporal/summary.json",
+      "sha256": "890de117d82f3a1307af0e7a7926c80051336cb69f15d20b55d497a91345d6fe"
+    },
+    {
+      "target": "../evidencias/auditoria_e06_20261104/independencia/resultados/thermal/battery/energy/summary.json",
+      "sha256": "2d92399d71fda66fac807e6d25fc2650e56ddde7dea0348fd99fb2d8b48f4c15"
+    },
+    {
+      "target": "../evidencias/auditoria_e06_20261104/independencia/resultados/thermal/battery/neumann/summary.json",
+      "sha256": "caa3e4097e1aa0ec463f2d5b09ad658163c2fe9fc3a3e567e535cec6e72dad10"
+    },
+    {
+      "target": "../evidencias/auditoria_e06_20261104/independencia/resultados/thermal/battery/robin/summary.json",
+      "sha256": "35538a5eacf70cb04b54f6a7252e81b061a1b2f83b8d0a8f8f9d6d51fe4727ff"
+    },
+    {
+      "target": "../evidencias/auditoria_e06_20261104/independencia/resultados/thermal/battery/source/summary.json",
+      "sha256": "00d1b057a667c06f778209f4a658dcddc89b91114182a8e27eb3097886183f3a"
+    },
+    {
+      "target": "../evidencias/auditoria_e06_20261104/independencia/resultados/thermal/battery/stability/summary.json",
+      "sha256": "0b236dbcef8d4feaaa7a688a6d8308a11eb38fc063fa8e210a5153145aedbddf"
+    },
+    {
+      "target": "../evidencias/auditoria_e06_20261104/independencia/resultados/artifacts/figures/e06_convergencia_espacial.png",
+      "sha256": "2a5b5dfa8d3d256202491b578cc544dcf849e3a34924bdd71a31b6b065be531b"
+    },
+    {
+      "target": "../evidencias/auditoria_e06_20261104/independencia/resultados/artifacts/figures/e06_convergencia_temporal.png",
+      "sha256": "cbe47fe78cb2b2c9cdd4de61184614e856e14ccfd23245dca80f3a848fac52aa"
+    },
+    {
+      "target": "../geometry/foundation.ifc",
+      "sha256": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a"
+    },
+    {
+      "target": "../evidencias/auditoria_e06_20261104/independencia/resultados/artifacts/figures/e06_bim_fundacion.png",
+      "sha256": "fe6fd164ea750268ab23691886d8a245e05e1e12625e3fb83b22b94fdee88f2a"
+    },
+    {
+      "target": "../README.md",
+      "sha256": "48b35a108cb74954583c517d1d816cbc22ebdc064a489edc411902cad16ac762"
+    },
+    {
+      "target": "../evidencias/auditoria_e06_20261104/independencia/resultados/e06.json",
+      "sha256": "fc180c080b332db15f359e160809da8b5beef5b3857fdcc6473dea4172936e6b"
+    }
+  ],
+  "figures_checked": 3,
+  "ifc_links_checked": 1,
+  "evaluated_commit": "COMMIT E06 PENDIENTE DE PUBLICACIÓN",
+  "published_commit_declared": false,
+  "formal_status": "COMMIT E06 PENDIENTE DE PUBLICACIÓN",
+  "counting_method": "Palabras Unicode, incluidos títulos, listas, pies, fórmulas y código; solo tablas e imágenes excluidas del límite. Enlaces cuentan por etiqueta."
+}

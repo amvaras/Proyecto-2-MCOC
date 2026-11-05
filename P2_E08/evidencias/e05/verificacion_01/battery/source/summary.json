@@ -1,0 +1,139 @@
+{
+  "case": "source",
+  "category": "source",
+  "status": "PASS",
+  "scope": "Verificacion de caja ideal E05; no prediccion de fundacion ni conexion IFC",
+  "config": {
+    "dimension": 3,
+    "n": 12,
+    "shape": [
+      12,
+      12,
+      12
+    ],
+    "lengths_m": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "k": 2.0,
+    "rho": 2400.0,
+    "cp": 900.0,
+    "initial_C": 20.0,
+    "amplitude_C": 10.0,
+    "ambient_C": 10.0,
+    "h": 12.0,
+    "q_dot": 1000.0,
+    "flux": 100.0,
+    "face": null,
+    "dt_s": null,
+    "t_end_s": 10000.0,
+    "heterogeneous": false,
+    "atol_C": 0.03,
+    "energy_rtol": 5e-12,
+    "energy_atol_J": 1e-07,
+    "refinement_n": 6
+  },
+  "dimension": 3,
+  "shape": [
+    12,
+    12,
+    12
+  ],
+  "cells": 1728,
+  "lengths_m": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "spacing_m": [
+    0.08333333333333333,
+    0.08333333333333333,
+    0.08333333333333333
+  ],
+  "temperature_location": "cell_centers",
+  "alpha_m2_s": 9.259259259259259e-07,
+  "requested_dt_s": 750.0000000000001,
+  "effective_dt_s": 714.2857142857143,
+  "stable_dt_s": 1250.0000000000002,
+  "steps": 14,
+  "t_end_s": 10000.0,
+  "fourier_per_axis": [
+    0.09523809523809526,
+    0.09523809523809526,
+    0.09523809523809526
+  ],
+  "fourier_is_not_universal_limit": true,
+  "dt_over_local_limit": 0.5714285714285714,
+  "boundaries": {
+    "x+": {
+      "type": "Neumann",
+      "outward_flux": 0.0
+    },
+    "x-": {
+      "type": "Neumann",
+      "outward_flux": 0.0
+    },
+    "y+": {
+      "type": "Neumann",
+      "outward_flux": 0.0
+    },
+    "y-": {
+      "type": "Neumann",
+      "outward_flux": 0.0
+    },
+    "z+": {
+      "type": "Neumann",
+      "outward_flux": 0.0
+    },
+    "z-": {
+      "type": "Neumann",
+      "outward_flux": 0.0
+    }
+  },
+  "checks": [
+    {
+      "name": "balance_energia_todos_los_pasos",
+      "measured": 5.029141902923584e-08,
+      "expected": 0.0,
+      "tolerance": 0.00031610000000000026,
+      "units": "J",
+      "passed": true
+    },
+    {
+      "name": "cancelacion_intercambios_internos",
+      "measured": 0.0,
+      "expected": 0.0,
+      "tolerance": 1e-09,
+      "units": "W",
+      "passed": true
+    },
+    {
+      "name": "fuente_uniforme_todos_los_tiempos",
+      "measured": 2.4868995751603507e-14,
+      "expected": 0.0,
+      "tolerance": 2.462962962962963e-10,
+      "units": "degC",
+      "passed": true
+    },
+    {
+      "name": "energia_generada",
+      "measured": 5.21540641784668e-08,
+      "expected": 0.0,
+      "tolerance": 0.00031610000000000026,
+      "units": "J",
+      "passed": true
+    }
+  ],
+  "energy_initial_J": 0.0,
+  "energy_final_J": 10000000.000000052,
+  "energy_balance_max_error_J": 5.029141902923584e-08,
+  "energy_tolerance_J": 0.00031610000000000026,
+  "initial_range_C": 0.0,
+  "final_range_C": 0.0,
+  "final_min_C": 24.629629629629655,
+  "final_max_C": 24.629629629629655,
+  "error_Linf_C": 2.4868995751603507e-14,
+  "error_L2_rms_C": 2.4868995751603507e-14,
+  "error_L2_integral": 2.4868995751603507e-14
+}

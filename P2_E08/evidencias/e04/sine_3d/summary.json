@@ -1,0 +1,67 @@
+{
+  "scope": "Caja ideal E04, independiente del IFC; sin hidratacion ni clima real",
+  "case": "sine",
+  "dimensions": 3,
+  "shape": [
+    12,
+    12,
+    12
+  ],
+  "lengths_m": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "spacing_m": [
+    0.08333333333333333,
+    0.08333333333333333,
+    0.08333333333333333
+  ],
+  "temperature_location": "cell_centers",
+  "requested_dt_s": 666.6666666666667,
+  "effective_dt_s": 654.5454545454545,
+  "stable_dt_s": 833.3333333333334,
+  "steps": 33,
+  "t_end_s": 21600.0,
+  "q_dot_W_m3": 0.0,
+  "boundaries": {
+    "x+": {
+      "type": "Dirichlet",
+      "temperature": 20
+    },
+    "x-": {
+      "type": "Dirichlet",
+      "temperature": 20
+    },
+    "y+": {
+      "type": "Dirichlet",
+      "temperature": 20
+    },
+    "y-": {
+      "type": "Dirichlet",
+      "temperature": 20
+    },
+    "z+": {
+      "type": "Dirichlet",
+      "temperature": 20
+    },
+    "z-": {
+      "type": "Dirichlet",
+      "temperature": 20
+    }
+  },
+  "material": {
+    "k_min_W_mK": 2.0,
+    "k_max_W_mK": 2.0,
+    "rho_kg_m3": 2400.0,
+    "cp_J_kgK": 900.0
+  },
+  "initial_min_C": 20.02223786073766,
+  "initial_max_C": 29.745535291581795,
+  "final_min_C": 20.01227639584972,
+  "final_max_C": 25.380016109384215,
+  "energy_change_J": -2517950.6218986893,
+  "error_Linf_C": 0.010456141786100659,
+  "python": "3.12.14",
+  "numpy": "2.5.4"
+}

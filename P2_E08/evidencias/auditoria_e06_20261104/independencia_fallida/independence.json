@@ -1,0 +1,50 @@
+{
+  "status": "failed",
+  "started_utc": "2026-11-05T00:45:48.443552+00:00",
+  "temporary_root": "C:\\Users\\Usuario\\AppData\\Local\\Packages\\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\\AC\\Temp\\mcoc_e06_independiente_n299ha2o",
+  "commands": [
+    {
+      "name": "crear_entorno",
+      "arguments": [
+        "C:\\Users\\Usuario\\Desktop\\Proyecto-2-MCOC\\.venv-e07\\Scripts\\python.exe",
+        "-B",
+        "-m",
+        "venv",
+        "C:\\Users\\Usuario\\AppData\\Local\\Packages\\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\\AC\\Temp\\mcoc_e06_independiente_n299ha2o\\venv"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "dependencias",
+      "arguments": [
+        "C:\\Users\\Usuario\\AppData\\Local\\Packages\\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\\AC\\Temp\\mcoc_e06_independiente_n299ha2o\\venv\\Scripts\\python.exe",
+        "-m",
+        "pip",
+        "install",
+        "--no-index",
+        "--find-links",
+        "vendor/wheels",
+        "-r",
+        "requirements-lock.txt"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "paquete",
+      "arguments": [
+        "C:\\Users\\Usuario\\AppData\\Local\\Packages\\sandbox.{7ba09cda-baae-4fc4-82fc-d9b832bd22ba}\\AC\\Temp\\mcoc_e06_independiente_n299ha2o\\venv\\Scripts\\python.exe",
+        "-m",
+        "pip",
+        "install",
+        "--no-index",
+        "--no-build-isolation",
+        "--no-deps",
+        "-e",
+        ".[dev,plot,bim]"
+      ],
+      "returncode": 1
+    }
+  ],
+  "copied_files": 2681,
+  "finished_utc": "2026-11-05T00:47:07.660188+00:00"
+}

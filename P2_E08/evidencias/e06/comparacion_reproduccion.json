@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "input_sha256_count": 32,
+  "summary_equal": true,
+  "arrays_equal": 36,
+  "figures_identical": {
+    "e06_convergencia_espacial.png": true,
+    "e06_convergencia_temporal.png": true,
+    "e06_bim_fundacion.png": true
+  }
+}

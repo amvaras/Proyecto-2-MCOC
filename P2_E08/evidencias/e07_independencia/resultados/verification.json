@@ -1,0 +1,149 @@
+{
+  "status": "passed",
+  "started_utc": "2026-11-04T11:57:34.670013+00:00",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "commands": [
+    {
+      "name": "thermal_regression",
+      "arguments": [
+        "scripts/verify_e05.py",
+        "--output",
+        "C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e07_independiente_zmimsthk\\P2_E07_autonomo\\evidencias\\e07_independencia\\resultados\\thermal_regression"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "elapsed_s": 47.5447924999753
+    },
+    {
+      "name": "demo",
+      "arguments": [
+        "examples/run_e07.py",
+        "--output",
+        "C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e07_independiente_zmimsthk\\P2_E07_autonomo\\evidencias\\e07_independencia\\resultados\\demo"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "elapsed_s": 2.881278100074269
+    },
+    {
+      "name": "modified",
+      "arguments": [
+        "examples/run_e07.py",
+        "--spacing",
+        "0.4",
+        "0.3",
+        "0.275",
+        "--margin",
+        "0.1",
+        "--interval-hours",
+        "3",
+        "--heat-mj-m3",
+        "40",
+        "--duration-hours",
+        "36",
+        "--h",
+        "15",
+        "--ambient",
+        "12",
+        "--output",
+        "C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e07_independiente_zmimsthk\\P2_E07_autonomo\\evidencias\\e07_independencia\\resultados\\modified"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "elapsed_s": 2.4680227000499144
+    },
+    {
+      "name": "invalid_resolution",
+      "arguments": [
+        "examples/run_e07.py",
+        "--spacing",
+        "0",
+        "--output",
+        "C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e07_independiente_zmimsthk\\P2_E07_autonomo\\evidencias\\e07_independencia\\resultados\\invalid"
+      ],
+      "returncode": 2,
+      "expected_returncode": 2,
+      "elapsed_s": 0.5149928000755608
+    }
+  ],
+  "imported_solver": "C:\\Users\\javie\\AppData\\Local\\Temp\\mcoc_e07_independiente_zmimsthk\\P2_E07_autonomo\\src\\mcoc_p2\\__init__.py",
+  "packages": {
+    "mcoc-p2": "0.7.0",
+    "numpy": "2.5.4",
+    "pytest": "9.1.1",
+    "matplotlib": "3.11.2",
+    "ifcopenshell": "0.9.0.post1"
+  },
+  "inherited_python_checked": 29,
+  "inherited_python_changed": [],
+  "tests": {
+    "tests": 252,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "elapsed_s": 31.225
+  },
+  "parameter_cases_passed": 60,
+  "voxel_cases": 2,
+  "volume_resolutions_m": [
+    0.55,
+    0.275,
+    0.1375
+  ],
+  "e06_formal_status": "COMMIT E06 PENDIENTE DE PUBLICACIÓN",
+  "e07_publication_status": "No publicado; sin commit E07 verificado",
+  "integration": "Ensamblaje enmascarado de potencia y capacidad verificado; NO integrador transiente final de fundación",
+  "finished_utc": "2026-11-04T11:58:28.407011+00:00",
+  "input_sha256": {
+    "src/mcoc_p2/diffusion_1d.py": "154406eb286d54ce6c06b1a17658f8fe6492eaf5aa07a759c1d179c1fc34b762",
+    "src/mcoc_p2/thermal_nd.py": "d1d870072f4fb789fb4230fdc4a3ff7009502d68bf392a909666e7066f3d7ab6",
+    "src/mcoc_p2/verification_e05.py": "95881caec8fa4405b05ac2443d7afec3504d60a9c36e4c2313e82542decaf0be",
+    "src/mcoc_p2/__init__.py": "f78e88589677fd11447ae7b7edb0aff25fcb5d888485a30ffb15222e31dd8f6a",
+    "src/mcoc_p2/e07/construction.py": "aec16c9225b7023e26a1d30a7541eda76fb4c719b773e7e1551da3d3819d2fa9",
+    "src/mcoc_p2/e07/coupling.py": "3a1104b8c7679f63e873ee0512078436637c03ae476e46ee7381a6df7c9c91eb",
+    "src/mcoc_p2/e07/faces.py": "c0b26f3601ebe05d669f2f528b588dddf391d53fde801d800f4add1d14c1d02c",
+    "src/mcoc_p2/e07/geometry.py": "e5a941dcebd3a36bbde3209a304c8ac7d29e3888a4ad61fec5c5eb0c1880fd03",
+    "src/mcoc_p2/e07/hydration.py": "fbebc14430906009d795bf864c6fb0f3bbc17808c33717d4be05b94f9831beee",
+    "src/mcoc_p2/e07/ifc.py": "ad4aa931fd87eb0a09a0c8fc1e318283086f5199b1e13dd5f134d5b261359e2b",
+    "src/mcoc_p2/e07/plots.py": "5fb981c0ccc6e853ceee7d9e949aa8797eb15a4cc936487026d84ebe1b1185e6",
+    "src/mcoc_p2/e07/voxel.py": "cdd0d3a2d82e2ffffd58159f8a26d1f0b0228d0653edbe46baecf1b9c75e47af",
+    "src/mcoc_p2/e07/__init__.py": "9d08445a8e30a0630e93fb9659ee243226abab707cc056a6745043e78bd62a47",
+    "tests/e07_helpers.py": "b4dc58d86bb1035367a4d0cfff900ca3fbd5f68c4d85377c58b2067ec38348dd",
+    "tests/test_diffusion_1d.py": "99d461a5aa06acbc2826090ab1c92cb87e44f15a3a81cde5d63ade74f2f9eb14",
+    "tests/test_e02.py": "6130b49f577eb1652accdb1eb74ca34023b34b2c57c09e8e273db35c6479460c",
+    "tests/test_e05_verification.py": "49598b33fd5b61cad894c666c7964b6ebbdfb3832b985c8dcaa376d7cf977fe8",
+    "tests/test_e07_cli.py": "73cc0112f47abf7d323e844ca58e2d878177f87c5d550d438f783e4e1fdd0169",
+    "tests/test_e07_construction.py": "27b2b9c6735ff1155b8cdfb44fba0804014075c7362a7852ff30169fb83694aa",
+    "tests/test_e07_geometry.py": "229a08ef9aadea455679624a37d42cc4b829eddeca45de6015886ed98c948470",
+    "tests/test_ifc.py": "83bb6df49752d2c4cbeacd05439eb185e947dfca9e674b35dd3a7d0e9ff00344",
+    "tests/test_thermal_nd.py": "9c601ec0df51d9715e231ea982af2ccc0f05ab928b6982ab3388134fe671f60c",
+    "scripts/build_e06.py": "93d0f4b7266a99bbbcd7b5c017daa2969eec0bf32f2c9a2d6f1fc0c59ea70ee8",
+    "scripts/check_bonsai_evidence.py": "396bf405179764a5cc832a1b031c2bac05017fc2ca73ea36d73b072e064e9ffc",
+    "scripts/check_diffusion_accuracy.py": "f0093385ac05d93de5946248685e28cede804f1fe4ecf1ff6d6dcc7428e90658",
+    "scripts/check_e01_integrity_e02.py": "0765eee78a2e60f15c1391b30c1f135d41950c80eab50918c79e337a949f2842",
+    "scripts/check_e04_convergence.py": "3f13dfc89427ef0ea5ac24135c0e3e0838c05b06757c1d275f5450bf6071cf5e",
+    "scripts/check_e05_independence.py": "c07ca62177166bcc7b8136357a18f2936e2cefc2de52cc2ae2cba61be1e52648",
+    "scripts/check_e06_dossier.py": "2aab6403fb7f1fd5b98203f1385960a2c16994a54ba7e5e47b73079870a463cf",
+    "scripts/check_e06_independence.py": "678beb2cd0664a4bcbb83ee9a33c179d88f3c710b7276b52c1f1de48d327b0a6",
+    "scripts/check_e07_independence.py": "802a321bb523ef08e0c968b48a73e566e85022f4b38681ea081d9e7336e5b344",
+    "scripts/check_ifc.py": "e1f90e1a22de73ea43c812a001a7d63ce62699a15dfba4f703fe40c8a5e144ad",
+    "scripts/compare_ifc_e02.py": "1e2896985d60ee71a68c7e005a455c76021b091bbedc736868a08177329d507e",
+    "scripts/create_preliminary_ifc.py": "fbf9ac2b8d13f231ccc63f7ec7e2daac71b4767b1788c37b1b1b8c76da4cdc30",
+    "scripts/render_ifc_preview.py": "ac5f6b3e375187c7a94a08ed486e6b7a329436d5ce0c1dd5ef80d6cac92b3a34",
+    "scripts/verify_e01.py": "82939a6cf22a213df2e38c02b4e7e6d696d762e97927cb9d93c4cea9c57d0274",
+    "scripts/verify_e04.py": "fafb33f73c18756d158303e849245f6e25eef8e5ccecf1dd41b8d487aa1c95cb",
+    "scripts/verify_e05.py": "2fd028aa66ce8ecf4881d11db8ba23e8029ceebcc4cfe63d8c50af5be94bf4ff",
+    "scripts/verify_e06.py": "c4e8062c7c7a21f556cdef8f445597892b382123465205dba725bf031352bf4e",
+    "scripts/verify_e07.py": "a6e298f3abbe314b8cc02b3425d43173f092131e8ab46c3b656fbacda9adfa09",
+    "examples/run_diffusion_1d.py": "05b113c4fa6b7c97c123198b4a1d0bcf23ae3f1f7f6c6e4ecd269e74dca0fe10",
+    "examples/run_e02_1d.py": "39519c0a0def27a52040b113376d73c67724320d3a73ff2e0c58f3e78444fe76",
+    "examples/run_e04.py": "015796d10c2cdb2a6649f3a031bde0718fff21bcd171d6b1e3ce6286727429b0",
+    "examples/run_e05.py": "e3d1d74e913eb9c69638201d1505e9dcbaa7000e92cfc89b9d87072cafe5715a",
+    "examples/run_e07.py": "2f1f32bd0cbf1b6090665e680e6565af9d009180b721fc0c8ce82584f3b521c5",
+    "configs/e05/lab.json": "a3cbdf20fd253972a87d96f255bb868bdcbf36121fec265ea1b92cabc95e2482",
+    "configs/e07/demo.json": "065bac6127d107dcf8b1ddbc0367b986566350936674a3769f411dd0d7a2cc14",
+    "geometry/foundation.ifc": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a",
+    "geometry/e02/foundation_trabajo.ifc": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a"
+  }
+}

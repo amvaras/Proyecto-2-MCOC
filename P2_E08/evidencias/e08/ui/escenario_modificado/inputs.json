@@ -1,0 +1,57 @@
+{
+  "description": "E08: construcción y calentamiento ilustrativos; sin calibración Freirina",
+  "spacing_m": [
+    0.55,
+    0.55,
+    0.275
+  ],
+  "resolutions_m": [
+    0.55,
+    0.275,
+    0.1375
+  ],
+  "margin_m": 0,
+  "t_end_s": 129600,
+  "max_step_s": 3600,
+  "save_interval_s": 3600,
+  "safety": 0.8,
+  "energy_reference_C": 0,
+  "h_W_m2K": 8,
+  "ambient_C": 20,
+  "material": {
+    "k": 2,
+    "rho": 2400,
+    "cp": 900
+  },
+  "hydration": {
+    "H_vol_J_m3": 64800000,
+    "duration_s": 172800
+  },
+  "events": [
+    {
+      "pour_id": 1,
+      "activation_s": 0,
+      "initial_C": 18
+    },
+    {
+      "pour_id": 2,
+      "activation_s": 10800,
+      "initial_C": 27
+    },
+    {
+      "pour_id": 3,
+      "activation_s": 21600,
+      "initial_C": 20
+    },
+    {
+      "pour_id": 4,
+      "activation_s": 32400,
+      "initial_C": 21
+    },
+    {
+      "pour_id": 5,
+      "activation_s": 43200,
+      "initial_C": 22
+    }
+  ]
+}

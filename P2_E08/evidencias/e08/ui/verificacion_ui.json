@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "url": "http://127.0.0.1:8768/",
+  "browser": "Vista previa integrada; lanzador preparado para Chrome",
+  "checks": {
+    "python_connected": true,
+    "world_3d_rendered": true,
+    "changed_spacing": true,
+    "changed_activation": true,
+    "changed_placement_temperature": true,
+    "executed_from_form": true,
+    "time_slider": true,
+    "playback": true,
+    "hide_show_preserves_solution": true,
+    "categorical_mode_hides_thermal_legend": true
+  },
+  "nominal_peak_display": "51,6 °C",
+  "modified_peak_C": 45.975011916485606,
+  "modified_volume_error_pct": 0.9674788813438467,
+  "modified_configuration": {
+    "description": "E08: construcción y calentamiento ilustrativos; sin calibración Freirina",
+    "spacing_m": [
+      0.55,
+      0.55,
+      0.275
+    ],
+    "resolutions_m": [
+      0.55,
+      0.275,
+      0.1375
+    ],
+    "margin_m": 0,
+    "t_end_s": 129600,
+    "max_step_s": 3600,
+    "save_interval_s": 3600,
+    "safety": 0.8,
+    "energy_reference_C": 0,
+    "h_W_m2K": 8,
+    "ambient_C": 20,
+    "material": {
+      "k": 2,
+      "rho": 2400,
+      "cp": 900
+    },
+    "hydration": {
+      "H_vol_J_m3": 64800000,
+      "duration_s": 172800
+    },
+    "events": [
+      {
+        "pour_id": 1,
+        "activation_s": 0,
+        "initial_C": 18
+      },
+      {
+        "pour_id": 2,
+        "activation_s": 10800,
+        "initial_C": 27
+      },
+      {
+        "pour_id": 3,
+        "activation_s": 21600,
+        "initial_C": 20
+      },
+      {
+        "pour_id": 4,
+        "activation_s": 32400,
+        "initial_C": 21
+      },
+      {
+        "pour_id": 5,
+        "activation_s": 43200,
+        "initial_C": 22
+      }
+    ]
+  },
+  "final_ui_sources": {
+    "app.js": "e9214ab47c9e634620710f33ebf9af484ebeb8e76220d2c592d2bc921c545e35",
+    "index.html": "fe23ccadce8530e3b30507e333cf4324f802bf289ec308e1d6e598904f29038f",
+    "styles.css": "5aa2fa6ffa84f314ef0e12cc6521e90e42e2efd890de7d21e51021e92a8771f5"
+  },
+  "note": "Interfaz verificada en navegador con las fuentes finales; después se repitió la batería científica completa para congelar código y resultados coherentes.",
+  "screenshots": [
+    "interfaz_e08.jpg",
+    "interfaz_completa.jpg"
+  ]
+}
