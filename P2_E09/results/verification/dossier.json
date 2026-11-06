@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "words": 1089,
+  "limit": 1200,
+  "includes_tables_code_equations": true,
+  "local_links": 14,
+  "images": 11,
+  "formal_status": "refs/tags/entrega-e09",
+  "publication_verified": false,
+  "sha256": "5a892a6c3bb7bcc739dcdf5b8fcb97b6baafece8ae0055e10e99630de88c40d7"
+}

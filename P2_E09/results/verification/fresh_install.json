@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "steps": [
+    {
+      "name": "venv",
+      "returncode": 0,
+      "elapsed_s": 20.605101499939337
+    },
+    {
+      "name": "official_dependencies",
+      "returncode": 0,
+      "elapsed_s": 158.65636320016347
+    },
+    {
+      "name": "project",
+      "returncode": 0,
+      "elapsed_s": 12.23571790009737
+    },
+    {
+      "name": "pip_check",
+      "returncode": 0,
+      "elapsed_s": 1.612811699975282
+    },
+    {
+      "name": "independent_reproduction",
+      "returncode": 0,
+      "elapsed_s": 78.2983622001484
+    }
+  ]
+}

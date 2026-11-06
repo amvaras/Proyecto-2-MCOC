@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "comparisons": [
+    {
+      "file": "grid.npz",
+      "arrays": 8,
+      "bitwise_equal": true
+    },
+    {
+      "file": "temperature.npz",
+      "arrays": 3,
+      "bitwise_equal": true
+    },
+    {
+      "file": "statistics.npz",
+      "arrays": 7,
+      "bitwise_equal": true
+    },
+    {
+      "file": "steps.npz",
+      "arrays": 10,
+      "bitwise_equal": true
+    },
+    {
+      "file": "control.npz",
+      "arrays": 7,
+      "bitwise_equal": true
+    }
+  ],
+  "arrays_equal": 35,
+  "physical_steps": 1344,
+  "own_import": "src/mcoc_p2/__init__.py",
+  "packages": {
+    "mcoc-p2": "0.9.0",
+    "numpy": "2.5.4",
+    "ifcopenshell": "0.9.0.post1",
+    "matplotlib": "3.11.2",
+    "pytest": "9.1.1"
+  },
+  "source_sha256": {
+    "src/mcoc_p2/__init__.py": "f78e88589677fd11447ae7b7edb0aff25fcb5d888485a30ffb15222e31dd8f6a",
+    "src/mcoc_p2/diffusion_1d.py": "154406eb286d54ce6c06b1a17658f8fe6492eaf5aa07a759c1d179c1fc34b762",
+    "src/mcoc_p2/e07/__init__.py": "9d08445a8e30a0630e93fb9659ee243226abab707cc056a6745043e78bd62a47",
+    "src/mcoc_p2/e07/construction.py": "1f8bb8086213354aa6f26350d7ee54e85d6cff5bd8734f0622825d9a3fbdd507",
+    "src/mcoc_p2/e07/coupling.py": "3a1104b8c7679f63e873ee0512078436637c03ae476e46ee7381a6df7c9c91eb",
+    "src/mcoc_p2/e07/faces.py": "c0b26f3601ebe05d669f2f528b588dddf391d53fde801d800f4add1d14c1d02c",
+    "src/mcoc_p2/e07/geometry.py": "e5a941dcebd3a36bbde3209a304c8ac7d29e3888a4ad61fec5c5eb0c1880fd03",
+    "src/mcoc_p2/e07/hydration.py": "fbebc14430906009d795bf864c6fb0f3bbc17808c33717d4be05b94f9831beee",
+    "src/mcoc_p2/e07/ifc.py": "ad4aa931fd87eb0a09a0c8fc1e318283086f5199b1e13dd5f134d5b261359e2b",
+    "src/mcoc_p2/e07/plots.py": "57e08c13a2b00d427c08bba3e0636df1e2d84c6b9db1da5c05b94abca0d2d1e0",
+    "src/mcoc_p2/e07/voxel.py": "f693ea9e0ff075cc33ab4072c983f8d5d58446ac93c7b13af440266c146b6988",
+    "src/mcoc_p2/e08/__init__.py": "c90060bbce92169a02c945ffcbd27e6b713b333f1c567bec8cbec0b8b38d3399",
+    "src/mcoc_p2/e08/inputs.py": "0d4d16dac354988f68715b61a9c046a6155ba0f59d4e37b4128be718a89133b4",
+    "src/mcoc_p2/e08/pipeline.py": "468eead518a248681221a0138a0b85d89bf60422e99cfcaa9f864cabf3a39626",
+    "src/mcoc_p2/e08/plots.py": "c23df4845bc83adc901f807cb1741e8611e9aaf910faa64d0a9ea571f0038b54",
+    "src/mcoc_p2/e08/solver.py": "710505a7077a5af63e33b15066d643f3b5e1b7f7feeb1df9cfb859a2dcc5eafa",
+    "src/mcoc_p2/e09/__init__.py": "b9865f7825bb84d7a50dfa97ae5caff87bdab6ad5243592094f0188099a1e7fe",
+    "src/mcoc_p2/e09/analysis.py": "bea152ed9fb49d0caf2171d705c3de7d2f4b9d6d061fb8447581a9fc411b8d9c",
+    "src/mcoc_p2/e09/pipeline.py": "21ba3708c63d5e0d2084ba6619c7e44ee920a0322605096f2547eb0e6f7280be",
+    "src/mcoc_p2/e09/plots.py": "72e341e703ce93b3a482cb26a3d885839fc4fd8579aca61094be487b4d837314",
+    "src/mcoc_p2/e09/verification.py": "e4f0dca8a2bb86dd6c74acd307ac8f677ab00a50d2190f5a20fe6ccafd2db6bb",
+    "src/mcoc_p2/housekeeping.py": "72105463b6cb08f367b80701ee1f187de6a193b8d15c00a3133d8664662d193a",
+    "src/mcoc_p2/thermal_nd.py": "d1d870072f4fb789fb4230fdc4a3ff7009502d68bf392a909666e7066f3d7ab6",
+    "src/mcoc_p2/verification_e05.py": "95881caec8fa4405b05ac2443d7afec3504d60a9c36e4c2313e82542decaf0be"
+  },
+  "note": "Nueva ejecución desde el IFC y los inputs de E09. Se comparan todos los arrays guardados, incluido el control cuando está presente.",
+  "elapsed_s": 62.02110939996783
+}

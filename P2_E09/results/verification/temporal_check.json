@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "reference_max_step_s": 900,
+  "refined_max_step_s": 450.0,
+  "field_Linf_difference_C": 0.021155513926267133,
+  "predeclared_tolerance_C": 0.2,
+  "refined_peak": {
+    "temperature_C": 51.47600389177963,
+    "time_h": 66.0,
+    "index": [
+      32,
+      32,
+      24
+    ],
+    "coordinate_m": [
+      -0.0625,
+      -0.062499999999998224,
+      3.3687500000000004
+    ],
+    "vertida_id": 5
+  },
+  "peak_difference_C": -0.004517606012704789,
+  "energy": {
+    "reference_C": 20,
+    "initial_J": -632850570.0000001,
+    "final_J": 21081277945.481007,
+    "hydration_J": 41030171325.00002,
+    "outward_J": 19350632172.019047,
+    "placement_after_zero_J": 34589362.50000006,
+    "residual_J": 3.045797348022461e-05,
+    "max_step_residual_J": 1.2744218111038208e-05,
+    "tolerance_J": 0.4106486068750003
+  },
+  "checks": {
+    "global_energy_balance": true,
+    "step_energy_balance": true,
+    "hydration_potential": true,
+    "stable_steps": true,
+    "events_reached": true,
+    "inactive_is_nan": true,
+    "final_time_exact": true
+  },
+  "elapsed_s": 55.286444499972276,
+  "interpretation": "Sensibilidad a dt en misma grilla; no es error exacto ni convergencia espacial de fundación."
+}

@@ -1,0 +1,12 @@
+{
+  "units": {"length": "m", "time": "s", "temperature": "degC", "k": "W/(m K)", "rho": "kg/m^3", "cp": "J/(kg K)", "q_dot": "W/m^3", "flux": "W/m^2", "h": "W/(m^2 K)"},
+  "defaults": {"n": 12, "lengths_m": 1.0, "k": 2.0, "rho": 2400.0, "cp": 900.0, "t_end_s": 10000.0, "atol_C": 0.03},
+  "cases": {
+    "energy": {"dimension": 3, "heterogeneous": true},
+    "source": {"dimension": 3, "q_dot": 1000.0},
+    "neumann": {"dimension": 3, "face": "z-", "flux": -100.0},
+    "robin": {"dimension": 3, "initial_C": 50.0, "ambient_C": 20.0, "h": 12.0},
+    "spatial": {"dimension": 2, "n": 6},
+    "temporal": {"dimension": 2, "n": 6}
+  }
+}

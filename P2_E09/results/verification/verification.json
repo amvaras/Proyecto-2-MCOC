@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "name": "pip_check",
+      "returncode": 0,
+      "elapsed_s": 1.5793053000234067
+    },
+    {
+      "name": "pytest",
+      "returncode": 0,
+      "elapsed_s": 95.75992960005533
+    },
+    {
+      "name": "ifc",
+      "returncode": 0,
+      "elapsed_s": 4.210214300081134
+    }
+  ],
+  "tests": {
+    "tests": 342,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "data": {
+    "status": "PASS",
+    "checks": {
+      "solver_checks": true,
+      "finite_artifacts": true,
+      "ifc_unchanged": true,
+      "occupied_indexing": true,
+      "active_schedule": true,
+      "inactive_zero_fill": true,
+      "duration_exact": true,
+      "event_times": true,
+      "stable_steps": true,
+      "time_continuity": true,
+      "statistics_every_step": true,
+      "reconstructed_energy_balance": true,
+      "reconstructed_final_energy": true,
+      "heat_potential_independent": true,
+      "stages_balance": true,
+      "field_statistics": true,
+      "peak_from_steps": true,
+      "delta_from_probes": true,
+      "figure_source": true,
+      "figures_in_delivery": true,
+      "figures_intact": true,
+      "panel_times_real": true,
+      "control_maximum_principle": true
+    },
+    "reconstructed_balance_J": -3.874301910400391e-06,
+    "expected_hydration_J": 41030171325.00001,
+    "field_sha256": "36c5f3ffa8bc6a545e7b770c8882fb56ced34c82c5811cf9e54200547b7c8cb1",
+    "figures": 12
+  },
+  "dossier": {
+    "status": "PASS",
+    "words": 1089,
+    "limit": 1200,
+    "includes_tables_code_equations": true,
+    "local_links": 14,
+    "images": 11,
+    "formal_status": "refs/tags/entrega-e09",
+    "publication_verified": false,
+    "sha256": "5a892a6c3bb7bcc739dcdf5b8fcb97b6baafece8ae0055e10e99630de88c40d7"
+  },
+  "e08_original_intact": "No se requiere E08 para ejecutar; original no presente",
+  "autonomous_import": true
+}

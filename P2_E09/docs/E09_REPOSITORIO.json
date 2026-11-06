@@ -1,0 +1,65 @@
+{
+  "repository": "https://github.com/amvaras/Proyecto-2-MCOC",
+  "inspection": "read-only; no fetch Git local ni cambios",
+  "branches": {
+    "main": {
+      "sha": "53a9575d19e98143e84286d73f7b81c756aa9929",
+      "files": 106,
+      "top_level": [
+        ".gitattributes",
+        ".gitignore",
+        "ESTADO_CONGELADO_E01.md",
+        "INVENTARIO_SHA256.json",
+        "README.md",
+        "VERIFICACION_RESPALDO_E01.json",
+        "VERIFICAR_INTEGRIDAD_E01.py",
+        "docs",
+        "evidencias",
+        "examples",
+        "geometry",
+        "pyproject.toml",
+        "requirements-lock.txt",
+        "scripts",
+        "src",
+        "tests"
+      ],
+      "contains_e08": false,
+      "contains_e09": false,
+      "truncated": false
+    },
+    "codex/e08": {
+      "sha": "19dae6f307ef8e669d13a18ddf8e9ce28e95a953",
+      "files": 4961,
+      "top_level": [
+        ".gitattributes",
+        ".gitignore",
+        "E04.md",
+        "E07.md",
+        "E08.md",
+        "ESTADO_CONGELADO_E01.md",
+        "INICIAR_E08.bat",
+        "INVENTARIO_SHA256.json",
+        "P2_E02",
+        "P2_E04",
+        "P2_E07",
+        "P2_E08",
+        "README.md",
+        "VERIFICACION_RESPALDO_E01.json",
+        "VERIFICAR_E08.ps1",
+        "VERIFICAR_INTEGRIDAD_E01.py",
+        "docs",
+        "evidencias",
+        "examples",
+        "geometry",
+        "pyproject.toml",
+        "requirements-lock.txt",
+        "scripts",
+        "src",
+        "tests"
+      ],
+      "contains_e08": true,
+      "contains_e09": false,
+      "truncated": false
+    }
+  }
+}

@@ -1,0 +1,2144 @@
+{
+  "status": "PASS",
+  "delivery": "E09",
+  "duration_h": 336.0,
+  "configuration": {
+    "physics": {
+      "description": "E09 baseline ilustrativo 14 días; no calibrado a Freirina",
+      "spacing_m": [
+        0.275,
+        0.275,
+        0.1375
+      ],
+      "resolutions_m": [
+        0.55,
+        0.275,
+        0.1375
+      ],
+      "margin_m": 0,
+      "t_end_s": 1209600,
+      "max_step_s": 900,
+      "save_interval_s": 10800,
+      "safety": 0.8,
+      "energy_reference_C": 20,
+      "h_W_m2K": 8,
+      "ambient_C": 20,
+      "boundaries": {
+        "z-": {
+          "type": "adiabatic"
+        }
+      },
+      "material": {
+        "k": 2,
+        "rho": 2400,
+        "cp": 900
+      },
+      "hydration": {
+        "H_vol_J_m3": 64800000,
+        "duration_s": 172800
+      },
+      "events": [
+        {
+          "pour_id": 1,
+          "activation_s": 0,
+          "initial_C": 18
+        },
+        {
+          "pour_id": 2,
+          "activation_s": 18000,
+          "initial_C": 19
+        },
+        {
+          "pour_id": 3,
+          "activation_s": 36000,
+          "initial_C": 20
+        },
+        {
+          "pour_id": 4,
+          "activation_s": 54000,
+          "initial_C": 21
+        },
+        {
+          "pour_id": 5,
+          "activation_s": 72000,
+          "initial_C": 22
+        }
+      ]
+    },
+    "analysis": {
+      "core_target_m": [
+        0,
+        0,
+        1.65
+      ],
+      "horizontal_z_m": 1.65,
+      "panel_hours": [
+        0,
+        6,
+        12,
+        24,
+        36,
+        48,
+        72,
+        96,
+        120,
+        168,
+        240,
+        336
+      ],
+      "animation": true
+    }
+  },
+  "ifc": {
+    "schema": "IFC4",
+    "ifc_unit_to_m": 1.0,
+    "coordinates": "world SI m",
+    "source_sha256": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a",
+    "relative_path": "geometry/foundation.ifc",
+    "sha256": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a"
+  },
+  "pours": [
+    {
+      "vertida_id": 1,
+      "guid": "0oY4bM1krVGQdxfBrXmxJm",
+      "name": "Vertida_01",
+      "properties": {
+        "VertidaID": 1,
+        "ZInferior_m": 0.0,
+        "ZSuperior_m": 0.55,
+        "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+        "Estado": "Preliminar E01; sin plan constructivo optimizado"
+      },
+      "placement_world_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "geometry_id": "53-world-coords",
+      "vertices": 16,
+      "triangles": 28,
+      "bbox_min_m": [
+        -9.0,
+        -8.999999999999998,
+        0.0
+      ],
+      "bbox_max_m": [
+        9.0,
+        9.0,
+        0.55
+      ],
+      "volume_mesh_m3": 147.62571362977107,
+      "convex": true,
+      "orientation_reversed": false
+    },
+    {
+      "vertida_id": 2,
+      "guid": "3hfPF39u1QnvSBQJFmy$c2",
+      "name": "Vertida_02",
+      "properties": {
+        "VertidaID": 2,
+        "ZInferior_m": 0.55,
+        "ZSuperior_m": 1.1,
+        "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+        "Estado": "Preliminar E01; sin plan constructivo optimizado"
+      },
+      "placement_world_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.55
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "geometry_id": "81-world-coords",
+      "vertices": 16,
+      "triangles": 28,
+      "bbox_min_m": [
+        -9.0,
+        -8.999999999999998,
+        0.55
+      ],
+      "bbox_max_m": [
+        9.0,
+        9.0,
+        1.1
+      ],
+      "volume_mesh_m3": 147.6257136297711,
+      "convex": true,
+      "orientation_reversed": false
+    },
+    {
+      "vertida_id": 3,
+      "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+      "name": "Vertida_03",
+      "properties": {
+        "VertidaID": 3,
+        "ZInferior_m": 1.1,
+        "ZSuperior_m": 2.2,
+        "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+        "Estado": "Preliminar E01; sin plan constructivo optimizado"
+      },
+      "placement_world_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "geometry_id": "108-world-coords",
+      "vertices": 16,
+      "triangles": 28,
+      "bbox_min_m": [
+        -9.0,
+        -8.999999999999998,
+        1.1
+      ],
+      "bbox_max_m": [
+        9.0,
+        9.0,
+        2.2
+      ],
+      "volume_mesh_m3": 214.2243508999919,
+      "convex": true,
+      "orientation_reversed": false
+    },
+    {
+      "vertida_id": 4,
+      "guid": "1jVXFE7TLGsO88Iyj_MihB",
+      "name": "Vertida_04",
+      "properties": {
+        "VertidaID": 4,
+        "ZInferior_m": 2.2,
+        "ZSuperior_m": 3.3,
+        "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+        "Estado": "Preliminar E01; sin plan constructivo optimizado"
+      },
+      "placement_world_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.2
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "geometry_id": "135-world-coords",
+      "vertices": 16,
+      "triangles": 28,
+      "bbox_min_m": [
+        -6.250000000000001,
+        -6.25,
+        2.2
+      ],
+      "bbox_max_m": [
+        6.25,
+        6.25,
+        3.3
+      ],
+      "volume_mesh_m3": 88.92474828213061,
+      "convex": true,
+      "orientation_reversed": false
+    },
+    {
+      "vertida_id": 5,
+      "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+      "name": "Vertida_05",
+      "properties": {
+        "VertidaID": 5,
+        "ZInferior_m": 3.3,
+        "ZSuperior_m": 4.3,
+        "Procedencia": "GUIA_BONSAI_FUNDACION.md; generacion Python/IfcOpenShell",
+        "Estado": "Preliminar E01; sin plan constructivo optimizado"
+      },
+      "placement_world_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.3
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "geometry_id": "157-world-coords",
+      "vertices": 372,
+      "triangles": 740,
+      "bbox_min_m": [
+        -3.5,
+        -3.499500768958985,
+        3.3
+      ],
+      "bbox_max_m": [
+        3.5,
+        3.4995007689589843,
+        4.3
+      ],
+      "volume_mesh_m3": 38.477191140741105,
+      "convex": true,
+      "orientation_reversed": false
+    }
+  ],
+  "grid": {
+    "origin_m": [
+      -9.0,
+      -8.999999999999998,
+      0.0
+    ],
+    "spacing_m": [
+      0.275,
+      0.275,
+      0.1375
+    ],
+    "shape": [
+      66,
+      66,
+      32
+    ],
+    "upper_m": [
+      9.150000000000002,
+      9.150000000000004,
+      4.4
+    ],
+    "axes": "XYZ; array[i,j,k]; C-order",
+    "cell_volume_m3": 0.010398437500000003,
+    "grid_cells": 139392,
+    "occupied_cells": 60892,
+    "volume_voxel_m3": 633.1816562500002,
+    "volume_reference_mesh_m3": 636.8777175824058,
+    "absolute_error_m3": 3.696061332405634,
+    "relative_error": 0.005803408143145469,
+    "signed_error_m3": -3.696061332405634,
+    "sum_absolute_pour_errors_m3": 4.286890782421956,
+    "max_pour_relative_error": 0.042776654608717594,
+    "boundary_ties": 0,
+    "by_pour": [
+      {
+        "vertida_id": 1,
+        "guid": "0oY4bM1krVGQdxfBrXmxJm",
+        "cells": 14088,
+        "volume_voxel_m3": 146.49318750000003,
+        "volume_reference_m3": 147.62571362977107,
+        "absolute_error_m3": 1.132526129771037,
+        "signed_error_m3": -1.132526129771037,
+        "relative_error": 0.007671604776192899
+      },
+      {
+        "vertida_id": 2,
+        "guid": "3hfPF39u1QnvSBQJFmy$c2",
+        "cells": 14088,
+        "volume_voxel_m3": 146.49318750000003,
+        "volume_reference_m3": 147.6257136297711,
+        "absolute_error_m3": 1.1325261297710654,
+        "signed_error_m3": -1.1325261297710654,
+        "relative_error": 0.00767160477619309
+      },
+      {
+        "vertida_id": 3,
+        "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+        "cells": 20630,
+        "volume_voxel_m3": 214.51976562500008,
+        "volume_reference_m3": 214.2243508999919,
+        "absolute_error_m3": 0.295414725008186,
+        "signed_error_m3": 0.295414725008186,
+        "relative_error": 0.001378996943004378
+      },
+      {
+        "vertida_id": 4,
+        "guid": "1jVXFE7TLGsO88Iyj_MihB",
+        "cells": 8544,
+        "volume_voxel_m3": 88.84425000000003,
+        "volume_reference_m3": 88.92474828213061,
+        "absolute_error_m3": 0.08049828213057708,
+        "signed_error_m3": -0.08049828213057708,
+        "relative_error": 0.000905240483506133
+      },
+      {
+        "vertida_id": 5,
+        "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+        "cells": 3542,
+        "volume_voxel_m3": 36.831265625000015,
+        "volume_reference_m3": 38.477191140741105,
+        "absolute_error_m3": 1.6459255157410908,
+        "signed_error_m3": -1.6459255157410908,
+        "relative_error": 0.042776654608717594
+      }
+    ]
+  },
+  "volume_study": [
+    {
+      "origin_m": [
+        -9.0,
+        -8.999999999999998,
+        0.0
+      ],
+      "spacing_m": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "shape": [
+        33,
+        33,
+        8
+      ],
+      "upper_m": [
+        9.150000000000002,
+        9.150000000000004,
+        4.4
+      ],
+      "axes": "XYZ; array[i,j,k]; C-order",
+      "cell_volume_m3": 0.16637500000000005,
+      "grid_cells": 8712,
+      "occupied_cells": 3855,
+      "volume_voxel_m3": 641.3756250000002,
+      "volume_reference_mesh_m3": 636.8777175824058,
+      "absolute_error_m3": 4.497907417594433,
+      "relative_error": 0.007062434896715393,
+      "signed_error_m3": 4.497907417594433,
+      "sum_absolute_pour_errors_m3": 10.847855781839243,
+      "max_pour_relative_error": 0.09829352785719131,
+      "boundary_ties": 0,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "guid": "0oY4bM1krVGQdxfBrXmxJm",
+          "cells": 899,
+          "volume_voxel_m3": 149.57112500000005,
+          "volume_reference_m3": 147.62571362977107,
+          "absolute_error_m3": 1.9454113702289817,
+          "signed_error_m3": 1.9454113702289817,
+          "relative_error": 0.013177998076323328
+        },
+        {
+          "vertida_id": 2,
+          "guid": "3hfPF39u1QnvSBQJFmy$c2",
+          "cells": 899,
+          "volume_voxel_m3": 149.57112500000005,
+          "volume_reference_m3": 147.6257136297711,
+          "absolute_error_m3": 1.9454113702289533,
+          "signed_error_m3": 1.9454113702289533,
+          "relative_error": 0.013177998076323133
+        },
+        {
+          "vertida_id": 3,
+          "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+          "cells": 1275,
+          "volume_voxel_m3": 212.12812500000007,
+          "volume_reference_m3": 214.2243508999919,
+          "absolute_error_m3": 2.096225899991822,
+          "signed_error_m3": -2.096225899991822,
+          "relative_error": 0.009785189644338893
+        },
+        {
+          "vertida_id": 4,
+          "guid": "1jVXFE7TLGsO88Iyj_MihB",
+          "cells": 528,
+          "volume_voxel_m3": 87.84600000000003,
+          "volume_reference_m3": 88.92474828213061,
+          "absolute_error_m3": 1.0787482821305758,
+          "signed_error_m3": -1.0787482821305758,
+          "relative_error": 0.01213102429829818
+        },
+        {
+          "vertida_id": 5,
+          "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+          "cells": 254,
+          "volume_voxel_m3": 42.259250000000016,
+          "volume_reference_m3": 38.477191140741105,
+          "absolute_error_m3": 3.7820588592589104,
+          "signed_error_m3": 3.7820588592589104,
+          "relative_error": 0.09829352785719131
+        }
+      ],
+      "elapsed_s": 0.0022843999322503805
+    },
+    {
+      "origin_m": [
+        -9.0,
+        -8.999999999999998,
+        0.0
+      ],
+      "spacing_m": [
+        0.275,
+        0.275,
+        0.275
+      ],
+      "shape": [
+        66,
+        66,
+        16
+      ],
+      "upper_m": [
+        9.150000000000002,
+        9.150000000000004,
+        4.4
+      ],
+      "axes": "XYZ; array[i,j,k]; C-order",
+      "cell_volume_m3": 0.020796875000000006,
+      "grid_cells": 69696,
+      "occupied_cells": 30639,
+      "volume_voxel_m3": 637.1954531250002,
+      "volume_reference_mesh_m3": 636.8777175824058,
+      "absolute_error_m3": 0.3177355425943915,
+      "relative_error": 0.0004988956809487995,
+      "signed_error_m3": 0.3177355425943915,
+      "sum_absolute_pour_errors_m3": 6.913632175923425,
+      "max_pour_relative_error": 0.09396953759003696,
+      "boundary_ties": 0,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "guid": "0oY4bM1krVGQdxfBrXmxJm",
+          "cells": 7044,
+          "volume_voxel_m3": 146.49318750000003,
+          "volume_reference_m3": 147.62571362977107,
+          "absolute_error_m3": 1.132526129771037,
+          "signed_error_m3": -1.132526129771037,
+          "relative_error": 0.007671604776192899
+        },
+        {
+          "vertida_id": 2,
+          "guid": "3hfPF39u1QnvSBQJFmy$c2",
+          "cells": 7044,
+          "volume_voxel_m3": 146.49318750000003,
+          "volume_reference_m3": 147.6257136297711,
+          "absolute_error_m3": 1.1325261297710654,
+          "signed_error_m3": -1.1325261297710654,
+          "relative_error": 0.00767160477619309
+        },
+        {
+          "vertida_id": 3,
+          "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+          "cells": 10265,
+          "volume_voxel_m3": 213.47992187500006,
+          "volume_reference_m3": 214.2243508999919,
+          "absolute_error_m3": 0.7444290249918311,
+          "signed_error_m3": -0.7444290249918311,
+          "relative_error": 0.0034749972254058035
+        },
+        {
+          "vertida_id": 4,
+          "guid": "1jVXFE7TLGsO88Iyj_MihB",
+          "cells": 4262,
+          "volume_voxel_m3": 88.63628125000002,
+          "volume_reference_m3": 88.92474828213061,
+          "absolute_error_m3": 0.28846703213058333,
+          "signed_error_m3": -0.28846703213058333,
+          "relative_error": 0.0032439454449212164
+        },
+        {
+          "vertida_id": 5,
+          "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+          "cells": 2024,
+          "volume_voxel_m3": 42.092875000000014,
+          "volume_reference_m3": 38.477191140741105,
+          "absolute_error_m3": 3.6156838592589082,
+          "signed_error_m3": 3.6156838592589082,
+          "relative_error": 0.09396953759003696
+        }
+      ],
+      "elapsed_s": 0.015750300139188766
+    },
+    {
+      "origin_m": [
+        -9.0,
+        -8.999999999999998,
+        0.0
+      ],
+      "spacing_m": [
+        0.1375,
+        0.1375,
+        0.1375
+      ],
+      "shape": [
+        131,
+        131,
+        32
+      ],
+      "upper_m": [
+        9.012500000000003,
+        9.012500000000005,
+        4.4
+      ],
+      "axes": "XYZ; array[i,j,k]; C-order",
+      "cell_volume_m3": 0.002599609375000001,
+      "grid_cells": 549152,
+      "occupied_cells": 244477,
+      "volume_voxel_m3": 635.5447011718752,
+      "volume_reference_mesh_m3": 636.8777175824058,
+      "absolute_error_m3": 1.333016410530604,
+      "relative_error": 0.0020930492207997912,
+      "signed_error_m3": -1.333016410530604,
+      "sum_absolute_pour_errors_m3": 1.8286749352127671,
+      "max_pour_relative_error": 0.03899316312495758,
+      "boundary_ties": 0,
+      "by_pour": [
+        {
+          "vertida_id": 1,
+          "guid": "0oY4bM1krVGQdxfBrXmxJm",
+          "cells": 56788,
+          "volume_voxel_m3": 147.62661718750005,
+          "volume_reference_m3": 147.62571362977107,
+          "absolute_error_m3": 0.0009035577289751018,
+          "signed_error_m3": 0.0009035577289751018,
+          "relative_error": 6.120598551287104e-06
+        },
+        {
+          "vertida_id": 2,
+          "guid": "3hfPF39u1QnvSBQJFmy$c2",
+          "cells": 56788,
+          "volume_voxel_m3": 147.62661718750005,
+          "volume_reference_m3": 147.6257136297711,
+          "absolute_error_m3": 0.0009035577289466801,
+          "signed_error_m3": 0.0009035577289466801,
+          "relative_error": 6.120598551094578e-06
+        },
+        {
+          "vertida_id": 3,
+          "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+          "cells": 82501,
+          "volume_voxel_m3": 214.47037304687507,
+          "volume_reference_m3": 214.2243508999919,
+          "absolute_error_m3": 0.24602214688317758,
+          "signed_error_m3": 0.24602214688317758,
+          "relative_error": 0.001148432220004859
+        },
+        {
+          "vertida_id": 4,
+          "guid": "1jVXFE7TLGsO88Iyj_MihB",
+          "cells": 34176,
+          "volume_voxel_m3": 88.84425000000003,
+          "volume_reference_m3": 88.92474828213061,
+          "absolute_error_m3": 0.08049828213057708,
+          "signed_error_m3": -0.08049828213057708,
+          "relative_error": 0.000905240483506133
+        },
+        {
+          "vertida_id": 5,
+          "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+          "cells": 14224,
+          "volume_voxel_m3": 36.976843750000015,
+          "volume_reference_m3": 38.477191140741105,
+          "absolute_error_m3": 1.5003473907410907,
+          "signed_error_m3": -1.5003473907410907,
+          "relative_error": 0.03899316312495758
+        }
+      ],
+      "elapsed_s": 0.133626600028947
+    }
+  ],
+  "exterior": {
+    "count": 12736,
+    "area_m2": 747.9312500000002,
+    "area_by_orientation_m2": {
+      "x-": 53.80718750000001,
+      "x+": 53.80718750000001,
+      "y-": 53.80718750000001,
+      "y+": 53.80718750000001,
+      "z-": 266.35125000000005,
+      "z+": 266.35125000000005
+    },
+    "area_by_pour_m2": {
+      "1": 305.6762500000001,
+      "2": 49.080625000000005,
+      "3": 201.91875000000005,
+      "4": 126.52062500000002,
+      "5": 64.73500000000001
+    },
+    "count_by_class": {
+      "bottom": 3522,
+      "lateral": 5692,
+      "top": 3522
+    }
+  },
+  "interfaces": {
+    "count": 9032,
+    "area_m2": 683.0450000000001
+  },
+  "active_surfaces": [
+    {
+      "time_h": 0.0,
+      "active_cells": 14088,
+      "exposed_area_m2": 572.0275000000001,
+      "faces_toward_future": 3522
+    },
+    {
+      "time_h": 5.0,
+      "active_cells": 28176,
+      "exposed_area_m2": 611.3525000000002,
+      "faces_toward_future": 3393
+    },
+    {
+      "time_h": 10.0,
+      "active_cells": 48806,
+      "exposed_area_m2": 678.5075000000002,
+      "faces_toward_future": 1611
+    },
+    {
+      "time_h": 15.0,
+      "active_cells": 57350,
+      "exposed_area_m2": 721.4625000000002,
+      "faces_toward_future": 506
+    },
+    {
+      "time_h": 20.0,
+      "active_cells": 60892,
+      "exposed_area_m2": 747.9312500000002,
+      "faces_toward_future": 0
+    },
+    {
+      "time_h": 336.0,
+      "active_cells": 60892,
+      "exposed_area_m2": 747.9312500000002,
+      "faces_toward_future": 0
+    }
+  ],
+  "thermal": {
+    "peak": {
+      "temperature_C": 51.48052149779233,
+      "time_h": 66.0,
+      "index": [
+        32,
+        32,
+        24
+      ],
+      "coordinate_m": [
+        -0.0625,
+        -0.062499999999998224,
+        3.3687500000000004
+      ],
+      "vertida_id": 5
+    },
+    "probes": [
+      {
+        "name": "nucleo",
+        "index": [
+          32,
+          32,
+          11
+        ],
+        "coordinate_m": [
+          -0.0625,
+          -0.062499999999998224,
+          1.58125
+        ],
+        "vertida_id": 3,
+        "kind": "cell_center",
+        "target_m": [
+          0.0,
+          0.0,
+          1.65
+        ],
+        "final_C": 48.40164717810828,
+        "maximum_C": 50.253131683590475,
+        "maximum_time_h": 57.75
+      },
+      {
+        "name": "superficie_superior",
+        "index": [
+          32,
+          32,
+          30
+        ],
+        "coordinate_m": [
+          -0.0625,
+          -0.062499999999998224,
+          4.2625
+        ],
+        "cell_center_m": [
+          -0.0625,
+          -0.062499999999998224,
+          4.1937500000000005
+        ],
+        "vertida_id": 5,
+        "kind": "reconstructed_face",
+        "face": "z+",
+        "half_cell_m": 0.06875,
+        "target_m": [
+          -0.0625,
+          -0.062499999999998224,
+          4.2625
+        ],
+        "final_C": 24.173134895486672,
+        "maximum_C": 33.82931232784482,
+        "maximum_time_h": 61.5
+      },
+      {
+        "name": "superficie_lateral",
+        "index": [
+          63,
+          32,
+          9
+        ],
+        "coordinate_m": [
+          8.600000000000001,
+          -0.062499999999998224,
+          1.3062500000000001
+        ],
+        "cell_center_m": [
+          8.462500000000002,
+          -0.062499999999998224,
+          1.3062500000000001
+        ],
+        "vertida_id": 3,
+        "kind": "reconstructed_face",
+        "face": "x+",
+        "half_cell_m": 0.1375,
+        "target_m": [
+          8.875,
+          -0.062499999999998224,
+          1.58125
+        ],
+        "final_C": 21.204492844084204,
+        "maximum_C": 29.358479146632863,
+        "maximum_time_h": 48.25
+      },
+      {
+        "name": "cerca_base",
+        "index": [
+          32,
+          32,
+          0
+        ],
+        "coordinate_m": [
+          -0.0625,
+          -0.062499999999998224,
+          0.06875
+        ],
+        "vertida_id": 1,
+        "kind": "cell_center",
+        "target_m": [
+          -0.0625,
+          -0.062499999999998224,
+          0.06875
+        ],
+        "final_C": 48.92199417615781,
+        "maximum_C": 48.92288126214159,
+        "maximum_time_h": 329.5
+      },
+      {
+        "name": "centro_vertida_1",
+        "index": [
+          32,
+          32,
+          1
+        ],
+        "coordinate_m": [
+          -0.0625,
+          -0.062499999999998224,
+          0.20625000000000002
+        ],
+        "vertida_id": 1,
+        "kind": "cell_center",
+        "target_m": [
+          -0.0283787620670056,
+          -0.028378762067006725,
+          0.2749999999999843
+        ],
+        "final_C": 48.92401821505052,
+        "maximum_C": 48.92656795389631,
+        "maximum_time_h": 325.25
+      },
+      {
+        "name": "centro_vertida_2",
+        "index": [
+          32,
+          32,
+          5
+        ],
+        "coordinate_m": [
+          -0.0625,
+          -0.062499999999998224,
+          0.7562500000000001
+        ],
+        "vertida_id": 2,
+        "kind": "cell_center",
+        "target_m": [
+          -0.0283787620670056,
+          -0.028378762067006725,
+          0.8249999999999689
+        ],
+        "final_C": 48.920202728113885,
+        "maximum_C": 49.031457570360104,
+        "maximum_time_h": 264.25
+      },
+      {
+        "name": "centro_vertida_3",
+        "index": [
+          32,
+          32,
+          11
+        ],
+        "coordinate_m": [
+          -0.0625,
+          -0.062499999999998224,
+          1.58125
+        ],
+        "vertida_id": 3,
+        "kind": "cell_center",
+        "target_m": [
+          0.00925593795443837,
+          0.009255937954435866,
+          1.5864887300049346
+        ],
+        "final_C": 48.40164717810828,
+        "maximum_C": 50.253131683590475,
+        "maximum_time_h": 57.75
+      },
+      {
+        "name": "centro_vertida_4",
+        "index": [
+          32,
+          32,
+          19
+        ],
+        "coordinate_m": [
+          -0.0625,
+          -0.062499999999998224,
+          2.6812500000000004
+        ],
+        "vertida_id": 4,
+        "kind": "cell_center",
+        "target_m": [
+          0.004705056179775226,
+          0.004705056179776471,
+          2.650962663857656
+        ],
+        "final_C": 44.0711505993678,
+        "maximum_C": 51.1052136158764,
+        "maximum_time_h": 62.75
+      },
+      {
+        "name": "centro_vertida_5",
+        "index": [
+          32,
+          32,
+          27
+        ],
+        "coordinate_m": [
+          -0.0625,
+          -0.062499999999998224,
+          3.7812500000000004
+        ],
+        "vertida_id": 5,
+        "kind": "cell_center",
+        "target_m": [
+          -0.00652173913043637,
+          -0.006521739130433232,
+          3.7812500000000004
+        ],
+        "final_C": 31.833089788459105,
+        "maximum_C": 49.188659080930165,
+        "maximum_time_h": 65.25
+      }
+    ],
+    "center_top_difference": {
+      "maximum_C": 24.34257181106196,
+      "time_h": 287.5,
+      "final_C": 24.228512282621605,
+      "valid_from_h": 20.0,
+      "definition": "nucleo - superficie_superior reconstruida por media celda y condición Robin; solo si ambas sondas existen"
+    },
+    "max_at_integration_steps": true
+  },
+  "energy": {
+    "reference_C": 20,
+    "initial_J": -632850570.0000001,
+    "final_J": 21082178112.61658,
+    "hydration_J": 41030171325.000015,
+    "outward_J": 19349732004.883423,
+    "placement_after_zero_J": 34589362.50000006,
+    "residual_J": -1.150369644165039e-05,
+    "max_step_residual_J": 1.1883676052093506e-05,
+    "tolerance_J": 0.41064860687500004
+  },
+  "checks": {
+    "global_energy_balance": true,
+    "step_energy_balance": true,
+    "hydration_potential": true,
+    "stable_steps": true,
+    "events_reached": true,
+    "inactive_is_nan": true,
+    "final_time_exact": true,
+    "stored_field_finite": true,
+    "active_frames_match_events": true,
+    "statistics_every_step": true
+  },
+  "stages": [
+    {
+      "start_h": 0.0,
+      "end_h": 5.0,
+      "hydration_J": 251889733.49136424,
+      "outward_J": -50546486.707456805,
+      "placement_J": -316425285.00000006,
+      "balance_residual_J": -8.440110832452774e-07
+    },
+    {
+      "start_h": 5.0,
+      "end_h": 10.0,
+      "hydration_J": 980823422.8896592,
+      "outward_J": -20682162.826900795,
+      "placement_J": 0.0,
+      "balance_residual_J": -3.3105607144534588e-09
+    },
+    {
+      "start_h": 10.0,
+      "end_h": 15.0,
+      "hydration_J": 2226401474.009148,
+      "outward_J": 22528907.721775554,
+      "placement_J": 191903580.00000006,
+      "balance_residual_J": 4.310568328946829e-07
+    },
+    {
+      "start_h": 15.0,
+      "end_h": 20.0,
+      "hydration_J": 3757293293.705552,
+      "outward_J": 88801198.70918301,
+      "placement_J": 159111067.50000006,
+      "balance_residual_J": 1.0421499609947205e-06
+    },
+    {
+      "start_h": 20.0,
+      "end_h": 336.0,
+      "hydration_J": 33813763400.9043,
+      "outward_J": 19309630547.986828,
+      "placement_J": 0.0,
+      "balance_residual_J": -2.045184373855591e-06
+    }
+  ],
+  "events": [
+    {
+      "time_s": 0.0,
+      "vertida_ids": [
+        1
+      ],
+      "placement_energy_J": -632850570.0000001
+    },
+    {
+      "time_s": 18000.0,
+      "vertida_ids": [
+        2
+      ],
+      "placement_energy_J": -316425285.00000006
+    },
+    {
+      "time_s": 36000.0,
+      "vertida_ids": [
+        3
+      ],
+      "placement_energy_J": 0.0
+    },
+    {
+      "time_s": 54000.0,
+      "vertida_ids": [
+        4
+      ],
+      "placement_energy_J": 191903580.00000006
+    },
+    {
+      "time_s": 72000.0,
+      "vertida_ids": [
+        5
+      ],
+      "placement_energy_J": 159111067.50000006
+    }
+  ],
+  "temporal": {
+    "integration_steps": 1344,
+    "saved_frames": 116,
+    "min_step_s": 900.0,
+    "max_step_s": 900.0,
+    "max_dt_over_limit": 0.13223140495867766,
+    "smallest_stable_step_s": 6806.250000000002
+  },
+  "snapshot_balance": [
+    {
+      "time_s": 0.0,
+      "energy_J": -632850570.0000001,
+      "hydration_energy_J": 0.0,
+      "outward_energy_J": 0.0,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": 0.0
+    },
+    {
+      "time_s": 10800.0,
+      "energy_J": -506399100.5999156,
+      "hydration_energy_J": 91200346.86904345,
+      "outward_energy_J": -35251122.53104143,
+      "placement_energy_J": 0.0,
+      "balance_residual_J": -3.8743019104003906e-07
+    },
+    {
+      "time_s": 18000.0,
+      "energy_J": -646839634.80118,
+      "hydration_energy_J": 251889733.49136424,
+      "outward_energy_J": -50546486.707456805,
+      "placement_energy_J": -316425285.00000006,
+      "balance_residual_J": -8.940696716308594e-07
+    },
+    {
+      "time_s": 21600.0,
+      "energy_J": -520296350.29183924,
+      "hydration_energy_J": 371458971.6582166,
+      "outward_energy_J": -57520533.04994582,
+      "placement_energy_J": -316425285.00000006,
+      "balance_residual_J": -1.4901161193847656e-06
+    },
+    {
+      "time_s": 32400.0,
+      "energy_J": 82964367.3012766,
+      "hydration_energy_J": 961638091.2892306,
+      "outward_energy_J": -70602131.01204737,
+      "placement_energy_J": -316425285.00000006,
+      "balance_residual_J": -1.1920928955078125e-06
+    },
+    {
+      "time_s": 36000.0,
+      "energy_J": 354665950.91538,
+      "hydration_energy_J": 1232713156.3810234,
+      "outward_energy_J": -71228649.5343576,
+      "placement_energy_J": -316425285.00000006,
+      "balance_residual_J": -8.344650268554688e-07
+    },
+    {
+      "time_s": 43200.0,
+      "energy_J": 1057265463.5384774,
+      "hydration_energy_J": 1939125367.0295663,
+      "outward_energy_J": -67415951.50891218,
+      "placement_energy_J": -316425285.00000006,
+      "balance_residual_J": -1.0132789611816406e-06
+    },
+    {
+      "time_s": 54000.0,
+      "energy_J": 2750442097.202753,
+      "hydration_energy_J": 3459114630.390171,
+      "outward_energy_J": -48699741.81258203,
+      "placement_energy_J": -124521705.0,
+      "balance_residual_J": -1.4901161193847656e-08
+    },
+    {
+      "time_s": 64800.0,
+      "energy_J": 4780197409.7858,
+      "hydration_energy_J": 5533385575.024935,
+      "outward_energy_J": -4184109.760865152,
+      "placement_energy_J": -124521705.0,
+      "balance_residual_J": 5.960464477539063e-08
+    },
+    {
+      "time_s": 72000.0,
+      "energy_J": 6578045259.699123,
+      "hydration_energy_J": 7216407924.095723,
+      "outward_energy_J": 40101456.89660099,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": 1.1622905731201172e-06
+    },
+    {
+      "time_s": 75600.0,
+      "energy_J": 7472811729.196483,
+      "hydration_energy_J": 8140090751.554123,
+      "outward_energy_J": 69017814.85764045,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": 1.1920928955078125e-07
+    },
+    {
+      "time_s": 86400.0,
+      "energy_J": 10434651685.214348,
+      "hydration_energy_J": 11212150913.238188,
+      "outward_energy_J": 179238020.5238376,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -2.4139881134033203e-06
+    },
+    {
+      "time_s": 97200.0,
+      "energy_J": 13713391694.985485,
+      "hydration_energy_J": 14641717640.19047,
+      "outward_energy_J": 330064737.70498174,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -2.9802322387695312e-06
+    },
+    {
+      "time_s": 108000.0,
+      "energy_J": 17172862764.212572,
+      "hydration_energy_J": 18296994606.41737,
+      "outward_energy_J": 525870634.7047978,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": 1.9073486328125e-06
+    },
+    {
+      "time_s": 118800.0,
+      "energy_J": 20670953623.661983,
+      "hydration_energy_J": 22037511568.009735,
+      "outward_energy_J": 768296736.8477516,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -5.960464477539063e-08
+    },
+    {
+      "time_s": 129600.0,
+      "energy_J": 24064790766.801674,
+      "hydration_energy_J": 25719522555.83964,
+      "outward_energy_J": 1056470581.5379642,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -3.516674041748047e-06
+    },
+    {
+      "time_s": 140400.0,
+      "energy_J": 27216071771.171516,
+      "hydration_energy_J": 29201529952.54035,
+      "outward_energy_J": 1387196973.8688266,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -8.881092071533203e-06
+    },
+    {
+      "time_s": 151200.0,
+      "energy_J": 29996278407.262905,
+      "hydration_energy_J": 32349722166.588886,
+      "outward_energy_J": 1755182551.8259695,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.1742115020751953e-05
+    },
+    {
+      "time_s": 162000.0,
+      "energy_J": 32291543911.059547,
+      "hydration_energy_J": 35043115936.72589,
+      "outward_energy_J": 2153310818.166335,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -8.64267349243164e-06
+    },
+    {
+      "time_s": 172800.0,
+      "energy_J": 34006975551.591217,
+      "hydration_energy_J": 37178205650.83764,
+      "outward_energy_J": 2572968891.7464185,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -3.3974647521972656e-06
+    },
+    {
+      "time_s": 183600.0,
+      "energy_J": 35161280338.40246,
+      "hydration_energy_J": 38764141355.45197,
+      "outward_energy_J": 3004599809.5495067,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -8.165836334228516e-06
+    },
+    {
+      "time_s": 194400.0,
+      "energy_J": 35804380832.79673,
+      "hydration_energy_J": 39841339140.07905,
+      "outward_energy_J": 3438697099.7823215,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": 3.2782554626464844e-06
+    },
+    {
+      "time_s": 205200.0,
+      "energy_J": 36035672123.64253,
+      "hydration_energy_J": 40500035296.65666,
+      "outward_energy_J": 3866101965.5141277,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.9669532775878906e-06
+    },
+    {
+      "time_s": 216000.0,
+      "energy_J": 35937840936.28323,
+      "hydration_energy_J": 40814984415.147224,
+      "outward_energy_J": 4278882271.3639894,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.4901161193847656e-06
+    },
+    {
+      "time_s": 226800.0,
+      "energy_J": 35695488545.68603,
+      "hydration_energy_J": 40966841296.88911,
+      "outward_energy_J": 4673091543.703084,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": 4.708766937255859e-06
+    },
+    {
+      "time_s": 237600.0,
+      "energy_J": 35374161265.87108,
+      "hydration_energy_J": 41019962195.704346,
+      "outward_energy_J": 5047539722.3332615,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -5.781650543212891e-06
+    },
+    {
+      "time_s": 248400.0,
+      "energy_J": 35028717420.67481,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 5403192696.8252,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -2.9206275939941406e-06
+    },
+    {
+      "time_s": 259200.0,
+      "energy_J": 34690234440.6119,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 5741675676.888112,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -2.9206275939941406e-06
+    },
+    {
+      "time_s": 270000.0,
+      "energy_J": 34366685828.060455,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 6065224289.439565,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": 4.708766937255859e-06
+    },
+    {
+      "time_s": 280800.0,
+      "energy_J": 34056275966.738205,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 6375634150.7618065,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -3.874301910400391e-06
+    },
+    {
+      "time_s": 291600.0,
+      "energy_J": 33757585860.141426,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 6674324257.358588,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.0132789611816406e-06
+    },
+    {
+      "time_s": 302400.0,
+      "energy_J": 33469459135.746857,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 6962450981.753153,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -5.781650543212891e-06
+    },
+    {
+      "time_s": 313200.0,
+      "energy_J": 33190932221.61824,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 7240977895.881771,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -3.874301910400391e-06
+    },
+    {
+      "time_s": 324000.0,
+      "energy_J": 32921188392.03286,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 7510721725.4671545,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.0132789611816406e-06
+    },
+    {
+      "time_s": 334800.0,
+      "energy_J": 32659525978.994328,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 7772384138.505684,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -3.874301910400391e-06
+    },
+    {
+      "time_s": 345600.0,
+      "energy_J": 32405335514.35598,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 8026574603.144037,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": 1.8477439880371094e-06
+    },
+    {
+      "time_s": 356400.0,
+      "energy_J": 32158082766.39908,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 8273827351.100935,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.9669532775878906e-06
+    },
+    {
+      "time_s": 367200.0,
+      "energy_J": 31917295817.931458,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 8514614299.568556,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.9669532775878906e-06
+    },
+    {
+      "time_s": 378000.0,
+      "energy_J": 31682555007.163933,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 8749355110.336077,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -5.781650543212891e-06
+    },
+    {
+      "time_s": 388800.0,
+      "energy_J": 31453484953.903725,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 8978425163.596287,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -3.874301910400391e-06
+    },
+    {
+      "time_s": 399600.0,
+      "energy_J": 31229748141.555088,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 9202161975.944925,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.9669532775878906e-06
+    },
+    {
+      "time_s": 410400.0,
+      "energy_J": 31011039683.890373,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 9420870433.609644,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": 1.8477439880371094e-06
+    },
+    {
+      "time_s": 421200.0,
+      "energy_J": 30797083010.00981,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 9634827107.490198,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -5.781650543212891e-06
+    },
+    {
+      "time_s": 432000.0,
+      "energy_J": 30587626271.713444,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 9844283845.786566,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -5.781650543212891e-06
+    },
+    {
+      "time_s": 442800.0,
+      "energy_J": 30382439326.728775,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 10049470790.771233,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -7.68899917602539e-06
+    },
+    {
+      "time_s": 453600.0,
+      "energy_J": 30181311186.233883,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 10250598931.266123,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -9.59634780883789e-06
+    },
+    {
+      "time_s": 464400.0,
+      "energy_J": 29984047840.502045,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 10447862276.997965,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -5.781650543212891e-06
+    },
+    {
+      "time_s": 475200.0,
+      "energy_J": 29790470395.2408,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 10641439722.259209,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -7.68899917602539e-06
+    },
+    {
+      "time_s": 486000.0,
+      "energy_J": 29600413465.262856,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 10831496652.23715,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -9.59634780883789e-06
+    },
+    {
+      "time_s": 496800.0,
+      "energy_J": 29413723782.827084,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 11018186334.672926,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -5.781650543212891e-06
+    },
+    {
+      "time_s": 507600.0,
+      "energy_J": 29230258986.2324,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 11201651131.26761,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -5.781650543212891e-06
+    },
+    {
+      "time_s": 518400.0,
+      "energy_J": 29049886560.671097,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 11382023556.82891,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -7.68899917602539e-06
+    },
+    {
+      "time_s": 529200.0,
+      "energy_J": 28872482908.403564,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 11559427209.096443,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -7.68899917602539e-06
+    },
+    {
+      "time_s": 540000.0,
+      "energy_J": 28697932529.331593,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 11733977588.168413,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -9.59634780883789e-06
+    },
+    {
+      "time_s": 550800.0,
+      "energy_J": 28526127296.262703,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 11905782821.237303,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -9.59634780883789e-06
+    },
+    {
+      "time_s": 561600.0,
+      "energy_J": 28356965811.75215,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 12074944305.747858,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -5.781650543212891e-06
+    },
+    {
+      "time_s": 572400.0,
+      "energy_J": 28190352835.516586,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 12241557281.983425,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -3.874301910400391e-06
+    },
+    {
+      "time_s": 583200.0,
+      "energy_J": 28026198773.136562,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 12405711344.363447,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -5.781650543212891e-06
+    },
+    {
+      "time_s": 594000.0,
+      "energy_J": 27864419218.181812,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 12567490899.318195,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -7.68899917602539e-06
+    },
+    {
+      "time_s": 604800.0,
+      "energy_J": 27704934541.06499,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 12726975576.435015,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -9.59634780883789e-06
+    },
+    {
+      "time_s": 615600.0,
+      "energy_J": 27547669518.90323,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 12884240598.596777,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -9.59634780883789e-06
+    },
+    {
+      "time_s": 626400.0,
+      "energy_J": 27392553001.47998,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 13039357116.020025,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -9.59634780883789e-06
+    },
+    {
+      "time_s": 637200.0,
+      "energy_J": 27239517609.081757,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 13192392508.418247,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.150369644165039e-05
+    },
+    {
+      "time_s": 648000.0,
+      "energy_J": 27088499458.558746,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 13343410658.941263,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -5.781650543212891e-06
+    },
+    {
+      "time_s": 658800.0,
+      "energy_J": 26939437914.444405,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 13492472203.055595,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.531839370727539e-05
+    },
+    {
+      "time_s": 669600.0,
+      "energy_J": 26792275362.381638,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 13639634755.11836,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.722574234008789e-05
+    },
+    {
+      "time_s": 680400.0,
+      "energy_J": 26646957002.454533,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 13784953115.04547,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.341104507446289e-05
+    },
+    {
+      "time_s": 691200.0,
+      "energy_J": 26503430660.325397,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 13928479457.17461,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -7.68899917602539e-06
+    },
+    {
+      "time_s": 702000.0,
+      "energy_J": 26361646614.334557,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 14070263503.165451,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -7.68899917602539e-06
+    },
+    {
+      "time_s": 712800.0,
+      "energy_J": 26221557436.94223,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 14210352680.55778,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -5.781650543212891e-06
+    },
+    {
+      "time_s": 723600.0,
+      "energy_J": 26083117849.08333,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 14348792268.416676,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.150369644165039e-05
+    },
+    {
+      "time_s": 734400.0,
+      "energy_J": 25946284586.17189,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 14485625531.32812,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -5.781650543212891e-06
+    },
+    {
+      "time_s": 745200.0,
+      "energy_J": 25811016274.63556,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 14620893842.864447,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -9.59634780883789e-06
+    },
+    {
+      "time_s": 756000.0,
+      "energy_J": 25677273317.986176,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 14754636799.513826,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.341104507446289e-05
+    },
+    {
+      "time_s": 766800.0,
+      "energy_J": 25545017791.54135,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 14886892325.958652,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.150369644165039e-05
+    },
+    {
+      "time_s": 777600.0,
+      "energy_J": 25414213345.007973,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 15017696772.492027,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.531839370727539e-05
+    },
+    {
+      "time_s": 788400.0,
+      "energy_J": 25284825112.222305,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 15147085005.27769,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.913309097290039e-05
+    },
+    {
+      "time_s": 799200.0,
+      "energy_J": 25156819627.41496,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 15275090490.08504,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.722574234008789e-05
+    },
+    {
+      "time_s": 810000.0,
+      "energy_J": 25030164747.434086,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 15401745370.06591,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.913309097290039e-05
+    },
+    {
+      "time_s": 820800.0,
+      "energy_J": 24904829579.41754,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 15527080538.082458,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.531839370727539e-05
+    },
+    {
+      "time_s": 831600.0,
+      "energy_J": 24780784413.455246,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 15651125704.044754,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.531839370727539e-05
+    },
+    {
+      "time_s": 842400.0,
+      "energy_J": 24658000659.828247,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 15773909457.671753,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.531839370727539e-05
+    },
+    {
+      "time_s": 853200.0,
+      "energy_J": 24536450790.450714,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 15895459327.049286,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.531839370727539e-05
+    },
+    {
+      "time_s": 864000.0,
+      "energy_J": 24416108284.176727,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 16015801833.323273,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.531839370727539e-05
+    },
+    {
+      "time_s": 874800.0,
+      "energy_J": 24296947575.665405,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 16134962541.834589,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -2.104043960571289e-05
+    },
+    {
+      "time_s": 885600.0,
+      "energy_J": 24178944007.526276,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 16252966109.973722,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.722574234008789e-05
+    },
+    {
+      "time_s": 896400.0,
+      "energy_J": 24062073785.491985,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 16369836332.00801,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.913309097290039e-05
+    },
+    {
+      "time_s": 907200.0,
+      "energy_J": 23946313936.38833,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 16485596181.111662,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -2.485513687133789e-05
+    },
+    {
+      "time_s": 918000.0,
+      "energy_J": 23831642268.691803,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 16600267848.808193,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.913309097290039e-05
+    },
+    {
+      "time_s": 928800.0,
+      "energy_J": 23718037335.4832,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 16713872782.01679,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -2.485513687133789e-05
+    },
+    {
+      "time_s": 939600.0,
+      "energy_J": 23605478399.622517,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 16826431717.87748,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.913309097290039e-05
+    },
+    {
+      "time_s": 950400.0,
+      "energy_J": 23493945400.98482,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 16937964716.515175,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.913309097290039e-05
+    },
+    {
+      "time_s": 961200.0,
+      "energy_J": 23383418925.61077,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 17048491191.889225,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.913309097290039e-05
+    },
+    {
+      "time_s": 972000.0,
+      "energy_J": 23273880176.63704,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 17158029940.862957,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.913309097290039e-05
+    },
+    {
+      "time_s": 982800.0,
+      "energy_J": 23165310946.883373,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 17266599170.616623,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.913309097290039e-05
+    },
+    {
+      "time_s": 993600.0,
+      "energy_J": 23057693592.98267,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 17374216524.517326,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.913309097290039e-05
+    },
+    {
+      "time_s": 1004400.0,
+      "energy_J": 22951011010.94967,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 17480899106.55033,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.531839370727539e-05
+    },
+    {
+      "time_s": 1015200.0,
+      "energy_J": 22845246613.09204,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 17586663504.407963,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.150369644165039e-05
+    },
+    {
+      "time_s": 1026000.0,
+      "energy_J": 22740384306.175148,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 17691525811.324856,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.150369644165039e-05
+    },
+    {
+      "time_s": 1036800.0,
+      "energy_J": 22636408470.758648,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 17795501646.741364,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -3.874301910400391e-06
+    },
+    {
+      "time_s": 1047600.0,
+      "energy_J": 22533303941.629173,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 17898606175.870834,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -7.68899917602539e-06
+    },
+    {
+      "time_s": 1058400.0,
+      "energy_J": 22431055989.2592,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 18000854128.24081,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -3.874301910400391e-06
+    },
+    {
+      "time_s": 1069200.0,
+      "energy_J": 22329650302.22733,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 18102259815.272682,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -3.874301910400391e-06
+    },
+    {
+      "time_s": 1080000.0,
+      "energy_J": 22229072970.539932,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 18202837146.96008,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -3.874301910400391e-06
+    },
+    {
+      "time_s": 1090800.0,
+      "energy_J": 22129310469.798573,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 18302599647.70143,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.150369644165039e-05
+    },
+    {
+      "time_s": 1101600.0,
+      "energy_J": 22030349646.16152,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 18401560471.33848,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.531839370727539e-05
+    },
+    {
+      "time_s": 1112400.0,
+      "energy_J": 21932177702.051384,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 18499732415.448616,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.531839370727539e-05
+    },
+    {
+      "time_s": 1123200.0,
+      "energy_J": 21834782182.564335,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 18597127934.935665,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.531839370727539e-05
+    },
+    {
+      "time_s": 1134000.0,
+      "energy_J": 21738150962.539345,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 18693759154.960663,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -7.68899917602539e-06
+    },
+    {
+      "time_s": 1144800.0,
+      "energy_J": 21642272234.24887,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 18789637883.251137,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -7.68899917602539e-06
+    },
+    {
+      "time_s": 1155600.0,
+      "energy_J": 21547134495.67498,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 18884775621.825016,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.913309097290039e-05
+    },
+    {
+      "time_s": 1166400.0,
+      "energy_J": 21452726539.337357,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 18979183578.162647,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.150369644165039e-05
+    },
+    {
+      "time_s": 1177200.0,
+      "energy_J": 21359037441.641792,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 19072872675.85821,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.150369644165039e-05
+    },
+    {
+      "time_s": 1188000.0,
+      "energy_J": 21266056552.720085,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 19165853564.779922,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -7.68899917602539e-06
+    },
+    {
+      "time_s": 1198800.0,
+      "energy_J": 21173773486.733814,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 19258136630.76619,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.150369644165039e-05
+    },
+    {
+      "time_s": 1209600.0,
+      "energy_J": 21082178112.61658,
+      "hydration_energy_J": 41030171325.000015,
+      "outward_energy_J": 19349732004.883423,
+      "placement_energy_J": 34589362.50000006,
+      "balance_residual_J": -1.150369644165039e-05
+    }
+  ],
+  "storage": "temperature_C: [frame, occupied index C-order]; 0 fuera de active_mask es relleno. grid.npz reconstruye [i,j,k]=XYZ. statistics registra cada paso. No interpretar rellenos como temperatura.",
+  "units": {
+    "temperature": "degC",
+    "time": "s",
+    "length": "m",
+    "energy": "J",
+    "q_dot_h": "W/m3"
+  },
+  "assumptions": [
+    "Parámetros ilustrativos sin calibración Freirina; clima constante, sin datos meteorológicos.",
+    "Base z- adiabática; caras expuestas superiores y laterales Robin, también frente a vertidas futuras.",
+    "Propiedades constantes, contacto perfecto, área staircase, sin suelo explícito ni Arrhenius.",
+    "Superficies de sondas Robin reconstruidas desde centro a cara; aproximación local de media celda."
+  ],
+  "provenance": {
+    "source_archive": "P2_E08.zip (sin modificar)",
+    "source_sha256": {
+      "src/mcoc_p2/__init__.py": "f78e88589677fd11447ae7b7edb0aff25fcb5d888485a30ffb15222e31dd8f6a",
+      "src/mcoc_p2/diffusion_1d.py": "154406eb286d54ce6c06b1a17658f8fe6492eaf5aa07a759c1d179c1fc34b762",
+      "src/mcoc_p2/e07/__init__.py": "9d08445a8e30a0630e93fb9659ee243226abab707cc056a6745043e78bd62a47",
+      "src/mcoc_p2/e07/construction.py": "1f8bb8086213354aa6f26350d7ee54e85d6cff5bd8734f0622825d9a3fbdd507",
+      "src/mcoc_p2/e07/coupling.py": "3a1104b8c7679f63e873ee0512078436637c03ae476e46ee7381a6df7c9c91eb",
+      "src/mcoc_p2/e07/faces.py": "c0b26f3601ebe05d669f2f528b588dddf391d53fde801d800f4add1d14c1d02c",
+      "src/mcoc_p2/e07/geometry.py": "e5a941dcebd3a36bbde3209a304c8ac7d29e3888a4ad61fec5c5eb0c1880fd03",
+      "src/mcoc_p2/e07/hydration.py": "fbebc14430906009d795bf864c6fb0f3bbc17808c33717d4be05b94f9831beee",
+      "src/mcoc_p2/e07/ifc.py": "ad4aa931fd87eb0a09a0c8fc1e318283086f5199b1e13dd5f134d5b261359e2b",
+      "src/mcoc_p2/e07/plots.py": "57e08c13a2b00d427c08bba3e0636df1e2d84c6b9db1da5c05b94abca0d2d1e0",
+      "src/mcoc_p2/e07/voxel.py": "f693ea9e0ff075cc33ab4072c983f8d5d58446ac93c7b13af440266c146b6988",
+      "src/mcoc_p2/e08/__init__.py": "c90060bbce92169a02c945ffcbd27e6b713b333f1c567bec8cbec0b8b38d3399",
+      "src/mcoc_p2/e08/inputs.py": "0d4d16dac354988f68715b61a9c046a6155ba0f59d4e37b4128be718a89133b4",
+      "src/mcoc_p2/e08/pipeline.py": "468eead518a248681221a0138a0b85d89bf60422e99cfcaa9f864cabf3a39626",
+      "src/mcoc_p2/e08/plots.py": "c23df4845bc83adc901f807cb1741e8611e9aaf910faa64d0a9ea571f0038b54",
+      "src/mcoc_p2/e08/solver.py": "710505a7077a5af63e33b15066d643f3b5e1b7f7feeb1df9cfb859a2dcc5eafa",
+      "src/mcoc_p2/e09/__init__.py": "b9865f7825bb84d7a50dfa97ae5caff87bdab6ad5243592094f0188099a1e7fe",
+      "src/mcoc_p2/e09/analysis.py": "bea152ed9fb49d0caf2171d705c3de7d2f4b9d6d061fb8447581a9fc411b8d9c",
+      "src/mcoc_p2/e09/pipeline.py": "21ba3708c63d5e0d2084ba6619c7e44ee920a0322605096f2547eb0e6f7280be",
+      "src/mcoc_p2/e09/plots.py": "72e341e703ce93b3a482cb26a3d885839fc4fd8579aca61094be487b4d837314",
+      "src/mcoc_p2/e09/verification.py": "e4f0dca8a2bb86dd6c74acd307ac8f677ab00a50d2190f5a20fe6ccafd2db6bb",
+      "src/mcoc_p2/housekeeping.py": "72105463b6cb08f367b80701ee1f187de6a193b8d15c00a3133d8664662d193a",
+      "src/mcoc_p2/thermal_nd.py": "d1d870072f4fb789fb4230fdc4a3ff7009502d68bf392a909666e7066f3d7ab6",
+      "src/mcoc_p2/verification_e05.py": "95881caec8fa4405b05ac2443d7afec3504d60a9c36e4c2313e82542decaf0be"
+    },
+    "data_reproduced_by": "../verification/reproduction.json"
+  },
+  "finished_utc": "2026-11-05T14:50:14.829972+00:00",
+  "elapsed_s": 34.99815779994242,
+  "control_no_hydration": {
+    "peak_C": 22.0,
+    "energy": {
+      "reference_C": 20,
+      "initial_J": -632850570.0000001,
+      "final_J": -398491048.0811396,
+      "hydration_J": 0.0,
+      "outward_J": -199770159.4188622,
+      "placement_after_zero_J": 34589362.50000006,
+      "residual_J": -1.7583370208740234e-06,
+      "max_step_residual_J": 3.5855919122695923e-07,
+      "tolerance_J": 0.006329505700000009
+    },
+    "checks": {
+      "global_energy_balance": true,
+      "step_energy_balance": true,
+      "hydration_potential": true,
+      "stable_steps": true,
+      "events_reached": true,
+      "inactive_is_nan": true,
+      "final_time_exact": true
+    }
+  }
+}

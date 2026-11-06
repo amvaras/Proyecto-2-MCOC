@@ -1,0 +1,22 @@
+{
+  "consulted_on": "2026-11-05",
+  "primary_paper": {
+    "authors": ["Yuwen Ju", "Honggang Lei"],
+    "year": 2019,
+    "title": "Actual Temperature Evolution of Thick Raft Concrete Foundations and Cracking Risk Analysis",
+    "journal": "Advances in Materials Science and Engineering",
+    "article": "7029671",
+    "doi": "10.1155/2019/7029671",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1155/2019/7029671",
+    "sections_used": ["3.1.1–3.1.2", "3.2.1–3.2.2"],
+    "support": "Historia medida, gradiente vertical, ensayo adiabático/edad equivalente y suelo en FEA. Comparación en dossier.",
+    "full_article_available": true
+  },
+  "local_course": {
+    "guide": "Info_P2/GUIA_BONSAI_FUNDACION.md",
+    "thermal_guide": "Info_P2/guias/DIFUSION_DE_CALOR_1D_2D_3D.md",
+    "basis": "Geometría docente y referencias del curso; no datos meteorológicos utilizados"
+  },
+  "request": "E09: viernes 6 noviembre 2026; dossier <=1200 palabras",
+  "parameters": "H, tau, calendario, colocación, h y ambiente son hipótesis, no parámetros experimentales de Freirina."
+}

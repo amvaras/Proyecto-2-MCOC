@@ -1,0 +1,283 @@
+{
+  "source": "P2_E08.zip (original, solo lectura)",
+  "source_sha256": "03b736cc742b294bc8c999f047594bde53aff49897edb5a18aa8dc3de9d4e3d7",
+  "source_archive_files": 2482,
+  "archive_total_bytes": 191390414,
+  "archive_folder_bytes": {
+    "(root)": 2803,
+    ".gitattributes": 120,
+    ".gitignore": 121,
+    "E06_INVENTARIO_SHA256.json": 276644,
+    "E07_INVENTARIO_SHA256.json": 348285,
+    "ESTADO_CONGELADO_E01.md": 5022,
+    "INVENTARIO_SHA256.json": 27587,
+    "README.md": 4503,
+    "VERIFICACION_RESPALDO_E01.json": 9878,
+    "VERIFICAR_INTEGRIDAD_E01.py": 1814,
+    "configs": 2184,
+    "docs": 2634355,
+    "evidencias": 99583006,
+    "examples": 34330,
+    "figures": 827993,
+    "geometry": 23732,
+    "iniciar.bat": 287,
+    "pyproject.toml": 631,
+    "requirements-lock.txt": 483,
+    "results": 5515261,
+    "scripts": 107178,
+    "src": 96716,
+    "tests": 88544,
+    "vendor": 81750084,
+    "web": 48853
+  },
+  "copied_files": {
+    ".gitattributes": {
+      "bytes": 120,
+      "sha256": "8206a73214794e01325acf5d41ba3599463ea8c94005f71b8e394788e40be397"
+    },
+    "configs/e05/lab.json": {
+      "bytes": 635,
+      "sha256": "a3cbdf20fd253972a87d96f255bb868bdcbf36121fec265ea1b92cabc95e2482"
+    },
+    "configs/e07/demo.json": {
+      "bytes": 735,
+      "sha256": "065bac6127d107dcf8b1ddbc0367b986566350936674a3769f411dd0d7a2cc14"
+    },
+    "configs/e08/demo.json": {
+      "bytes": 814,
+      "sha256": "4f36b70eaf31882a4c86656a7dd7eee3c3a3689ee54736b2680aac20b96e8f53"
+    },
+    "docs/FORMULACION_1D.md": {
+      "bytes": 6474,
+      "sha256": "035c10884fa4b64c12f58e56f0314adee80439cde246c55f7cab8892aae8339d"
+    },
+    "examples/run_diffusion_1d.py": {
+      "bytes": 2970,
+      "sha256": "05b113c4fa6b7c97c123198b4a1d0bcf23ae3f1f7f6c6e4ecd269e74dca0fe10"
+    },
+    "examples/run_e02_1d.py": {
+      "bytes": 2552,
+      "sha256": "39519c0a0def27a52040b113376d73c67724320d3a73ff2e0c58f3e78444fe76"
+    },
+    "examples/run_e04.py": {
+      "bytes": 7555,
+      "sha256": "015796d10c2cdb2a6649f3a031bde0718fff21bcd171d6b1e3ce6286727429b0"
+    },
+    "examples/run_e05.py": {
+      "bytes": 8084,
+      "sha256": "e3d1d74e913eb9c69638201d1505e9dcbaa7000e92cfc89b9d87072cafe5715a"
+    },
+    "examples/run_e07.py": {
+      "bytes": 10725,
+      "sha256": "6c58ac8d5aec24e2a2a5dbb8575912fef37075c04daf98386f9dff5b6825c7eb"
+    },
+    "examples/run_e08.py": {
+      "bytes": 2444,
+      "sha256": "becc6ab0780f8924062ff27e845823fa25b0e791e77d98cee0608d032ab25bc4"
+    },
+    "geometry/foundation.ifc": {
+      "bytes": 11866,
+      "sha256": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a"
+    },
+    "pyproject.toml": {
+      "bytes": 631,
+      "sha256": "7292884f0dec1d1226c5e4c01166b5562160624d5dbe942b197f0fd269fe99d6"
+    },
+    "requirements-lock.txt": {
+      "bytes": 483,
+      "sha256": "e35022bd16e055e6f307564b339e1baf9a243029bfc6e52af61e806e5875f234"
+    },
+    "scripts/audit_integrity.py": {
+      "bytes": 1700,
+      "sha256": "9896ce8ac004ddb22e9d151f19b3a86187c9fb8f270f8f92d69ccb9aa6724df7"
+    },
+    "scripts/check_diffusion_accuracy.py": {
+      "bytes": 3958,
+      "sha256": "f0093385ac05d93de5946248685e28cede804f1fe4ecf1ff6d6dcc7428e90658"
+    },
+    "scripts/check_e04_convergence.py": {
+      "bytes": 2418,
+      "sha256": "3f13dfc89427ef0ea5ac24135c0e3e0838c05b06757c1d275f5450bf6071cf5e"
+    },
+    "scripts/check_e06_dossier.py": {
+      "bytes": 4835,
+      "sha256": "7755e01d196a8bc1b60a50674e5ee5b511369b6ad67ca744508f30fbce7ff59e"
+    },
+    "scripts/check_ifc.py": {
+      "bytes": 9109,
+      "sha256": "e1f90e1a22de73ea43c812a001a7d63ce62699a15dfba4f703fe40c8a5e144ad"
+    },
+    "scripts/compare_ifc_e02.py": {
+      "bytes": 4011,
+      "sha256": "1e2896985d60ee71a68c7e005a455c76021b091bbedc736868a08177329d507e"
+    },
+    "scripts/create_preliminary_ifc.py": {
+      "bytes": 5041,
+      "sha256": "fbf9ac2b8d13f231ccc63f7ec7e2daac71b4767b1788c37b1b1b8c76da4cdc30"
+    },
+    "scripts/render_ifc_preview.py": {
+      "bytes": 4684,
+      "sha256": "ac5f6b3e375187c7a94a08ed486e6b7a329436d5ce0c1dd5ef80d6cac92b3a34"
+    },
+    "src/mcoc_p2/__init__.py": {
+      "bytes": 508,
+      "sha256": "f78e88589677fd11447ae7b7edb0aff25fcb5d888485a30ffb15222e31dd8f6a"
+    },
+    "src/mcoc_p2/diffusion_1d.py": {
+      "bytes": 7624,
+      "sha256": "154406eb286d54ce6c06b1a17658f8fe6492eaf5aa07a759c1d179c1fc34b762"
+    },
+    "src/mcoc_p2/e07/__init__.py": {
+      "bytes": 73,
+      "sha256": "9d08445a8e30a0630e93fb9659ee243226abab707cc056a6745043e78bd62a47"
+    },
+    "src/mcoc_p2/e07/construction.py": {
+      "bytes": 4826,
+      "sha256": "1f8bb8086213354aa6f26350d7ee54e85d6cff5bd8734f0622825d9a3fbdd507"
+    },
+    "src/mcoc_p2/e07/coupling.py": {
+      "bytes": 3920,
+      "sha256": "3a1104b8c7679f63e873ee0512078436637c03ae476e46ee7381a6df7c9c91eb"
+    },
+    "src/mcoc_p2/e07/faces.py": {
+      "bytes": 3436,
+      "sha256": "c0b26f3601ebe05d669f2f528b588dddf391d53fde801d800f4add1d14c1d02c"
+    },
+    "src/mcoc_p2/e07/geometry.py": {
+      "bytes": 5032,
+      "sha256": "e5a941dcebd3a36bbde3209a304c8ac7d29e3888a4ad61fec5c5eb0c1880fd03"
+    },
+    "src/mcoc_p2/e07/hydration.py": {
+      "bytes": 2405,
+      "sha256": "fbebc14430906009d795bf864c6fb0f3bbc17808c33717d4be05b94f9831beee"
+    },
+    "src/mcoc_p2/e07/ifc.py": {
+      "bytes": 3216,
+      "sha256": "ad4aa931fd87eb0a09a0c8fc1e318283086f5199b1e13dd5f134d5b261359e2b"
+    },
+    "src/mcoc_p2/e07/plots.py": {
+      "bytes": 7841,
+      "sha256": "57e08c13a2b00d427c08bba3e0636df1e2d84c6b9db1da5c05b94abca0d2d1e0"
+    },
+    "src/mcoc_p2/e07/voxel.py": {
+      "bytes": 5376,
+      "sha256": "f693ea9e0ff075cc33ab4072c983f8d5d58446ac93c7b13af440266c146b6988"
+    },
+    "src/mcoc_p2/e08/__init__.py": {
+      "bytes": 168,
+      "sha256": "c90060bbce92169a02c945ffcbd27e6b713b333f1c567bec8cbec0b8b38d3399"
+    },
+    "src/mcoc_p2/e08/inputs.py": {
+      "bytes": 5458,
+      "sha256": "0d4d16dac354988f68715b61a9c046a6155ba0f59d4e37b4128be718a89133b4"
+    },
+    "src/mcoc_p2/e08/pipeline.py": {
+      "bytes": 4673,
+      "sha256": "4ae077d668eda3d83e16c826d49be1db4eee79cd67c97b0631a19e4ec095b4c5"
+    },
+    "src/mcoc_p2/e08/plots.py": {
+      "bytes": 4430,
+      "sha256": "c23df4845bc83adc901f807cb1741e8611e9aaf910faa64d0a9ea571f0038b54"
+    },
+    "src/mcoc_p2/e08/solver.py": {
+      "bytes": 7078,
+      "sha256": "7b9fa0572a3b2b69db03c8afeb1a303ce1710c535c808f71fe30a6ec965c42cd"
+    },
+    "src/mcoc_p2/thermal_nd.py": {
+      "bytes": 9316,
+      "sha256": "d1d870072f4fb789fb4230fdc4a3ff7009502d68bf392a909666e7066f3d7ab6"
+    },
+    "src/mcoc_p2/verification_e05.py": {
+      "bytes": 21336,
+      "sha256": "95881caec8fa4405b05ac2443d7afec3504d60a9c36e4c2313e82542decaf0be"
+    },
+    "tests/e07_helpers.py": {
+      "bytes": 899,
+      "sha256": "b4dc58d86bb1035367a4d0cfff900ca3fbd5f68c4d85377c58b2067ec38348dd"
+    },
+    "tests/test_diffusion_1d.py": {
+      "bytes": 10639,
+      "sha256": "99d461a5aa06acbc2826090ab1c92cb87e44f15a3a81cde5d63ade74f2f9eb14"
+    },
+    "tests/test_e02.py": {
+      "bytes": 5343,
+      "sha256": "6130b49f577eb1652accdb1eb74ca34023b34b2c57c09e8e273db35c6479460c"
+    },
+    "tests/test_e05_auditoria.py": {
+      "bytes": 7445,
+      "sha256": "22ef46d3cbb64ad5befb604270369ad4e318b12c8a701c736c8abd8a1e843f35"
+    },
+    "tests/test_e05_verification.py": {
+      "bytes": 10896,
+      "sha256": "49598b33fd5b61cad894c666c7964b6ebbdfb3832b985c8dcaa376d7cf977fe8"
+    },
+    "tests/test_e06_auditoria.py": {
+      "bytes": 6285,
+      "sha256": "50f6cfd1c3663eac86cbc02c903c4504c2ef50a94c8038d324f3b0a74adc7d27"
+    },
+    "tests/test_e07_auditoria.py": {
+      "bytes": 8724,
+      "sha256": "4190009014e0b557c7f85f7842500a6aa500096346c4249d73344c6a5b4b9f88"
+    },
+    "tests/test_e07_cli.py": {
+      "bytes": 2661,
+      "sha256": "73cc0112f47abf7d323e844ca58e2d878177f87c5d550d438f783e4e1fdd0169"
+    },
+    "tests/test_e07_construction.py": {
+      "bytes": 6980,
+      "sha256": "27b2b9c6735ff1155b8cdfb44fba0804014075c7362a7852ff30169fb83694aa"
+    },
+    "tests/test_e07_geometry.py": {
+      "bytes": 6705,
+      "sha256": "229a08ef9aadea455679624a37d42cc4b829eddeca45de6015886ed98c948470"
+    },
+    "tests/test_e08_pipeline.py": {
+      "bytes": 3852,
+      "sha256": "9c732059deca4755b64093a1d50bce984ccfff53b736f25f1142744c7a8aea3e"
+    },
+    "tests/test_e08_solver.py": {
+      "bytes": 4361,
+      "sha256": "184fb3729d42414cc9c08af743ab962152b6cec7a61be1254d05722f1c67d789"
+    },
+    "tests/test_ifc.py": {
+      "bytes": 2468,
+      "sha256": "83bb6df49752d2c4cbeacd05439eb185e947dfca9e674b35dd3a7d0e9ff00344"
+    },
+    "tests/test_thermal_nd.py": {
+      "bytes": 11286,
+      "sha256": "9c601ec0df51d9715e231ea982af2ccc0f05ab928b6982ab3388134fe671f60c"
+    },
+    "web/abrir.py": {
+      "bytes": 1823,
+      "sha256": "d209c19209f5092d44cba571fcd2453e0118085538e9202c8e7339ec00631edc"
+    },
+    "web/app.js": {
+      "bytes": 19512,
+      "sha256": "e9214ab47c9e634620710f33ebf9af484ebeb8e76220d2c592d2bc921c545e35"
+    },
+    "web/index.html": {
+      "bytes": 7343,
+      "sha256": "fe23ccadce8530e3b30507e333cf4324f802bf289ec308e1d6e598904f29038f"
+    },
+    "web/servidor.py": {
+      "bytes": 12312,
+      "sha256": "ca1fbccbd24b1a4a59c0d4e2840834bba81c0aa8ddfbb9b8e47933735a99a5b3"
+    },
+    "web/styles.css": {
+      "bytes": 7863,
+      "sha256": "5aa2fa6ffa84f314ef0e12cc6521e90e42e2efd890de7d21e51021e92a8771f5"
+    }
+  },
+  "excluded": "Resultados, evidencias, inventarios, vendor, cachés, respaldos, documentación histórica",
+  "reference_claim": "327 tests según README; se ejecutará la base seleccionada antes de extenderla",
+  "no_new_backup": true,
+  "selection_note": "Generador E06 no utilizado excluido tras revisar referencias; tests y helpers relevantes conservados",
+  "reference_tests": {
+    "tests": 327,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "elapsed_s": 51.899
+  },
+  "e08_archive_intact_after": true
+}
