@@ -1,0 +1,43 @@
+{
+  "weather": {
+    "schema_version": 1,
+    "kind": "forecast",
+    "source": "Open-Meteo",
+    "model_requested": "auto",
+    "provider_run_utc": null,
+    "retrieved_at_utc": "2026-11-11T12:50:09.366080+00:00",
+    "latitude": -28.856102,
+    "longitude": -71.421831,
+    "grid_latitude": -28.857645,
+    "grid_longitude": -71.46451,
+    "timezone": "UTC",
+    "site_timezone": "America/Santiago",
+    "variables": [
+      "temperature_2m",
+      "wind_speed_10m",
+      "shortwave_radiation"
+    ],
+    "units": {
+      "temperature_2m": "°C",
+      "wind_speed_10m": "m/s",
+      "shortwave_radiation": "W/m²"
+    },
+    "request_url": "https://api.open-meteo.com/v1/forecast?latitude=-28.856102&longitude=-71.421831&hourly=temperature_2m%2Cwind_speed_10m%2Cshortwave_radiation&temperature_unit=celsius&wind_speed_unit=ms&timezone=GMT&timeformat=unixtime&forecast_days=16",
+    "valid_from_utc": "2026-11-11T00:00:00Z",
+    "valid_until_utc": "2026-11-26T23:00:00Z",
+    "raw_sha256": "3184e5a881e6fe0136dfcf65aa5be837a3655df4c3a3a3c8738df09396eb9cc8"
+  },
+  "coverage": {
+    "start_utc": "2026-11-27T11:00:00Z",
+    "end_utc": "2026-12-11T11:00:00Z",
+    "covered_hours": 0.0,
+    "tail_hours": 336.0,
+    "tail_from_utc": "2026-11-27T11:00:00Z",
+    "tail_assumptions": {
+      "air_C": 19.0,
+      "wind_m_s": 3.0,
+      "ghi_W_m2": 0.0,
+      "source_kind": "scenario_tail"
+    }
+  }
+}

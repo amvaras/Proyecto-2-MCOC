@@ -1,0 +1,25 @@
+{
+  "start": "2026-11-27T08:00:00-03:00",
+  "demo_hours": 36,
+  "air": {
+    "h_still_W_m2K": 5.0,
+    "h_wind_per_m_s": 4.0,
+    "solar_absorptivity": 0.55
+  },
+  "soil": {
+    "temperature_C": 18.0,
+    "depth_m": 0.4,
+    "conductivity_W_mK": 1.5,
+    "contact_m2K_W": 0.025,
+    "adiabatic": false
+  },
+  "formwork": {
+    "orientations": ["x-", "x+", "y-", "y+"],
+    "remove_at_s": 65700,
+    "layers": [
+      {"name": "tablero", "thickness_m": 0.018, "conductivity_W_mK": 0.13},
+      {"name": "aislación", "thickness_m": 0.025, "conductivity_W_mK": 0.04}
+    ]
+  },
+  "tail": {"air_C": 19.0, "wind_m_s": 3.0, "ghi_W_m2": 0.0}
+}

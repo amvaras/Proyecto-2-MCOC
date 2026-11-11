@@ -1,4 +1,5 @@
 """Euler explícito conservativo: eventos exactos, fuente integrada y balance global."""
+from bisect import bisect_right
 from dataclasses import dataclass
 import math
 import numpy as np
@@ -18,7 +19,8 @@ class StageSolution:
 
 
 def simulate(voxels, events, boundaries=None, *, t_end_s, max_step_s=3600.,
-             save_interval_s=3600., safety=.8, energy_reference_C=0., progress=None, observer=None):
+             save_interval_s=3600., safety=.8, energy_reference_C=0., progress=None, observer=None,
+             boundary_update=None, boundary_change_times_s=()):
     for name,value in [('t_end_s',t_end_s),('max_step_s',max_step_s),('save_interval_s',save_interval_s),('safety',safety),('reference',energy_reference_C)]:
         if isinstance(value,bool) or not math.isfinite(value):raise ValueError(name+' debe ser real finito')
     if t_end_s<0 or min(max_step_s,save_interval_s,safety)<=0 or safety>1:raise ValueError('Tiempo/pasos/safety fuera de rango')
@@ -28,6 +30,9 @@ def simulate(voxels, events, boundaries=None, *, t_end_s, max_step_s=3600.,
     snapshots=sorted({0.,float(t_end_s),*[float(e.activation_s) for e in events if e.activation_s<=t_end_s],
                       *[float(i*save_interval_s) for i in range(1,math.ceil(t_end_s/save_interval_s))]})
     if len(snapshots)>401 or len(snapshots)*count>30_000_000:raise ValueError('Historial demasiado grande')
+    changes = sorted(set(boundary_change_times_s))
+    if any(not math.isfinite(t) or t < 0 for t in changes):
+        raise ValueError('Los cambios de borde deben tener tiempos finitos y no negativos')
     system=MaskedAssembly(voxels,state.active_mask(),materials,boundaries)
     initial_energy=system.energy(state.temperature_C,energy_reference_C)
     generated=outward_total=placed=0.;max_residual=0.;work=0
@@ -63,11 +68,18 @@ def simulate(voxels, events, boundaries=None, *, t_end_s, max_step_s=3600.,
     for target in snapshots[1:]:
         while state.time_s<target:
             if len(steps)>=20000:raise ValueError('Más de 20000 pasos: revisar malla y duración')
-            start=state.time_s;remaining=target-start
+            start = state.time_s
+            step_target = target
+            if boundary_update is not None:
+                boundary_update(system, start)
+                next_change = bisect_right(changes, start)
+                if next_change < len(changes):
+                    step_target = min(target, changes[next_change])
+            remaining = step_target-start
             limit=system.stable_dt
             dt=min(max_step_s,safety*limit,remaining)
             if not math.isfinite(dt) or dt<=0 or start+dt==start:raise ValueError('Paso temporal fuera de rango')
-            stop=target if dt==remaining else start+dt
+            stop=step_target if dt==remaining else start+dt
             dt=stop-start
             source=np.zeros(voxels.grid.shape)
             for e in events:

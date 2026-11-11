@@ -1,0 +1,2 @@
+# El SHA-256 corresponde a los bytes de la respuesta del proveedor.
+weather.json -text

@@ -1,0 +1,256 @@
+{
+  "status": "PASS",
+  "ifc": {
+    "schema": "IFC4",
+    "ifc_unit_to_m": 1.0,
+    "coordinates": "world SI m",
+    "source_sha256": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a"
+  },
+  "physics_config_sha256": "89a33d1d8b723833a75aaa1c016aaf5b30d2582932565223b64d1acc4112e648",
+  "boundary_parameters": {
+    "air": {
+      "h_still_W_m2K": 5.0,
+      "h_wind_per_m_s": 4.0,
+      "solar_absorptivity": 0.55
+    },
+    "soil": {
+      "temperature_C": 18.0,
+      "depth_m": 0.4,
+      "conductivity_W_mK": 1.5,
+      "contact_m2K_W": 0.025,
+      "adiabatic": false
+    },
+    "formwork": {
+      "orientations": [
+        "x-",
+        "x+",
+        "y-",
+        "y+"
+      ],
+      "remove_at_s": 65700,
+      "layers": [
+        {
+          "name": "tablero",
+          "thickness_m": 0.018,
+          "conductivity_W_mK": 0.13
+        },
+        {
+          "name": "aislación",
+          "thickness_m": 0.025,
+          "conductivity_W_mK": 0.04
+        }
+      ]
+    }
+  },
+  "weather": {
+    "schema_version": 1,
+    "kind": "synthetic",
+    "source": "Serie docente generada",
+    "model_requested": "ciclo_diurno",
+    "provider_run_utc": null,
+    "retrieved_at_utc": "2026-11-11T12:48:34.116014+00:00",
+    "latitude": -28.856102,
+    "longitude": -71.421831,
+    "grid_latitude": -28.856102,
+    "grid_longitude": -71.421831,
+    "timezone": "UTC",
+    "site_timezone": "America/Santiago",
+    "variables": [
+      "temperature_2m",
+      "wind_speed_10m",
+      "shortwave_radiation"
+    ],
+    "units": {
+      "temperature_2m": "°C",
+      "wind_speed_10m": "m/s",
+      "shortwave_radiation": "W/m²"
+    },
+    "request_url": null,
+    "valid_from_utc": "2026-11-27T11:00:00Z",
+    "valid_until_utc": "2026-11-28T11:00:00Z",
+    "raw_sha256": "9ef6c69d09a0ef444c712b8bd245d4b2f3c2790e22a6ce6530177ecf929cf6fc"
+  },
+  "coverage": {
+    "start_utc": "2026-11-27T11:00:00Z",
+    "end_utc": "2026-11-28T23:00:00Z",
+    "covered_hours": 24.0,
+    "tail_hours": 12.0,
+    "tail_from_utc": "2026-11-28T11:00:00Z",
+    "tail_assumptions": {
+      "air_C": 19.0,
+      "wind_m_s": 3.0,
+      "ghi_W_m2": 0.0,
+      "source_kind": "scenario_tail"
+    }
+  },
+  "grid": {
+    "origin_m": [
+      -9.0,
+      -8.999999999999998,
+      0.0
+    ],
+    "spacing_m": [
+      0.275,
+      0.275,
+      0.1375
+    ],
+    "shape": [
+      66,
+      66,
+      32
+    ],
+    "upper_m": [
+      9.150000000000002,
+      9.150000000000004,
+      4.4
+    ],
+    "axes": "XYZ; array[i,j,k]; C-order",
+    "cell_volume_m3": 0.010398437500000003,
+    "grid_cells": 139392,
+    "occupied_cells": 60892,
+    "volume_voxel_m3": 633.1816562500002,
+    "volume_reference_mesh_m3": 636.8777175824058,
+    "absolute_error_m3": 3.696061332405634,
+    "relative_error": 0.005803408143145469,
+    "signed_error_m3": -3.696061332405634,
+    "sum_absolute_pour_errors_m3": 4.286890782421956,
+    "max_pour_relative_error": 0.042776654608717594,
+    "boundary_ties": 0,
+    "by_pour": [
+      {
+        "vertida_id": 1,
+        "guid": "0oY4bM1krVGQdxfBrXmxJm",
+        "cells": 14088,
+        "volume_voxel_m3": 146.49318750000003,
+        "volume_reference_m3": 147.62571362977107,
+        "absolute_error_m3": 1.132526129771037,
+        "signed_error_m3": -1.132526129771037,
+        "relative_error": 0.007671604776192899
+      },
+      {
+        "vertida_id": 2,
+        "guid": "3hfPF39u1QnvSBQJFmy$c2",
+        "cells": 14088,
+        "volume_voxel_m3": 146.49318750000003,
+        "volume_reference_m3": 147.6257136297711,
+        "absolute_error_m3": 1.1325261297710654,
+        "signed_error_m3": -1.1325261297710654,
+        "relative_error": 0.00767160477619309
+      },
+      {
+        "vertida_id": 3,
+        "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+        "cells": 20630,
+        "volume_voxel_m3": 214.51976562500008,
+        "volume_reference_m3": 214.2243508999919,
+        "absolute_error_m3": 0.295414725008186,
+        "signed_error_m3": 0.295414725008186,
+        "relative_error": 0.001378996943004378
+      },
+      {
+        "vertida_id": 4,
+        "guid": "1jVXFE7TLGsO88Iyj_MihB",
+        "cells": 8544,
+        "volume_voxel_m3": 88.84425000000003,
+        "volume_reference_m3": 88.92474828213061,
+        "absolute_error_m3": 0.08049828213057708,
+        "signed_error_m3": -0.08049828213057708,
+        "relative_error": 0.000905240483506133
+      },
+      {
+        "vertida_id": 5,
+        "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+        "cells": 3542,
+        "volume_voxel_m3": 36.831265625000015,
+        "volume_reference_m3": 38.477191140741105,
+        "absolute_error_m3": 1.6459255157410908,
+        "signed_error_m3": -1.6459255157410908,
+        "relative_error": 0.042776654608717594
+      }
+    ]
+  },
+  "activation_hours": [
+    0.0,
+    5.0,
+    10.0,
+    15.0,
+    20.0
+  ],
+  "boundary_samples": [
+    {
+      "hour": 0.0,
+      "air_C": 17.71,
+      "wind_m_s": 2.9,
+      "ghi_W_m2": 362.48,
+      "source_kind": "synthetic",
+      "h_W_m2K": 16.6,
+      "formwork_R_m2K_W": 0.7634615384615384,
+      "lateral_outward_at_30C_W_m2": 13.771041000045432
+    },
+    {
+      "hour": 18.24972222222222,
+      "air_C": 14.127547222222223,
+      "wind_m_s": 2.4300333333333333,
+      "ghi_W_m2": 0.0,
+      "source_kind": "synthetic",
+      "h_W_m2K": 14.720133333333333,
+      "formwork_R_m2K_W": 0.7634615384615384,
+      "lateral_outward_at_30C_W_m2": 17.633203910029472
+    },
+    {
+      "hour": 18.25,
+      "air_C": 14.1275,
+      "wind_m_s": 2.4299999999999997,
+      "ghi_W_m2": 0.0,
+      "source_kind": "synthetic",
+      "h_W_m2K": 14.719999999999999,
+      "formwork_R_m2K_W": 0.0,
+      "lateral_outward_at_30C_W_m2": 116.12485089463219
+    },
+    {
+      "hour": 24.0,
+      "air_C": 19.0,
+      "wind_m_s": 3.0,
+      "ghi_W_m2": 0.0,
+      "source_kind": "scenario_tail",
+      "h_W_m2K": 17.0,
+      "formwork_R_m2K_W": 0.0,
+      "lateral_outward_at_30C_W_m2": 86.22478386167147
+    },
+    {
+      "hour": 36.0,
+      "air_C": 19.0,
+      "wind_m_s": 3.0,
+      "ghi_W_m2": 0.0,
+      "source_kind": "scenario_tail",
+      "h_W_m2K": 17.0,
+      "formwork_R_m2K_W": 0.0,
+      "lateral_outward_at_30C_W_m2": 86.22478386167147
+    }
+  ],
+  "exact_boundary_changes": true,
+  "steps": 144,
+  "max_dt_over_limit": 0.13394622144949622,
+  "maximum_saved_C": 43.64468401916812,
+  "maximum_saved_hour": 36.0,
+  "energy": {
+    "reference_C": 20,
+    "initial_J": -632850570.0000001,
+    "final_J": 23927304903.5054,
+    "hydration_J": 25719522555.83964,
+    "outward_J": 1193956444.8342397,
+    "placement_after_zero_J": 34589362.50000006,
+    "residual_J": -2.980232238769531e-07,
+    "max_step_residual_J": 4.976987838745117e-06,
+    "tolerance_J": 0.25754211918339637
+  },
+  "checks": {
+    "global_energy_balance": true,
+    "step_energy_balance": true,
+    "hydration_potential": true,
+    "stable_steps": true,
+    "events_reached": true,
+    "inactive_is_nan": true,
+    "final_time_exact": true
+  }
+}

@@ -31,10 +31,25 @@ class MaskedAssembly:
                 if isinstance(b,Neumann):self.prescribed[select]=b.outward_flux*area
                 elif isinstance(b,Dirichlet):self.face_g[select]=area/r;self.reservoir[select]=b.temperature
                 else:self.face_g[select]=area*b.h/(1+b.h*r);self.reservoir[select]=b.ambient
-        diagonal=np.zeros(voxels.grid.shape)
-        np.add.at(diagonal,self.i,self.g);np.add.at(diagonal,self.j,self.g);np.add.at(diagonal,self.face_indices,self.face_g)
+        self._internal_diagonal=np.zeros(voxels.grid.shape)
+        np.add.at(self._internal_diagonal,self.i,self.g);np.add.at(self._internal_diagonal,self.j,self.g)
+        self._update_stability()
+
+    def _update_stability(self):
+        diagonal=self._internal_diagonal.copy()
+        np.add.at(diagonal,self.face_indices,self.face_g)
         candidates=self.active&(diagonal>0)
         self.stable_dt=float(np.min(self.capacity[candidates]/diagonal[candidates])) if candidates.any() else math.inf
+
+    def set_face_conditions(self, conductance, reservoir, outward_power):
+        """Set W/K, °C and prescribed outward W per exposed face."""
+        values = [np.asarray(value, dtype=float) for value in (conductance, reservoir, outward_power)]
+        if any(value.shape != self.faces.areas.shape or not np.isfinite(value).all() for value in values):
+            raise ValueError('Una condición finita por cara expuesta')
+        if np.any(values[0] < 0):
+            raise ValueError('La conductancia de borde debe ser no negativa')
+        self.face_g[:], self.reservoir[:], self.prescribed[:] = values
+        self._update_stability()
 
     def power(self,temperature_C,q_dot=0.):
         t=np.asarray(temperature_C,dtype=float);q=np.broadcast_to(np.asarray(q_dot,dtype=float),self.voxels.grid.shape)
