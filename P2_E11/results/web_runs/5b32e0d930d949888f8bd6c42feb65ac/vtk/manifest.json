@@ -1,0 +1,57 @@
+{
+  "states": [
+    {
+      "file": "state_00.vti",
+      "frame": 0,
+      "time_h": 0.0,
+      "sha256": "959eddf635e1d0ede0b76831f42704901b5c5ade92df5c22ccf508047006dcd5",
+      "validation": {
+        "status": "PASS",
+        "cells": 17424,
+        "active_cells": 1798,
+        "array_order": "VTK x-fast; NumPy XYZ flattened F; tested every cell and field",
+        "exact_temperature_equality": true
+      }
+    },
+    {
+      "file": "state_01.vti",
+      "frame": 5,
+      "time_h": 12.0,
+      "sha256": "fd23d9de964f012b38653307cac9ae9602860e1de99f2e9d42709eba5d7e4825",
+      "validation": {
+        "status": "PASS",
+        "cells": 17424,
+        "active_cells": 6157,
+        "array_order": "VTK x-fast; NumPy XYZ flattened F; tested every cell and field",
+        "exact_temperature_equality": true
+      }
+    },
+    {
+      "file": "state_02.vti",
+      "frame": 7,
+      "time_h": 18.0,
+      "sha256": "82b0810ea20a4271915dc339920bfd03c0e3cd24b7890250b4ef509b1fd59078",
+      "validation": {
+        "status": "PASS",
+        "cells": 17424,
+        "active_cells": 7222,
+        "array_order": "VTK x-fast; NumPy XYZ flattened F; tested every cell and field",
+        "exact_temperature_equality": true
+      }
+    },
+    {
+      "file": "state_03.vti",
+      "frame": 14,
+      "time_h": 36.0,
+      "sha256": "5cd39b084a98ad08d98ab60473bdc9db0235fd20c8e0c58819b3db1238e3623d",
+      "validation": {
+        "status": "PASS",
+        "cells": 17424,
+        "active_cells": 7730,
+        "array_order": "VTK x-fast; NumPy XYZ flattened F; tested every cell and field",
+        "exact_temperature_equality": true
+      }
+    }
+  ],
+  "field_sha256": "09f61b8d9c4e83d5c270a4d63727999ee8f6bbdfdc280ef936677a05e6bdfd5d"
+}

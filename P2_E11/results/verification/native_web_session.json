@@ -1,0 +1,10 @@
+{
+  "off_screen": false,
+  "actions": [
+    {
+      "action": "native_open",
+      "mode": "full",
+      "index": 3
+    }
+  ]
+}

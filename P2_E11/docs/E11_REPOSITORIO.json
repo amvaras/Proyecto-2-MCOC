@@ -1,0 +1,142 @@
+{
+  "repository": {
+    "id": "1420881533",
+    "name": "Proyecto-2-MCOC",
+    "owner": {
+      "login": "amvaras",
+      "id": 313998571,
+      "type": "User",
+      "avatar_url": "https://avatars.githubusercontent.com/u/313998571?v=4",
+      "url": "https://api.github.com/users/amvaras"
+    },
+    "repository_full_name": "amvaras/Proyecto-2-MCOC",
+    "permissions": {
+      "admin": false,
+      "maintain": false,
+      "pull": true,
+      "push": false,
+      "triage": false
+    },
+    "allow_auto_merge": null,
+    "allow_merge_commit": null,
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_update_branch": null,
+    "clone_url": "https://github.com/amvaras/Proyecto-2-MCOC.git",
+    "size": 160504,
+    "default_branch": "main",
+    "git_commits_url": "https://api.github.com/repos/amvaras/Proyecto-2-MCOC/git/commits{/sha}",
+    "git_refs_url": "https://api.github.com/repos/amvaras/Proyecto-2-MCOC/git/refs{/sha}",
+    "git_url": "git://github.com/amvaras/Proyecto-2-MCOC.git",
+    "master_branch": null,
+    "visibility": "public",
+    "archived": false,
+    "is_code_search_indexed": null
+  },
+  "branches": [
+    {
+      "branch": "E02"
+    },
+    {
+      "branch": "codex/e04"
+    },
+    {
+      "branch": "codex/e07"
+    },
+    {
+      "branch": "codex/e08"
+    },
+    {
+      "branch": "codex/e09"
+    },
+    {
+      "branch": "codex/e10"
+    },
+    {
+      "branch": "main"
+    }
+  ],
+  "local": " M README.md\n?? .gitattributes\n?? .gitignore\n?? docs/\n?? evidencias/\n?? examples/\n?? geometry/\n?? pyproject.toml\n?? requirements-lock.txt\n?? scripts/\n?? src/\n?? tests/\ne01/base-termica-ifc\n206804ada592c09c17e8e30ab77d39e63da11c0b Initial commit\norigin\thttps://github.com/amvaras/Proyecto-2-MCOC.git (fetch)\norigin\thttps://github.com/amvaras/Proyecto-2-MCOC.git (push)\n",
+  "publication_status": "COMMIT E11 PENDIENTE DE PUBLICACIÓN",
+  "actions": "Solo lectura; sin fetch local, checkout, rama, staging, commit o push",
+  "inspection_date": "2026-11-12",
+  "remote_trees": {
+    "main": {
+      "commit": "53a9575d19e98143e84286d73f7b81c756aa9929",
+      "entries": 125,
+      "truncated": false,
+      "top_level": [
+        ".gitattributes",
+        ".gitignore",
+        "ESTADO_CONGELADO_E01.md",
+        "INVENTARIO_SHA256.json",
+        "README.md",
+        "VERIFICACION_RESPALDO_E01.json",
+        "VERIFICAR_INTEGRIDAD_E01.py",
+        "docs",
+        "evidencias",
+        "examples",
+        "geometry",
+        "pyproject.toml",
+        "requirements-lock.txt",
+        "scripts",
+        "src",
+        "tests"
+      ],
+      "e10_paths": [],
+      "has_e11": false
+    },
+    "codex/e10": {
+      "commit": "a8e742696b68b4bb7090c114409ee8addc931195",
+      "entries": 6898,
+      "truncated": false,
+      "top_level": [
+        ".gitattributes",
+        ".gitignore",
+        "E04.md",
+        "E07.md",
+        "E08.md",
+        "ESTADO_CONGELADO_E01.md",
+        "INICIAR_E08.bat",
+        "INVENTARIO_SHA256.json",
+        "P2_E02",
+        "P2_E04",
+        "P2_E07",
+        "P2_E08",
+        "P2_E09",
+        "P2_E10",
+        "README.md",
+        "VERIFICACION_RESPALDO_E01.json",
+        "VERIFICAR_E08.ps1",
+        "VERIFICAR_INTEGRIDAD_E01.py",
+        "docs",
+        "evidencias",
+        "examples",
+        "geometry",
+        "pyproject.toml",
+        "requirements-lock.txt",
+        "scripts",
+        "src",
+        "tests"
+      ],
+      "e10_paths": [
+        "P2_E10/README.md",
+        "P2_E10/ambiente.json",
+        "P2_E10/cobertura_obra.json",
+        "P2_E10/data",
+        "P2_E10/data/weather",
+        "P2_E10/data/weather/.gitattributes",
+        "P2_E10/data/weather/ejemplo-docente",
+        "P2_E10/data/weather/ejemplo-docente/metadata.json",
+        "P2_E10/data/weather/ejemplo-docente/weather.json",
+        "P2_E10/data/weather/forecast-20261111T125009366080Z-3184e5a881e6",
+        "P2_E10/data/weather/forecast-20261111T125009366080Z-3184e5a881e6/metadata.json",
+        "P2_E10/data/weather/forecast-20261111T125009366080Z-3184e5a881e6/weather.json",
+        "P2_E10/e10.py",
+        "P2_E10/evidencia_demo.json",
+        "P2_E10/evidencia_forecast.json"
+      ],
+      "has_e11": false
+    }
+  }
+}

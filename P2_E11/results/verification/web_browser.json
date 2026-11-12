@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "recorded_at_utc": "2026-11-12T14:12:15.505514+00:00",
+  "method": "Interacción real en Chrome de Windows mediante controles nativos; registro de observaciones, no simulación de eventos JS",
+  "url": "http://127.0.0.1:8711/",
+  "launcher": "Iniciar E11.bat",
+  "html_runs": [
+    "224521f59e2f4bdcaca00beb965942d8",
+    "5b32e0d930d949888f8bd6c42feb65ac"
+  ],
+  "observed": {
+    "html_css_js_loaded": true,
+    "dirty_configuration_warning": true,
+    "physical_forms_changed": true,
+    "run_button_really_executed_python": true,
+    "new_results_updated_curves_and_field": true,
+    "webgl_error": 0,
+    "mouse_rotation": true,
+    "wheel_zoom": true,
+    "full_final": {
+      "time_h": 36,
+      "visible_active_cells": 7730,
+      "quads": 3262
+    },
+    "time_change": {
+      "time_h": 9,
+      "active_cells": 3596,
+      "V1_age_h": 9,
+      "V2_age_h": 4,
+      "future_ids": [
+        3,
+        4,
+        5
+      ],
+      "inactive_probe": "sin temperatura"
+    },
+    "slice_XZ_y0": {
+      "visible_cells": 366,
+      "quads": 366
+    },
+    "clipping_negative_y0": {
+      "visible_cells": 4097,
+      "quads": 2058
+    },
+    "hide_V5": {
+      "visible_cells": 7222,
+      "quads": 3054,
+      "physical_active_cells": 7730,
+      "all_visible_restored": true
+    },
+    "voxel_pick": {
+      "occupied_index": 2332,
+      "vertida_id": 3,
+      "center_m": [
+        -2.125,
+        -5.975,
+        2.0625
+      ],
+      "temperature_C_displayed": 33.118
+    },
+    "probe_curve_opened": {
+      "probe": "nucleo",
+      "weather_final_C_displayed": 37.32,
+      "constant_final_C_displayed": 37.34
+    },
+    "weather_metadata_curve_and_verification": {
+      "status": "PASS",
+      "samples": 72,
+      "executed_at": "2026-11-12T13:47:54.560621+00:00"
+    },
+    "result_vtk_energy_button": {
+      "status": "PASS",
+      "vti_count": 4,
+      "executed_at": "2026-11-12T13:50:47.701465+00:00"
+    },
+    "tests_button": {
+      "passed": 48,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time_s": 69.97,
+      "executed_at": "2026-11-12T13:51:52.385969+00:00"
+    },
+    "offline_browser": {
+      "status": "PASS",
+      "actual_event": "securitypolicyviolation connect-src",
+      "tested_at": "2026-11-12T13:55:44.422Z",
+      "external_fetch": "blocked before HTTP by CSP",
+      "global_Windows_network_settings_changed": false
+    },
+    "native_PyVista": {
+      "opened_from_HTML": true,
+      "same_official_field": true,
+      "window_raised_and_observed": true,
+      "closed_window_absent_in_inventory": true,
+      "log_limitation": "native_web_session registra apertura; cierre comprobado por inventario real, sin evento native_closed"
+    },
+    "final_selection": {
+      "configuration": "nominal E11",
+      "result": "official",
+      "panel": "Resumen",
+      "browser_left_visible": true,
+      "server_left_running": true
+    }
+  },
+  "automated_geometry_coverage": "tests/test_e11_viewer.mjs: XY/XZ/YZ, ambos lados de clip, máscara/visibilidad/temperatura; no se atribuye prueba manual a todos los planos",
+  "screenshot": "results/verification/e11_web.png",
+  "screenshot_sha256": "353424644eec8f6d7e24fe22d59cc212231787bc5e35d4f5c69cb02cc74f3278",
+  "paraview_GUI": "NO VERIFICADO"
+}

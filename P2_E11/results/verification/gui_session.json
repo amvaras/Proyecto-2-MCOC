@@ -1,0 +1,65 @@
+{
+  "off_screen": false,
+  "actions": [
+    {
+      "action": "native_open",
+      "mode": "full",
+      "index": 3
+    },
+    {
+      "action": "slice",
+      "mode": "slice",
+      "index": 3,
+      "cells": 366
+    },
+    {
+      "action": "clip",
+      "mode": "clip",
+      "index": 3,
+      "cells": 4097
+    },
+    {
+      "action": "toggle",
+      "mode": "clip",
+      "index": 3,
+      "vertida_id": 5,
+      "visible": false
+    },
+    {
+      "action": "toggle",
+      "mode": "clip",
+      "index": 3,
+      "vertida_id": 5,
+      "visible": true
+    },
+    {
+      "action": "time",
+      "mode": "clip",
+      "index": 2,
+      "time_h": 18.0
+    },
+    {
+      "action": "time",
+      "mode": "clip",
+      "index": 3,
+      "time_h": 36.0
+    },
+    {
+      "action": "full",
+      "mode": "full",
+      "index": 3,
+      "cells": 7730
+    },
+    {
+      "action": "capture",
+      "mode": "full",
+      "index": 3,
+      "file": "figures/e11_native.png"
+    },
+    {
+      "action": "native_closed",
+      "mode": "full",
+      "index": 3
+    }
+  ]
+}

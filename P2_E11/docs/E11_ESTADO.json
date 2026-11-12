@@ -1,0 +1,123 @@
+{
+  "status": "LISTA Y VERIFICADA PARA DEMOSTRACION LOCAL DESDE HTML",
+  "publication_reference": "refs/tags/entrega-e11",
+  "publication_branch": "codex/e11",
+  "verified_at_utc": "2026-11-12T14:15:07.376560+00:00",
+  "application": {
+    "url": "http://127.0.0.1:8711/",
+    "html": "web/index.html",
+    "backend": "web/servidor.py",
+    "launcher": "Iniciar E11.bat",
+    "browser_observed": "Chrome predeterminado Windows",
+    "final_panel": "Resumen",
+    "configuration": "nominal",
+    "result": "official",
+    "left_running": true,
+    "listener": "127.0.0.1:8711"
+  },
+  "regression": {
+    "tests": 393,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "time_s": 123.974
+  },
+  "tests_from_HTML": {
+    "tests": 48,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "time_s": 69.97
+  },
+  "pip_check": "No broken requirements found.",
+  "offline_exact": "PASS; urlopen prohibido; todas las matrices iguales",
+  "offline_browser": "PASS; evento CSP connect-src observado; no se alteró la red global Windows",
+  "html_python_exact_cases": [
+    "224521f59e2f4bdcaca00beb965942d8",
+    "5b32e0d930d949888f8bd6c42feb65ac"
+  ],
+  "snapshot": "forecast-20261112T115248035648Z-d4253f02dc40",
+  "snapshot_sha256": "d4253f02dc40a0871acbee04bb4598dd6d3e68ec709012cb353f3753b49e2b42",
+  "vti_files_official": 4,
+  "png_files_official": 9,
+  "occupied_cells": 7730,
+  "simulation_hours": 36,
+  "webgl": "VERIFICADO: rotación, zoom, tiempo, corte, clipping, visibilidad, consulta de vóxel",
+  "native_PyVista": "Abierto desde HTML y observado con mismo campo; ventana cerrada y proceso ausente",
+  "official_artifacts_unchanged": true,
+  "source_E10_unchanged": true,
+  "archive_E10_sha256_unchanged": true,
+  "historical_deliveries": "Sin operaciones de escritura; E10 ZIP y fuente heredada verificados",
+  "new_source_files": [
+    "Iniciar E11.bat",
+    "src/mcoc_p2/e11/webdata.py",
+    "web/viewer.js",
+    "web/charts.js",
+    "tests/test_e11_web.py",
+    "tests/test_e11_viewer.mjs"
+  ],
+  "modified_source_files": [
+    "examples/run_e11.py",
+    "scripts/clean_project.py",
+    "scripts/view_e11_pyvista.py",
+    "src/mcoc_p2/e11/pipeline.py",
+    "src/mcoc_p2/e11/viewer.py",
+    "web/abrir.py",
+    "web/app.js",
+    "web/index.html",
+    "web/servidor.py",
+    "web/styles.css"
+  ],
+  "modified_documentation": [
+    "README.md",
+    "docs/E11_AUDITORIA.md",
+    "docs/E11_DEMO.md",
+    "docs/E11_ESTADO.json",
+    "docs/E11_ARCHIVOS_A_VERSIONAR.txt",
+    ".gitignore"
+  ],
+  "runtime_installed": {
+    "kept_because": "Entorno activo necesario para aplicación abierta; excluido del entregable",
+    "files": 10179,
+    "bytes": 560806683,
+    "MB_decimal": 560.806683,
+    "new_global_dependencies": false
+  },
+  "development_runtime_directories_removed": true,
+  "source_caches": false,
+  "new_backups": false,
+  "broken_local_links": [],
+  "symlinks_junctions": [],
+  "empty_directories": [
+    ".venv/Include"
+  ],
+  "publication_manifest": "docs/E11_ARCHIVOS_A_VERSIONAR.txt",
+  "evidence": [
+    "results/verification/tests.xml",
+    "results/verification/web_browser.json",
+    "results/verification/web_equivalence.json",
+    "results/verification/web_integrity.json",
+    "results/verification/e11.json",
+    "results/verification/e11_web.png"
+  ],
+  "limits": [
+    "Pronóstico de grilla, no observaciones de obra",
+    "Hidratación y cronograma ilustrativos, sin calibración",
+    "Sin viento/radiación ni Arrhenius explícitos",
+    "Malla gruesa; sin nueva convergencia térmica E11",
+    "GUI ParaView no verificada",
+    "150 avisos de deprecación NumPy/VTK, sin fallos"
+  ],
+  "deliverable": {
+    "files": 191,
+    "bytes": 5309965,
+    "MB_decimal": 5.309965,
+    "MiB": 5.063977,
+    "excludes": "Entorno activo .venv, egg-info, logs de ejecución; solo archivos de la lista para versionar"
+  },
+  "installed_directory": {
+    "files": 10372,
+    "bytes": 566119192,
+    "MB_decimal": 566.119192
+  }
+}

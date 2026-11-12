@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "kind": "forecast",
+  "source": "Open-Meteo",
+  "model_requested": "auto",
+  "provider_run_utc": null,
+  "retrieved_at_utc": "2026-11-12T11:52:48.035648+00:00",
+  "latitude": -28.856102,
+  "longitude": -71.421831,
+  "grid_latitude": -28.857645,
+  "grid_longitude": -71.46451,
+  "timezone": "UTC",
+  "site_timezone": "America/Santiago",
+  "variables": [
+    "temperature_2m",
+    "wind_speed_10m",
+    "shortwave_radiation"
+  ],
+  "units": {
+    "temperature_2m": "°C",
+    "wind_speed_10m": "m/s",
+    "shortwave_radiation": "W/m²"
+  },
+  "request_url": "https://api.open-meteo.com/v1/forecast?latitude=-28.856102&longitude=-71.421831&hourly=temperature_2m%2Cwind_speed_10m%2Cshortwave_radiation&temperature_unit=celsius&wind_speed_unit=ms&timezone=GMT&timeformat=unixtime&forecast_days=3",
+  "valid_from_utc": "2026-11-12T00:00:00Z",
+  "valid_until_utc": "2026-11-14T23:00:00Z",
+  "raw_sha256": "d4253f02dc40a0871acbee04bb4598dd6d3e68ec709012cb353f3753b49e2b42",
+  "e11_schema": 1,
+  "endpoint": "https://api.open-meteo.com/v1/forecast",
+  "query_parameters": {
+    "latitude": [
+      "-28.856102"
+    ],
+    "longitude": [
+      "-71.421831"
+    ],
+    "hourly": [
+      "temperature_2m,wind_speed_10m,shortwave_radiation"
+    ],
+    "temperature_unit": [
+      "celsius"
+    ],
+    "wind_speed_unit": [
+      "ms"
+    ],
+    "timezone": [
+      "GMT"
+    ],
+    "timeformat": [
+      "unixtime"
+    ],
+    "forecast_days": [
+      "3"
+    ]
+  },
+  "normalized_sha256": "3eba4b438546cd55dbd778796b593ed44ccfdd43d0111b2b5cce637814b25f09",
+  "interval_s": 3600,
+  "provider_elevation_m": 145.0,
+  "provider_timezone": "GMT",
+  "provider_model_version": null,
+  "interpolation": "linear; reject outside interval; no extrapolation or scenario tail",
+  "license_url": "https://open-meteo.com/en/licence",
+  "representativeness": "Forecast de grilla, no medición de estación ni punto exacto de construcción. Elevación reportada por proveedor, no levantamiento de obra.",
+  "unused_variables": "Viento y GHI se preservan en respuesta original; no entran en el baseline E11."
+}

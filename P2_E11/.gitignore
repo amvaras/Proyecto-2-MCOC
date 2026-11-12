@@ -1,0 +1,24 @@
+.venv*/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mplconfig/
+.runtime/
+.tmp/
+*.log
+build/
+dist/
+*.zip
+.env*
+results/*
+!results/e11/
+!results/verification/
+
+# Dos evidencias actuales HTML/Python; experimentos futuros permanecen locales.
+!results/web_runs/
+results/web_runs/*
+!results/web_runs/224521f59e2f4bdcaca00beb965942d8/
+!results/web_runs/5b32e0d930d949888f8bd6c42feb65ac/
+!results/web_runs/verification/
+!results/web_runs/verification_last.json

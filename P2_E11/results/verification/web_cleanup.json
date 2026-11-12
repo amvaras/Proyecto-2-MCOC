@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "only_owned_failed_startup_run": true,
+  "no_scientific_fields_existed": true,
+  "plan": {
+    "id": "a14613643fe345c69b843d0e065256be",
+    "files": [
+      {
+        "path": "inputs.json",
+        "sha256": "4652955eaa431a1aed2b87f5464690862d3e7cd44b46086c792c13ca5042169f",
+        "bytes": 2229
+      },
+      {
+        "path": "job.json",
+        "sha256": "b4ae694234dd21da63a08968749f836b1f221d698b8b3598664040320fe61b49",
+        "bytes": 3003
+      },
+      {
+        "path": "python.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    ],
+    "bytes": 5232,
+    "fingerprint": "eeaf65c93551825089f3f4869204bd21b940ac544f057c7e3171870699ce5c12"
+  },
+  "result": {
+    "status": "removed",
+    "id": "a14613643fe345c69b843d0e065256be",
+    "files": 3
+  }
+}

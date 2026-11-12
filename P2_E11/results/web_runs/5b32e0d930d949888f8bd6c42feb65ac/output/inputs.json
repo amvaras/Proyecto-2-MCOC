@@ -1,0 +1,113 @@
+{
+  "ifc": "geometry/foundation.ifc",
+  "snapshot": "data/weather/forecast-20261112T115248035648Z-d4253f02dc40",
+  "simulation_start_utc": "2026-11-12T12:00:00.000Z",
+  "constant_reference_C": 25,
+  "physics": {
+    "description": "E09 baseline ilustrativo 14 días; no calibrado a Freirina",
+    "spacing_m": [
+      0.55,
+      0.55,
+      0.275
+    ],
+    "resolutions_m": [
+      0.55,
+      0.275,
+      0.1375
+    ],
+    "margin_m": 0,
+    "t_end_s": 129600,
+    "max_step_s": 900,
+    "save_interval_s": 10800,
+    "safety": 0.8,
+    "energy_reference_C": 20,
+    "h_W_m2K": 18,
+    "ambient_C": 25,
+    "boundaries": {
+      "z-": {
+        "type": "adiabatic"
+      }
+    },
+    "material": {
+      "k": 2,
+      "rho": 2400,
+      "cp": 900
+    },
+    "hydration": {
+      "H_vol_J_m3": 64800000,
+      "duration_s": 172800
+    },
+    "events": [
+      {
+        "pour_id": 1,
+        "activation_s": 0,
+        "initial_C": 23
+      },
+      {
+        "pour_id": 2,
+        "activation_s": 10800,
+        "initial_C": 19
+      },
+      {
+        "pour_id": 3,
+        "activation_s": 36000,
+        "initial_C": 20
+      },
+      {
+        "pour_id": 4,
+        "activation_s": 54000,
+        "initial_C": 21
+      },
+      {
+        "pour_id": 5,
+        "activation_s": 72000,
+        "initial_C": 22
+      }
+    ]
+  },
+  "core_target_m": [
+    0,
+    0,
+    1.65
+  ],
+  "export_hours": [
+    0,
+    12,
+    36
+  ],
+  "environment": {
+    "air": {
+      "h_still_W_m2K": 18,
+      "h_wind_per_m_s": 0,
+      "solar_absorptivity": 0
+    },
+    "soil": {
+      "temperature_C": 18,
+      "depth_m": 0.4,
+      "conductivity_W_mK": 1.5,
+      "contact_m2K_W": 0.025,
+      "adiabatic": false
+    },
+    "formwork": {
+      "orientations": [
+        "x-",
+        "x+",
+        "y-",
+        "y+"
+      ],
+      "remove_at_s": 65700,
+      "layers": [
+        {
+          "name": "tablero",
+          "thickness_m": 0.018,
+          "conductivity_W_mK": 0.13
+        },
+        {
+          "name": "aislacion",
+          "thickness_m": 0.025,
+          "conductivity_W_mK": 0.04
+        }
+      ]
+    }
+  }
+}

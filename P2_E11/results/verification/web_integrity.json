@@ -1,0 +1,453 @@
+{
+  "checked_at_utc": "2026-11-12T14:15:05.772767+00:00",
+  "before_sha256": {
+    ".gitattributes": "8206a73214794e01325acf5d41ba3599463ea8c94005f71b8e394788e40be397",
+    ".gitignore": "0755eef6b6852cc1d52ef0ba1eb94ef96742b99d81b918a6a835391a0c96f2ca",
+    "AGENTS.md": "e345b8ae774179fb7f5acc3aefffda138fbf14b733aad6c9650b37cf2794ef03",
+    "pyproject.toml": "a2813d6c379df9fde35f782304a64751cee5598adaa4c1e783027de36b48dbd6",
+    "README.md": "87c5c40226f22dd1d90992e8017eb58568ced05d82c17a36c62ca9b10ba69018",
+    "requirements-lock.txt": "5743241de10f3ac1448c6f537641e0a38692f3a52d4d32f12d2406a0125c5fe6",
+    "docs/E11_ARCHIVOS_A_VERSIONAR.txt": "cd68fdf8372d73bcd599ed7f77a74cf581c82dab98af17a86b4a42be8c982250",
+    "docs/E11_AUDITORIA.md": "a91cd0ca6102657da78217e1d8513022f2b7ddd090a190ee615ebc961854e7d3",
+    "docs/E11_BASE.json": "fbe1c82467389c30a83b31005827eae30c56a977b0fa3b705d6da7b556cdb141",
+    "docs/E11_DEMO.md": "71ece2038ced048dc498aa89d34ddc95698faf905439f21ab134ec4d6ae37e00",
+    "docs/E11_ESTADO.json": "cbd0d777427794a3d47316b028b39b62384e1a08419426735320dbb19c5fd10f",
+    "docs/E11_REPOSITORIO.json": "46647d563c207694d0cb9a204c76c490de0107a6401f52ea3d8f9e4aafbace93",
+    "docs/FORMULACION_1D.md": "3d2d0a2c600c3a81ce5facabce878243fa72d0fce9053199a2bb9fecaeda6624",
+    "examples/run_diffusion_1d.py": "05b113c4fa6b7c97c123198b4a1d0bcf23ae3f1f7f6c6e4ecd269e74dca0fe10",
+    "examples/run_e02_1d.py": "39519c0a0def27a52040b113376d73c67724320d3a73ff2e0c58f3e78444fe76",
+    "examples/run_e04.py": "015796d10c2cdb2a6649f3a031bde0718fff21bcd171d6b1e3ce6286727429b0",
+    "examples/run_e05.py": "e3d1d74e913eb9c69638201d1505e9dcbaa7000e92cfc89b9d87072cafe5715a",
+    "examples/run_e07.py": "6c58ac8d5aec24e2a2a5dbb8575912fef37075c04daf98386f9dff5b6825c7eb",
+    "examples/run_e08.py": "becc6ab0780f8924062ff27e845823fa25b0e791e77d98cee0608d032ab25bc4",
+    "examples/run_e09.py": "9e0bc679b1d7afe683220ac3bf185935750677547b272da63190979415d2391c",
+    "examples/run_e11.py": "f37a9d42c63111452dba40d0ec948471a737ab432b2d5d1da4b9629c23758327",
+    "figures/e11_3d_puntos.png": "f0a3e52e8edbee4cba93ba4fb3e5f22ee85d5f9f27d9ea7ea0f2f4b6c37cb3a6",
+    "figures/e11_ambiente.png": "76c3915429758aab9ee535b06cb661c48c56d461a214c9c7def2eecd89833ee6",
+    "figures/e11_campos_finales.png": "ae51b2b362f5ea895a7c3e3f67e33efa5393a3f3306ae2f8557110a553f21676",
+    "figures/e11_clip.png": "0d3340de08b61b152660ba19b833916df64e43a8ec9faf353d192a9aaefc3d5c",
+    "figures/e11_comparacion.png": "1eb6669addfe5ce964f4be1a974e2aab3b6dfcd2e542385567fedc845d63f2ff",
+    "figures/e11_flujos.png": "1cd5ff10be08175c61eac7f9e6317202ab886abf4cb1ec6544e487bfc5c61375",
+    "figures/e11_native.png": "9965aaad0a19861e979741999e45d63c36b38d95f017fc1ce920dbd8ae34c2af",
+    "figures/e11_slice.png": "58082470d72e928fd7e81c6a9f8b4056e7ebd5baedb5f34a0ed680d8a774a2b0",
+    "figures/e11_tmax.png": "abcc8c0b34953045e4e203557fed53842f93f63b45e5d6e0818c97e9ac0bf6dc",
+    "geometry/foundation.ifc": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a",
+    "scripts/audit_integrity.py": "9896ce8ac004ddb22e9d151f19b3a86187c9fb8f270f8f92d69ccb9aa6724df7",
+    "scripts/check_diffusion_accuracy.py": "f0093385ac05d93de5946248685e28cede804f1fe4ecf1ff6d6dcc7428e90658",
+    "scripts/check_e04_convergence.py": "3f13dfc89427ef0ea5ac24135c0e3e0838c05b06757c1d275f5450bf6071cf5e",
+    "scripts/check_e06_dossier.py": "7755e01d196a8bc1b60a50674e5ee5b511369b6ad67ca744508f30fbce7ff59e",
+    "scripts/check_e09_dossier.py": "51607a424f8081f55ff1ce030cad6cb1f0c8166eaa169dd73617a0287c9c0253",
+    "scripts/check_ifc.py": "e1f90e1a22de73ea43c812a001a7d63ce62699a15dfba4f703fe40c8a5e144ad",
+    "scripts/clean_project.py": "735406fce414f0a9ae73d8fb89370437d3a7e8ffe9bab927fda0cd35418c528b",
+    "scripts/compare_ifc_e02.py": "1e2896985d60ee71a68c7e005a455c76021b091bbedc736868a08177329d507e",
+    "scripts/create_preliminary_ifc.py": "fbf9ac2b8d13f231ccc63f7ec7e2daac71b4767b1788c37b1b1b8c76da4cdc30",
+    "scripts/export_e11_vtk.py": "9aaad45605dd4234b2abfd24ac084826a56b76128ae3cd01f1a4985883c23966",
+    "scripts/fetch_weather_e11.py": "b390e82391e7d27b81bbc7f9695a5d1d2b0f517f0f4d984fdbfc2a70d778fac9",
+    "scripts/install.ps1": "9abb87566635792f8edc9905bc6d1ac76da21b1d962dbad3af6455ddeac12f4a",
+    "scripts/plot_e11.py": "3f5a10f9bd31d612c68439efd4cb9fccadc980550d343f18d9eb1761d982839a",
+    "scripts/plot_weather_e11.py": "795d5b1b6fadd04aee2ef47aa687ffd59e07e8c129181e9c53e99aceb7d9fef5",
+    "scripts/render_ifc_preview.py": "ac5f6b3e375187c7a94a08ed486e6b7a329436d5ce0c1dd5ef80d6cac92b3a34",
+    "scripts/verify_e11.py": "a0b300c32789e3a7d4ba5aa3d202f44e1eb2e0f5232fef77ce1b7260f5de6142",
+    "scripts/view_e11_pyvista.py": "4e3f370da426dea20e3b4d698e413f26fce1509d17d71351d98d20b67a3e067a",
+    "tests/conftest.py": "d5b08397339d8883180f7149bc83fb5bb9b7e27cd9129881d6f842afada296da",
+    "tests/e07_helpers.py": "b4dc58d86bb1035367a4d0cfff900ca3fbd5f68c4d85377c58b2067ec38348dd",
+    "tests/test_diffusion_1d.py": "99d461a5aa06acbc2826090ab1c92cb87e44f15a3a81cde5d63ade74f2f9eb14",
+    "tests/test_e02.py": "6130b49f577eb1652accdb1eb74ca34023b34b2c57c09e8e273db35c6479460c",
+    "tests/test_e05_auditoria.py": "22ef46d3cbb64ad5befb604270369ad4e318b12c8a701c736c8abd8a1e843f35",
+    "tests/test_e05_verification.py": "49598b33fd5b61cad894c666c7964b6ebbdfb3832b985c8dcaa376d7cf977fe8",
+    "tests/test_e06_auditoria.py": "50f6cfd1c3663eac86cbc02c903c4504c2ef50a94c8038d324f3b0a74adc7d27",
+    "tests/test_e07_auditoria.py": "4190009014e0b557c7f85f7842500a6aa500096346c4249d73344c6a5b4b9f88",
+    "tests/test_e07_cli.py": "73cc0112f47abf7d323e844ca58e2d878177f87c5d550d438f783e4e1fdd0169",
+    "tests/test_e07_construction.py": "27b2b9c6735ff1155b8cdfb44fba0804014075c7362a7852ff30169fb83694aa",
+    "tests/test_e07_geometry.py": "229a08ef9aadea455679624a37d42cc4b829eddeca45de6015886ed98c948470",
+    "tests/test_e08_pipeline.py": "9c732059deca4755b64093a1d50bce984ccfff53b736f25f1142744c7a8aea3e",
+    "tests/test_e08_solver.py": "184fb3729d42414cc9c08af743ab962152b6cec7a61be1254d05722f1c67d789",
+    "tests/test_e09_baseline.py": "fa10c890d6e7a6cc3da83bcbac635ee0174d03db04c4bb2a56e6292dad84dbaa",
+    "tests/test_e09_document.py": "5b615bdcc87537c15e755e627f5c1b23abd1e1eff4b70e35a6d1b31b4486074b",
+    "tests/test_e11.py": "2abd5df1527df09497d02b774960006ed86fed44a72e7fbf39e2bb80fad1393d",
+    "tests/test_environment.py": "f5b8268620c2d97b711ed22eec2fac9add8da60927889c37aa81be1c1efe1727",
+    "tests/test_ifc.py": "83bb6df49752d2c4cbeacd05439eb185e947dfca9e674b35dd3a7d0e9ff00344",
+    "tests/test_thermal_nd.py": "9c601ec0df51d9715e231ea982af2ccc0f05ab928b6982ab3388134fe671f60c",
+    "web/abrir.py": "d209c19209f5092d44cba571fcd2453e0118085538e9202c8e7339ec00631edc",
+    "web/app.js": "e9214ab47c9e634620710f33ebf9af484ebeb8e76220d2c592d2bc921c545e35",
+    "web/index.html": "fe23ccadce8530e3b30507e333cf4324f802bf289ec308e1d6e598904f29038f",
+    "web/servidor.py": "ca1fbccbd24b1a4a59c0d4e2840834bba81c0aa8ddfbb9b8e47933735a99a5b3",
+    "web/styles.css": "5aa2fa6ffa84f314ef0e12cc6521e90e42e2efd890de7d21e51021e92a8771f5",
+    "configs/e05/lab.json": "a3cbdf20fd253972a87d96f255bb868bdcbf36121fec265ea1b92cabc95e2482",
+    "configs/e07/demo.json": "065bac6127d107dcf8b1ddbc0367b986566350936674a3769f411dd0d7a2cc14",
+    "configs/e08/demo.json": "4f36b70eaf31882a4c86656a7dd7eee3c3a3689ee54736b2680aac20b96e8f53",
+    "configs/e09/baseline.json": "89a33d1d8b723833a75aaa1c016aaf5b30d2582932565223b64d1acc4112e648",
+    "configs/e11/demo.json": "f9a0e646d09dc2eb1c1a7afff4c240420dbdeaa7fd7c768dad528570f552d27a",
+    "data/weather/forecast-20261112T115248035648Z-d4253f02dc40/metadata.json": "8e12c6669713a6c7351942d0e9898a11e0231b7ddcf3808c5857b912953b4736",
+    "data/weather/forecast-20261112T115248035648Z-d4253f02dc40/temperature.csv": "3eba4b438546cd55dbd778796b593ed44ccfdd43d0111b2b5cce637814b25f09",
+    "data/weather/forecast-20261112T115248035648Z-d4253f02dc40/weather.json": "d4253f02dc40a0871acbee04bb4598dd6d3e68ec709012cb353f3753b49e2b42",
+    "results/e11/constant_steps.npz": "326fa225c0d07c346bdb5a4048d163228e168c0c021a06a3e96bf03671670099",
+    "results/e11/fields.npz": "d5b601499ddec1ba26e7ee5e98ba56aae3a37748fee37252b246ff659baa5713",
+    "results/e11/grid.npz": "c11ddf0ee5c39f59c2a65adc5eda6537734763d56077987deed0c4fc3f8ce215",
+    "results/e11/inputs.json": "f9a0e646d09dc2eb1c1a7afff4c240420dbdeaa7fd7c768dad528570f552d27a",
+    "results/e11/statistics.npz": "bf0fc677e3f931d028e17c27d5c6271b4ec3ea83d2dce2e2bd0f6d7f2132d4e3",
+    "results/e11/summary.json": "da99b386d5b9e335a1ce167c02f19cab666510a94530b1f7984af8cfeae5c5ee",
+    "results/e11/weather_steps.npz": "7f82bb69a2d865bd181ae2e81b594ce34677d33365403bdd98c5bc9eb49b23c9",
+    "results/verification/cleanup_last.json": "3378f6dad04462b717c170daa25afcac60dab18ce470c3c35c5aa78ed2f26a93",
+    "results/verification/e11.json": "ffff14e2621f0aa1fa3b842990ee8973316a0ac9347b83ad40a68cfde29a3bbd",
+    "results/verification/environment.json": "8230d03d0d6eb60775a92794a368da12abf2e3477f49994724554593131ea3d0",
+    "results/verification/gui_session.json": "2ddaef0a40a86d2dbee6f3c4822d0dbe262866b68f7b241cb8e586790808f170",
+    "results/verification/ifc.json": "65d551d506632ebc3a472a1b1991fe06fe7fafdbeff9527311c6dd324f6e0667",
+    "results/verification/owned_cleanup.json": "7c74bdc03b713ef3062828ab89df972c5b3410985f471b965124bd69054730cc",
+    "results/verification/render.json": "bae17f3a7973386317038bee38589990f99e3e58812a3eaf12e31e50e6cc6d83",
+    "results/verification/tests.xml": "2afa4e540112c3407836986cc736993bbc679242f9252024967b42cbb9310b52",
+    "src/mcoc_p2/diffusion_1d.py": "154406eb286d54ce6c06b1a17658f8fe6492eaf5aa07a759c1d179c1fc34b762",
+    "src/mcoc_p2/housekeeping.py": "72105463b6cb08f367b80701ee1f187de6a193b8d15c00a3133d8664662d193a",
+    "src/mcoc_p2/thermal_nd.py": "d1d870072f4fb789fb4230fdc4a3ff7009502d68bf392a909666e7066f3d7ab6",
+    "src/mcoc_p2/verification_e05.py": "95881caec8fa4405b05ac2443d7afec3504d60a9c36e4c2313e82542decaf0be",
+    "src/mcoc_p2/__init__.py": "f78e88589677fd11447ae7b7edb0aff25fcb5d888485a30ffb15222e31dd8f6a",
+    "src/mcoc_p2/e07/construction.py": "1f8bb8086213354aa6f26350d7ee54e85d6cff5bd8734f0622825d9a3fbdd507",
+    "src/mcoc_p2/e07/coupling.py": "0bcdb505cb886b9aaed6805a4079bae415b2030261b20a64c85144b30c5802ee",
+    "src/mcoc_p2/e07/faces.py": "c0b26f3601ebe05d669f2f528b588dddf391d53fde801d800f4add1d14c1d02c",
+    "src/mcoc_p2/e07/geometry.py": "e5a941dcebd3a36bbde3209a304c8ac7d29e3888a4ad61fec5c5eb0c1880fd03",
+    "src/mcoc_p2/e07/hydration.py": "fbebc14430906009d795bf864c6fb0f3bbc17808c33717d4be05b94f9831beee",
+    "src/mcoc_p2/e07/ifc.py": "ad4aa931fd87eb0a09a0c8fc1e318283086f5199b1e13dd5f134d5b261359e2b",
+    "src/mcoc_p2/e07/plots.py": "57e08c13a2b00d427c08bba3e0636df1e2d84c6b9db1da5c05b94abca0d2d1e0",
+    "src/mcoc_p2/e07/voxel.py": "f693ea9e0ff075cc33ab4072c983f8d5d58446ac93c7b13af440266c146b6988",
+    "src/mcoc_p2/e07/__init__.py": "9d08445a8e30a0630e93fb9659ee243226abab707cc056a6745043e78bd62a47",
+    "src/mcoc_p2/e08/inputs.py": "0d4d16dac354988f68715b61a9c046a6155ba0f59d4e37b4128be718a89133b4",
+    "src/mcoc_p2/e08/pipeline.py": "468eead518a248681221a0138a0b85d89bf60422e99cfcaa9f864cabf3a39626",
+    "src/mcoc_p2/e08/plots.py": "c23df4845bc83adc901f807cb1741e8611e9aaf910faa64d0a9ea571f0038b54",
+    "src/mcoc_p2/e08/solver.py": "e2c5e1c8c13ce2bf11acd2179e911c994473a94bc2b8e54c539f987040ec95bc",
+    "src/mcoc_p2/e08/__init__.py": "c90060bbce92169a02c945ffcbd27e6b713b333f1c567bec8cbec0b8b38d3399",
+    "src/mcoc_p2/e09/analysis.py": "bea152ed9fb49d0caf2171d705c3de7d2f4b9d6d061fb8447581a9fc411b8d9c",
+    "src/mcoc_p2/e09/pipeline.py": "21ba3708c63d5e0d2084ba6619c7e44ee920a0322605096f2547eb0e6f7280be",
+    "src/mcoc_p2/e09/plots.py": "72e341e703ce93b3a482cb26a3d885839fc4fd8579aca61094be487b4d837314",
+    "src/mcoc_p2/e09/verification.py": "e4f0dca8a2bb86dd6c74acd307ac8f677ab00a50d2190f5a20fe6ccafd2db6bb",
+    "src/mcoc_p2/e09/__init__.py": "b9865f7825bb84d7a50dfa97ae5caff87bdab6ad5243592094f0188099a1e7fe",
+    "src/mcoc_p2/e10/boundaries.py": "4a48349c668b116f2dc19ddb6c7cdd78fdb856bc7e4cab6ba74a6fcfe38a0ec0",
+    "src/mcoc_p2/e10/weather.py": "0567e96171ae646832c4649f7ab63d90853de8d613aaacf90ce5d90789bcdbe2",
+    "src/mcoc_p2/e10/__init__.py": "fd9928b7e59be8155dea9a47bd33287f979eddeb8cfcd9c3d1865fd04cdd8f58",
+    "src/mcoc_p2/e11/pipeline.py": "a2fe981fbd9fc439541ab33b41ac8e36b3ed97d41f4276a8c5acb2eed941a388",
+    "src/mcoc_p2/e11/plots.py": "1da9fc8f137530f3de6ba5906975351b3f4f69a394fa1d4e4671d8955bda3520",
+    "src/mcoc_p2/e11/viewer.py": "f24dabb733f0b6aa9cd741f548606289bd4226b6ff736a54d915d4aa1a4075ae",
+    "src/mcoc_p2/e11/vtkio.py": "920448bcc193e52395b29f48b8449976749510f3b81589a8251d9e81ab6d3320",
+    "src/mcoc_p2/e11/weather.py": "d1f2e906430bb0d7f1ed3a183a5564db4b8ae9138920798c2bfe9421e28984fe",
+    "src/mcoc_p2/e11/__init__.py": "83d9b3382e60d0501eee40c0de22723511e443a2b535033d8953bdf6b63ec6cd",
+    "tests/fixtures/weather_docente/metadata.json": "65de828a6a96f58ba24631573b1ece2db18e498cd8dd0cc5e99216443bb4fa48",
+    "tests/fixtures/weather_docente/weather.json": "9ef6c69d09a0ef444c712b8bd245d4b2f3c2790e22a6ce6530177ecf929cf6fc",
+    "vtk/e11/e11.pvd": "991656bef73edc19dcc225959c40eabf77c0853e461e13554e99e37708198a21",
+    "vtk/e11/manifest.json": "21fa2cfba8a57194a40cfd8a4b1e8b6bd17ca40d2234c33a43f95c1efff80b54",
+    "vtk/e11/state_00.vti": "6b286dffaacf270853aaeec890681bbd3f7998dc08f939aeab5caba9854b2948",
+    "vtk/e11/state_01.vti": "b9b79bea8ac182adb5e55e5b0ee04f276ef96ba143a4caa908ae2d54aabfb2ce",
+    "vtk/e11/state_02.vti": "aaea19a24024eb669934fe19080e0a9fdee23874e156edc0214dec658ee903cb",
+    "vtk/e11/state_03.vti": "65679cb5e91ad29803698ea6f13923193ddf794402e94e130e05f1eb83be7c8c"
+  },
+  "protected_files": {
+    "figures/e11_3d_puntos.png": {
+      "before": "f0a3e52e8edbee4cba93ba4fb3e5f22ee85d5f9f27d9ea7ea0f2f4b6c37cb3a6",
+      "after": "f0a3e52e8edbee4cba93ba4fb3e5f22ee85d5f9f27d9ea7ea0f2f4b6c37cb3a6"
+    },
+    "figures/e11_ambiente.png": {
+      "before": "76c3915429758aab9ee535b06cb661c48c56d461a214c9c7def2eecd89833ee6",
+      "after": "76c3915429758aab9ee535b06cb661c48c56d461a214c9c7def2eecd89833ee6"
+    },
+    "figures/e11_campos_finales.png": {
+      "before": "ae51b2b362f5ea895a7c3e3f67e33efa5393a3f3306ae2f8557110a553f21676",
+      "after": "ae51b2b362f5ea895a7c3e3f67e33efa5393a3f3306ae2f8557110a553f21676"
+    },
+    "figures/e11_clip.png": {
+      "before": "0d3340de08b61b152660ba19b833916df64e43a8ec9faf353d192a9aaefc3d5c",
+      "after": "0d3340de08b61b152660ba19b833916df64e43a8ec9faf353d192a9aaefc3d5c"
+    },
+    "figures/e11_comparacion.png": {
+      "before": "1eb6669addfe5ce964f4be1a974e2aab3b6dfcd2e542385567fedc845d63f2ff",
+      "after": "1eb6669addfe5ce964f4be1a974e2aab3b6dfcd2e542385567fedc845d63f2ff"
+    },
+    "figures/e11_flujos.png": {
+      "before": "1cd5ff10be08175c61eac7f9e6317202ab886abf4cb1ec6544e487bfc5c61375",
+      "after": "1cd5ff10be08175c61eac7f9e6317202ab886abf4cb1ec6544e487bfc5c61375"
+    },
+    "figures/e11_native.png": {
+      "before": "9965aaad0a19861e979741999e45d63c36b38d95f017fc1ce920dbd8ae34c2af",
+      "after": "9965aaad0a19861e979741999e45d63c36b38d95f017fc1ce920dbd8ae34c2af"
+    },
+    "figures/e11_slice.png": {
+      "before": "58082470d72e928fd7e81c6a9f8b4056e7ebd5baedb5f34a0ed680d8a774a2b0",
+      "after": "58082470d72e928fd7e81c6a9f8b4056e7ebd5baedb5f34a0ed680d8a774a2b0"
+    },
+    "figures/e11_tmax.png": {
+      "before": "abcc8c0b34953045e4e203557fed53842f93f63b45e5d6e0818c97e9ac0bf6dc",
+      "after": "abcc8c0b34953045e4e203557fed53842f93f63b45e5d6e0818c97e9ac0bf6dc"
+    },
+    "geometry/foundation.ifc": {
+      "before": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a",
+      "after": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a"
+    },
+    "configs/e05/lab.json": {
+      "before": "a3cbdf20fd253972a87d96f255bb868bdcbf36121fec265ea1b92cabc95e2482",
+      "after": "a3cbdf20fd253972a87d96f255bb868bdcbf36121fec265ea1b92cabc95e2482"
+    },
+    "configs/e07/demo.json": {
+      "before": "065bac6127d107dcf8b1ddbc0367b986566350936674a3769f411dd0d7a2cc14",
+      "after": "065bac6127d107dcf8b1ddbc0367b986566350936674a3769f411dd0d7a2cc14"
+    },
+    "configs/e08/demo.json": {
+      "before": "4f36b70eaf31882a4c86656a7dd7eee3c3a3689ee54736b2680aac20b96e8f53",
+      "after": "4f36b70eaf31882a4c86656a7dd7eee3c3a3689ee54736b2680aac20b96e8f53"
+    },
+    "configs/e09/baseline.json": {
+      "before": "89a33d1d8b723833a75aaa1c016aaf5b30d2582932565223b64d1acc4112e648",
+      "after": "89a33d1d8b723833a75aaa1c016aaf5b30d2582932565223b64d1acc4112e648"
+    },
+    "configs/e11/demo.json": {
+      "before": "f9a0e646d09dc2eb1c1a7afff4c240420dbdeaa7fd7c768dad528570f552d27a",
+      "after": "f9a0e646d09dc2eb1c1a7afff4c240420dbdeaa7fd7c768dad528570f552d27a"
+    },
+    "data/weather/forecast-20261112T115248035648Z-d4253f02dc40/metadata.json": {
+      "before": "8e12c6669713a6c7351942d0e9898a11e0231b7ddcf3808c5857b912953b4736",
+      "after": "8e12c6669713a6c7351942d0e9898a11e0231b7ddcf3808c5857b912953b4736"
+    },
+    "data/weather/forecast-20261112T115248035648Z-d4253f02dc40/temperature.csv": {
+      "before": "3eba4b438546cd55dbd778796b593ed44ccfdd43d0111b2b5cce637814b25f09",
+      "after": "3eba4b438546cd55dbd778796b593ed44ccfdd43d0111b2b5cce637814b25f09"
+    },
+    "data/weather/forecast-20261112T115248035648Z-d4253f02dc40/weather.json": {
+      "before": "d4253f02dc40a0871acbee04bb4598dd6d3e68ec709012cb353f3753b49e2b42",
+      "after": "d4253f02dc40a0871acbee04bb4598dd6d3e68ec709012cb353f3753b49e2b42"
+    },
+    "results/e11/constant_steps.npz": {
+      "before": "326fa225c0d07c346bdb5a4048d163228e168c0c021a06a3e96bf03671670099",
+      "after": "326fa225c0d07c346bdb5a4048d163228e168c0c021a06a3e96bf03671670099"
+    },
+    "results/e11/fields.npz": {
+      "before": "d5b601499ddec1ba26e7ee5e98ba56aae3a37748fee37252b246ff659baa5713",
+      "after": "d5b601499ddec1ba26e7ee5e98ba56aae3a37748fee37252b246ff659baa5713"
+    },
+    "results/e11/grid.npz": {
+      "before": "c11ddf0ee5c39f59c2a65adc5eda6537734763d56077987deed0c4fc3f8ce215",
+      "after": "c11ddf0ee5c39f59c2a65adc5eda6537734763d56077987deed0c4fc3f8ce215"
+    },
+    "results/e11/inputs.json": {
+      "before": "f9a0e646d09dc2eb1c1a7afff4c240420dbdeaa7fd7c768dad528570f552d27a",
+      "after": "f9a0e646d09dc2eb1c1a7afff4c240420dbdeaa7fd7c768dad528570f552d27a"
+    },
+    "results/e11/statistics.npz": {
+      "before": "bf0fc677e3f931d028e17c27d5c6271b4ec3ea83d2dce2e2bd0f6d7f2132d4e3",
+      "after": "bf0fc677e3f931d028e17c27d5c6271b4ec3ea83d2dce2e2bd0f6d7f2132d4e3"
+    },
+    "results/e11/summary.json": {
+      "before": "da99b386d5b9e335a1ce167c02f19cab666510a94530b1f7984af8cfeae5c5ee",
+      "after": "da99b386d5b9e335a1ce167c02f19cab666510a94530b1f7984af8cfeae5c5ee"
+    },
+    "results/e11/weather_steps.npz": {
+      "before": "7f82bb69a2d865bd181ae2e81b594ce34677d33365403bdd98c5bc9eb49b23c9",
+      "after": "7f82bb69a2d865bd181ae2e81b594ce34677d33365403bdd98c5bc9eb49b23c9"
+    },
+    "src/mcoc_p2/diffusion_1d.py": {
+      "before": "154406eb286d54ce6c06b1a17658f8fe6492eaf5aa07a759c1d179c1fc34b762",
+      "after": "154406eb286d54ce6c06b1a17658f8fe6492eaf5aa07a759c1d179c1fc34b762"
+    },
+    "src/mcoc_p2/housekeeping.py": {
+      "before": "72105463b6cb08f367b80701ee1f187de6a193b8d15c00a3133d8664662d193a",
+      "after": "72105463b6cb08f367b80701ee1f187de6a193b8d15c00a3133d8664662d193a"
+    },
+    "src/mcoc_p2/thermal_nd.py": {
+      "before": "d1d870072f4fb789fb4230fdc4a3ff7009502d68bf392a909666e7066f3d7ab6",
+      "after": "d1d870072f4fb789fb4230fdc4a3ff7009502d68bf392a909666e7066f3d7ab6"
+    },
+    "src/mcoc_p2/verification_e05.py": {
+      "before": "95881caec8fa4405b05ac2443d7afec3504d60a9c36e4c2313e82542decaf0be",
+      "after": "95881caec8fa4405b05ac2443d7afec3504d60a9c36e4c2313e82542decaf0be"
+    },
+    "src/mcoc_p2/__init__.py": {
+      "before": "f78e88589677fd11447ae7b7edb0aff25fcb5d888485a30ffb15222e31dd8f6a",
+      "after": "f78e88589677fd11447ae7b7edb0aff25fcb5d888485a30ffb15222e31dd8f6a"
+    },
+    "src/mcoc_p2/e07/construction.py": {
+      "before": "1f8bb8086213354aa6f26350d7ee54e85d6cff5bd8734f0622825d9a3fbdd507",
+      "after": "1f8bb8086213354aa6f26350d7ee54e85d6cff5bd8734f0622825d9a3fbdd507"
+    },
+    "src/mcoc_p2/e07/coupling.py": {
+      "before": "0bcdb505cb886b9aaed6805a4079bae415b2030261b20a64c85144b30c5802ee",
+      "after": "0bcdb505cb886b9aaed6805a4079bae415b2030261b20a64c85144b30c5802ee"
+    },
+    "src/mcoc_p2/e07/faces.py": {
+      "before": "c0b26f3601ebe05d669f2f528b588dddf391d53fde801d800f4add1d14c1d02c",
+      "after": "c0b26f3601ebe05d669f2f528b588dddf391d53fde801d800f4add1d14c1d02c"
+    },
+    "src/mcoc_p2/e07/geometry.py": {
+      "before": "e5a941dcebd3a36bbde3209a304c8ac7d29e3888a4ad61fec5c5eb0c1880fd03",
+      "after": "e5a941dcebd3a36bbde3209a304c8ac7d29e3888a4ad61fec5c5eb0c1880fd03"
+    },
+    "src/mcoc_p2/e07/hydration.py": {
+      "before": "fbebc14430906009d795bf864c6fb0f3bbc17808c33717d4be05b94f9831beee",
+      "after": "fbebc14430906009d795bf864c6fb0f3bbc17808c33717d4be05b94f9831beee"
+    },
+    "src/mcoc_p2/e07/ifc.py": {
+      "before": "ad4aa931fd87eb0a09a0c8fc1e318283086f5199b1e13dd5f134d5b261359e2b",
+      "after": "ad4aa931fd87eb0a09a0c8fc1e318283086f5199b1e13dd5f134d5b261359e2b"
+    },
+    "src/mcoc_p2/e07/plots.py": {
+      "before": "57e08c13a2b00d427c08bba3e0636df1e2d84c6b9db1da5c05b94abca0d2d1e0",
+      "after": "57e08c13a2b00d427c08bba3e0636df1e2d84c6b9db1da5c05b94abca0d2d1e0"
+    },
+    "src/mcoc_p2/e07/voxel.py": {
+      "before": "f693ea9e0ff075cc33ab4072c983f8d5d58446ac93c7b13af440266c146b6988",
+      "after": "f693ea9e0ff075cc33ab4072c983f8d5d58446ac93c7b13af440266c146b6988"
+    },
+    "src/mcoc_p2/e07/__init__.py": {
+      "before": "9d08445a8e30a0630e93fb9659ee243226abab707cc056a6745043e78bd62a47",
+      "after": "9d08445a8e30a0630e93fb9659ee243226abab707cc056a6745043e78bd62a47"
+    },
+    "src/mcoc_p2/e08/inputs.py": {
+      "before": "0d4d16dac354988f68715b61a9c046a6155ba0f59d4e37b4128be718a89133b4",
+      "after": "0d4d16dac354988f68715b61a9c046a6155ba0f59d4e37b4128be718a89133b4"
+    },
+    "src/mcoc_p2/e08/pipeline.py": {
+      "before": "468eead518a248681221a0138a0b85d89bf60422e99cfcaa9f864cabf3a39626",
+      "after": "468eead518a248681221a0138a0b85d89bf60422e99cfcaa9f864cabf3a39626"
+    },
+    "src/mcoc_p2/e08/plots.py": {
+      "before": "c23df4845bc83adc901f807cb1741e8611e9aaf910faa64d0a9ea571f0038b54",
+      "after": "c23df4845bc83adc901f807cb1741e8611e9aaf910faa64d0a9ea571f0038b54"
+    },
+    "src/mcoc_p2/e08/solver.py": {
+      "before": "e2c5e1c8c13ce2bf11acd2179e911c994473a94bc2b8e54c539f987040ec95bc",
+      "after": "e2c5e1c8c13ce2bf11acd2179e911c994473a94bc2b8e54c539f987040ec95bc"
+    },
+    "src/mcoc_p2/e08/__init__.py": {
+      "before": "c90060bbce92169a02c945ffcbd27e6b713b333f1c567bec8cbec0b8b38d3399",
+      "after": "c90060bbce92169a02c945ffcbd27e6b713b333f1c567bec8cbec0b8b38d3399"
+    },
+    "src/mcoc_p2/e09/analysis.py": {
+      "before": "bea152ed9fb49d0caf2171d705c3de7d2f4b9d6d061fb8447581a9fc411b8d9c",
+      "after": "bea152ed9fb49d0caf2171d705c3de7d2f4b9d6d061fb8447581a9fc411b8d9c"
+    },
+    "src/mcoc_p2/e09/pipeline.py": {
+      "before": "21ba3708c63d5e0d2084ba6619c7e44ee920a0322605096f2547eb0e6f7280be",
+      "after": "21ba3708c63d5e0d2084ba6619c7e44ee920a0322605096f2547eb0e6f7280be"
+    },
+    "src/mcoc_p2/e09/plots.py": {
+      "before": "72e341e703ce93b3a482cb26a3d885839fc4fd8579aca61094be487b4d837314",
+      "after": "72e341e703ce93b3a482cb26a3d885839fc4fd8579aca61094be487b4d837314"
+    },
+    "src/mcoc_p2/e09/verification.py": {
+      "before": "e4f0dca8a2bb86dd6c74acd307ac8f677ab00a50d2190f5a20fe6ccafd2db6bb",
+      "after": "e4f0dca8a2bb86dd6c74acd307ac8f677ab00a50d2190f5a20fe6ccafd2db6bb"
+    },
+    "src/mcoc_p2/e09/__init__.py": {
+      "before": "b9865f7825bb84d7a50dfa97ae5caff87bdab6ad5243592094f0188099a1e7fe",
+      "after": "b9865f7825bb84d7a50dfa97ae5caff87bdab6ad5243592094f0188099a1e7fe"
+    },
+    "src/mcoc_p2/e10/boundaries.py": {
+      "before": "4a48349c668b116f2dc19ddb6c7cdd78fdb856bc7e4cab6ba74a6fcfe38a0ec0",
+      "after": "4a48349c668b116f2dc19ddb6c7cdd78fdb856bc7e4cab6ba74a6fcfe38a0ec0"
+    },
+    "src/mcoc_p2/e10/weather.py": {
+      "before": "0567e96171ae646832c4649f7ab63d90853de8d613aaacf90ce5d90789bcdbe2",
+      "after": "0567e96171ae646832c4649f7ab63d90853de8d613aaacf90ce5d90789bcdbe2"
+    },
+    "src/mcoc_p2/e10/__init__.py": {
+      "before": "fd9928b7e59be8155dea9a47bd33287f979eddeb8cfcd9c3d1865fd04cdd8f58",
+      "after": "fd9928b7e59be8155dea9a47bd33287f979eddeb8cfcd9c3d1865fd04cdd8f58"
+    },
+    "vtk/e11/e11.pvd": {
+      "before": "991656bef73edc19dcc225959c40eabf77c0853e461e13554e99e37708198a21",
+      "after": "991656bef73edc19dcc225959c40eabf77c0853e461e13554e99e37708198a21"
+    },
+    "vtk/e11/manifest.json": {
+      "before": "21fa2cfba8a57194a40cfd8a4b1e8b6bd17ca40d2234c33a43f95c1efff80b54",
+      "after": "21fa2cfba8a57194a40cfd8a4b1e8b6bd17ca40d2234c33a43f95c1efff80b54"
+    },
+    "vtk/e11/state_00.vti": {
+      "before": "6b286dffaacf270853aaeec890681bbd3f7998dc08f939aeab5caba9854b2948",
+      "after": "6b286dffaacf270853aaeec890681bbd3f7998dc08f939aeab5caba9854b2948"
+    },
+    "vtk/e11/state_01.vti": {
+      "before": "b9b79bea8ac182adb5e55e5b0ee04f276ef96ba143a4caa908ae2d54aabfb2ce",
+      "after": "b9b79bea8ac182adb5e55e5b0ee04f276ef96ba143a4caa908ae2d54aabfb2ce"
+    },
+    "vtk/e11/state_02.vti": {
+      "before": "aaea19a24024eb669934fe19080e0a9fdee23874e156edc0214dec658ee903cb",
+      "after": "aaea19a24024eb669934fe19080e0a9fdee23874e156edc0214dec658ee903cb"
+    },
+    "vtk/e11/state_03.vti": {
+      "before": "65679cb5e91ad29803698ea6f13923193ddf794402e94e130e05f1eb83be7c8c",
+      "after": "65679cb5e91ad29803698ea6f13923193ddf794402e94e130e05f1eb83be7c8c"
+    }
+  },
+  "all_protected_unchanged": true,
+  "modified_code": {
+    "examples/run_e11.py": {
+      "before": "f37a9d42c63111452dba40d0ec948471a737ab432b2d5d1da4b9629c23758327",
+      "after": "41802490ccf7e95cb873430f6de08bbf4fdf9b5c21e89ca5fc9934f5b128a7c6"
+    },
+    "scripts/clean_project.py": {
+      "before": "735406fce414f0a9ae73d8fb89370437d3a7e8ffe9bab927fda0cd35418c528b",
+      "after": "c368864a9a46e4d7778c80487d2112101181a84ff5c0ef5c2477ddfe0b13d055"
+    },
+    "scripts/view_e11_pyvista.py": {
+      "before": "4e3f370da426dea20e3b4d698e413f26fce1509d17d71351d98d20b67a3e067a",
+      "after": "59ab255e92c64d8c366a5b9a5f4df5277992a049afcbb8fef1b26c2505f0fcea"
+    },
+    "web/abrir.py": {
+      "before": "d209c19209f5092d44cba571fcd2453e0118085538e9202c8e7339ec00631edc",
+      "after": "66048c9dea9b421e6f2776c09784c8db06673906217e1250211d91738bcb2249"
+    },
+    "web/app.js": {
+      "before": "e9214ab47c9e634620710f33ebf9af484ebeb8e76220d2c592d2bc921c545e35",
+      "after": "e5c32617e33efbffda63ff299bdac0b43842f482ab5b45ce29de4122bd40ba9a"
+    },
+    "web/index.html": {
+      "before": "fe23ccadce8530e3b30507e333cf4324f802bf289ec308e1d6e598904f29038f",
+      "after": "e8e77cfeefbbf168cd462c8f0ea568be2ea69000cda0816b0354142e540318f3"
+    },
+    "web/servidor.py": {
+      "before": "ca1fbccbd24b1a4a59c0d4e2840834bba81c0aa8ddfbb9b8e47933735a99a5b3",
+      "after": "741a3ac64f85ded8afc6bdeecab21b5e26af5e37de4967946c52d7bff1b5cedb"
+    },
+    "web/styles.css": {
+      "before": "5aa2fa6ffa84f314ef0e12cc6521e90e42e2efd890de7d21e51021e92a8771f5",
+      "after": "2e9dffd26206a95c1f1f946f53dc5a3de93618b4a99078d49f171e5065870a9c"
+    },
+    "src/mcoc_p2/e11/pipeline.py": {
+      "before": "a2fe981fbd9fc439541ab33b41ac8e36b3ed97d41f4276a8c5acb2eed941a388",
+      "after": "f410ef3e80a93415907b8294506671ffa789809afebb604e94d7bb754d85c45b"
+    },
+    "src/mcoc_p2/e11/viewer.py": {
+      "before": "f24dabb733f0b6aa9cd741f548606289bd4226b6ff736a54d915d4aa1a4075ae",
+      "after": "ed51944f85999642ee0569f9a614364f5f8d9916e12749689d1b44480b272966"
+    }
+  },
+  "E10_archive": {
+    "before": "2bfa49ec2cc8ffd4ff5fdd19db4a569a10d4c72c7390f92485481ad2e98fee19",
+    "after": "2bfa49ec2cc8ffd4ff5fdd19db4a569a10d4c72c7390f92485481ad2e98fee19",
+    "unchanged": true
+  },
+  "inherited_scientific_source_unchanged": {
+    "src/mcoc_p2/__init__.py": true,
+    "src/mcoc_p2/diffusion_1d.py": true,
+    "src/mcoc_p2/e07/__init__.py": true,
+    "src/mcoc_p2/e07/construction.py": true,
+    "src/mcoc_p2/e07/coupling.py": true,
+    "src/mcoc_p2/e07/faces.py": true,
+    "src/mcoc_p2/e07/geometry.py": true,
+    "src/mcoc_p2/e07/hydration.py": true,
+    "src/mcoc_p2/e07/ifc.py": true,
+    "src/mcoc_p2/e07/plots.py": true,
+    "src/mcoc_p2/e07/voxel.py": true,
+    "src/mcoc_p2/e08/__init__.py": true,
+    "src/mcoc_p2/e08/inputs.py": true,
+    "src/mcoc_p2/e08/pipeline.py": true,
+    "src/mcoc_p2/e08/plots.py": true,
+    "src/mcoc_p2/e08/solver.py": true,
+    "src/mcoc_p2/e09/__init__.py": true,
+    "src/mcoc_p2/e09/analysis.py": true,
+    "src/mcoc_p2/e09/pipeline.py": true,
+    "src/mcoc_p2/e09/plots.py": true,
+    "src/mcoc_p2/e09/verification.py": true,
+    "src/mcoc_p2/e10/__init__.py": true,
+    "src/mcoc_p2/e10/boundaries.py": true,
+    "src/mcoc_p2/e10/weather.py": true,
+    "src/mcoc_p2/housekeeping.py": true,
+    "src/mcoc_p2/thermal_nd.py": true,
+    "src/mcoc_p2/verification_e05.py": true
+  },
+  "scope": "Inventario antes de integrar y comprobación posterior de inputs, snapshot, IFC, resultados oficiales y fuente científica heredada; metadata de auditoría y estado son actualizables. No se escribió fuera de E11."
+}

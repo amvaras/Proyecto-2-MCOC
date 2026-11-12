@@ -1,0 +1,5 @@
+# Preservar los bytes del ZIP y sus inventarios SHA256 al publicar.
+* -text !eol
+*.png binary
+*.npz binary
+*.whl binary

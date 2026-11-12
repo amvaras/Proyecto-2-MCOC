@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian"><Collection><DataSet timestep="0.0" group="" part="0" file="state_00.vti" /><DataSet timestep="43200.0" group="" part="0" file="state_01.vti" /><DataSet timestep="64800.0" group="" part="0" file="state_02.vti" /><DataSet timestep="129600.0" group="" part="0" file="state_03.vti" /></Collection></VTKFile>

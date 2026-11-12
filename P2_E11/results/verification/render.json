@@ -1,0 +1,19 @@
+{
+  "full": {
+    "file": "e11_3d_puntos.png",
+    "points_identified": 3
+  },
+  "slice": {
+    "file": "e11_slice.png",
+    "points_identified": 3
+  },
+  "clip": {
+    "file": "e11_clip.png",
+    "points_identified": 3
+  },
+  "filters": {
+    "active_cells": 7730,
+    "slice_cells": 366,
+    "clipped_cells": 4097
+  }
+}

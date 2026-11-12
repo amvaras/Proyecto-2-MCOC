@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<VTKFile type="ImageData" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <ImageData WholeExtent="0 33 0 33 0 16" Origin="-9 -8.999999999999998 0" Spacing="0.55 0.55 0.275" Direction="1 0 0 0 1 0 0 0 1">
+    <FieldData>
+      <Array type="String" Name="temperature_units" NumberOfTuples="1" format="binary">
+        AQAAAACAAAAFAAAADQAAAA==eF5LSU13ZgAABUgBdA==
+      </Array>
+      <Array type="String" Name="length_units" NumberOfTuples="1" format="binary">
+        AQAAAACAAAACAAAACgAAAA==eF7LZQAAANwAbg==
+      </Array>
+      <Array type="String" Name="undefined_temperature" NumberOfTuples="1" format="binary">
+        AQAAAACAAAAjAAAAKQAAAA==eF4zUMgsVkjLzMmxVigtTlVITC7JLANSeSkK+cnJpQWZqSkMANJ5C/c=
+      </Array>
+      <DataArray type="Float64" Name="elapsed_s" NumberOfTuples="1" format="binary" RangeMin="0" RangeMax="0">
+        AQAAAACAAAAIAAAACwAAAA==eF5jYIAAAAAIAAE=
+      </DataArray>
+      <Array type="String" Name="simulation_start_utc" NumberOfTuples="1" format="binary">
+        AQAAAACAAAAVAAAAGwAAAA==eF4zMjAy0zU01DU0CjE0sjIwAKIoBgAuVgQv
+      </Array>
+    </FieldData>
+  <Piece Extent="0 33 0 33 0 16">
+    <PointData>
+    </PointData>
+    <CellData Scalars="temperature_C">
+      <DataArray type="Float64" Name="temperature_C" format="binary" RangeMin="0" RangeMax="23">
+        BQAAAACAAACAIAAA8AAAADQAAAA0AAAANAAAAB8AAAA=eF7tzjEOQjEMREFuRcv9T0VFg4SWD0nsRDPNaxLbt9tI90dNu0h3rmqVdFdVV0l3dOksaW/XjpL27NJfpbm79ltpzin9JP07tS/pnaqqqqqqqqpe77v0/rQm6f/uvSrN263/SvO7d7S0r1tnS/uru1q6Z3Wrpftmt5t07+h2le6e1S7SnataJd1V1VXSHV06S9rbtaOkPbv0V2nurv1WmnNKP0n/Tu1Leqeqqqqqqqqq1/suvT+tSfq/e69K83brv9L87h0t7evW2dL+6q6W7lndaum+2e0m3Tu6AAAAAAAAAAAAAAAAAADACZ7eR0P4eF7twQEBAAAAgJD+r+4ICgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYgAAAAXhe7cEBAQAAAICQ/q/uCAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGIAAAAF4Xu3BAQEAAACAkP6v7ggKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABiAAAABeF7twTEBAAAAwqD1T20IX6AAAAAAAAAAAD4DIIAAAQ==
+      </DataArray>
+      <DataArray type="UInt16" Name="vertida_id" format="binary" RangeMin="0" RangeMax="5">
+        AgAAAACAAAAgCAAAyQIAAEAAAAA=eF7t1uuOGkEMBWFy2fd/5ai1SkSgpz/3mI2AnPJfVwlx8XC53PJtOWbtuyFbDZlqyFJDhhraVkObamhLDW1kMpnXnO596N6oa7Qr/0xjhhz5O40VcuVXGhW6vl6FWftuyFZDphqy1JChhrbV0KYa2lJDG5lM5jWnex+6N+oa7co/05ghR/5OY4Vc+ZVGha5/uXxfjln7bshWQ6YastSQoYa21dCmGtpSQxuZTOY1p3sfujfqGu3KP9OYIUf+TmOFXPmVRoWur1dh1r4bstWQqYYsNWSooW01tKmGttTQRiaTec3p3ofujbpGu/LPNGbIkb/TWCFXfqVRoes/gh/LMWvfDdlqyFRDlhoy1NC2GtpUQ1tuaCeFyqSQwiMLv9Ge/LONW7Qvf7dxhDz51Ybo+oOu/z5034fVO1lprH03ZKshUw1ZashQQ9tqaNMN7aWgSeEdC2cbf6Nt+fuNObLk1xtrZMsfdP1B1w+PpPtJdD/NY7/WWPtuyFZDphqy1JChhrbd0G4KKXgeWzjTuEeG/L3GMTLl1xqm6w+6/qDrh/ei+23ofiOP/Gpj5Vca8tWQq4Y8NeS4ISOFFPYKu405suTXG2tkyx90/UHXH3T9EN6Rn9OpM/frjWO/1lj7bshWQ6Yb8lJI4WsKK+TKrzQqdP1B1x90/RDCV9H9bXbvw9yvN479WmPtuyHbDbkp/F+FSsN0/UHXH3T9QdcPIbwz3evQvTDdKzf3641jv9ZY+5WG/BT+XUGNGl1/0PUHXX/Q9UMI4SvpXqjulby/s3uNmb/TOPLrjRQ+6Rfy9A8hhLDHx585w8fN7HLr7zdmhZ3G3H9Eod545sIO/cKssU/X/6RnhxBCEL1L3X1a3D9vdhuzwk5j7j+iUG88c2GHfiH/QEII4f+hd6m7T4v7581uY1bYacz9RxTqjWcu7NAv5B9ICM/OL044Syt4XmNgGAWjgFqAFQ7JAaxokFSArp90M7CZQIoZ2PVTwwTizRjMJpACKDcBmxmkA0r1QwBlukfBKBgYAAC0UAJ8
+      </DataArray>
+      <DataArray type="UInt8" Name="occupied" format="binary" RangeMin="0" RangeMax="1">
+        AQAAAACAAAAQRAAAvAEAAA==eF7t1dluhDAQRFH8/z+dKJogbAzHs0ksdV+rpIzp251pelBqppbSorxpdPKq0c0XjY18bmzmj8ZO/tfYzX8byMOlkA8ySk7K6ln7jca0QHmvMTUobxvrPAdkH+XhUsgHGSUnZfWsfQ7ITp4DEg6KfJBRclJWz9rngOzkOSDhoMgHGSUnZfWs/XkOCNGfKC3KL3ZhUrhOQT7IKDk5S3uh+/AB9BvqH3m/E5TCgQqcpn2wUXbSVnsvvFnezZOgR+iZpUa5R+FhWgcLZSX/Gyl8qsBZeJr2wUbZSVvtvfBm3QV9Bn3IUqF83WjztrHO60YvXzb6uaVOoS1k/cNX0Cw0zVKj3MbZ2YEblMJYYapQvm60edtY53Wjly8b/TycCk1TPpQlyr9wglLYbEwtyj1N+2Cjws2QDhJGypUlyr0W/sd6zgK/g7+kZ+Fp2ocQnkNCSUlJXRYo92IdtZD1D2EDOCvrx/fGm+fCa9v9VKGX+xUfug+IQzgckFprMb5YA/eBBa7/+4Ve7lfkgISbAqm1FuOLNXAfWOD6v1/o5X5FDki4KZBaazG+WAP3gQWu//uFXu5X5IAcnh+XMB4z
+      </DataArray>
+      <DataArray type="UInt8" Name="active" format="binary" RangeMin="0" RangeMax="1">
+        AQAAAACAAAAQRAAAeQAAAA==eF7t1EEKwzAQA8DN/z/dUoJJtrZ1Tpi5SkehqtNxV93Rpbw1JvmtMc0vjUU+Gsv8bGzyX2Obfxsh51XSHtKi0ibTqsfsF426SPmsUU3Ke+M/dyB7KedV0h7SotIm06rH7J9zIAAAAAAAAAAAAAAAAAAAQPMBqDkHBw==
+      </DataArray>
+    </CellData>
+  </Piece>
+  </ImageData>
+</VTKFile>

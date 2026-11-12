@@ -1,0 +1,594 @@
+{
+  "status": "PASS",
+  "configuration": {
+    "ifc": "geometry/foundation.ifc",
+    "snapshot": "data/weather/forecast-20261112T115248035648Z-d4253f02dc40",
+    "simulation_start_utc": "2026-11-12T12:00:00.000Z",
+    "constant_reference_C": 25,
+    "physics": {
+      "description": "E09 baseline ilustrativo 14 días; no calibrado a Freirina",
+      "spacing_m": [
+        0.55,
+        0.55,
+        0.275
+      ],
+      "resolutions_m": [
+        0.55,
+        0.275,
+        0.1375
+      ],
+      "margin_m": 0,
+      "t_end_s": 129600,
+      "max_step_s": 900,
+      "save_interval_s": 10800,
+      "safety": 0.8,
+      "energy_reference_C": 20,
+      "h_W_m2K": 18,
+      "ambient_C": 25,
+      "boundaries": {
+        "z-": {
+          "type": "adiabatic"
+        }
+      },
+      "material": {
+        "k": 2,
+        "rho": 2400,
+        "cp": 900
+      },
+      "hydration": {
+        "H_vol_J_m3": 64800000,
+        "duration_s": 172800
+      },
+      "events": [
+        {
+          "pour_id": 1,
+          "activation_s": 0,
+          "initial_C": 23
+        },
+        {
+          "pour_id": 2,
+          "activation_s": 10800,
+          "initial_C": 19
+        },
+        {
+          "pour_id": 3,
+          "activation_s": 36000,
+          "initial_C": 20
+        },
+        {
+          "pour_id": 4,
+          "activation_s": 54000,
+          "initial_C": 21
+        },
+        {
+          "pour_id": 5,
+          "activation_s": 72000,
+          "initial_C": 22
+        }
+      ]
+    },
+    "core_target_m": [
+      0,
+      0,
+      1.65
+    ],
+    "export_hours": [
+      0,
+      12,
+      36
+    ],
+    "environment": {
+      "air": {
+        "h_still_W_m2K": 18,
+        "h_wind_per_m_s": 0,
+        "solar_absorptivity": 0
+      },
+      "soil": {
+        "temperature_C": 18,
+        "depth_m": 0.4,
+        "conductivity_W_mK": 1.5,
+        "contact_m2K_W": 0.025,
+        "adiabatic": false
+      },
+      "formwork": {
+        "orientations": [
+          "x-",
+          "x+",
+          "y-",
+          "y+"
+        ],
+        "remove_at_s": 65700,
+        "layers": [
+          {
+            "name": "tablero",
+            "thickness_m": 0.018,
+            "conductivity_W_mK": 0.13
+          },
+          {
+            "name": "aislacion",
+            "thickness_m": 0.025,
+            "conductivity_W_mK": 0.04
+          }
+        ]
+      }
+    }
+  },
+  "simulation_start_utc": "2026-11-12T12:00:00Z",
+  "simulation_end_utc": "2026-11-14T00:00:00Z",
+  "coverage": {
+    "start_utc": "2026-11-12T12:00:00Z",
+    "end_utc": "2026-11-14T00:00:00Z",
+    "covered_hours": 36.0,
+    "tail_hours": 0.0,
+    "tail_from_utc": null,
+    "tail_assumptions": null
+  },
+  "weather_metadata": {
+    "schema_version": 1,
+    "kind": "forecast",
+    "source": "Open-Meteo",
+    "model_requested": "auto",
+    "provider_run_utc": null,
+    "retrieved_at_utc": "2026-11-12T11:52:48.035648+00:00",
+    "latitude": -28.856102,
+    "longitude": -71.421831,
+    "grid_latitude": -28.857645,
+    "grid_longitude": -71.46451,
+    "timezone": "UTC",
+    "site_timezone": "America/Santiago",
+    "variables": [
+      "temperature_2m",
+      "wind_speed_10m",
+      "shortwave_radiation"
+    ],
+    "units": {
+      "temperature_2m": "°C",
+      "wind_speed_10m": "m/s",
+      "shortwave_radiation": "W/m²"
+    },
+    "request_url": "https://api.open-meteo.com/v1/forecast?latitude=-28.856102&longitude=-71.421831&hourly=temperature_2m%2Cwind_speed_10m%2Cshortwave_radiation&temperature_unit=celsius&wind_speed_unit=ms&timezone=GMT&timeformat=unixtime&forecast_days=3",
+    "valid_from_utc": "2026-11-12T00:00:00Z",
+    "valid_until_utc": "2026-11-14T23:00:00Z",
+    "raw_sha256": "d4253f02dc40a0871acbee04bb4598dd6d3e68ec709012cb353f3753b49e2b42",
+    "e11_schema": 1,
+    "endpoint": "https://api.open-meteo.com/v1/forecast",
+    "query_parameters": {
+      "latitude": [
+        "-28.856102"
+      ],
+      "longitude": [
+        "-71.421831"
+      ],
+      "hourly": [
+        "temperature_2m,wind_speed_10m,shortwave_radiation"
+      ],
+      "temperature_unit": [
+        "celsius"
+      ],
+      "wind_speed_unit": [
+        "ms"
+      ],
+      "timezone": [
+        "GMT"
+      ],
+      "timeformat": [
+        "unixtime"
+      ],
+      "forecast_days": [
+        "3"
+      ]
+    },
+    "normalized_sha256": "3eba4b438546cd55dbd778796b593ed44ccfdd43d0111b2b5cce637814b25f09",
+    "interval_s": 3600,
+    "provider_elevation_m": 145.0,
+    "provider_timezone": "GMT",
+    "provider_model_version": null,
+    "interpolation": "linear; reject outside interval; no extrapolation or scenario tail",
+    "license_url": "https://open-meteo.com/en/licence",
+    "representativeness": "Forecast de grilla, no medición de estación ni punto exacto de construcción. Elevación reportada por proveedor, no levantamiento de obra.",
+    "unused_variables": "Viento y GHI se preservan en respuesta original; no entran en el baseline E11."
+  },
+  "ifc_sha256": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a",
+  "grid": {
+    "origin_m": [
+      -9.0,
+      -8.999999999999998,
+      0.0
+    ],
+    "spacing_m": [
+      0.55,
+      0.55,
+      0.275
+    ],
+    "shape": [
+      33,
+      33,
+      16
+    ],
+    "upper_m": [
+      9.150000000000002,
+      9.150000000000004,
+      4.4
+    ],
+    "axes": "XYZ; array[i,j,k]; C-order",
+    "cell_volume_m3": 0.08318750000000003,
+    "grid_cells": 17424,
+    "occupied_cells": 7730,
+    "volume_voxel_m3": 643.0393750000003,
+    "volume_reference_mesh_m3": 636.8777175824058,
+    "absolute_error_m3": 6.161657417594483,
+    "relative_error": 0.009674788813438468,
+    "signed_error_m3": 6.161657417594483,
+    "sum_absolute_pour_errors_m3": 9.18410578183925,
+    "max_pour_relative_error": 0.09829352785719131,
+    "boundary_ties": 0,
+    "by_pour": [
+      {
+        "vertida_id": 1,
+        "guid": "0oY4bM1krVGQdxfBrXmxJm",
+        "cells": 1798,
+        "volume_voxel_m3": 149.57112500000005,
+        "volume_reference_m3": 147.62571362977107,
+        "absolute_error_m3": 1.9454113702289817,
+        "signed_error_m3": 1.9454113702289817,
+        "relative_error": 0.013177998076323328
+      },
+      {
+        "vertida_id": 2,
+        "guid": "3hfPF39u1QnvSBQJFmy$c2",
+        "cells": 1798,
+        "volume_voxel_m3": 149.57112500000005,
+        "volume_reference_m3": 147.6257136297711,
+        "absolute_error_m3": 1.9454113702289533,
+        "signed_error_m3": 1.9454113702289533,
+        "relative_error": 0.013177998076323133
+      },
+      {
+        "vertida_id": 3,
+        "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+        "cells": 2561,
+        "volume_voxel_m3": 213.04318750000007,
+        "volume_reference_m3": 214.2243508999919,
+        "absolute_error_m3": 1.1811633999918172,
+        "signed_error_m3": -1.1811633999918172,
+        "relative_error": 0.005513674776137982
+      },
+      {
+        "vertida_id": 4,
+        "guid": "1jVXFE7TLGsO88Iyj_MihB",
+        "cells": 1065,
+        "volume_voxel_m3": 88.59468750000002,
+        "volume_reference_m3": 88.92474828213061,
+        "absolute_error_m3": 0.3300607821305874,
+        "signed_error_m3": -0.3300607821305874,
+        "relative_error": 0.003711686437204265
+      },
+      {
+        "vertida_id": 5,
+        "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+        "cells": 508,
+        "volume_voxel_m3": 42.259250000000016,
+        "volume_reference_m3": 38.477191140741105,
+        "absolute_error_m3": 3.7820588592589104,
+        "signed_error_m3": 3.7820588592589104,
+        "relative_error": 0.09829352785719131
+      }
+    ]
+  },
+  "probes": [
+    {
+      "name": "nucleo",
+      "index": [
+        16,
+        16,
+        5
+      ],
+      "coordinate_m": [
+        0.07500000000000107,
+        0.07500000000000284,
+        1.5125000000000002
+      ],
+      "vertida_id": 3,
+      "kind": "cell_center",
+      "target_m": [
+        0.0,
+        0.0,
+        1.65
+      ]
+    },
+    {
+      "name": "superficie_superior",
+      "index": [
+        16,
+        16,
+        15
+      ],
+      "coordinate_m": [
+        0.07500000000000107,
+        0.07500000000000284,
+        4.4
+      ],
+      "cell_center_m": [
+        0.07500000000000107,
+        0.07500000000000284,
+        4.2625
+      ],
+      "vertida_id": 5,
+      "kind": "reconstructed_face",
+      "face": "z+",
+      "half_cell_m": 0.1375,
+      "target_m": [
+        0.07500000000000107,
+        0.07500000000000284,
+        4.4
+      ]
+    },
+    {
+      "name": "superficie_lateral",
+      "index": [
+        32,
+        16,
+        3
+      ],
+      "coordinate_m": [
+        9.15,
+        0.07500000000000284,
+        0.9625000000000001
+      ],
+      "cell_center_m": [
+        8.875,
+        0.07500000000000284,
+        0.9625000000000001
+      ],
+      "vertida_id": 2,
+      "kind": "reconstructed_face",
+      "face": "x+",
+      "half_cell_m": 0.275,
+      "target_m": [
+        9.15,
+        0.07500000000000284,
+        1.5125000000000002
+      ]
+    }
+  ],
+  "peaks": {
+    "weather": {
+      "temperature_C": 43.974141890685274,
+      "time_h": 36.0,
+      "index": [
+        15,
+        15,
+        1
+      ],
+      "coordinate_m": [
+        -0.47499999999999964,
+        -0.47499999999999787,
+        0.41250000000000003
+      ],
+      "vertida_id": 1
+    },
+    "constant": {
+      "temperature_C": 44.4028163931365,
+      "time_h": 36.0,
+      "index": [
+        9,
+        29,
+        1
+      ],
+      "coordinate_m": [
+        -3.7749999999999995,
+        7.225000000000003,
+        0.41250000000000003
+      ],
+      "vertida_id": 1
+    }
+  },
+  "energy": {
+    "weather": {
+      "reference_C": 20,
+      "initial_J": 969220890.0000001,
+      "final_J": 24592531180.74615,
+      "hydration_J": 26609910095.173065,
+      "outward_J": 3037450659.4269247,
+      "placement_after_zero_J": 50850855.0,
+      "residual_J": 1.049041748046875e-05,
+      "max_step_residual_J": 5.751848220825195e-06,
+      "tolerance_J": 0.2763008184017307
+    },
+    "constant": {
+      "reference_C": 20,
+      "initial_J": 969220890.0000001,
+      "final_J": 26089053568.299316,
+      "hydration_J": 26609910095.173065,
+      "outward_J": 1540928271.873762,
+      "placement_after_zero_J": 50850855.0,
+      "residual_J": 1.3113021850585938e-05,
+      "max_step_residual_J": 3.4794211387634277e-06,
+      "tolerance_J": 0.2763008184017307
+    }
+  },
+  "checks": {
+    "weather": {
+      "global_energy_balance": true,
+      "step_energy_balance": true,
+      "hydration_potential": true,
+      "stable_steps": true,
+      "events_reached": true,
+      "inactive_is_nan": true,
+      "final_time_exact": true
+    },
+    "constant": {
+      "global_energy_balance": true,
+      "step_energy_balance": true,
+      "hydration_potential": true,
+      "stable_steps": true,
+      "events_reached": true,
+      "inactive_is_nan": true,
+      "final_time_exact": true
+    }
+  },
+  "comparison": {
+    "final_field_Linf_C": 4.467202535230161,
+    "Tmax_max_difference_C": 0.5436679851207806,
+    "final_core_C": {
+      "weather": 37.616005864178206,
+      "constant": 37.906884405657706
+    },
+    "final_top_face_C": {
+      "weather": 21.952642531495044,
+      "constant": 26.94463086162388
+    },
+    "max_core_top_difference_C": {
+      "weather": 15.663363332683161,
+      "constant": 10.962253544033825
+    },
+    "outward_energy_difference_J": 1496522387.5531628
+  },
+  "same_time_steps": true,
+  "activation_events": [
+    {
+      "time_s": 0.0,
+      "vertida_ids": [
+        1
+      ],
+      "placement_energy_J": 969220890.0000001
+    },
+    {
+      "time_s": 10800.0,
+      "vertida_ids": [
+        2
+      ],
+      "placement_energy_J": -323073630.0000001
+    },
+    {
+      "time_s": 36000.0,
+      "vertida_ids": [
+        3
+      ],
+      "placement_energy_J": 0.0
+    },
+    {
+      "time_s": 54000.0,
+      "vertida_ids": [
+        4
+      ],
+      "placement_energy_J": 191364525.00000006
+    },
+    {
+      "time_s": 72000.0,
+      "vertida_ids": [
+        5
+      ],
+      "placement_energy_J": 182559960.00000006
+    }
+  ],
+  "saved_frames": 15,
+  "steps": 144,
+  "assumption": "Temperatura meteorológica variable y h constante; sin viento ni radiación explícitos. Suelo resistivo y moldaje E10 declarados; sin calibración de obra.",
+  "storage": "Campos [frame, occupied C-order]; ceros solo como relleno junto a active. Probes son núcleo en centro y temperatura de cara de hormigón reconstruida Tc-q_out*R_half.",
+  "source_sha256": {
+    "src/mcoc_p2/__init__.py": "f78e88589677fd11447ae7b7edb0aff25fcb5d888485a30ffb15222e31dd8f6a",
+    "src/mcoc_p2/diffusion_1d.py": "154406eb286d54ce6c06b1a17658f8fe6492eaf5aa07a759c1d179c1fc34b762",
+    "src/mcoc_p2/e07/__init__.py": "9d08445a8e30a0630e93fb9659ee243226abab707cc056a6745043e78bd62a47",
+    "src/mcoc_p2/e07/construction.py": "1f8bb8086213354aa6f26350d7ee54e85d6cff5bd8734f0622825d9a3fbdd507",
+    "src/mcoc_p2/e07/coupling.py": "0bcdb505cb886b9aaed6805a4079bae415b2030261b20a64c85144b30c5802ee",
+    "src/mcoc_p2/e07/faces.py": "c0b26f3601ebe05d669f2f528b588dddf391d53fde801d800f4add1d14c1d02c",
+    "src/mcoc_p2/e07/geometry.py": "e5a941dcebd3a36bbde3209a304c8ac7d29e3888a4ad61fec5c5eb0c1880fd03",
+    "src/mcoc_p2/e07/hydration.py": "fbebc14430906009d795bf864c6fb0f3bbc17808c33717d4be05b94f9831beee",
+    "src/mcoc_p2/e07/ifc.py": "ad4aa931fd87eb0a09a0c8fc1e318283086f5199b1e13dd5f134d5b261359e2b",
+    "src/mcoc_p2/e07/plots.py": "57e08c13a2b00d427c08bba3e0636df1e2d84c6b9db1da5c05b94abca0d2d1e0",
+    "src/mcoc_p2/e07/voxel.py": "f693ea9e0ff075cc33ab4072c983f8d5d58446ac93c7b13af440266c146b6988",
+    "src/mcoc_p2/e08/__init__.py": "c90060bbce92169a02c945ffcbd27e6b713b333f1c567bec8cbec0b8b38d3399",
+    "src/mcoc_p2/e08/inputs.py": "0d4d16dac354988f68715b61a9c046a6155ba0f59d4e37b4128be718a89133b4",
+    "src/mcoc_p2/e08/pipeline.py": "468eead518a248681221a0138a0b85d89bf60422e99cfcaa9f864cabf3a39626",
+    "src/mcoc_p2/e08/plots.py": "c23df4845bc83adc901f807cb1741e8611e9aaf910faa64d0a9ea571f0038b54",
+    "src/mcoc_p2/e08/solver.py": "e2c5e1c8c13ce2bf11acd2179e911c994473a94bc2b8e54c539f987040ec95bc",
+    "src/mcoc_p2/e09/__init__.py": "b9865f7825bb84d7a50dfa97ae5caff87bdab6ad5243592094f0188099a1e7fe",
+    "src/mcoc_p2/e09/analysis.py": "bea152ed9fb49d0caf2171d705c3de7d2f4b9d6d061fb8447581a9fc411b8d9c",
+    "src/mcoc_p2/e09/pipeline.py": "21ba3708c63d5e0d2084ba6619c7e44ee920a0322605096f2547eb0e6f7280be",
+    "src/mcoc_p2/e09/plots.py": "72e341e703ce93b3a482cb26a3d885839fc4fd8579aca61094be487b4d837314",
+    "src/mcoc_p2/e09/verification.py": "e4f0dca8a2bb86dd6c74acd307ac8f677ab00a50d2190f5a20fe6ccafd2db6bb",
+    "src/mcoc_p2/e10/__init__.py": "fd9928b7e59be8155dea9a47bd33287f979eddeb8cfcd9c3d1865fd04cdd8f58",
+    "src/mcoc_p2/e10/boundaries.py": "4a48349c668b116f2dc19ddb6c7cdd78fdb856bc7e4cab6ba74a6fcfe38a0ec0",
+    "src/mcoc_p2/e10/weather.py": "0567e96171ae646832c4649f7ab63d90853de8d613aaacf90ce5d90789bcdbe2",
+    "src/mcoc_p2/e11/__init__.py": "83d9b3382e60d0501eee40c0de22723511e443a2b535033d8953bdf6b63ec6cd",
+    "src/mcoc_p2/e11/pipeline.py": "f410ef3e80a93415907b8294506671ffa789809afebb604e94d7bb754d85c45b",
+    "src/mcoc_p2/e11/plots.py": "1da9fc8f137530f3de6ba5906975351b3f4f69a394fa1d4e4671d8955bda3520",
+    "src/mcoc_p2/e11/viewer.py": "ed51944f85999642ee0569f9a614364f5f8d9916e12749689d1b44480b272966",
+    "src/mcoc_p2/e11/vtkio.py": "920448bcc193e52395b29f48b8449976749510f3b81589a8251d9e81ab6d3320",
+    "src/mcoc_p2/e11/weather.py": "d1f2e906430bb0d7f1ed3a183a5564db4b8ae9138920798c2bfe9421e28984fe",
+    "src/mcoc_p2/e11/webdata.py": "e0b8915f9ea04a8f9e5f5e8a162ad972eced9690f8729caf21a0c945fb6458f2",
+    "src/mcoc_p2/housekeeping.py": "72105463b6cb08f367b80701ee1f187de6a193b8d15c00a3133d8664662d193a",
+    "src/mcoc_p2/thermal_nd.py": "d1d870072f4fb789fb4230fdc4a3ff7009502d68bf392a909666e7066f3d7ab6",
+    "src/mcoc_p2/verification_e05.py": "95881caec8fa4405b05ac2443d7afec3504d60a9c36e4c2313e82542decaf0be"
+  },
+  "elapsed_s": 0.8784062000049744,
+  "vtk": {
+    "states": [
+      {
+        "file": "state_00.vti",
+        "frame": 0,
+        "time_h": 0.0,
+        "sha256": "959eddf635e1d0ede0b76831f42704901b5c5ade92df5c22ccf508047006dcd5",
+        "validation": {
+          "status": "PASS",
+          "cells": 17424,
+          "active_cells": 1798,
+          "array_order": "VTK x-fast; NumPy XYZ flattened F; tested every cell and field",
+          "exact_temperature_equality": true
+        }
+      },
+      {
+        "file": "state_01.vti",
+        "frame": 5,
+        "time_h": 12.0,
+        "sha256": "fd23d9de964f012b38653307cac9ae9602860e1de99f2e9d42709eba5d7e4825",
+        "validation": {
+          "status": "PASS",
+          "cells": 17424,
+          "active_cells": 6157,
+          "array_order": "VTK x-fast; NumPy XYZ flattened F; tested every cell and field",
+          "exact_temperature_equality": true
+        }
+      },
+      {
+        "file": "state_02.vti",
+        "frame": 7,
+        "time_h": 18.0,
+        "sha256": "82b0810ea20a4271915dc339920bfd03c0e3cd24b7890250b4ef509b1fd59078",
+        "validation": {
+          "status": "PASS",
+          "cells": 17424,
+          "active_cells": 7222,
+          "array_order": "VTK x-fast; NumPy XYZ flattened F; tested every cell and field",
+          "exact_temperature_equality": true
+        }
+      },
+      {
+        "file": "state_03.vti",
+        "frame": 14,
+        "time_h": 36.0,
+        "sha256": "5cd39b084a98ad08d98ab60473bdc9db0235fd20c8e0c58819b3db1238e3623d",
+        "validation": {
+          "status": "PASS",
+          "cells": 17424,
+          "active_cells": 7730,
+          "array_order": "VTK x-fast; NumPy XYZ flattened F; tested every cell and field",
+          "exact_temperature_equality": true
+        }
+      }
+    ],
+    "collection": "results/web_runs/5b32e0d930d949888f8bd6c42feb65ac/vtk/e11.pvd",
+    "pvd_read_verified": true
+  },
+  "figures": {
+    "files": [
+      "e11_ambiente.png",
+      "e11_tmax.png",
+      "e11_comparacion.png",
+      "e11_flujos.png",
+      "e11_campos_finales.png"
+    ],
+    "fields_sha256": "09f61b8d9c4e83d5c270a4d63727999ee8f6bbdfdc280ef936677a05e6bdfd5d"
+  }
+}

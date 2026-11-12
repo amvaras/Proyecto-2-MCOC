@@ -1,0 +1,87 @@
+{
+  "physics": {
+    "description": "E09 baseline ilustrativo 14 días; no calibrado a Freirina",
+    "spacing_m": [
+      0.275,
+      0.275,
+      0.1375
+    ],
+    "resolutions_m": [
+      0.55,
+      0.275,
+      0.1375
+    ],
+    "margin_m": 0,
+    "t_end_s": 1209600,
+    "max_step_s": 900,
+    "save_interval_s": 10800,
+    "safety": 0.8,
+    "energy_reference_C": 20,
+    "h_W_m2K": 8,
+    "ambient_C": 20,
+    "boundaries": {
+      "z-": {
+        "type": "adiabatic"
+      }
+    },
+    "material": {
+      "k": 2,
+      "rho": 2400,
+      "cp": 900
+    },
+    "hydration": {
+      "H_vol_J_m3": 64800000,
+      "duration_s": 172800
+    },
+    "events": [
+      {
+        "pour_id": 1,
+        "activation_s": 0,
+        "initial_C": 18
+      },
+      {
+        "pour_id": 2,
+        "activation_s": 18000,
+        "initial_C": 19
+      },
+      {
+        "pour_id": 3,
+        "activation_s": 36000,
+        "initial_C": 20
+      },
+      {
+        "pour_id": 4,
+        "activation_s": 54000,
+        "initial_C": 21
+      },
+      {
+        "pour_id": 5,
+        "activation_s": 72000,
+        "initial_C": 22
+      }
+    ]
+  },
+  "analysis": {
+    "core_target_m": [
+      0,
+      0,
+      1.65
+    ],
+    "horizontal_z_m": 1.65,
+    "panel_hours": [
+      0,
+      6,
+      12,
+      24,
+      36,
+      48,
+      72,
+      96,
+      120,
+      168,
+      240,
+      336
+    ],
+    "animation": true
+  }
+}
