@@ -1,0 +1,3 @@
+# Conservar las huellas de los archivos de entrada archivados.
+data/** -text
+*.npz binary

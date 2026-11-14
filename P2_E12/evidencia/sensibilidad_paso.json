@@ -1,0 +1,68 @@
+{
+  "same_case": true,
+  "baseline_dt_s": 900,
+  "refined_dt_s": 450,
+  "steps": 2688,
+  "peak": {
+    "temperature_C": 109.75457371718277,
+    "time_s": 311400.0,
+    "xyz_m": [
+      -0.0625,
+      -0.062499999999998224,
+      2.40625
+    ],
+    "pour_id": 4,
+    "utc": "2026-12-01T01:30:00Z",
+    "hour": 86.5
+  },
+  "differential": {
+    "difference_C": 90.67488512340101,
+    "time_s": 427500.0,
+    "hot": {
+      "temperature_C": 109.02809206462156,
+      "xyz_m": [
+        -0.0625,
+        -0.062499999999998224,
+        2.2687500000000003
+      ],
+      "pour_id": 4
+    },
+    "cold": {
+      "temperature_C": 18.353206941220545,
+      "face": "x+",
+      "classification": "lateral",
+      "xyz_m": [
+        3.9000000000000012,
+        -8.862499999999999,
+        1.03125
+      ],
+      "pour_id": 2
+    },
+    "utc": "2026-12-02T09:45:00Z",
+    "hour": 118.75
+  },
+  "change_Tmax_C": -0.005359271256835996,
+  "change_delta_Tmax_C": -0.01719225347636666,
+  "temperature_pass": false,
+  "difference_pass": false,
+  "energy": {
+    "reference_C": 20,
+    "initial_J": -632850570.0000001,
+    "final_J": 41547846866.01593,
+    "hydration_J": 121381108867.78618,
+    "outward_J": 79235000794.27036,
+    "placement_after_zero_J": 34589362.50000006,
+    "residual_J": 0.00010675191879272461,
+    "max_step_residual_J": 3.222376108169556e-05,
+    "tolerance_J": 1.2141579823028623
+  },
+  "checks": {
+    "global_energy_balance": true,
+    "step_energy_balance": true,
+    "hydration_potential": true,
+    "stable_steps": true,
+    "events_reached": true,
+    "inactive_is_nan": true,
+    "final_time_exact": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "kind": "reanalysis",
+  "source": "Open-Meteo Historical Weather",
+  "model_requested": "ERA5",
+  "provider_run_utc": null,
+  "retrieved_at_utc": "2026-11-14T00:17:41.661177+00:00",
+  "latitude": -28.856102,
+  "longitude": -71.421831,
+  "grid_latitude": -28.75,
+  "grid_longitude": -71.25,
+  "timezone": "UTC",
+  "site_timezone": "America/Santiago",
+  "variables": [
+    "temperature_2m",
+    "wind_speed_10m",
+    "shortwave_radiation"
+  ],
+  "units": {
+    "temperature_2m": "°C",
+    "wind_speed_10m": "m/s",
+    "shortwave_radiation": "W/m²"
+  },
+  "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=-28.856102&longitude=-71.421831&hourly=temperature_2m%2Cwind_speed_10m%2Cshortwave_radiation&timezone=GMT&timeformat=unixtime&temperature_unit=celsius&wind_speed_unit=ms&start_date=2025-11-27&end_date=2025-12-11&models=era5",
+  "valid_from_utc": "2025-11-27T00:00:00Z",
+  "valid_until_utc": "2025-12-11T23:00:00Z",
+  "raw_sha256": "f53ecfaee022791ff8762fb99437c3834a8b3146d03ff971d88348c349bf8785"
+}

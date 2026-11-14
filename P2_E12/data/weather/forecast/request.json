@@ -1,0 +1,10 @@
+{
+  "source": "Open-Meteo",
+  "kind": "forecast",
+  "model": "auto",
+  "request_url": "https://api.open-meteo.com/v1/forecast?latitude=-28.856102&longitude=-71.421831&hourly=temperature_2m%2Cwind_speed_10m%2Cshortwave_radiation&timezone=GMT&timeformat=unixtime&temperature_unit=celsius&wind_speed_unit=ms&forecast_days=16",
+  "retrieved_at_utc": "2026-11-14T00:17:42.490911+00:00",
+  "raw_sha256": "eb38e0e3bef56e8807215b5f89228d462858153e20e8b0a2e46e5e700e714dc2",
+  "latitude": -28.856102,
+  "longitude": -71.421831
+}

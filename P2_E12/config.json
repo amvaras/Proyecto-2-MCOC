@@ -1,0 +1,94 @@
+{
+  "start": "2026-11-27T08:00:00-03:00",
+  "analog_start": "2025-11-27T08:00:00-03:00",
+  "curve": "M4_22A_W_m3",
+  "sensor_depth_m": 0.025,
+  "physics": {
+    "description": "E12: plan de cinco vertidas con fuente tabulada y clima",
+    "spacing_m": [
+      0.275,
+      0.275,
+      0.1375
+    ],
+    "resolutions_m": [
+      0.55,
+      0.275,
+      0.1375
+    ],
+    "margin_m": 0,
+    "t_end_s": 1209600,
+    "max_step_s": 900,
+    "save_interval_s": 21600,
+    "safety": 0.8,
+    "energy_reference_C": 20,
+    "h_W_m2K": 8,
+    "ambient_C": 20,
+    "material": {
+      "k": 2,
+      "rho": 2400,
+      "cp": 900
+    },
+    "events": [
+      {
+        "pour_id": 1,
+        "activation_s": 0,
+        "initial_C": 18
+      },
+      {
+        "pour_id": 2,
+        "activation_s": 18000,
+        "initial_C": 19
+      },
+      {
+        "pour_id": 3,
+        "activation_s": 36000,
+        "initial_C": 20
+      },
+      {
+        "pour_id": 4,
+        "activation_s": 54000,
+        "initial_C": 21
+      },
+      {
+        "pour_id": 5,
+        "activation_s": 72000,
+        "initial_C": 22
+      }
+    ]
+  },
+  "environment": {
+    "air": {
+      "h_still_W_m2K": 5.0,
+      "h_wind_per_m_s": 4.0,
+      "solar_absorptivity": 0.55
+    },
+    "soil": {
+      "temperature_C": 18.0,
+      "depth_m": 0.4,
+      "conductivity_W_mK": 1.5,
+      "contact_m2K_W": 0.025,
+      "adiabatic": false
+    },
+    "formwork": {
+      "orientations": [
+        "x-",
+        "x+",
+        "y-",
+        "y+"
+      ],
+      "remove_at_s": 65700,
+      "layers": [
+        {
+          "name": "tablero",
+          "thickness_m": 0.018,
+          "conductivity_W_mK": 0.13
+        },
+        {
+          "name": "aislación",
+          "thickness_m": 0.025,
+          "conductivity_W_mK": 0.04
+        }
+      ]
+    }
+  }
+}
