@@ -1,0 +1,9 @@
+{
+  "source": "Presentacion_inicial_P2_Hormigon_Masivo_2026.pptx",
+  "sha256": "6dd8e29b1bceab8761208cf03bcb2eb0a09cb342213402cafb05b37d34d95104",
+  "slides": {
+    "6": "MÉTODOS COMPUTACIONALES  /  PROYECTO 2 CRITERIOS DEL CURSO Dos límites comunes para todos los grupos Fuentes: 00_PROYECTO_GENERAL.md; 02_CASO_BASE_CRITERIOS_Y_REFERENCIAS.md 06 70 °C Temperatura máxima Máximo dentro del hormigón durante los 14 días. 20 °C Diferencial máximo Núcleo respecto de puntos a ≈25 mm bajo la superficie. Son requisitos del proyecto docente. El ICH considera categorías, exposición y resistencia. Cumplir el diferencial controla el riesgo térmico; no demuestra mecánicamente “cero grietas”.",
+    "30": "MÉTODOS COMPUTACIONALES  /  PROYECTO 2 ANEXO / CRITERIOS Cómo medir el diferencial del proyecto 00_PROYECTO_GENERAL.md §3 · Guías G04–G05 30 Ω: hormigón activo Buscar su temperatura máxima en cada instante. S₂₅: zona bajo la superficie Puntos representativos a ≈25 mm. Tomar la mínima en el mismo instante. Luego tomar el máximo temporal en los 14 días. Explicar cómo la grilla representa S₂₅."
+  },
+  "interpretation": "En E12 se aplica Ω activo y S25 de la diapositiva 30, incluyendo todas las superficies existentes del dominio activo; S25 se aproxima bajo frontera voxelizada, no precisión geométrica de 25 mm respecto del IFC."
+}

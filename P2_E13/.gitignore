@@ -1,0 +1,20 @@
+.venv*/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mplconfig/
+.runtime/
+.tmp/
+*.log
+build/
+dist/
+*.zip
+.env*
+results/*
+!results/e13/
+!results/verification/
+
+# Evidencia actual de la prueba HTML/Python; nuevos experimentos quedan locales.
+!results/web_runs/
+results/web_runs/*

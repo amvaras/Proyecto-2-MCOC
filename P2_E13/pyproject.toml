@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcoc-p2"
+version = "0.11.0"
+description = "MCOC Proyecto 2 G2 E11: weather y visualizacion VTK"
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy>=2,<3", "tzdata>=2025"]
+
+[project.optional-dependencies]
+dev = ["pytest>=9,<10"]
+plot = ["matplotlib>=3.10,<4"]
+bim = ["ifcopenshell>=0.9,<0.10"]
+viz = ["pyvista==0.49.2", "vtk==9.5.2"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = ["e05: bateria configurable, criterios cientificos y robustez E05"]
+junit_family = "xunit1"

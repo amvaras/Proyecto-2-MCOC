@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic",
+  "source": "Serie docente generada",
+  "model_requested": "ciclo_diurno",
+  "provider_run_utc": null,
+  "retrieved_at_utc": "2026-11-11T12:48:34.116014+00:00",
+  "latitude": -28.856102,
+  "longitude": -71.421831,
+  "grid_latitude": -28.856102,
+  "grid_longitude": -71.421831,
+  "timezone": "UTC",
+  "site_timezone": "America/Santiago",
+  "variables": [
+    "temperature_2m",
+    "wind_speed_10m",
+    "shortwave_radiation"
+  ],
+  "units": {
+    "temperature_2m": "°C",
+    "wind_speed_10m": "m/s",
+    "shortwave_radiation": "W/m²"
+  },
+  "request_url": null,
+  "valid_from_utc": "2026-11-27T11:00:00Z",
+  "valid_until_utc": "2026-11-28T11:00:00Z",
+  "raw_sha256": "9ef6c69d09a0ef444c712b8bd245d4b2f3c2790e22a6ce6530177ecf929cf6fc"
+}

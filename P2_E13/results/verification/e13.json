@@ -1,0 +1,342 @@
+{
+  "status": "PASS",
+  "cases": 120,
+  "scenario_weights_sum": 1.0,
+  "independent_probabilities": [
+    {
+      "plan": "unica",
+      "P_T": 0.0,
+      "P_delta": 1.0,
+      "P_joint": 1.0
+    },
+    {
+      "plan": "E12_referencia",
+      "P_T": 0.0,
+      "P_delta": 1.0,
+      "P_joint": 1.0
+    },
+    {
+      "plan": "protegido_rapido",
+      "P_T": 0.0,
+      "P_delta": 1.0,
+      "P_joint": 1.0
+    },
+    {
+      "plan": "propuesto_6h",
+      "P_T": 0.0,
+      "P_delta": 1.0,
+      "P_joint": 1.0
+    },
+    {
+      "plan": "protegido_lento_12h",
+      "P_T": 0.0,
+      "P_delta": 1.0,
+      "P_joint": 1.0
+    }
+  ],
+  "original_sources": {
+    "file": "source_terms.txt",
+    "sha256": "182b4a500dd02060b89dc452f007a379c7ab6cdc569e67de59a04c00d3497956",
+    "time_units": "h convertidas a s",
+    "source_units": "W/m³",
+    "curves": {
+      "M1_SS": {
+        "campaign": "SS",
+        "samples": 1443,
+        "missing_tail": 0,
+        "coverage_h": [
+          0.0,
+          240.33300000000003
+        ],
+        "integrated_MJ_m3": 88.14834777600001,
+        "nominal_MJ_m3": 88.1,
+        "final_W_m3": 1.57,
+        "quality": "mayor confianza; RMSE 0.1–0.2 K"
+      },
+      "M2_SS": {
+        "campaign": "SS",
+        "samples": 1443,
+        "missing_tail": 0,
+        "coverage_h": [
+          0.0,
+          240.33300000000003
+        ],
+        "integrated_MJ_m3": 95.71522170600001,
+        "nominal_MJ_m3": 95.7,
+        "final_W_m3": 0.0,
+        "quality": "mayor confianza; RMSE 0.1–0.2 K"
+      },
+      "M3_SS": {
+        "campaign": "SS",
+        "samples": 1443,
+        "missing_tail": 0,
+        "coverage_h": [
+          0.0,
+          240.33300000000003
+        ],
+        "integrated_MJ_m3": 94.149010872,
+        "nominal_MJ_m3": 94.1,
+        "final_W_m3": 0.0,
+        "quality": "mayor confianza; RMSE 0.1–0.2 K"
+      },
+      "M4_SS": {
+        "campaign": "SS",
+        "samples": 1443,
+        "missing_tail": 0,
+        "coverage_h": [
+          0.0,
+          240.33300000000003
+        ],
+        "integrated_MJ_m3": 100.16611077600001,
+        "nominal_MJ_m3": 100.2,
+        "final_W_m3": 0.0,
+        "quality": "mayor confianza; RMSE 0.1–0.2 K"
+      },
+      "M1_22A": {
+        "campaign": "22A",
+        "samples": 979,
+        "missing_tail": 464,
+        "coverage_h": [
+          0.0,
+          163.0
+        ],
+        "integrated_MJ_m3": 61.212021138,
+        "nominal_MJ_m3": 61.2,
+        "final_W_m3": 0.0,
+        "quality": "menor confianza; RMSE ~0.4 K"
+      },
+      "M2_22A": {
+        "campaign": "22A",
+        "samples": 979,
+        "missing_tail": 464,
+        "coverage_h": [
+          0.0,
+          163.0
+        ],
+        "integrated_MJ_m3": 82.44622566000001,
+        "nominal_MJ_m3": 82.4,
+        "final_W_m3": 0.0,
+        "quality": "menor confianza; RMSE ~0.4 K"
+      },
+      "M3_22A": {
+        "campaign": "22A",
+        "samples": 979,
+        "missing_tail": 464,
+        "coverage_h": [
+          0.0,
+          163.0
+        ],
+        "integrated_MJ_m3": 73.28883027600001,
+        "nominal_MJ_m3": 73.3,
+        "final_W_m3": 0.0,
+        "quality": "menor confianza; RMSE ~0.4 K"
+      },
+      "M4_22A": {
+        "campaign": "22A",
+        "samples": 979,
+        "missing_tail": 464,
+        "coverage_h": [
+          0.0,
+          163.0
+        ],
+        "integrated_MJ_m3": 73.62834362999999,
+        "nominal_MJ_m3": 73.6,
+        "final_W_m3": 0.0,
+        "quality": "menor confianza; RMSE ~0.4 K"
+      }
+    },
+    "time_zero": "inicio ventana conservada; registro original +2 h; no se reconstruyen las primeras 2 h",
+    "specimen": {
+      "radius_m": 0.0375,
+      "height_m": 0.15,
+      "rho_kg_m3": 2476,
+      "cp_J_kgK": 1023,
+      "cement_kg_m3": 350.77,
+      "beta_W_m2K": 2.5
+    }
+  },
+  "grid": {
+    "origin_m": [
+      -9.0,
+      -8.999999999999998,
+      0.0
+    ],
+    "spacing_m": [
+      0.45,
+      0.45,
+      0.11
+    ],
+    "shape": [
+      40,
+      40,
+      40
+    ],
+    "upper_m": [
+      9.0,
+      9.000000000000002,
+      4.4
+    ],
+    "axes": "XYZ; array[i,j,k]; C-order",
+    "cell_volume_m3": 0.022275000000000003,
+    "grid_cells": 64000,
+    "occupied_cells": 28652,
+    "volume_voxel_m3": 638.2233000000001,
+    "volume_reference_mesh_m3": 636.8777175824058,
+    "absolute_error_m3": 1.3455824175943008,
+    "relative_error": 0.0021127798640877956,
+    "signed_error_m3": 1.3455824175943008,
+    "sum_absolute_pour_errors_m3": 5.293866499060236,
+    "max_pour_relative_error": 0.020476836208214104,
+    "boundary_ties": 0,
+    "by_pour": [
+      {
+        "vertida_id": 1,
+        "guid": "0oY4bM1krVGQdxfBrXmxJm",
+        "cells": 6680,
+        "volume_voxel_m3": 148.79700000000003,
+        "volume_reference_m3": 147.62571362977107,
+        "absolute_error_m3": 1.1712863702289553,
+        "signed_error_m3": 1.1712863702289553,
+        "relative_error": 0.007934162290767391
+      },
+      {
+        "vertida_id": 2,
+        "guid": "3hfPF39u1QnvSBQJFmy$c2",
+        "cells": 6680,
+        "volume_voxel_m3": 148.79700000000003,
+        "volume_reference_m3": 147.6257136297711,
+        "absolute_error_m3": 1.171286370228927,
+        "signed_error_m3": 1.171286370228927,
+        "relative_error": 0.007934162290767197
+      },
+      {
+        "vertida_id": 3,
+        "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+        "cells": 9564,
+        "volume_voxel_m3": 213.03810000000004,
+        "volume_reference_m3": 214.2243508999919,
+        "absolute_error_m3": 1.1862508999918475,
+        "signed_error_m3": -1.1862508999918475,
+        "relative_error": 0.005537423243474476
+      },
+      {
+        "vertida_id": 4,
+        "guid": "1jVXFE7TLGsO88Iyj_MihB",
+        "cells": 4036,
+        "volume_voxel_m3": 89.90190000000001,
+        "volume_reference_m3": 88.92474828213061,
+        "absolute_error_m3": 0.977151717869404,
+        "signed_error_m3": 0.977151717869404,
+        "relative_error": 0.01098852385580227
+      },
+      {
+        "vertida_id": 5,
+        "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+        "cells": 1692,
+        "volume_voxel_m3": 37.6893,
+        "volume_reference_m3": 38.477191140741105,
+        "absolute_error_m3": 0.7878911407411024,
+        "signed_error_m3": -0.7878911407411024,
+        "relative_error": 0.020476836208214104
+      }
+    ]
+  },
+  "global_fields_verification": {
+    "status": "PASS",
+    "base_checks": {
+      "status": "PASS",
+      "checks": {
+        "finite_fields": true,
+        "vtk_exact": true,
+        "balances_reconstructed": true,
+        "solver_checks": true,
+        "same_steps": true,
+        "snapshot": true
+      },
+      "vtk_states": 9,
+      "balances": {
+        "weather": {
+          "residual_reconstructed_J": 1.9073486328125e-06,
+          "tolerance_J": 0.6392844576762423
+        },
+        "constant": {
+          "residual_reconstructed_J": 1.9073486328125e-06,
+          "tolerance_J": 0.6392844576762422
+        }
+      },
+      "fields_sha256": "eddcb8926f201a0eed2eb40833635c8e49200f4c2fef8bdb90186ee2ba97819f"
+    },
+    "all_time_fields": 1642,
+    "global_Tmax_C": 57.788207769506016,
+    "global_delta25_C": 38.874760165721554,
+    "peak": {
+      "time_s": 707400.0,
+      "occupied_index": 13758,
+      "index": [
+        19,
+        19,
+        21
+      ]
+    },
+    "delta_peak": {
+      "time_s": 1101600.0,
+      "cold_index": [
+        0,
+        11,
+        9
+      ],
+      "cold_coordinate_m": [
+        -8.975,
+        -3.8249999999999984,
+        1.045
+      ],
+      "cold_temperature_C": 16.82393536710681
+    },
+    "max_reconstructed_delta_error_C": 7.105427357601002e-15,
+    "energy_reconstructed_final_J": 16319215210.024677,
+    "hydration_predicted_J": 63928345767.62417,
+    "source_integral_MJ_m3": 100.16611077599981,
+    "S25_reference_variation": {
+      "face0mm_max_delta_C": 39.076936108185805,
+      "boundary_cell_center_max_delta_C": 37.439275969951595,
+      "depth25mm_max_delta_C": 38.874760165721554
+    },
+    "source_hash": "182b4a500dd02060b89dc452f007a379c7ab6cdc569e67de59a04c00d3497956",
+    "dataset_coverage": {
+      "start_utc": "2026-11-19T11:00:00Z",
+      "end_utc": "2026-12-06T11:00:00Z",
+      "covered_hours": 408.0,
+      "tail_hours": 0.0,
+      "tail_from_utc": null,
+      "tail_assumptions": null
+    },
+    "same_units": true,
+    "one_sided_events": "Se conservan límites izquierdos nextafter(t,-∞) y valores exactos posteriores; sin alterar pasos del solver",
+    "limitations": "Verificación numérica del modelo; S25 es aproximación lineal bajo frontera staircase, no validación experimental"
+  },
+  "scientific_controls": "PASS",
+  "single_union": {
+    "status": "PASS",
+    "field_Linf_C": 0.0,
+    "all_saved_fields_equal": true,
+    "Tmax_C": 64.8584639377148,
+    "delta_C": 47.50891320239692,
+    "interpretation": "Misma edad/material/fuente en cinco regiones simultáneas, contactos perfectos y sin convección interna; igualdad con la unión de etiquetas"
+  },
+  "reproduced_cases": [
+    {
+      "plan": "protegido_rapido",
+      "scenario": "M1_22A_m13",
+      "exact": true
+    },
+    {
+      "plan": "protegido_rapido",
+      "scenario": "M4_SS_m17",
+      "exact": true
+    }
+  ],
+  "network": "Cada Evaluator.case y pipeline E12 bloquea HTTP; todos los datos son locales",
+  "conclusion": "No se encontró un plan factible bajo la familia y el modelo de incertidumbre evaluados",
+  "elapsed_s": 67.52776050003013,
+  "limits": "Numerically verified discrete exploratory model; not calibrated reliability or experimental validation"
+}

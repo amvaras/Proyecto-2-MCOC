@@ -1,0 +1,126 @@
+{
+  "case": {
+    "plan": "E12_referencia",
+    "scenario": "M2_SS_m00",
+    "weight": 0.09677419354838711,
+    "curve": "M2_SS",
+    "member": 0,
+    "material_weight": 0.2,
+    "climate_weight": 0.4838709677419355,
+    "D_h": 20.76954382281482,
+    "Tmax_C": 63.73947473192112,
+    "delta_C": 46.448081693142825,
+    "first336_Tmax_C": 63.73947473192112,
+    "first336_delta_C": 46.448081693142825,
+    "peak": {
+      "temperature_C": 63.73947473192112,
+      "time_h": 152.0,
+      "index": [
+        19,
+        19,
+        20
+      ],
+      "coordinate_m": [
+        -0.22499999999999964,
+        -0.22499999999999787,
+        2.255
+      ],
+      "vertida_id": 4,
+      "utc": "2026-11-25T19:00:00Z",
+      "time_s": 547200.0
+    },
+    "delta_peak": {
+      "value_C": 46.448081693142825,
+      "time_h": 166.0,
+      "hot": {
+        "index": [
+          19,
+          19,
+          20
+        ],
+        "coordinate_m": [
+          -0.22499999999999964,
+          -0.22499999999999787,
+          2.255
+        ],
+        "vertida_id": 4,
+        "active": true
+      },
+      "cold": {
+        "index": [
+          0,
+          11,
+          9
+        ],
+        "coordinate_m": [
+          -8.975,
+          -3.8249999999999984,
+          1.045
+        ],
+        "face_coordinate_m": [
+          -9.0,
+          -3.8249999999999984,
+          1.045
+        ],
+        "vertida_id": 2,
+        "face": "x-",
+        "classification": "lateral",
+        "temperature_C": 17.205729429742743,
+        "kind": "reconstrucción lineal a 25 mm"
+      },
+      "hot_temperature_C": 63.653811122885564,
+      "depth_m": 0.025,
+      "definition": "max Ω activo menos min S25 en el mismo instante; todas las caras expuestas, incluida base y frente a vertida futura",
+      "utc": "2026-11-26T09:00:00Z",
+      "time_s": 597600.0
+    },
+    "horizon_h": 408,
+    "last_pour_age_h": 388.0,
+    "trend_last24_Tmax_C": -1.2309393160944566,
+    "Tmax_peak_in_last24h": false,
+    "delta_peak_in_last24h": false,
+    "fail_T": false,
+    "fail_delta": true,
+    "energy": {
+      "reference_C": 20,
+      "initial_J": -642803040.0000001,
+      "final_J": 14545037653.503597,
+      "hydration_J": 61087684657.4349,
+      "outward_J": 45935448323.93125,
+      "placement_after_zero_J": 35604359.99999997,
+      "residual_J": -5.3375959396362305e-05,
+      "max_step_residual_J": 1.54152512550354e-05,
+      "tolerance_J": 0.6112338901743487
+    },
+    "checks": {
+      "global_energy_balance": true,
+      "step_energy_balance": true,
+      "hydration_potential": true,
+      "stable_steps": true,
+      "events_reached": true,
+      "inactive_is_nan": true,
+      "final_time_exact": true
+    },
+    "steps": 1632,
+    "elapsed_s": 10.066103699999076,
+    "source_total_MJ_m3": 95.71522170599997,
+    "source_tail_added_MJ_m3": 0.0,
+    "spacing_m": [
+      0.45,
+      0.45,
+      0.11
+    ],
+    "area_sensitivity": null,
+    "coverage": {
+      "start_utc": "2026-11-19T11:00:00Z",
+      "end_utc": "2026-12-06T11:00:00Z",
+      "covered_hours": 408.0,
+      "tail_hours": 0.0,
+      "tail_from_utc": null,
+      "tail_assumptions": null
+    }
+  },
+  "anticipated_cases": 120,
+  "estimate_s": 1207.932443999889,
+  "strategy": "Malla final común; una sola trayectoria por caso, geometría en memoria y sin campos/VTK/figuras por escenario"
+}

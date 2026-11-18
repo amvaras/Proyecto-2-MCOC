@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-11-18T11:54:04.935824+00:00",
+  "publication_ref": "refs/tags/entrega-e13",
+  "source_archive_sha256": "80dcc4096b29cc07b762271ad386314c0df909d71022dcee02746e6405c3792d",
+  "requirements": {
+    "common_start": "2026-11-19T11:00:00Z",
+    "resource_accounting": "V_IFC / 50 m3/h; una bomba; esperas mínimas explícitas",
+    "single_pour": "Corrida completa y equivalencia de campos con unión monolítica verificada",
+    "eight_hydration_curves": "Archivo suministrado en el ZIP, unidades y metadatos de su cabecera conservados",
+    "weather": "31 miembros GFS archivados; 3 medoides y pesos de clusters comprobados",
+    "thermal_failure": "OR espacial y temporal de Tmax > 70 °C y diferencial > 20 °C",
+    "horizons": "336 h y extensión a 408 h conservadas por escenario",
+    "comparison": "5 planes, 24 escenarios comunes por plan",
+    "sensitivity": "Malla, paso, S25, área, recursos, colas y escenarios/pesos",
+    "priority_questions": "Tres consultas en docs/E13_DEMO.md"
+  },
+  "regression": {
+    "complete_run": {
+      "tests": 428,
+      "passed": 427,
+      "failed": 1,
+      "errors": 0,
+      "skipped": 0
+    },
+    "resolved_test": "test_official_dossier_word_budget_and_relative_figures",
+    "resolution": "La prueba documental exigía un estado de publicación pendiente. Se admite la referencia de la etiqueta entrega-e13 y se verificó nuevamente.",
+    "resolved_test_rerun": {
+      "tests": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    "unique_tests_passed_across_runs": 428
+  },
+  "independent_audit": {
+    "cases": 120,
+    "status": "PASS",
+    "reproduced": [
+      {
+        "plan": "protegido_rapido",
+        "scenario": "M1_22A_m13",
+        "exact": true
+      },
+      {
+        "plan": "protegido_rapido",
+        "scenario": "M4_SS_m17",
+        "exact": true
+      }
+    ]
+  },
+  "decision": {
+    "feasible_plans": 0,
+    "P_joint_by_plan": {
+      "unica": 1.0,
+      "E12_referencia": 1.0,
+      "protegido_rapido": 1.0,
+      "propuesto_6h": 1.0,
+      "protegido_lento_12h": 1.0
+    }
+  },
+  "data_version": {
+    "source_E13_sha256": "182b4a500dd02060b89dc452f007a379c7ab6cdc569e67de59a04c00d3497956",
+    "source_E12_sha256": "27196495c1da43f54e941d81fee22932b7a0e31911b32680d123715eeb3b7815",
+    "note": "E13 usa una recuperación corregida con beta=2.5 de la cabecera del paquete. E12 conserva la versión PINN previa. La procedencia experimental se sostiene en los datos suministrados, sin verificación externa del ensayo."
+  },
+  "browser": {
+    "api": "PASS, servidor E13, 8 fuentes/3 historias/24 escenarios y resultados oficiales HTTP 200",
+    "visual_review": "Pendiente. Chrome estaba minimizado y la revisión de permisos rechazó abrir la página local en el navegador integrado.",
+    "source_figures": "11 figuras inspeccionadas; campos globales y VTK verificados"
+  },
+  "scientific_signature": "adcd44172541ad5549fa3b26f053daaf2323e6bf24a2515982e711cb0699fdcb"
+}

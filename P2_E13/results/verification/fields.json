@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "base_checks": {
+    "status": "PASS",
+    "checks": {
+      "finite_fields": true,
+      "vtk_exact": true,
+      "balances_reconstructed": true,
+      "solver_checks": true,
+      "same_steps": true,
+      "snapshot": true
+    },
+    "vtk_states": 9,
+    "balances": {
+      "weather": {
+        "residual_reconstructed_J": 1.9073486328125e-06,
+        "tolerance_J": 0.6392844576762423
+      },
+      "constant": {
+        "residual_reconstructed_J": 1.9073486328125e-06,
+        "tolerance_J": 0.6392844576762422
+      }
+    },
+    "fields_sha256": "eddcb8926f201a0eed2eb40833635c8e49200f4c2fef8bdb90186ee2ba97819f"
+  },
+  "all_time_fields": 1642,
+  "global_Tmax_C": 57.788207769506016,
+  "global_delta25_C": 38.874760165721554,
+  "peak": {
+    "time_s": 707400.0,
+    "occupied_index": 13758,
+    "index": [
+      19,
+      19,
+      21
+    ]
+  },
+  "delta_peak": {
+    "time_s": 1101600.0,
+    "cold_index": [
+      0,
+      11,
+      9
+    ],
+    "cold_coordinate_m": [
+      -8.975,
+      -3.8249999999999984,
+      1.045
+    ],
+    "cold_temperature_C": 16.82393536710681
+  },
+  "max_reconstructed_delta_error_C": 7.105427357601002e-15,
+  "energy_reconstructed_final_J": 16319215210.024677,
+  "hydration_predicted_J": 63928345767.62417,
+  "source_integral_MJ_m3": 100.16611077599981,
+  "S25_reference_variation": {
+    "face0mm_max_delta_C": 39.076936108185805,
+    "boundary_cell_center_max_delta_C": 37.439275969951595,
+    "depth25mm_max_delta_C": 38.874760165721554
+  },
+  "source_hash": "182b4a500dd02060b89dc452f007a379c7ab6cdc569e67de59a04c00d3497956",
+  "dataset_coverage": {
+    "start_utc": "2026-11-19T11:00:00Z",
+    "end_utc": "2026-12-06T11:00:00Z",
+    "covered_hours": 408.0,
+    "tail_hours": 0.0,
+    "tail_from_utc": null,
+    "tail_assumptions": null
+  },
+  "same_units": true,
+  "one_sided_events": "Se conservan límites izquierdos nextafter(t,-∞) y valores exactos posteriores; sin alterar pasos del solver",
+  "limitations": "Verificación numérica del modelo; S25 es aproximación lineal bajo frontera staircase, no validación experimental"
+}

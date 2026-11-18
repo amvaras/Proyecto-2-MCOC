@@ -1,0 +1,19 @@
+{
+  "status": "NO VERIFICADO: revisión visual manual pendiente",
+  "url": "http://127.0.0.1:8713/",
+  "server_health": "PASS: mcoc-e13-local, busy=false, loopback",
+  "manual_attempts": [
+    {
+      "window": "Chrome 132408",
+      "result": "ventana minimizada"
+    },
+    {
+      "action": "activar Chrome",
+      "error": "GetCursorPos failed: Acceso denegado (0x80070005)"
+    }
+  ],
+  "user_desktop_request": "Pendiente de respuesta; se continuó con pruebas científicas y API",
+  "manual_screenshots": [],
+  "API_verification": "PASS: prepare/estimate, rechazo de huella obsoleta/origen externo, ejecución de 24 escenarios, igualdad de caso con Python directo",
+  "scientific_visualization": "PASS: 11 PNG reales y PyVista offscreen; no equivale a sesión manual de Chrome o ParaView"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "plan": "protegido_rapido",
+  "scenario": "M4_SS_m17",
+  "matched_batch_Tmax_C": 57.788207769506016,
+  "matched_batch_delta_C": 38.874760165721554,
+  "elapsed_s": 58.73022570000103,
+  "role": "Caso crítico ilustrativo, no recomendación si ningún plan es factible"
+}
