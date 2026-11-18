@@ -1,0 +1,105 @@
+{
+  "id": "moderate_20",
+  "construction": {
+    "id": "moderate_20",
+    "label": "moderate_20",
+    "partition": "five",
+    "rate_m3_h": 50.0,
+    "start_h": [
+      0.0,
+      3.452514272595421,
+      6.905028545190843,
+      11.689515563190682,
+      13.968010528833293
+    ],
+    "duration_h": [
+      2.952514272595421,
+      2.952514272595422,
+      4.2844870179998376,
+      1.7784949656426121,
+      0.7695438228148221
+    ],
+    "initial_C": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "wait_min_h": 0.5,
+    "protected": true,
+    "remove_at_h": 672,
+    "activation_rule": "start",
+    "resource_assumption": "Una bomba 50 m³/h y suministro continuo con relevos; capacidad hipotética, no dato docente. Equipo de enfriamiento disponible para todos; sin optimizar costes.",
+    "transition_assumption": "0.5 h mínimo de cambio entre capas, hipótesis logística; no demuestra resistencia de junta ni factibilidad de obra",
+    "D_h": 14.737554351648114
+  },
+  "horizon_h": 744,
+  "pipe": {
+    "layers": [
+      [
+        3,
+        1.42
+      ],
+      [
+        3,
+        1.91
+      ],
+      [
+        4,
+        2.48
+      ],
+      [
+        4,
+        3.01
+      ],
+      [
+        5,
+        3.83
+      ]
+    ],
+    "pitch": 1.6,
+    "inlet": 20.0,
+    "flow_ls": 0.25,
+    "start_h": 18.0,
+    "stop_h": 552.0,
+    "cap_kW": 35.0,
+    "radius": 5.0,
+    "outer_m": 0.032,
+    "inner_m": 0.026,
+    "clearance_m": 0.18,
+    "conductivity_pipe": 0.4
+  },
+  "insulation_initial_m": 0.1,
+  "insulation_stages_h_m": [
+    [
+      360,
+      0.05
+    ],
+    [
+      528,
+      0.025
+    ]
+  ],
+  "spacing_m": [
+    0.45,
+    0.45,
+    0.11
+  ],
+  "max_step_s": 900,
+  "scenario_3d": "M4_SS_m17",
+  "controls": {
+    "grid": [
+      0.3,
+      0.3,
+      0.055
+    ],
+    "step_s": 450,
+    "scenarios": [
+      "M4_SS_m00",
+      "M4_SS_m13",
+      "M4_SS_m17"
+    ]
+  },
+  "assumptions": "Diseño experimental. Capacidad de bombeo y refrigeración, temperatura de colocación, trazado y aislamiento de conexiones requieren validación de obra."
+}

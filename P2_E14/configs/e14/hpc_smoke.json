@@ -1,0 +1,51 @@
+{
+  "N": 1,
+  "master_seed": 20261119,
+  "plans": [
+    {
+      "construction": {
+        "D_h": 12.737554351648116,
+        "activation_rule": "start",
+        "duration_h": [
+          12.737554351648116
+        ],
+        "id": "unica",
+        "initial_C": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "label": "unica",
+        "partition": "single",
+        "physical_start_h": [
+          0.0
+        ],
+        "protected": false,
+        "rate_m3_h": 50.0,
+        "remove_at_h": 18.25,
+        "resource_assumption": "Una bomba 50 m³/h y suministro continuo con relevos; capacidad hipotética, no dato docente. Equipo de enfriamiento disponible para todos; sin optimizar costes.",
+        "start_h": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "transition_assumption": "0.5 h mínimo de cambio entre capas, hipótesis logística; no demuestra resistencia de junta ni factibilidad de obra",
+        "wait_min_h": 0.5
+      },
+      "design": {},
+      "horizon_h": 408,
+      "id": "unica",
+      "provenance": "E13 reutilizado"
+    }
+  ],
+  "spacing_m": [
+    0.45,
+    0.45,
+    0.11
+  ],
+  "step_s": 900
+}

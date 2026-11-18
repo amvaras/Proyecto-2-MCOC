@@ -1,0 +1,10 @@
+{
+  "mode": "applied",
+  "utc": "2026-11-18T13:02:16.290075+00:00",
+  "deleted": [
+    ".mplconfig/fontlist-v3.11.0.json"
+  ],
+  "deleted_files": 1,
+  "deleted_bytes": 177110,
+  "skipped": []
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "details": {
+    "plan": [
+      "unica",
+      "E12_referencia",
+      "protegido_rapido",
+      "propuesto_6h",
+      "protegido_lento_12h",
+      "curado_rapido",
+      "curado_frio5",
+      "etapas_templadas",
+      "moderate_20"
+    ],
+    "row": "moderate_20\t14,738\t49,599\t19,158\t0 %\t0 %\t0 %\tCumple en los escenarios del modelo",
+    "charts": true,
+    "points": 9,
+    "case": "moderate_20 / M4_SS_m17"
+  },
+  "full": "204 h · 28652 celdas activas · V1, V2, V3, V4, V5 · 7072 caras · full · WebGL 0 · escala 5–49,553 °C",
+  "slice": "204 h · 1100 celdas activas · V1, V2, V3, V4, V5 · 1100 caras · slice · WebGL 0 · escala 5–49,553 °C",
+  "next": "214,25 h · 1100 celdas activas · V1, V2, V3, V4, V5 · 1100 caras · slice · WebGL 0 · escala 5–49,553 °C",
+  "clip": "214,25 h · 14326 celdas activas · V1, V2, V3, V4, V5 · 4636 caras · clip · WebGL 0 · escala 5–49,553 °C",
+  "exceptions": [],
+  "failures": []
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "kind": "forecast",
+  "source": "Open-Meteo",
+  "model_requested": "gfs05",
+  "provider_run_utc": null,
+  "retrieved_at_utc": "2026-11-17T18:42:24.021760+00:00",
+  "latitude": -28.856102,
+  "longitude": -71.421831,
+  "grid_latitude": -29.0,
+  "grid_longitude": -71.5,
+  "timezone": "UTC",
+  "site_timezone": "America/Santiago",
+  "variables": [
+    "temperature_2m",
+    "wind_speed_10m",
+    "shortwave_radiation"
+  ],
+  "units": {
+    "temperature_2m": "°C",
+    "wind_speed_10m": "m/s",
+    "shortwave_radiation": "W/m²"
+  },
+  "request_url": "https://ensemble-api.open-meteo.com/v1/ensemble?latitude=-28.856102&longitude=-71.421831&models=gfs05&hourly=temperature_2m%2Cwind_speed_10m%2Cshortwave_radiation&temperature_unit=celsius&wind_speed_unit=ms&timeformat=unixtime&timezone=GMT&forecast_days=35",
+  "valid_from_utc": "2026-11-17T00:00:00Z",
+  "valid_until_utc": "2026-12-21T01:00:00Z",
+  "raw_sha256": "8f48afdabb33ef88b10d7761e352d779a72368f65cf507dc1ceb7b7f8f0aaa72",
+  "e11_schema": 1,
+  "e13_ensemble_member": 17,
+  "ensemble_parent": "data/ensemble/raw.json",
+  "ensemble_parent_sha256": "718f22d33a8b8ad0558d13caea4737d86f6dffd243070b825b505490702cc246",
+  "normalized_sha256": "83680ef7e105e02f55d6a612a2c2e632703c0f8d36816b2035498452b7626af5",
+  "interval_s": 3600,
+  "provider_elevation_m": 145.0,
+  "provider_model_version": null,
+  "representativeness": "GFS 0.5° ~50 km, nativo 3 h o 6 h en horizonte largo; API interpola a 1 h. No es estación local ni ensemble calibrado al sitio.",
+  "license_url": "https://open-meteo.com/en/licence",
+  "derivation": "Extracción exacta de las tres variables del mismo miembro; weather.json derivado, original completo en data/ensemble/raw.json"
+}

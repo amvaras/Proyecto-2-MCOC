@@ -1,0 +1,285 @@
+{
+  "status": "PASS",
+  "ifc": {
+    "schema": "IFC4",
+    "ifc_unit_to_m": 1.0,
+    "coordinates": "world SI m",
+    "source_sha256": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a"
+  },
+  "solids": [
+    {
+      "id": 1,
+      "guid": "0oY4bM1krVGQdxfBrXmxJm",
+      "name": "Vertida_01",
+      "mesh_volume_m3": 147.62571362977107,
+      "low_m": [
+        -9.0,
+        -8.999999999999998,
+        0.0
+      ],
+      "high_m": [
+        9.0,
+        9.0,
+        0.55
+      ],
+      "placement_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "closed_oriented": true
+    },
+    {
+      "id": 2,
+      "guid": "3hfPF39u1QnvSBQJFmy$c2",
+      "name": "Vertida_02",
+      "mesh_volume_m3": 147.6257136297711,
+      "low_m": [
+        -9.0,
+        -8.999999999999998,
+        0.55
+      ],
+      "high_m": [
+        9.0,
+        9.0,
+        1.1
+      ],
+      "placement_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.55
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "closed_oriented": true
+    },
+    {
+      "id": 3,
+      "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+      "name": "Vertida_03",
+      "mesh_volume_m3": 214.2243508999919,
+      "low_m": [
+        -9.0,
+        -8.999999999999998,
+        1.1
+      ],
+      "high_m": [
+        9.0,
+        9.0,
+        2.2
+      ],
+      "placement_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "closed_oriented": true
+    },
+    {
+      "id": 4,
+      "guid": "1jVXFE7TLGsO88Iyj_MihB",
+      "name": "Vertida_04",
+      "mesh_volume_m3": 88.92474828213061,
+      "low_m": [
+        -6.250000000000001,
+        -6.25,
+        2.2
+      ],
+      "high_m": [
+        6.25,
+        6.25,
+        3.3
+      ],
+      "placement_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.2
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "closed_oriented": true
+    },
+    {
+      "id": 5,
+      "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+      "name": "Vertida_05",
+      "mesh_volume_m3": 38.477191140741105,
+      "low_m": [
+        -3.5,
+        -3.499500768958985,
+        3.3
+      ],
+      "high_m": [
+        3.5,
+        3.4995007689589843,
+        4.3
+      ],
+      "placement_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.3
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "closed_oriented": true
+    }
+  ],
+  "final_exterior": {
+    "faces": 7072,
+    "area_m2": 758.8800000000003
+  },
+  "interfaces": {
+    "faces": 3452,
+    "area_m2": 699.0300000000004
+  },
+  "construction": [
+    {
+      "time_h": 0.0,
+      "active_cells": 6680,
+      "exposed_faces": 3472,
+      "exposed_area_m2": 580.6800000000003,
+      "future_faces": 1336,
+      "closed_interface_faces": 0
+    },
+    {
+      "time_h": 3.4525142725954208,
+      "active_cells": 13360,
+      "exposed_faces": 4272,
+      "exposed_area_m2": 620.2800000000002,
+      "future_faces": 1288,
+      "closed_interface_faces": 1336
+    },
+    {
+      "time_h": 6.905028545190843,
+      "active_cells": 22924,
+      "exposed_faces": 5624,
+      "exposed_area_m2": 687.2040000000002,
+      "future_faces": 640,
+      "closed_interface_faces": 2624
+    },
+    {
+      "time_h": 11.689515563190682,
+      "active_cells": 26960,
+      "exposed_faces": 6496,
+      "exposed_area_m2": 730.3680000000002,
+      "future_faces": 188,
+      "closed_interface_faces": 3264
+    },
+    {
+      "time_h": 13.968010528833293,
+      "active_cells": 28652,
+      "exposed_faces": 7072,
+      "exposed_area_m2": 758.8800000000003,
+      "future_faces": 0,
+      "closed_interface_faces": 3452
+    },
+    {
+      "time_h": 600.0,
+      "active_cells": 28652,
+      "exposed_faces": 7072,
+      "exposed_area_m2": 758.8800000000003,
+      "future_faces": 0,
+      "closed_interface_faces": 3452
+    }
+  ],
+  "note": "Caras finales y temporalmente expuestas son distintas; calendario geométrico sin temperaturas inferidas. ClosedMesh valida cierre/orientación al extraer el IFC real."
+}

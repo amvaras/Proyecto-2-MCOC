@@ -1,0 +1,18 @@
+{
+  "source": "Open-Meteo",
+  "kind": "forecast ensemble",
+  "model_requested": "gfs05",
+  "retrieved_at_utc": "2026-11-17T18:42:24.021760+00:00",
+  "request_url": "https://ensemble-api.open-meteo.com/v1/ensemble?latitude=-28.856102&longitude=-71.421831&models=gfs05&hourly=temperature_2m%2Cwind_speed_10m%2Cshortwave_radiation&temperature_unit=celsius&wind_speed_unit=ms&timeformat=unixtime&timezone=GMT&forecast_days=35",
+  "raw_sha256": "718f22d33a8b8ad0558d13caea4737d86f6dffd243070b825b505490702cc246",
+  "latitude": -28.856102,
+  "longitude": -71.421831,
+  "grid_latitude": -29.0,
+  "grid_longitude": -71.5,
+  "provider_run_utc": null,
+  "provider_model_version": null,
+  "elevation_m": 145.0,
+  "documentation": "https://open-meteo.com/en/docs/ensemble-api",
+  "license": "https://open-meteo.com/en/licence",
+  "caveat": "GFS 0.5° ~50 km, nativo 3 h o 6 h en horizonte largo; API interpola a 1 h. No es estación local ni ensemble calibrado al sitio."
+}

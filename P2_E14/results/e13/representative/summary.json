@@ -1,0 +1,867 @@
+{
+  "status": "PASS",
+  "configuration": {
+    "ifc": "geometry/foundation.ifc",
+    "snapshot": "data/weather/forecast-20261117T184224021760Z-8f48afdabb33",
+    "simulation_start_utc": "2026-11-19T11:00:00Z",
+    "constant_reference_C": 20.0,
+    "physics": {
+      "description": "E12 336 h; plan docente E11; fuente experimental M2_SS",
+      "spacing_m": [
+        0.45,
+        0.45,
+        0.11
+      ],
+      "resolutions_m": [
+        0.55,
+        0.45,
+        0.3
+      ],
+      "margin_m": 0,
+      "t_end_s": 1468800,
+      "max_step_s": 900,
+      "save_interval_s": 43200,
+      "safety": 0.8,
+      "energy_reference_C": 20,
+      "h_W_m2K": 8,
+      "ambient_C": 20,
+      "boundaries": {
+        "z-": {
+          "type": "adiabatic"
+        }
+      },
+      "material": {
+        "k": 2,
+        "rho": 2400,
+        "cp": 900
+      },
+      "hydration": {
+        "H_vol_J_m3": 100166110.77599981,
+        "duration_s": 865198.8
+      },
+      "events": [
+        {
+          "pour_id": 1,
+          "activation_s": 0.0,
+          "initial_C": 12.0
+        },
+        {
+          "pour_id": 2,
+          "activation_s": 12429.051381343515,
+          "initial_C": 12.0
+        },
+        {
+          "pour_id": 3,
+          "activation_s": 24858.102762687035,
+          "initial_C": 12.0
+        },
+        {
+          "pour_id": 4,
+          "activation_s": 42082.25602748645,
+          "initial_C": 12.0
+        },
+        {
+          "pour_id": 5,
+          "activation_s": 50284.83790379985,
+          "initial_C": 12.0
+        }
+      ]
+    },
+    "core_target_m": [
+      0,
+      0,
+      1.65
+    ],
+    "export_hours": [
+      0,
+      24,
+      72,
+      168,
+      336
+    ],
+    "environment": {
+      "air": {
+        "h_still_W_m2K": 8.0,
+        "h_wind_per_m_s": 0.0,
+        "solar_absorptivity": 0.0
+      },
+      "soil": {
+        "temperature_C": 18.0,
+        "depth_m": 0.4,
+        "conductivity_W_mK": 1.5,
+        "contact_m2K_W": 0.025,
+        "adiabatic": false
+      },
+      "formwork": {
+        "orientations": [
+          "x-",
+          "x+",
+          "y-",
+          "y+",
+          "z+"
+        ],
+        "remove_at_s": 864000.0,
+        "layers": [
+          {
+            "name": "tablero",
+            "thickness_m": 0.018,
+            "conductivity_W_mK": 0.13
+          },
+          {
+            "name": "aislacion",
+            "thickness_m": 0.025,
+            "conductivity_W_mK": 0.04
+          }
+        ]
+      }
+    },
+    "experimental_source": {
+      "file": "data/hydration/source_terms.txt",
+      "curve": "M4_SS",
+      "tail": "exponential",
+      "tau_s": 86400.0
+    },
+    "evaluation": {
+      "depth_m": 0.025,
+      "surface_scope": "todas las caras expuestas de hormigón activo, incluida base e interfaces futuras; sin interfaces activas cerradas",
+      "course_reference": "Presentacion_inicial_P2_Hormigon_Masivo_2026.pptx, diapositivas 6 y 30"
+    }
+  },
+  "simulation_start_utc": "2026-11-19T11:00:00Z",
+  "simulation_end_utc": "2026-12-06T11:00:00Z",
+  "coverage": {
+    "start_utc": "2026-11-19T11:00:00Z",
+    "end_utc": "2026-12-06T11:00:00Z",
+    "covered_hours": 408.0,
+    "tail_hours": 0.0,
+    "tail_from_utc": null,
+    "tail_assumptions": null
+  },
+  "weather_metadata": {
+    "schema_version": 1,
+    "kind": "forecast",
+    "source": "Open-Meteo",
+    "model_requested": "gfs05",
+    "provider_run_utc": null,
+    "retrieved_at_utc": "2026-11-17T18:42:24.021760+00:00",
+    "latitude": -28.856102,
+    "longitude": -71.421831,
+    "grid_latitude": -29.0,
+    "grid_longitude": -71.5,
+    "timezone": "UTC",
+    "site_timezone": "America/Santiago",
+    "variables": [
+      "temperature_2m",
+      "wind_speed_10m",
+      "shortwave_radiation"
+    ],
+    "units": {
+      "temperature_2m": "°C",
+      "wind_speed_10m": "m/s",
+      "shortwave_radiation": "W/m²"
+    },
+    "request_url": "https://ensemble-api.open-meteo.com/v1/ensemble?latitude=-28.856102&longitude=-71.421831&models=gfs05&hourly=temperature_2m%2Cwind_speed_10m%2Cshortwave_radiation&temperature_unit=celsius&wind_speed_unit=ms&timeformat=unixtime&timezone=GMT&forecast_days=35",
+    "valid_from_utc": "2026-11-17T00:00:00Z",
+    "valid_until_utc": "2026-12-21T01:00:00Z",
+    "raw_sha256": "8f48afdabb33ef88b10d7761e352d779a72368f65cf507dc1ceb7b7f8f0aaa72",
+    "e11_schema": 1,
+    "e13_ensemble_member": 17,
+    "ensemble_parent": "data/ensemble/raw.json",
+    "ensemble_parent_sha256": "718f22d33a8b8ad0558d13caea4737d86f6dffd243070b825b505490702cc246",
+    "normalized_sha256": "83680ef7e105e02f55d6a612a2c2e632703c0f8d36816b2035498452b7626af5",
+    "interval_s": 3600,
+    "provider_elevation_m": 145.0,
+    "provider_model_version": null,
+    "representativeness": "GFS 0.5° ~50 km, nativo 3 h o 6 h en horizonte largo; API interpola a 1 h. No es estación local ni ensemble calibrado al sitio.",
+    "license_url": "https://open-meteo.com/en/licence",
+    "derivation": "Extracción exacta de las tres variables del mismo miembro; weather.json derivado, original completo en data/ensemble/raw.json"
+  },
+  "ifc_sha256": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a",
+  "grid": {
+    "origin_m": [
+      -9.0,
+      -8.999999999999998,
+      0.0
+    ],
+    "spacing_m": [
+      0.45,
+      0.45,
+      0.11
+    ],
+    "shape": [
+      40,
+      40,
+      40
+    ],
+    "upper_m": [
+      9.0,
+      9.000000000000002,
+      4.4
+    ],
+    "axes": "XYZ; array[i,j,k]; C-order",
+    "cell_volume_m3": 0.022275000000000003,
+    "grid_cells": 64000,
+    "occupied_cells": 28652,
+    "volume_voxel_m3": 638.2233000000001,
+    "volume_reference_mesh_m3": 636.8777175824058,
+    "absolute_error_m3": 1.3455824175943008,
+    "relative_error": 0.0021127798640877956,
+    "signed_error_m3": 1.3455824175943008,
+    "sum_absolute_pour_errors_m3": 5.293866499060236,
+    "max_pour_relative_error": 0.020476836208214104,
+    "boundary_ties": 0,
+    "by_pour": [
+      {
+        "vertida_id": 1,
+        "guid": "0oY4bM1krVGQdxfBrXmxJm",
+        "cells": 6680,
+        "volume_voxel_m3": 148.79700000000003,
+        "volume_reference_m3": 147.62571362977107,
+        "absolute_error_m3": 1.1712863702289553,
+        "signed_error_m3": 1.1712863702289553,
+        "relative_error": 0.007934162290767391
+      },
+      {
+        "vertida_id": 2,
+        "guid": "3hfPF39u1QnvSBQJFmy$c2",
+        "cells": 6680,
+        "volume_voxel_m3": 148.79700000000003,
+        "volume_reference_m3": 147.6257136297711,
+        "absolute_error_m3": 1.171286370228927,
+        "signed_error_m3": 1.171286370228927,
+        "relative_error": 0.007934162290767197
+      },
+      {
+        "vertida_id": 3,
+        "guid": "0l2Nmu8ZrTEQU0yg2tbkUj",
+        "cells": 9564,
+        "volume_voxel_m3": 213.03810000000004,
+        "volume_reference_m3": 214.2243508999919,
+        "absolute_error_m3": 1.1862508999918475,
+        "signed_error_m3": -1.1862508999918475,
+        "relative_error": 0.005537423243474476
+      },
+      {
+        "vertida_id": 4,
+        "guid": "1jVXFE7TLGsO88Iyj_MihB",
+        "cells": 4036,
+        "volume_voxel_m3": 89.90190000000001,
+        "volume_reference_m3": 88.92474828213061,
+        "absolute_error_m3": 0.977151717869404,
+        "signed_error_m3": 0.977151717869404,
+        "relative_error": 0.01098852385580227
+      },
+      {
+        "vertida_id": 5,
+        "guid": "3Tlu2_c3TMYPS8kzXY9HNb",
+        "cells": 1692,
+        "volume_voxel_m3": 37.6893,
+        "volume_reference_m3": 38.477191140741105,
+        "absolute_error_m3": 0.7878911407411024,
+        "signed_error_m3": -0.7878911407411024,
+        "relative_error": 0.020476836208214104
+      }
+    ]
+  },
+  "probes": [
+    {
+      "name": "nucleo",
+      "index": [
+        19,
+        19,
+        14
+      ],
+      "coordinate_m": [
+        -0.22499999999999964,
+        -0.22499999999999787,
+        1.595
+      ],
+      "vertida_id": 3,
+      "kind": "cell_center",
+      "target_m": [
+        0.0,
+        0.0,
+        1.65
+      ]
+    },
+    {
+      "name": "superficie_superior",
+      "index": [
+        19,
+        19,
+        38
+      ],
+      "coordinate_m": [
+        -0.22499999999999964,
+        -0.22499999999999787,
+        4.29
+      ],
+      "cell_center_m": [
+        -0.22499999999999964,
+        -0.22499999999999787,
+        4.235
+      ],
+      "vertida_id": 5,
+      "kind": "reconstructed_face",
+      "face": "z+",
+      "half_cell_m": 0.055,
+      "target_m": [
+        -0.22499999999999964,
+        -0.22499999999999787,
+        4.29
+      ]
+    },
+    {
+      "name": "superficie_lateral",
+      "index": [
+        39,
+        19,
+        10
+      ],
+      "coordinate_m": [
+        9.000000000000002,
+        -0.22499999999999787,
+        1.155
+      ],
+      "cell_center_m": [
+        8.775000000000002,
+        -0.22499999999999787,
+        1.155
+      ],
+      "vertida_id": 3,
+      "kind": "reconstructed_face",
+      "face": "x+",
+      "half_cell_m": 0.225,
+      "target_m": [
+        9.000000000000002,
+        -0.22499999999999787,
+        1.595
+      ]
+    }
+  ],
+  "peaks": {
+    "weather": {
+      "temperature_C": 57.788207769506016,
+      "time_h": 196.5,
+      "index": [
+        19,
+        19,
+        21
+      ],
+      "coordinate_m": [
+        -0.22499999999999964,
+        -0.22499999999999787,
+        2.365
+      ],
+      "vertida_id": 4
+    },
+    "constant": {
+      "temperature_C": 57.89829429810909,
+      "time_h": 198.25,
+      "index": [
+        19,
+        19,
+        21
+      ],
+      "coordinate_m": [
+        -0.22499999999999964,
+        -0.22499999999999787,
+        2.365
+      ],
+      "vertida_id": 4
+    }
+  },
+  "energy": {
+    "weather": {
+      "reference_C": 20,
+      "initial_J": -2571212160.0000005,
+      "final_J": 16319215210.024677,
+      "hydration_J": 63928345767.62428,
+      "outward_J": 36580631933.59952,
+      "placement_after_zero_J": -8457286464.000002,
+      "residual_J": -8.96453857421875e-05,
+      "max_step_residual_J": 1.3493001461029053e-05,
+      "tolerance_J": 0.6392844576762423
+    },
+    "constant": {
+      "reference_C": 20,
+      "initial_J": -2571212160.0000005,
+      "final_J": 17780113799.868454,
+      "hydration_J": 63928345767.62428,
+      "outward_J": 35119733343.7557,
+      "placement_after_zero_J": -8457286464.000002,
+      "residual_J": -0.0001277923583984375,
+      "max_step_residual_J": 1.5538185834884644e-05,
+      "tolerance_J": 0.6392844576762422
+    }
+  },
+  "checks": {
+    "weather": {
+      "global_energy_balance": true,
+      "step_energy_balance": true,
+      "hydration_potential": true,
+      "stable_steps": true,
+      "events_reached": true,
+      "inactive_is_nan": true,
+      "final_time_exact": true
+    },
+    "constant": {
+      "global_energy_balance": true,
+      "step_energy_balance": true,
+      "hydration_potential": true,
+      "stable_steps": true,
+      "events_reached": true,
+      "inactive_is_nan": true,
+      "final_time_exact": true
+    }
+  },
+  "comparison": {
+    "final_field_Linf_C": 3.5375369513107593,
+    "Tmax_max_difference_C": 0.6231219889793529,
+    "final_core_C": {
+      "weather": 49.91848732392777,
+      "constant": 50.07299452687332
+    },
+    "final_top_face_C": {
+      "weather": 23.05349363050458,
+      "constant": 25.9866199991364
+    },
+    "max_core_top_difference_C": {
+      "weather": 27.65024188978678,
+      "constant": 24.921210752844395
+    },
+    "outward_energy_difference_J": 1460898589.8438187
+  },
+  "same_time_steps": true,
+  "activation_events": [
+    {
+      "time_s": 0.0,
+      "vertida_ids": [
+        1
+      ],
+      "placement_energy_J": -2571212160.0000005
+    },
+    {
+      "time_s": 12429.051381343515,
+      "vertida_ids": [
+        2
+      ],
+      "placement_energy_J": -2571212160.0000005
+    },
+    {
+      "time_s": 24858.102762687035,
+      "vertida_ids": [
+        3
+      ],
+      "placement_energy_J": -3681298368.000001
+    },
+    {
+      "time_s": 42082.25602748645,
+      "vertida_ids": [
+        4
+      ],
+      "placement_energy_J": -1553504832.0000002
+    },
+    {
+      "time_s": 50284.83790379985,
+      "vertida_ids": [
+        5
+      ],
+      "placement_energy_J": -651271104.0
+    }
+  ],
+  "saved_frames": 41,
+  "steps": 1636,
+  "assumption": "Temperatura meteorológica variable y h constante; sin viento ni radiación explícitos. Suelo resistivo y moldaje E10 declarados; sin calibración de obra.",
+  "storage": "fields: [tiempo,celdas ocupadas C-order]; all_steps conserva cada paso weather; active excluye ceros de relleno; campos float64",
+  "source_sha256": {
+    "src/mcoc_p2/__init__.py": "f78e88589677fd11447ae7b7edb0aff25fcb5d888485a30ffb15222e31dd8f6a",
+    "src/mcoc_p2/diffusion_1d.py": "154406eb286d54ce6c06b1a17658f8fe6492eaf5aa07a759c1d179c1fc34b762",
+    "src/mcoc_p2/e07/__init__.py": "9d08445a8e30a0630e93fb9659ee243226abab707cc056a6745043e78bd62a47",
+    "src/mcoc_p2/e07/construction.py": "1f8bb8086213354aa6f26350d7ee54e85d6cff5bd8734f0622825d9a3fbdd507",
+    "src/mcoc_p2/e07/coupling.py": "0bcdb505cb886b9aaed6805a4079bae415b2030261b20a64c85144b30c5802ee",
+    "src/mcoc_p2/e07/faces.py": "c0b26f3601ebe05d669f2f528b588dddf391d53fde801d800f4add1d14c1d02c",
+    "src/mcoc_p2/e07/geometry.py": "e5a941dcebd3a36bbde3209a304c8ac7d29e3888a4ad61fec5c5eb0c1880fd03",
+    "src/mcoc_p2/e07/hydration.py": "fbebc14430906009d795bf864c6fb0f3bbc17808c33717d4be05b94f9831beee",
+    "src/mcoc_p2/e07/ifc.py": "ad4aa931fd87eb0a09a0c8fc1e318283086f5199b1e13dd5f134d5b261359e2b",
+    "src/mcoc_p2/e07/plots.py": "57e08c13a2b00d427c08bba3e0636df1e2d84c6b9db1da5c05b94abca0d2d1e0",
+    "src/mcoc_p2/e07/voxel.py": "f693ea9e0ff075cc33ab4072c983f8d5d58446ac93c7b13af440266c146b6988",
+    "src/mcoc_p2/e08/__init__.py": "c90060bbce92169a02c945ffcbd27e6b713b333f1c567bec8cbec0b8b38d3399",
+    "src/mcoc_p2/e08/inputs.py": "0d4d16dac354988f68715b61a9c046a6155ba0f59d4e37b4128be718a89133b4",
+    "src/mcoc_p2/e08/pipeline.py": "468eead518a248681221a0138a0b85d89bf60422e99cfcaa9f864cabf3a39626",
+    "src/mcoc_p2/e08/plots.py": "c23df4845bc83adc901f807cb1741e8611e9aaf910faa64d0a9ea571f0038b54",
+    "src/mcoc_p2/e08/solver.py": "e2c5e1c8c13ce2bf11acd2179e911c994473a94bc2b8e54c539f987040ec95bc",
+    "src/mcoc_p2/e09/__init__.py": "b9865f7825bb84d7a50dfa97ae5caff87bdab6ad5243592094f0188099a1e7fe",
+    "src/mcoc_p2/e09/analysis.py": "bea152ed9fb49d0caf2171d705c3de7d2f4b9d6d061fb8447581a9fc411b8d9c",
+    "src/mcoc_p2/e09/pipeline.py": "21ba3708c63d5e0d2084ba6619c7e44ee920a0322605096f2547eb0e6f7280be",
+    "src/mcoc_p2/e09/plots.py": "72e341e703ce93b3a482cb26a3d885839fc4fd8579aca61094be487b4d837314",
+    "src/mcoc_p2/e09/verification.py": "e4f0dca8a2bb86dd6c74acd307ac8f677ab00a50d2190f5a20fe6ccafd2db6bb",
+    "src/mcoc_p2/e10/__init__.py": "fd9928b7e59be8155dea9a47bd33287f979eddeb8cfcd9c3d1865fd04cdd8f58",
+    "src/mcoc_p2/e10/boundaries.py": "4a48349c668b116f2dc19ddb6c7cdd78fdb856bc7e4cab6ba74a6fcfe38a0ec0",
+    "src/mcoc_p2/e10/weather.py": "0567e96171ae646832c4649f7ab63d90853de8d613aaacf90ce5d90789bcdbe2",
+    "src/mcoc_p2/e11/__init__.py": "83d9b3382e60d0501eee40c0de22723511e443a2b535033d8953bdf6b63ec6cd",
+    "src/mcoc_p2/e11/pipeline.py": "5ccbf5ed9d7343c5a958aefe3b6979ba654ea46ca65434dcef49a1e744cabecc",
+    "src/mcoc_p2/e11/plots.py": "1da9fc8f137530f3de6ba5906975351b3f4f69a394fa1d4e4671d8955bda3520",
+    "src/mcoc_p2/e11/viewer.py": "2de666eabd1aa60adb5a96e847c1cdaedbda4e4249b9e76884d4ca29904377be",
+    "src/mcoc_p2/e11/vtkio.py": "497f7ee97ff4c666c48714a0e727a532f95a5d65a32cbefeb70f172e1c2a1358",
+    "src/mcoc_p2/e11/weather.py": "ea7c5e32d067098a1721c83de0c5c752871508e89e8f2cb5da2b550ecf104788",
+    "src/mcoc_p2/e11/webdata.py": "4e8fad43cc6b4c0158c96e9e41a62175b8d2a575e39f8c1ceacf6347e9c0f18b",
+    "src/mcoc_p2/e12/__init__.py": "5edf4e2038273bd058868a7346bd892e3e438cff6636ca3b6e15b6d3b48c787a",
+    "src/mcoc_p2/e12/metrics.py": "6df6ddc75f3705f29dca57cf2e212678d95e6f03032366d73e7380aa7e93d2e7",
+    "src/mcoc_p2/e12/pipeline.py": "b03ef430a9e5748a15722b50e8bd78053e6b6605b625c8d9ad647de6e913928a",
+    "src/mcoc_p2/e12/plots.py": "85c9155e3d4eb4db4cb0319f0d9009f7a73b0d78ce1af18a7fdd704fb849d3f7",
+    "src/mcoc_p2/e12/source.py": "9e577e299f160305e2324f2b7fad0e2488fc283963886ba7139871bcb5501041",
+    "src/mcoc_p2/e12/verification.py": "899ac98b760d2adbc9de7c31e00e4673aa6fa39474bb9488f4c5a657fb41d80a",
+    "src/mcoc_p2/e13/__init__.py": "466f404b0a8455b01c3e79691562559aa7d3fea7f0305567d9bffd9c0ab5e5e5",
+    "src/mcoc_p2/e13/evaluator.py": "9b6cb4337adb598dc10460283d27c6fc1d47f0d4ff0a6ba835fc39d024c55ac4",
+    "src/mcoc_p2/e13/plans.py": "f5a39bf7268fcd4efc471f4c9add37f2ed09bbedac56209a3761d873e0bfb94e",
+    "src/mcoc_p2/e13/plots.py": "5741e3bb611dc1139dd868a8ee534b0dea6167280dc6ac15db6c4947525a6017",
+    "src/mcoc_p2/e13/risk.py": "f0a40dec2960156df3f5a94cff25459fef7908e9d51071a0d631f00ec7ff7c79",
+    "src/mcoc_p2/e13/weather.py": "8855419de4cfe88bbe1f6ffa82300a12f13bdbb0e441d93cc0f7fb692a61a579",
+    "src/mcoc_p2/e13/web.py": "4777dc5716a49a5d7e1ba2f36af5e15d658286566f71859e2a53078183dc1760",
+    "src/mcoc_p2/housekeeping.py": "72105463b6cb08f367b80701ee1f187de6a193b8d15c00a3133d8664662d193a",
+    "src/mcoc_p2/thermal_nd.py": "d1d870072f4fb789fb4230fdc4a3ff7009502d68bf392a909666e7066f3d7ab6",
+    "src/mcoc_p2/verification_e05.py": "95881caec8fa4405b05ac2443d7afec3504d60a9c36e4c2313e82542decaf0be"
+  },
+  "elapsed_s": 58.72300049999831,
+  "delivery": "E13",
+  "source": {
+    "file": "source_terms.txt",
+    "sha256": "182b4a500dd02060b89dc452f007a379c7ab6cdc569e67de59a04c00d3497956",
+    "time_units": "h convertidas a s",
+    "source_units": "W/m³",
+    "curves": {
+      "M1_SS": {
+        "campaign": "SS",
+        "samples": 1443,
+        "missing_tail": 0,
+        "coverage_h": [
+          0.0,
+          240.33300000000003
+        ],
+        "integrated_MJ_m3": 88.14834777600001,
+        "nominal_MJ_m3": 88.1,
+        "final_W_m3": 1.57,
+        "quality": "mayor confianza; RMSE 0.1–0.2 K"
+      },
+      "M2_SS": {
+        "campaign": "SS",
+        "samples": 1443,
+        "missing_tail": 0,
+        "coverage_h": [
+          0.0,
+          240.33300000000003
+        ],
+        "integrated_MJ_m3": 95.71522170600001,
+        "nominal_MJ_m3": 95.7,
+        "final_W_m3": 0.0,
+        "quality": "mayor confianza; RMSE 0.1–0.2 K"
+      },
+      "M3_SS": {
+        "campaign": "SS",
+        "samples": 1443,
+        "missing_tail": 0,
+        "coverage_h": [
+          0.0,
+          240.33300000000003
+        ],
+        "integrated_MJ_m3": 94.149010872,
+        "nominal_MJ_m3": 94.1,
+        "final_W_m3": 0.0,
+        "quality": "mayor confianza; RMSE 0.1–0.2 K"
+      },
+      "M4_SS": {
+        "campaign": "SS",
+        "samples": 1443,
+        "missing_tail": 0,
+        "coverage_h": [
+          0.0,
+          240.33300000000003
+        ],
+        "integrated_MJ_m3": 100.16611077600001,
+        "nominal_MJ_m3": 100.2,
+        "final_W_m3": 0.0,
+        "quality": "mayor confianza; RMSE 0.1–0.2 K"
+      },
+      "M1_22A": {
+        "campaign": "22A",
+        "samples": 979,
+        "missing_tail": 464,
+        "coverage_h": [
+          0.0,
+          163.0
+        ],
+        "integrated_MJ_m3": 61.212021138,
+        "nominal_MJ_m3": 61.2,
+        "final_W_m3": 0.0,
+        "quality": "menor confianza; RMSE ~0.4 K"
+      },
+      "M2_22A": {
+        "campaign": "22A",
+        "samples": 979,
+        "missing_tail": 464,
+        "coverage_h": [
+          0.0,
+          163.0
+        ],
+        "integrated_MJ_m3": 82.44622566000001,
+        "nominal_MJ_m3": 82.4,
+        "final_W_m3": 0.0,
+        "quality": "menor confianza; RMSE ~0.4 K"
+      },
+      "M3_22A": {
+        "campaign": "22A",
+        "samples": 979,
+        "missing_tail": 464,
+        "coverage_h": [
+          0.0,
+          163.0
+        ],
+        "integrated_MJ_m3": 73.28883027600001,
+        "nominal_MJ_m3": 73.3,
+        "final_W_m3": 0.0,
+        "quality": "menor confianza; RMSE ~0.4 K"
+      },
+      "M4_22A": {
+        "campaign": "22A",
+        "samples": 979,
+        "missing_tail": 464,
+        "coverage_h": [
+          0.0,
+          163.0
+        ],
+        "integrated_MJ_m3": 73.62834362999999,
+        "nominal_MJ_m3": 73.6,
+        "final_W_m3": 0.0,
+        "quality": "menor confianza; RMSE ~0.4 K"
+      }
+    },
+    "time_zero": "inicio ventana conservada; registro original +2 h; no se reconstruyen las primeras 2 h",
+    "specimen": {
+      "radius_m": 0.0375,
+      "height_m": 0.15,
+      "rho_kg_m3": 2476,
+      "cp_J_kgK": 1023,
+      "cement_kg_m3": 350.77,
+      "beta_W_m2K": 2.5
+    },
+    "selected": "M4_SS",
+    "representative_SS_medoid": "M2_SS",
+    "SS_L2_scores_W2_s_m6": {
+      "M1_SS": 1464351559.3218603,
+      "M2_SS": 516535988.09346,
+      "M3_SS": 641838912.5752201,
+      "M4_SS": 931067985.3125402
+    },
+    "tail_policy": "exponential",
+    "tail_tau_s": 86400.0,
+    "tail_additional_MJ_m3": 0.0,
+    "selected_total_MJ_m3": 100.16611077599981
+  },
+  "global_maximum": {
+    "temperature_C": 57.788207769506016,
+    "time_h": 196.5,
+    "index": [
+      19,
+      19,
+      21
+    ],
+    "coordinate_m": [
+      -0.22499999999999964,
+      -0.22499999999999787,
+      2.365
+    ],
+    "vertida_id": 4,
+    "time_s": 707400.0,
+    "utc": "2026-11-27T15:30:00Z",
+    "active": true
+  },
+  "global_delta25_maximum": {
+    "value_C": 38.874760165721554,
+    "time_h": 306.0,
+    "hot": {
+      "index": [
+        19,
+        19,
+        21
+      ],
+      "coordinate_m": [
+        -0.22499999999999964,
+        -0.22499999999999787,
+        2.365
+      ],
+      "vertida_id": 4,
+      "active": true
+    },
+    "cold": {
+      "index": [
+        0,
+        11,
+        9
+      ],
+      "coordinate_m": [
+        -8.975,
+        -3.8249999999999984,
+        1.045
+      ],
+      "face_coordinate_m": [
+        -9.0,
+        -3.8249999999999984,
+        1.045
+      ],
+      "vertida_id": 2,
+      "face": "x-",
+      "classification": "lateral",
+      "temperature_C": 16.82393536710681,
+      "kind": "reconstrucción lineal a 25 mm"
+    },
+    "hot_temperature_C": 55.69869553282836,
+    "depth_m": 0.025,
+    "definition": "max Ω activo menos min S25 en el mismo instante; todas las caras expuestas, incluida base y frente a vertida futura",
+    "time_s": 1101600.0,
+    "utc": "2026-12-02T05:00:00Z"
+  },
+  "evaluation": {
+    "depth_m": 0.025,
+    "surface_scope": "todas las caras expuestas de hormigón activo, incluida base e interfaces futuras; sin interfaces activas cerradas",
+    "course_reference": "Presentacion_inicial_P2_Hormigon_Masivo_2026.pptx, diapositivas 6 y 30"
+  },
+  "temperature_pass": true,
+  "delta_pass": false,
+  "complete_336h": true,
+  "deterministic_status": "NO CUMPLE",
+  "criterion_status": "Aplicación del criterio del curso con aproximación lineal subcelda; sensibilidad espacial requerida",
+  "all_integration_fields": true,
+  "end_trend": {
+    "Tmax_change_last_24h_C": -0.9969015013461089,
+    "maximum_at_final": false
+  },
+  "dataset_policy": "Forecast nuevo de 16 días; no mezcla con E11, sin extrapolación ni cola climática",
+  "vtk": {
+    "states": [
+      {
+        "file": "state_00.vti",
+        "frame": 0,
+        "time_h": 0.0,
+        "sha256": "9e3a9a12eeaa204856da284e807e4ae4c4a567106c762fe2be177e1918947c4b",
+        "validation": {
+          "status": "PASS",
+          "cells": 64000,
+          "active_cells": 6680,
+          "array_order": "VTK x-fast; NumPy XYZ flattened F; tested every cell and field",
+          "exact_temperature_equality": true
+        }
+      },
+      {
+        "file": "state_01.vti",
+        "frame": 6,
+        "time_h": 24.0,
+        "sha256": "97f90cfe58c3b6bc22fe671227a40f9b8b1f4839bbcac891e4b28213f2d1d8d2",
+        "validation": {
+          "status": "PASS",
+          "cells": 64000,
+          "active_cells": 28652,
+          "array_order": "VTK x-fast; NumPy XYZ flattened F; tested every cell and field",
+          "exact_temperature_equality": true
+        }
+      },
+      {
+        "file": "state_02.vti",
+        "frame": 10,
+        "time_h": 72.0,
+        "sha256": "0abb3f35d1e74cc22f571e2716c121681e4c6ef9e31f65e63efcfe15c25f63c9",
+        "validation": {
+          "status": "PASS",
+          "cells": 64000,
+          "active_cells": 28652,
+          "array_order": "VTK x-fast; NumPy XYZ flattened F; tested every cell and field",
+          "exact_temperature_equality": true
+        }
+      },
+      {
+        "file": "state_03.vti",
+        "frame": 18,
+        "time_h": 168.0,
+        "sha256": "3e6770eb57f3d39cda2953f86faa3e2d44871054b567d37e8133030467073e8c",
+        "validation": {
+          "status": "PASS",
+          "cells": 64000,
+          "active_cells": 28652,
+          "array_order": "VTK x-fast; NumPy XYZ flattened F; tested every cell and field",
+          "exact_temperature_equality": true
+        }
+      },
+      {
+        "file": "state_04.vti",
+        "frame": 20,
+        "time_h": 192.0,
+        "sha256": "2fd16e7e31915e128d73d2fa4c72137ad5249488a28b7c7f653c597676357f6a",
+        "validation": {
+          "status": "PASS",
+          "cells": 64000,
+          "active_cells": 28652,
+          "array_order": "VTK x-fast; NumPy XYZ flattened F; tested every cell and field",
+          "exact_temperature_equality": true
+        }
+      },
+      {
+        "file": "state_05.vti",
+        "frame": 21,
+        "time_h": 196.5,
+        "sha256": "67b44f67d33c22a2a94466eea56e8803e6364a7029c7b09502588638bcb8573b",
+        "validation": {
+          "status": "PASS",
+          "cells": 64000,
+          "active_cells": 28652,
+          "array_order": "VTK x-fast; NumPy XYZ flattened F; tested every cell and field",
+          "exact_temperature_equality": true
+        }
+      },
+      {
+        "file": "state_06.vti",
+        "frame": 31,
+        "time_h": 306.0,
+        "sha256": "7aadf129124776123d0d09900bbc36952aee4dc0815a11a73f1ed6dba8df3bd6",
+        "validation": {
+          "status": "PASS",
+          "cells": 64000,
+          "active_cells": 28652,
+          "array_order": "VTK x-fast; NumPy XYZ flattened F; tested every cell and field",
+          "exact_temperature_equality": true
+        }
+      },
+      {
+        "file": "state_07.vti",
+        "frame": 34,
+        "time_h": 336.0,
+        "sha256": "9f0d1c91b488e5cd3b7eea7b169871fdcf61e97461173f7d207c7e313e73e8b2",
+        "validation": {
+          "status": "PASS",
+          "cells": 64000,
+          "active_cells": 28652,
+          "array_order": "VTK x-fast; NumPy XYZ flattened F; tested every cell and field",
+          "exact_temperature_equality": true
+        }
+      },
+      {
+        "file": "state_08.vti",
+        "frame": 40,
+        "time_h": 408.0,
+        "sha256": "4bdf6f1dccaa732d609089e2b5abcc9da92373066b38603ee0eae2f6bd89b1e0",
+        "validation": {
+          "status": "PASS",
+          "cells": 64000,
+          "active_cells": 28652,
+          "array_order": "VTK x-fast; NumPy XYZ flattened F; tested every cell and field",
+          "exact_temperature_equality": true
+        }
+      }
+    ],
+    "collection": "vtk/e13/e13.pvd",
+    "pvd_read_verified": true
+  },
+  "illustrative_plan": "protegido_rapido",
+  "illustrative_scenario": "M4_SS_m17",
+  "illustrative_is_recommendation": false,
+  "E13_risk_status": "Riesgo del plan en results/e13/summary.json; este campo representa un solo escenario"
+}

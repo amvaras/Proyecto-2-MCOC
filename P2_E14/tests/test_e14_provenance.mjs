@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {canonicalConfiguration} from '../web/provenance.js';
+const original=JSON.parse(readFileSync(new URL('../results/e14/representative/summary.json',import.meta.url),'utf8')).configuration;
+const snapshot=JSON.stringify(original),rebuilt=structuredClone(original);
+rebuilt.physics.material={k:original.physics.material.k,rho:original.physics.material.rho,cp:original.physics.material.cp};
+rebuilt.physics.events=original.physics.events.map(v=>({pour_id:v.pour_id,activation_s:Number(String(v.activation_s/3600))*3600,initial_C:v.initial_C}));
+assert.notEqual(JSON.stringify(original),JSON.stringify(rebuilt));
+assert.equal(canonicalConfiguration(original),canonicalConfiguration(rebuilt));
+assert.equal(JSON.stringify(original),snapshot,'No mutar configuración guardada');
+rebuilt.physics.events[0].initial_C+=.001;
+assert.notEqual(canonicalConfiguration(original),canonicalConfiguration(rebuilt),'Un cambio térmico debe advertirse');
+const reordered=structuredClone(original);reordered.physics.events.reverse();
+assert.notEqual(canonicalConfiguration(original),canonicalConfiguration(reordered),'No ordenar arrays de eventos');
+console.log(JSON.stringify({status:'PASS',real_E14_configuration:true,equal_values_reordered_keys:true,changed_temperature_detected:true,input_unchanged:true}));
