@@ -1,0 +1,211 @@
+{
+  "configuration": {
+    "base": "configs/e12/baseline.json",
+    "start_utc": "2026-11-19T11:00:00Z",
+    "horizon_h": 408,
+    "spacing_m": [
+      0.45,
+      0.45,
+      0.11
+    ],
+    "max_step_s": 900,
+    "material_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "plans": [
+      {
+        "id": "unica",
+        "label": "unica",
+        "partition": "single",
+        "rate_m3_h": 50.0,
+        "start_h": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "duration_h": [
+          12.737554351648116
+        ],
+        "initial_C": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "wait_min_h": 0.5,
+        "protected": false,
+        "remove_at_h": 18.25,
+        "activation_rule": "start",
+        "resource_assumption": "Una bomba 50 m³/h y suministro continuo con relevos; capacidad hipotética, no dato docente. Equipo de enfriamiento disponible para todos; sin optimizar costes.",
+        "transition_assumption": "0.5 h mínimo de cambio entre capas, hipótesis logística; no demuestra resistencia de junta ni factibilidad de obra",
+        "physical_start_h": [
+          0.0
+        ],
+        "D_h": 12.737554351648116
+      },
+      {
+        "id": "E12_referencia",
+        "label": "E12_referencia",
+        "partition": "five",
+        "rate_m3_h": 50.0,
+        "start_h": [
+          0.0,
+          5.0,
+          10.0,
+          15.0,
+          20.0
+        ],
+        "duration_h": [
+          2.952514272595421,
+          2.952514272595422,
+          4.2844870179998376,
+          1.7784949656426121,
+          0.7695438228148221
+        ],
+        "initial_C": [
+          18.0,
+          19.0,
+          20.0,
+          21.0,
+          22.0
+        ],
+        "wait_min_h": 0.5,
+        "protected": false,
+        "remove_at_h": 18.25,
+        "activation_rule": "start",
+        "resource_assumption": "Una bomba 50 m³/h y suministro continuo con relevos; capacidad hipotética, no dato docente. Equipo de enfriamiento disponible para todos; sin optimizar costes.",
+        "transition_assumption": "0.5 h mínimo de cambio entre capas, hipótesis logística; no demuestra resistencia de junta ni factibilidad de obra",
+        "D_h": 20.76954382281482
+      },
+      {
+        "id": "protegido_rapido",
+        "label": "protegido_rapido",
+        "partition": "five",
+        "rate_m3_h": 50.0,
+        "start_h": [
+          0.0,
+          3.452514272595421,
+          6.905028545190843,
+          11.689515563190682,
+          13.968010528833293
+        ],
+        "duration_h": [
+          2.952514272595421,
+          2.952514272595422,
+          4.2844870179998376,
+          1.7784949656426121,
+          0.7695438228148221
+        ],
+        "initial_C": [
+          12.0,
+          12.0,
+          12.0,
+          12.0,
+          12.0
+        ],
+        "wait_min_h": 0.5,
+        "protected": true,
+        "remove_at_h": 240.0,
+        "activation_rule": "start",
+        "resource_assumption": "Una bomba 50 m³/h y suministro continuo con relevos; capacidad hipotética, no dato docente. Equipo de enfriamiento disponible para todos; sin optimizar costes.",
+        "transition_assumption": "0.5 h mínimo de cambio entre capas, hipótesis logística; no demuestra resistencia de junta ni factibilidad de obra",
+        "D_h": 14.737554351648114
+      },
+      {
+        "id": "propuesto_6h",
+        "label": "propuesto_6h",
+        "partition": "five",
+        "rate_m3_h": 50.0,
+        "start_h": [
+          0.0,
+          8.95251427259542,
+          17.905028545190845,
+          28.18951556319068,
+          35.96801052883329
+        ],
+        "duration_h": [
+          2.952514272595421,
+          2.952514272595422,
+          4.2844870179998376,
+          1.7784949656426121,
+          0.7695438228148221
+        ],
+        "initial_C": [
+          12.0,
+          12.0,
+          12.0,
+          12.0,
+          12.0
+        ],
+        "wait_min_h": 0.5,
+        "protected": true,
+        "remove_at_h": 240.0,
+        "activation_rule": "start",
+        "resource_assumption": "Una bomba 50 m³/h y suministro continuo con relevos; capacidad hipotética, no dato docente. Equipo de enfriamiento disponible para todos; sin optimizar costes.",
+        "transition_assumption": "0.5 h mínimo de cambio entre capas, hipótesis logística; no demuestra resistencia de junta ni factibilidad de obra",
+        "D_h": 36.737554351648114
+      },
+      {
+        "id": "protegido_lento_12h",
+        "label": "protegido_lento_12h",
+        "partition": "five",
+        "rate_m3_h": 50.0,
+        "start_h": [
+          0.0,
+          14.95251427259542,
+          29.90502854519084,
+          46.18951556319068,
+          59.9680105288333
+        ],
+        "duration_h": [
+          2.952514272595421,
+          2.952514272595422,
+          4.2844870179998376,
+          1.7784949656426121,
+          0.7695438228148221
+        ],
+        "initial_C": [
+          12.0,
+          12.0,
+          12.0,
+          12.0,
+          12.0
+        ],
+        "wait_min_h": 0.5,
+        "protected": true,
+        "remove_at_h": 240.0,
+        "activation_rule": "start",
+        "resource_assumption": "Una bomba 50 m³/h y suministro continuo con relevos; capacidad hipotética, no dato docente. Equipo de enfriamiento disponible para todos; sin optimizar costes.",
+        "transition_assumption": "0.5 h mínimo de cambio entre capas, hipótesis logística; no demuestra resistencia de junta ni factibilidad de obra",
+        "D_h": 60.73755435164812
+      }
+    ],
+    "uncertainty_label": "Exploratorio: pesos de material hipotéticos SS=80%, 22A=20%; comparabilidad no demostrada; clima reducido GFS no calibrado, independencia material/clima asumida"
+  },
+  "sha256": {
+    "src/mcoc_p2/e08/solver.py": "e2c5e1c8c13ce2bf11acd2179e911c994473a94bc2b8e54c539f987040ec95bc",
+    "src/mcoc_p2/e07/coupling.py": "0bcdb505cb886b9aaed6805a4079bae415b2030261b20a64c85144b30c5802ee",
+    "src/mcoc_p2/e10/boundaries.py": "4a48349c668b116f2dc19ddb6c7cdd78fdb856bc7e4cab6ba74a6fcfe38a0ec0",
+    "src/mcoc_p2/e12/metrics.py": "6df6ddc75f3705f29dca57cf2e212678d95e6f03032366d73e7380aa7e93d2e7",
+    "src/mcoc_p2/e12/source.py": "9e577e299f160305e2324f2b7fad0e2488fc283963886ba7139871bcb5501041",
+    "src/mcoc_p2/e13/evaluator.py": "9b6cb4337adb598dc10460283d27c6fc1d47f0d4ff0a6ba835fc39d024c55ac4",
+    "src/mcoc_p2/e13/plans.py": "f5a39bf7268fcd4efc471f4c9add37f2ed09bbedac56209a3761d873e0bfb94e",
+    "src/mcoc_p2/e13/risk.py": "f0a40dec2960156df3f5a94cff25459fef7908e9d51071a0d631f00ec7ff7c79",
+    "src/mcoc_p2/e13/weather.py": "8855419de4cfe88bbe1f6ffa82300a12f13bdbb0e441d93cc0f7fb692a61a579",
+    "geometry/foundation.ifc": "9273e7d23538c0dd9aa02b1e92a6920d49416815d3606262b3c4d7f400adb64a",
+    "data/hydration/source_terms.txt": "182b4a500dd02060b89dc452f007a379c7ab6cdc569e67de59a04c00d3497956",
+    "data/ensemble/raw.json": "718f22d33a8b8ad0558d13caea4737d86f6dffd243070b825b505490702cc246",
+    "data/ensemble/reduction.json": "548d94e89e335480d5e6957531ceb029909b5ffe2105f8c5fb0b20951f41f468"
+  },
+  "fingerprint": "adcd44172541ad5549fa3b26f053daaf2323e6bf24a2515982e711cb0699fdcb"
+}

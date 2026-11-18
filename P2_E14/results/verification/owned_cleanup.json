@@ -1,0 +1,11 @@
+{
+  "mode": "applied",
+  "method": "SHA256 preflight; individual unlink; empty rmdir; no recursive delete",
+  "removed_files": 4,
+  "removed_bytes": 18172,
+  "roots": [
+    ".runtime",
+    ".tmp",
+    "install.log"
+  ]
+}

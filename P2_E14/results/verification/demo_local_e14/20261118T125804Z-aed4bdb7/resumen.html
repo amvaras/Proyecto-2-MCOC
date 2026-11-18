@@ -1,0 +1,31 @@
+<!doctype html><html lang="es"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>E14 · Resultado local</title>
+<style>body{font:16px/1.6 system-ui,sans-serif;background:#eef4f4;color:#193638;margin:0}
+main{max-width:1100px;margin:auto;padding:28px}header,section{background:white;border-radius:16px;padding:24px;margin:18px 0}
+h1,h2{line-height:1.2}.tag{color:#0b7273;font-weight:700}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.card{background:#eef7f6;padding:16px;border-radius:12px}strong.big{display:block;font-size:26px}
+.table{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}td,th{padding:12px;text-align:left;border-bottom:1px solid #dae5e5}
+img{width:100%;height:auto}a{color:#087375}code{word-break:break-all}small{color:#536c6f}</style><main>
+<header><span class="tag">E14 · Cálculo paralelo en este computador</span><h1>Demostración local terminada</h1>
+<p>2026-11-18T09:58:08.622612-03:00 · Ejecución <code>20261118T125804Z-aed4bdb7</code></p>
+<div class="cards"><div class="card">Muestras por plan<strong class="big">2000</strong></div>
+<div class="card">Procesos observados<strong class="big">2</strong></div>
+<div class="card">Simulaciones nuevas<strong class="big">0</strong></div>
+<div class="card">Tiempo de ejecución<strong class="big">2.6 s</strong></div></div>
+<p>Semilla maestra: <strong>20261122</strong>. Inputs físicos únicos: 24.
+ Reutilizados: 24. Estado de verificaciones: <strong>PASS</strong>.</p>
+<p>Se ejecutó con procesos locales. No se utilizó un cluster ni se asignó un JobID Slurm.</p></header>
+<section><h2>Probabilidad y temperaturas</h2><div class="table"><table><tr><th>Plan</th><th>N</th><th>Fallas</th><th>Pf conjunta</th><th>IC95 %</th><th>Tmáx [°C]</th><th>ΔTmáx [°C]</th></tr><tr><td>curado_frio5</td><td>2000</td><td>1711</td><td>85.55 %</td><td>[83.93 %; 87.06 %]</td><td>51.499</td><td>28.811</td></tr></table></div>
+<p>Falla: Tmáx &gt; 70 °C <strong>o</strong> ΔTmáx &gt; 20 °C. Pf debe ser ≤ 5 %.
+ El resultado depende del modelo y sus pesos declarados; no certifica seguridad de obra.</p></section>
+<section><h2>Cómo cambia Pf al aumentar N</h2><img src="pf_N.png" alt="Estimación de probabilidad frente a N con intervalos de confianza">
+<p>Las franjas muestran IC95 % puntuales. No incluyen incertidumbre de calibración ni error de malla.
+ Las realizaciones remuestrean curvas e historias completas; N no equivale al número de ensayos experimentales o de simulaciones nuevas.</p></section>
+<section><h2>Primeras semillas y escenarios</h2><div class="table"><table><tr><th>Realización</th><th>Escenario</th><th>Semilla derivada</th></tr><tr><td>0</td><td>M1_SS_m00</td><td>3927184792, 35182065, 2045869799, 1413049383</td></tr><tr><td>1</td><td>M4_22A_m00</td><td>2708853128, 918499226, 2136727210, 136240458</td></tr><tr><td>2</td><td>M3_22A_m00</td><td>3973378216, 286116673, 161289136, 1059987044</td></tr><tr><td>3</td><td>M1_22A_m13</td><td>438210348, 886084745, 3200337393, 2368762534</td></tr><tr><td>4</td><td>M3_SS_m13</td><td>1865157843, 1970579284, 1545986856, 165707716</td></tr><tr><td>5</td><td>M1_SS_m00</td><td>1357733489, 652081833, 3963559599, 334568148</td></tr><tr><td>6</td><td>M1_SS_m17</td><td>855552354, 2357663701, 449207064, 930104832</td></tr><tr><td>7</td><td>M1_SS_m00</td><td>2999099759, 3528897665, 499804985, 872799155</td></tr></table></div>
+<p>Cada ID deriva su generador desde la semilla maestra. Los planes comparten el banco de muestras para compararse.</p></section>
+<section><h2>Evidencia guardada</h2><ul><li><a href="manifest.json">Inputs y todas las semillas</a></li>
+<li><a href="summary.json">Métricas, probabilidades e intervalos</a></li><li><a href="verificacion_local.json">Verificación y procesos observados</a></li>
+<li><a href="chunks/">Resultados separados por tarea</a></li></ul>
+<small>Campos idénticos a referencias guardadas: 24 inputs.
+ Métricas y balance idénticos: 24 inputs.
+ La aceptación de esta demostración local en lugar del cluster corresponde al curso.</small></section></main></html>

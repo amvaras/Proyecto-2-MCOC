@@ -1,0 +1,19 @@
+{
+  "description": "DEMOSTRACIÓN FICTICIA; sin cronograma ni calibración real de Freirina",
+  "spacing_m": [0.275, 0.275, 0.1375],
+  "resolutions_m": [0.55, 0.275, 0.1375],
+  "margin_m": 0.0,
+  "t_end_s": 86400.0,
+  "max_step_s": 7000.0,
+  "h_W_m2K": 8.0,
+  "ambient_C": 20.0,
+  "material": {"k": 2.0, "rho": 2400.0, "cp": 900.0},
+  "hydration": {"H_vol_J_m3": 64800000.0, "duration_s": 172800.0},
+  "events": [
+    {"pour_id": 1, "activation_s": 0.0, "initial_C": 18.0},
+    {"pour_id": 2, "activation_s": 18000.0, "initial_C": 19.0},
+    {"pour_id": 3, "activation_s": 36000.0, "initial_C": 20.0},
+    {"pour_id": 4, "activation_s": 54000.0, "initial_C": 21.0},
+    {"pour_id": 5, "activation_s": 72000.0, "initial_C": 22.0}
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "medoids": [
+    0,
+    13,
+    17
+  ],
+  "assignment": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1,
+    1,
+    2,
+    1,
+    2,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1
+  ],
+  "counts": [
+    15,
+    12,
+    4
+  ],
+  "weights": [
+    0.4838709677419355,
+    0.3870967741935484,
+    0.12903225806451613
+  ],
+  "distortion_C2": 0.9739262519456822,
+  "max_RMS_C": 1.3537462656447437,
+  "start_utc": "2026-11-19T11:00:00Z",
+  "reduction_h": 600,
+  "method": "Mínimo global de suma L2 de temperatura para 3 medoides de 31; historias completas, selección anterior a temperaturas del hormigón",
+  "weights_meaning": "Conteos/31 de clusters de miembros inicialmente uniformes; aproximación discreta del ensemble, sin calibración local",
+  "raw_sha256": "718f22d33a8b8ad0558d13caea4737d86f6dffd243070b825b505490702cc246",
+  "snapshots": [
+    "data/weather/forecast-20261117T184224021760Z-0c25c95defdd",
+    "data/weather/forecast-20261117T184224021760Z-35cb228d3c62",
+    "data/weather/forecast-20261117T184224021760Z-8f48afdabb33"
+  ]
+}

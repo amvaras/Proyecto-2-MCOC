@@ -1,0 +1,127 @@
+{
+  "ifc": "geometry/foundation.ifc",
+  "snapshot": "data/weather/forecast-20261117T184224021760Z-8f48afdabb33",
+  "simulation_start_utc": "2026-11-19T11:00:00Z",
+  "constant_reference_C": 20.0,
+  "physics": {
+    "description": "E12 336 h; plan docente E11; fuente experimental M2_SS",
+    "spacing_m": [
+      0.45,
+      0.45,
+      0.11
+    ],
+    "resolutions_m": [
+      0.55,
+      0.45,
+      0.3
+    ],
+    "margin_m": 0,
+    "t_end_s": 1468800,
+    "max_step_s": 900,
+    "save_interval_s": 43200,
+    "safety": 0.8,
+    "energy_reference_C": 20,
+    "h_W_m2K": 8,
+    "ambient_C": 20,
+    "boundaries": {
+      "z-": {
+        "type": "adiabatic"
+      }
+    },
+    "material": {
+      "k": 2,
+      "rho": 2400,
+      "cp": 900
+    },
+    "hydration": {
+      "H_vol_J_m3": 100166110.77599981,
+      "duration_s": 865198.8
+    },
+    "events": [
+      {
+        "pour_id": 1,
+        "activation_s": 0.0,
+        "initial_C": 12.0
+      },
+      {
+        "pour_id": 2,
+        "activation_s": 12429.051381343515,
+        "initial_C": 12.0
+      },
+      {
+        "pour_id": 3,
+        "activation_s": 24858.102762687035,
+        "initial_C": 12.0
+      },
+      {
+        "pour_id": 4,
+        "activation_s": 42082.25602748645,
+        "initial_C": 12.0
+      },
+      {
+        "pour_id": 5,
+        "activation_s": 50284.83790379985,
+        "initial_C": 12.0
+      }
+    ]
+  },
+  "core_target_m": [
+    0,
+    0,
+    1.65
+  ],
+  "export_hours": [
+    0,
+    24,
+    72,
+    168,
+    336
+  ],
+  "environment": {
+    "air": {
+      "h_still_W_m2K": 8.0,
+      "h_wind_per_m_s": 0.0,
+      "solar_absorptivity": 0.0
+    },
+    "soil": {
+      "temperature_C": 18.0,
+      "depth_m": 0.4,
+      "conductivity_W_mK": 1.5,
+      "contact_m2K_W": 0.025,
+      "adiabatic": false
+    },
+    "formwork": {
+      "orientations": [
+        "x-",
+        "x+",
+        "y-",
+        "y+",
+        "z+"
+      ],
+      "remove_at_s": 864000.0,
+      "layers": [
+        {
+          "name": "tablero",
+          "thickness_m": 0.018,
+          "conductivity_W_mK": 0.13
+        },
+        {
+          "name": "aislacion",
+          "thickness_m": 0.025,
+          "conductivity_W_mK": 0.04
+        }
+      ]
+    }
+  },
+  "experimental_source": {
+    "file": "data/hydration/source_terms.txt",
+    "curve": "M4_SS",
+    "tail": "exponential",
+    "tau_s": 86400.0
+  },
+  "evaluation": {
+    "depth_m": 0.025,
+    "surface_scope": "todas las caras expuestas de hormigón activo, incluida base e interfaces futuras; sin interfaces activas cerradas",
+    "course_reference": "Presentacion_inicial_P2_Hormigon_Masivo_2026.pptx, diapositivas 6 y 30"
+  }
+}
