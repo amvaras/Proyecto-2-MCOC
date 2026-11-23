@@ -2,6 +2,7 @@
 import argparse
 import csv
 import json
+from math import fsum
 from pathlib import Path
 
 import matplotlib
@@ -147,3 +148,29 @@ for group, ax in enumerate(axes):
     ax.legend(ncol=2, frameon=False)
 axes[0].set_ylabel("Tasa volumétrica (W/m³)")
 fig.savefig(out / "hidratacion.pdf")
+
+with (out.parent / "riesgo_336h_e14.csv").open("w", newline="") as stream:
+    writer = csv.writer(stream)
+    writer.writerow(["plan", "casos", "peso_excedido_336h"])
+    for name in dict.fromkeys(row["plan"] for row in historical):
+        cases = [row for row in historical if row["plan"] == name]
+        assert len(cases) == 24
+        exceeded = [row["weight"] for row in cases
+                    if row["first336_Tmax_C"] > 70 or row["first336_delta_C"] > 20]
+        writer.writerow([name, len(cases), fsum(exceeded)])
+
+circuits = f02["rows"][0]["water"]["circuits"]
+fig, ax = plt.subplots(figsize=(6.4, 3.2), subplot_kw={"projection": "3d"})
+colors = {3: "#15687c", 4: "#a84328", 5: "#493d78"}
+seen = set()
+for branch in circuits:
+    pour = branch["pour"]
+    ax.plot([branch["x_low_m"], branch["x_high_m"]], [branch["y_m"]] * 2,
+            [branch["z_m"]] * 2, color=colors[pour],
+            label=f"Vertida {pour}" if pour not in seen else None)
+    seen.add(pour)
+ax.set(xlabel="x (m)", ylabel="y (m)", zlabel="z (m)")
+ax.set_box_aspect((10, 10, 5))
+ax.view_init(elev=23, azim=-59)
+ax.legend(loc="upper left", frameon=False)
+fig.savefig(out / "ramales.pdf")

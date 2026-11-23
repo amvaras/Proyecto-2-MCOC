@@ -15,7 +15,7 @@
 | Recomendación provisional, resultados e IC | `codex/e15` | `0bb141827d24f7bed24137fad86119998f10e743` |
 | Exportación de defensa con refrigeración y visor | `codex/f02-zip-export` | `969c8141f3daf4b9e6c7778f29bfe34d937e9fe5` |
 
-La rama F01 se basa en la exportación F02. Los archivos nuevos están bajo `P2_F01/`. La procedencia histórica de E15 se conserva en su rama, con enlace en el artículo. En F01 se añadieron una síntesis académica, tablas derivadas, visualizaciones de los registros y sensibilidades algebraicas. Las métricas, pesos, datos, kernel, recomendación nominal y archivos de defensa se conservan.
+La rama F01 se basa en la exportación F02. Los archivos nuevos están bajo `P2_F01/`. La procedencia histórica de E15 se conserva en su rama, con enlace en el artículo. En F01 se añadieron tablas derivadas, visualizaciones de los registros y sensibilidades algebraicas. La revisión incorpora el trazado de ramales archivado y la reagregación de los máximos E14 hasta h 336. Las métricas, pesos, datos, kernel, recomendación nominal y archivos de defensa se conservan.
 
 ## Compilar el artículo
 
@@ -34,7 +34,7 @@ Desde `P2_F01`, para regenerar gráficas y CSV derivados con Python, NumPy y Mat
 python generar_figuras.py ../P2_E14
 ```
 
-Los resultados derivados se basan en `results/f02/{planes.csv,enumeration.json,fields.npz}`, `results/e14/{official.json,enumeration/,monte_carlo/summary.json}` y `data/hydration/source_terms.txt`. La imagen de campo y los cortes toman el instante crítico almacenado de M4 SS, m17. El script usa los estados originales. Los cambios de versión pueden alterar el render y los metadatos del PDF.
+Los resultados derivados se basan en `results/f02/{planes.csv,enumeration.json,fields.npz}`, `results/e14/{official.json,enumeration/,monte_carlo/summary.json}` y `data/hydration/source_terms.txt`. El script genera `riesgo_336h_e14.csv` sumando los pesos de cada plan cuando `first336_Tmax_C > 70` o `first336_delta_C > 20`. Los ramales de la figura proceden de `water.circuits` en la enumeración F02. La imagen de campo y los cortes toman el instante crítico almacenado de M4 SS, m17. El script usa los estados originales. Los cambios de versión pueden alterar el render y los metadatos del PDF.
 
 ## Reproducir y verificar resultados físicos
 
